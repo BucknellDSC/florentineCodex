@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva
+               Espana, including original Spanish and Nahuatl texts, images, annotations, glosses, and
+               editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <!-- For now this structure provides a one file/one book structure for ease of editing -->
+   <text ana="book" n="12">
+      <front>
+         <div type="book_title" xml:lang="sp">
+            <head><supplied ana="main">El DOZENO LIBRO</supplied>
+            <supplied ana="secondary">Tracta de como los es<lb/>
+            pañoles conquis<lb/>
+            taron ala ciu<lb/>
+            dad deMe<lb/>
+            xico</supplied></head>
+            <figure xml:id="b12t01sp_image1"/><!-- This is the image for the title page -->
+         </div>
+         <div type="prologue" xml:lang="sp">
+            <head>Al lector,</head>
+            <p>Aunque muchos en escrito en romance la conquista desta nueua españa, según la relación de los q
+               la conquistaron” quise la yo escreuir en lengua mexicana, no tanto por sacar algunas verdades
+               de la relación de los mismos indios, que se hallaron en la conquista: quanto por poner el
+               lenguaje de las cosas de la guerra, y de las armas que en ella vsan los naturales: para que de
+               allí de puedan sacar vocablos y manera de dezir propias, para hablar en lengua mexicana cerca
+               desta materia, allegase tambien a esto que los fuero conquistados, supieron y dieron relacion
+               de muchas cosas, que passaron entre ellos durante la guerra: las quales ignorarō los que los
+               conquistarō, por las quales razones, me parece que no a sido trabajo superfluo, el auer escrito
+               esta estoria. La qual se escuiuio en tiempo que eran viuos, los que se hallaron en la misma
+               conquista: y ellos dieron esta relación personas principales, y de buen juizio y que se tiene
+               por cierto, que dixeron toda verdad. <!--(P. 49)--></p>
+            <figure>
+               <graphic url="b12p01sp_image1"/> <!-- This is the image for the prologue -->
+            </figure>
+         </div>
+         <div type="toc">
+            <list>
+               <item corresp="b12c01">Capitulo primero, de las señales y pronosticos, que aparecieron antes
+                  que los españoles veniesen a esta tierra ni vuiese noticia dellos.</item>
+               <item>Capitulo secundo, delos primeros naujos que aportaron aesta tierra, que segundizen fue
+                  Juan degrisatua.</item>
+               <item>Capitulo tercero, deloque Motecuzoma proueyo despues que oyo la rrelacion de los que vie
+                  ron los primeros naiyos.</item>
+               <item>Capitulo quarto, delo que proueyo Motecuzoma, quando supo : La segunda vez quelos espa
+                  nōles aujan buelto, este fue Don hernando cortes.</item>
+               <item>Capitulo quinto, deloque paso : quando los mensaieros de Motecuzoma entrarō enelna ujo
+                  del capitan Don hernando cortes.</item>
+               <item>Capitulo 6. de como los mensajeros de Moteuzoma bolujerō amexico con la relacion
+                     <del>d</del>oq aujo visto.</item>
+               <item>Capitulo 7. dela relacion que dierō a Motecuzoma los mensajeros que bolujeron delos
+                  naujos.</item>
+               <item>Capitulo 8. de como Motecucoma embio sus encantadores ymale firos, paraque empe ciesen
+                  alos españoles.</item>
+               <item>Capitulo 9. del llanto que hizo Motecuzoma, y todos los mexicanos desque supierō quelos
+                  españoles eran tan esforcados.</item>
+               <item>Capitulo 10. de como los españoles comencaron dentrar latierra a dentro, y decomo
+                  Motecuzoma dero lacara real, y se fue asucasa propria.</item>
+               <item>Capitulo 11. de como los españoles llegaron aHarcalla, que entonce se
+                  llamauatercalla</item>
+               <item>Capitulo 12. de como Motecuzoma embio a uno muy principal suyo con otros muchos
+                  principales que fueron arecebir a los españoles y hisieron un gran presente al capitan en
+                  medio dela sierra nevada del bulcan.</item>
+               <item>Capitulo 13. de como Motecuzoma embio otros he chizeros contra los españoles</item>
+               <item>Capitulo 14. de como Motecuzoma mando cerrar las caminos, porque los espanō les
+                  nollegoasen amexico.</item>
+               <item>Capitulo 15. de como los españoles partieron deytstapalapa para entrar en mexico.</item>
+               <!-- Obed - I've botched the spelling on this -->
+               <item>Capitulo 16. de como Motecuzoma salio depas arescebir alos españoles adonde lla</item>
+               <item>Capitulo 17. de como los españoles con Motecuzoma llgearon a las casa reales y delo que
+                  alli paso.</item>
+               <item>Capitulo 18. de como los españoles entraron en las proprias casas de Motecuzoma y deloque
+                  alli paso.</item>
+               <item>Capitulo 19. de como los españoles mandaron alos yndios hazer la fiesta de vitzilo
+                  buchtli : esto fue enabsencia del capitan: quando fue al puerto por la venida de Pan philo
+                  de narbaes.</item>
+               <item>Capitulo 20. de como los españoles hizieron gran matanca enlos yndios estando haziendo la
+                  fiesta de vitzi lo buchtli en el patio del mysmo vitzi lobuchtli</item>
+               <item>Capitulo 21. de como comenco laguerra entre los mexicanos: y los españoles en
+                  mexico.</item>
+               <item>Capitulo 22. de como llego lanueva, de como el capitan don hernādo con no aujan
+                  venido.</item>
+               <item>Capitulo 23. de como Motecuzoma, y el governador del Hatilulco: fuera dos muertos, fuera
+                  de las casa, dō de los españoles estavā forta lecidos.</item>
+               <item>Capitulo 24. de como los españoles, y harcaltecas, salieron huyendo de[?] de
+                  noche.</item>
+               <item>Capitulo 25. de como los de feu cal hujacan salieron depas, y con ba[?] tos alos
+                  españoles quando yuan huyendo de mexico.</item>
+               <item>Capitulo 26. de como los españoles Negaron al pueblo feucal hujacan, buen tratamiento que
+                  alli los hizieron.</item>
+               <item>Capitulo 27. de como los mexicanos llegaron a donde estavan los españoles siguendo el al
+                  cance.</item>
+               <item>Capitulo 28. dela primera fiesta que hizieron los mexicanos: despues españoles salieron
+                  de noche desta ciudad.</item>
+               <item>Capitulo 29. dela pestilencia que vino sobre los yndios de viruelas, desde los españoles
+                  salieron de mexico.</item>
+               <item>Capitulo 30. de como los vergantines que hizieron los españoles : enter[?] vinieron sobre
+                  mexico.</item>
+               <item>Capitulo 31. de como los delos vergantines, aujendo oreado las canoa[?] los salieron por
+                  la laguna: llegaron atierra junto a las casas.</item>
+               <item>Capitulo 32. de como los mexicanos serendieron, y <expan>començarō<ex>n</ex></expan> a salir se ciudad pormiedo
+                  delos españoles.</item>
+               <item>Capitulo 33. de como los chinampa necas que son ruchmilco, cuitla[?] oac, [?] pan eta.
+                  vineron en ayuda delos mexicanos.</item>
+               <item>Capitulo 34. de como los yndios mexicanos prendieron quinze españoles.</item>
+               <item>Capitulo 35. de como los mexicanos predieron otros españoles mas decin[?]</item>
+               <item>Capitulo 36. delo <del>?</del> mexac vez quelos españoles etraro[seems to have two
+                  macrons] eneltriā quez d</item>
+               <item>Capitulo 37. de como denoche abrian los caminos delagua q dedia los cerra[?]
+                  españoles.</item>
+               <item>Capitulo 38. del trabuco q hisierō los españoles, pa conquistrar alos del [?]</item>
+               <item>Capitulo 39. de como los del hatilulco [?] esta a cercados vierō venir huego lo sobresi
+                  de color de sangre.</item>
+               <item>Capitulo 40. de como los del Hatilulco sedieron a los españoles con los nos, y su senor
+                  que conellos estrua.</item>
+               <item>Capitulo 41. de la platica qhizo[?] el capitan Don hernando cortes a los señores de
+                  rescuo[?], y Hacuba; despues dela victoria procurando porcel oro q se auja perd[?] do
+                  salieron huyendo de mexico.</item>
+            </list>
+         </div>
+
+      </front>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b12c01">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+            <head>Libro duodecimo</head>
+            <!-- in facsimile there is a header "Libro duodecimo"  and no Capitulo information -->
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Libro doze de la conquista de la nueva españa, que es la ciudad de Mexico.</p>
+               <figure xml:id="b12c01sp_image1"/>
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="1" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image1"/>
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <!-- div2 refers to the second level within a chapter; @para allows for the distinction between sp and na -->
+               <p>Capítulo primero de las señales y pronósticos que aparecieron antes que los Españoles
+                  veniesen a esta tierra ni vuiese noticia dellos.</p>
+               <figure xml:id="b12c01sp_image2"/>
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="na">
+               <!-- These second div2 sets are placeholders for Nahuatl language -->
+               <p/>
+               <figure xml:id="b12c01na_image2"/>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>Diez años ante que viniesē los españoles desta tierra: pareció en el cielo, vna cosa
+                  marauillosa, y espantosa: y es que pareció vna llama de fuego, muy grande y muy
+                  resplandeciento: parecía que estaua tendida en el mismo cielo, era ancha de la parte de
+                  abaxo, y de laparte de arriba aguda, como quando el fuego arde parecía que la punta della
+                  llegaua hasta el medio del cielo, leuātauase <pb type="folio" n="1v"
+                  /><!-- pb folio documentation tracks page breaks in codex --> por la parte del oriente,
+                  luego después de la media noche, y salia con tanto replandor que parecia el dia: llegaua
+                  hasta la mañana entonce se perdía de vista, quando salía el sol, estaua la llama en el lugar
+                  que está el sol a mediodía esto duró por espacio de vn ano cada noche: començo en las doze
+                  casas y quando parecía a la medianoche toda la gente gritaua y se espantaua todos
+                  sospechauan que era señal de algū grā mal. <!--(P. 51 - 53)--></p>
+               <figure xml:id="b12c01sp_image3"/>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="na">
+               <p>
+                  <!-- there will be a folio page break here -->
+               </p>
+               <figure xml:id="b12c01na_image3"/>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="sp">
+               <p>La segunda señal, que aconteció, fue que el chapitel de vn cu de vitzilobuchtli que se
+                  llamaua Tlacatecca, se encendió milagrosamente, y se quemo: parecía que las llamas del fuego
+                  salían de dētro de los maderos de las colunas, y muy de presto se hizo ceniza, quando ardia
+                  començaron los sátrapas a dar vozes diziendo. O Mexicanos venid presto a apagar el fuego con
+                  cántaros de <pb type="folio" n="2"/>
+                  <!-- page breaks refer to new folios --> agua: y venida el agua, echauanla sobre el fuego, y
+                  no se apagaua; sino antes más se encendía: y así se hizo todo brasa. <!--(P. 53)--></p>
+               <figure xml:id="b12c01sp_image4"/>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image4"/>
+            </div2>
+
+            <div2 type="para" n="5" xml:lang="sp">
+               <p>La tercera señal o pronóstico fue, cayo un rrayo sobre el cu, de xiuhtecuhtli dios del
+                  fuego: el qual estaua techado con paja llamauase tzūmulco: espantarōse desto porque no
+                  lluuia, sino agua menuda que no suele caer rayos quado ansi llueue, ni vuo tronido: sino que
+                  no saben como se encendió. <!--(P. 53)--></p>
+               <figure xml:id="b12c01sp_image5" n="l"/>
+               <figure xml:id="b12c01sp_image6" n="r"/>
+            </div2>
+
+            <div2 type="para" n="5" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image5"/>
+               <figure xml:id="b12c01na_image6"/>
+            </div2>
+
+            <div2 type="para" n="6" xml:lang="sp">
+               <p>La quarta señal o pronóstico, fue que de día haziendo sol cayo, vna cometa, parecían tres
+                  estrellas, juntas que corrían a la par, muy encendidas: y lleuauan muy largas colas
+                  partieron de hazia el oriente, yvan echado centellas de si, desque la gente las vio,
+                  comēçarō a dar gran grita sono grandissmo ruydo, en toda la comarca. <!--(P. 53 - 55)--></p>
+            </div2>
+            <div2 type="para" n="6" xml:lang="na">
+               <p/>
+            </div2>
+            <pb type="folio" n="2"/>
+            <!-- this doesn't make sense - should it be 2v?  -->
+
+            <div2 type="para" n="7" xml:lang="sp">
+               <p> La quinta señal o pronóstico fue, que se leuanto la mar de México: con grandes olas parecía
+                  que heruia sin hazer ayre ninguno la qual nūca se suele leuantar, sin gran vieto llegaron
+                  las olas muy lexos y entraron entre las casas sacudían en los cimientos de las casas,
+                  algunas casas cayeron, fue grande el espanto de todos por ver, que sin ayre se auia de tal
+                  manera ēbrauecido el agua.</p>
+            </div2>
+
+            <div2 type="para" n="7" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image7"/>
+            </div2>
+
+            <div2 type="para" n="8" xml:lang="sp">
+               <p>La sesta señal o pronóstico es que oya, en el ayre de noche, vna voz de muger: que dezia. O
+                  hijos mios, ya nos perdemos: algunas vezes dezia. O hijos míos dónde os lleuare.
+                  <!--(P.
+            55)--></p>
+               <figure xml:id="b12c01sp_image7"/>
+               <figure xml:id="b12c01sp_image8"/>
+            </div2>
+
+            <div2 type="para" n="8" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image8"/>
+            </div2>
+
+            <div2 type="para" n="9" xml:lang="sp">
+               <p>La séptima señal o pronóstico es que los cazadores de las aues del agua, cazaron vna aue
+                  parda, del tanmaño de vna grulla: y luego la fueron a mostrar a Motecuçoma que estaua en vna
+                  sala que llamauan Tlillancalmecac, era despues de mediodia, tenia <pb type="folio" n="3"/>
+                  esta aue, en medio de la cabeça, vn espejo redondo, donde se parecía cielo: y las estrellas
+                  y especialmente los mastelejos, que andā cerca de las cabrillas: como vio esto Motecuçoma
+                  espantose. Y la segūda vez, que miro en el espejo que tenia el aue de ay a vn poco vio
+                  muchedumbre de gente iunta q venian todos, armados encima de cauallos. Y luego Motecuçoma
+                  mandó llamar a los agureros, y adiuinos, y preguntolos no sabeys ques esto que e visto? que
+                  viene mucha gente junta? Y antes que respondiessen los adiuinos, desapareció el aue: y no
+                  respondieron nada. <!--(P. 55 - 57)--></p>
+               <figure xml:id="b12c01sp_image9"/>
+               <figure xml:id="b12c01sp_image10"/>
+            </div2>
+
+            <div2 type="para" n="9" xml:lang="na">
+               <p/>
+               <figure xml:id="b12c01na_image09"/>
+            </div2>
+
+            <div2 type="para" n="10" xml:lang="sp">
+               <p>La octaua señal o pronósticos es que aparecieron muchas vezes mostruos, en cuerpos
+                  mostruosos. Lleuaualos a Motecuçoma, y en viéndolos él en su aposento que llamaua
+                  Tlillancalmecac luego desaparecian. <!--(P. 57)--></p>
+            </div2>
+
+            <div2 type="para" n="10" xml:lang="na">
+               <p/>
+            </div2>
+         </div1>
+
+      </body>
+   </text>
+</TEI>

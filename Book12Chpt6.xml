@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="6" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Capitulo .6. de como los mensajeros de Motecuçoma boluieron a mexico con la
+                  relacion de lo que auian visto.</p>
+               <pb type="image" n="16"/>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Hecho lo que esta dicho, luego se despidieron del capitan, y se
+                        <expan>baxarō<ex>n</ex></expan> a sus canoas, y començaron luego a yrse
+                  hazia tierra remando con gran priesa y diziendo los vnos a los otros: ea valientes
+                        <expan>hō<ex>m</ex>bres</expan> esforçaos a remar antes que nos acontezca
+                  algo:</p>
+               <p><expan>llegarō<ex>n</ex></expan> muy presto al pueblo de Xicalanco
+                        <expan>remā<ex>n</ex>do</expan> alli comieron, y descansaron bien poco: y
+                  luego <expan>entrarō<ex>n</ex></expan>
+                  <pb type="folio" n="10"/> otra uez en las canoas y con
+                     <expan>grā<ex>n</ex></expan> priesa remando llegaron al pueblo que se llama
+                  Tecpantlaiacac y de alli començaron a caminar por tierra corriendo con gran priesa
+                  y <expan>llegarō<ex>n</ex></expan> al pueblo que se lla Cuetlaxtla alli comieron y
+                  descansaron poco:</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>y los del pueblo les <expan>rogauā
+                     <!-- not sure what to expand this to --></expan> que
+                     <expan>descā<ex>n</ex>sasen</expan>. Siquiera vn dia</p>
+               <p>ellos les <expan>respondierō<ex>n</ex></expan> que no podian porque <expan>yvā
+                     <!-- not sure what to expand to --></expan>
+                  <expan>cō<ex>n</ex></expan>
+                  <expan>grā<ex>n</ex></expan> priesa a hazer saber a Motecuçoma lo que auian visto
+                  cosas muy nueuas y nunca vistas ni oydas las quales a ninguno otro podian
+                  dezir</p>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="sp">
+               <p>y caminando con gran priesa de noche y de dia, llegaron a mexico de noche.</p>
+               <p>En el tiempo que estos mensajeros fueron y boluieron. Motecuçoma no podia comer ni
+                  dormir ni hazia de buena gana ninguna cosa, sino estaua con
+                     <expan>grā<ex>n</ex></expan> congoxa, ninguna cosa de pasatiempo le daua
+                  placer, ninguna cosa le daua contento,</p>
+               <p>y dieza que sera nosotros? quien a de çufrir estos trabaxos? ninguno otro sino yo!
+                  pues que soy señor y rey! que tengo cargo de todos! <pb type="folio" n="10v"/>
+                  estaua su coraçon parecia que se leuauan en agua de chili, y ansi tenia
+                        <expan>grā<ex>n</ex></expan> tormento: y dezia O señor a donde yre? Como
+                  escapare?</p>
+               <p>llegando los mensajeros a donde estaua la guarda de Motecuçoma dixeronlos: aunque
+                  duerma nro <!-- cant find symbol --> señor Motecuçoma desportade y dezilde que
+                  somos venido de la ribera de la mar donde nos enbio: </p>
+            </div2>
+
+            <div2 type="para" n="5" xml:lang="sp">
+               <p>luego los de la guarda le <expan>dixerō<ex>n</ex></expan> aquello: y el respondio
+                  no quiero oyr aqui las nueuas que traen alla quiero yr a la sala alla me
+                        <expan>hablarā<ex>n</ex></expan> vayanse alla: y luego mando que vntasen
+                        <expan>cō<ex>n</ex></expan> greda todo el cuerpo a ciertos captiuos para
+                  sacrificarlos:</p>
+            </div2>
+
+            <div2 type="para" n="6" xml:lang="sp">
+               <p>los mensajeros fueronse a la sala: y tambien Motecuçoma se fue alla, y alli
+                  delante mensajeros mataron los captiuos, y rociaron a los mensajeros con la sangre
+                  de los captiuos: hizieron esta cerimonia? porque auian visto
+                     <expan>grā<ex>n</ex>des</expan> cosas: y auian visto a los dioses, y hablado
+                  con ellos. <pb type="image" n="17"/></p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

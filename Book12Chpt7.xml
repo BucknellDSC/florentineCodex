@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="7" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="11"/> Capitulo .7. de la relacion que dieron a Motecuçomatzin
+                  los mensajeros que boluieron de los nauios. <figure xml:id="b12c07sp_image1"/>
+                  <!-- not sure what label to give it. On page 79 --></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Hecho lo que arriba es dicho <expan>dierō<ex>n</ex></expan> la relacion a
+                  Motecuçoma de todo lo que avian visto y oydo y dieron la relacion de la comida que
+                  comian: y de las armas que vsauan, y de todo lo que les acontecio con los
+                  españoles.</p>
+               <p>Oyda Motecuçoma la relacion que le dieron sus embaxadores, espantose mucho: y
+                        <expan>comē<ex>n</ex>ço</expan> a temer marauillose de la comida de los
+                  españoles, y de oyr el negocio del artilleria
+                     <expan>especialmē<ex>n</ex>te</expan> de los truenos que quiebran las orejas, y
+                  del hedor de la polvora, que parece cosa infernal, y del huego que
+                        <expan>echā<ex>n</ex></expan> por la boca, y del golpe de la pelota, que
+                  desmenuza vn arbol de golpe: y de la relacion que le dieron de las armas muy
+                  fuertes que <expan>vsauā<ex>n</ex></expan> asi offensiuas como defensiuas, como
+                  son cosoletes, cotas, celadas, et. Espadas, ballestas arcabuces, lanças et</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>Tambien de la relacion de los cauallos, y de la <expan>grā<ex>n</ex>deza</expan>
+                  dellos: y como subian en ellos los españoles, armados <pb tpye="folio" n="11v"/>
+                  que no se les parecian mas de la cara: y de como tenian las caras blancas, y los
+                  ojos garços, y los cabellos rosos, y las barbas largas: y de como
+                        <expan>veniā<ex>n</ex></expan> algunos negros entre ellos, que
+                        <expan>teniā<ex>n</ex></expan> los cabellos crespos, y prietos:
+                        <expan>tanbiē<ex>n</ex></expan> le dieron relacion de lo que comian los
+                  españoles, y de los perros que trayan, y de la manera que
+                     <expan>erā<ex>n</ex></expan>, y de la ferocidad que mostrauan, y de la color
+                  que tenian.</p>
+               <p>Oyda esta relacion Motecuçoma, espantose: y començo a temer, y a desmayarse, y a
+                  sentir gran angustia. <figure xml:id="b12c07sp_image2"/></p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

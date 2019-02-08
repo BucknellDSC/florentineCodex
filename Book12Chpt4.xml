@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+            <head>Capitulo IV</head>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="6"/> Capitulo .4. de lo que proueyo Motecuçoma quando supo la
+                  segunda vez que los Españoles <expan>auian<ex>habían</ex></expan> buelto: este fue
+                  don hernando cortes. </p>
+
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2>
+               <p>A los sobredichos hablo Motecuçoma y los dixo. Mirad que me an dicho que a llegado
+                  nuestro señor Quetzalcoatl yd y recebilde y oyd lo que os dixere con mucha
+                  diligencia mirad que no se os oluide nada de lo que os dixere verys aqui estas
+                  joyas que le presenteys de mi parte que son todos los atauios sacerdotales que a
+                  el le conuienen</p>
+            </div2>
+
+            <div2>
+               <p>primeramente vna mascara labrada de mosayco de turquesas tenia esta mascara
+                  labrada de las mismas piedras vna culebra doblada y retorcida cuya dublez era el
+                  pico de la nariz y lo retorcido yua hasta la frente era como lomo de la nariz
+                  luego se diuidia la cola de la cabeça y la cabeça con parte del cuerpo yua por
+                  sobre el vn ojo de manera que hazia ceja y la cola com parte del cuerpo yua por
+                  sobre el otro ojo y hazia otra ceja. Estaua esta mascara enxerida en vna corona
+                  alta y <expan>grā<ex>n</ex></expan> de llena de plumas ricas largas y muy hermosas
+                  de manera que poniendose la corona sobre la cabeça se ponia la mascara en la cara
+                  lleuau por joel vna medalla de oro redonda y ancha estaua asida con nueue sartales
+                     <pb type="folio" n="6V"/> de piedras preciosas que echadas al cuello cubrian
+                  los hombros y todo el pecho: <expan>lleuauā<ex>n</ex></expan> tanbien vna rodela
+                  grande bordada de piedras preciosas con vnas vandas de oro que llegauaun de arriba
+                  abaxo por toda ella: y otras vandas de perlas atrauesadas sobre las de oro de
+                  arriba abaxo por toda ella y los espacios que <expan>haxiā<ex>n</ex></expan> estas
+                  vandas los quales eran como mallas de red yvan puestos vnos sapitos de oro tenia
+                  esta rodela vnos rapacejos en lo baxo yva asido en la rodela vna vandera que salia
+                  deste la manixa de la rodela hecha de plumas ricas lleuaua tanbien vna medalla
+                  grande hecha de obra de mosaico que la lleuaua atada y ceñida sobre los lomos
+                        <expan>lleuauā<ex>n</ex></expan> tanbien vnos sartales de piedras preciosas
+                        <expan>cō<ex>n</ex></expan> vnos cascaueles de oro entrepuestos a las
+                  piedras para atar a la garganta de los pies <expan>lleuauā<ex>n</ex></expan>
+                  tanbien vn cetro como cetro de obispo todo labrado de obra de mosayco de tosquesas
+                  y la buelta de arriba era vna cabeça de vna culebra rebuelta o enroscada.
+                        <expan>Tanbiē<ex>n</ex></expan>
+                  <expan>lleuauā<ex>n</ex></expan> vnas cortaras como los <expan>grā<ex>n</ex>des
+                     señores se las suelen poner</expan></p>
+            </div2>
+
+            <div2>
+               <p>2. <!-- not sure how to get superscript on p 67 --> lleuaron tanbien los
+                  ornamentos o atauios con que se atauiaua Tezcatlipuca que era vna cabellera hecha
+                  de pluma rica que colgaua por la parte de tras hasta cerca de la cintura estaua
+                  sembrada toda de estrellas de oro, lleuauan tanbien vnas orejeras de oro que
+                        <expan>lleuauā<ex>n</ex></expan> colgadas vnos <pb type="folio" n="7"/>
+                  cascauellitos de oro y sartales de caracolitos marinos blancos y hermosos destos
+                  sartales colgaua vn cuero que era como peto y lleuauale cenido de manera que
+                  cubria todo el pecho hasta la cintura, lleuaua este peto muchos caracolitos
+                  sembrados y colgados por todo el: <expan>lleuauā<ex>n</ex></expan> tanbien vn
+                  cosete de tela blanca pintado la orilla de abaxo deste cosete yva bordada com
+                  plumas blancas tres listas por todo el rededor: <expan>lleuauā<ex>n</ex></expan>
+                  vna manta rica la tela della era vn açul claro y toda labrada encima de muchos
+                  labores de vn açul muy fino llamauase esta manta tzitzilli esta manta se ponia por
+                  la cintura atada por las esquinas al cuerpo sobre esta manta, yva vna medalla de
+                  mosayco, atada al cuerpo sobre los lomos. <expan>Tā<ex>n</ex>biem</expan>
+                  <expan>lleuauā<ex>n</ex></expan> vnos sartales de cascaueles de oro para atar las
+                  gargantas de los pies: y tambien vnas cotaras blancas, como los señores las solian
+                  traer.</p>
+               <p>lleuaron tanbien los atauios, y ornamentos, del dios que llamauan tlalocan
+                  tecutli, que era vna mascara con su plumaje, como la que se dixo arriba, con vna
+                        <expan>vā<ex>n</ex>dera</expan>, como la que arriba se dixo. Tambien vnas
+                  orejeras de chalchiuites: y tanbien vn cosete pintado de labores verdes, y vnos
+                  sartales, o collar de piedras preciosas, con vna medalla de piedras preciosas: y
+                  tanbien lleuauan vna medalla, con que se cenia los lomos, como la que arriba se
+                  dixo, con vna manta rica con que se cenia, como se dixo arriba, y cascaueles de
+                  oro pa<!--cant find symbol --> poner a los pies, y su baculo como el de
+                  arriba.</p>
+            </div2>
+
+            <div2>
+               <p><pb type="folio" n="7v"/> Otros ornamentos, tanbien que llamauan era del mismo.
+                  Quetzalcoatl, vna mitra de cuero de tigre, y colcagaua de la mitra, sobre las
+                  espaldas, vna capilla grande, hecha de plumas de cuero, lleuaua la mitra vn
+                  chalchiuitl <expan>grā<ex>n</ex>de</expan>: y redondo, en la punta. Y tambien vnas
+                  orejeras redondas, de mosayco de turquesas con vn garavato de oro, que salia de la
+                  orejera, lleuauan tanbien, un collar de oro, del qual colgaua vna medalla de oro,
+                  que llaman hecacozcatl, y vna manta rica, con que se cenia, y vnos cascaueles de
+                  oro para los pies, y vna rodela <expan>q<ex>ue</ex></expan> tenia en el medio vna
+                  plancha de oro redonda: la qual rodela estaua bordada com plumas ricas en lo baxo
+                  de la rodella salia vna vanda de plumas ricas en la forta que se dixo arriba
+                  lleuaua vn baculo labrado de mosayco de turquesas y en la buelta de arriba puestas
+                  vnas piedras ricas o perlas enminentes en lo alto de arriba. Tanbien, lleuauan
+                  vnas cotaras, como los señores las solian traer:</p>
+               <p>Todas estas cosas <expan>lleuauā<ex>n</ex></expan> los mensajeros y las
+                  presentaron segun dizen a don Hernando cortes, otras muchas cosas le presentaron
+                  que no se escruien como fue vna mitra de oro hecha a manera de caracol marisco
+                        <expan>cō<ex>n</ex></expan> vnos rapacejos de plumas ricas que colgauan
+                  hazia las espaldas y otra mitra llana: <expan>Tanbiē<ex>n</ex></expan> de oro, y
+                  otras joias de oro que de escruien.</p>
+            </div2>
+
+            <div2>
+               <p>Todas estas cosas metieron en sus petacas, y tomada la licencia de Motecuçoma
+                  dixoles yd <expan>cō<ex>n</ex></expan> priesa y no os detengays y adorad en mi
+                  nombre al dios que viene, y dezilde aca nos a embiado vro
+                  <!-- cant find symbol --> sieruo Motecuçoma, estas cosas que aqui traemos os embia
+                  pues aveys venido vra <!-- cant find symbol --> casa que es mexico.</p>
+            </div2>
+
+            <div2>
+               <p><expan>Tomarō<ex>n</ex></expan> luego el camino los mensajeros, y
+                        <expan>llegarō<ex>n</ex></expan> a la orilla de la mar, y alli entraron en
+                  canoas, y <expan>llegarō<ex>n</ex></expan> a ⊽ lugar que se llama Xicalanco, dalli
+                        <expan>tornarō<ex>n</ex></expan>, otra uez entrar ē otras canoas,
+                        <expan>cō<ex>n</ex></expan> todo su hato, y <expan>llegarō<ex>n</ex></expan>
+                  a los nauios;</p>
+               <p>luego los <expan>pregū<ex>n</ex>tarō<ex>n</ex></expan> de los nauios. Quienes soys
+                  vosotros de <expan>dō<ex>n</ex>de</expan> aveys venido:</p>
+               <p><expan>dixerō<ex>n</ex></expan> los de la canoa, Venimos de mexico</p>
+               <p>y dixeron los de la nao. Por <expan>uētura</expan>
+                  <!-- not sure what this expands into --> no soys de mexico? Sino
+                        <expan>q<ex>ue</ex></expan> dezis <expan>cō<ex>n</ex></expan> falsidad
+                        <expan>q<ex>ue</ex></expan> soys de mexico y no os enganays.</p>
+            </div2>
+
+            <div2>
+               <p>Y sobre esto tomaron, y <expan>dierō<ex>n</ex></expan> y <expan>desq</expan>
+                  <!-- not sure what the expansion is --> se <expan>satisficierō<ex>n</ex></expan>
+                  lo vnos a los otros juntaron la canoa cōn el nauio y
+                     <expan>echarō<ex>n</ex>los</expan> vna escalera con <expan>q<ex>ue</ex></expan>
+                  <expan>subierō<ex>n</ex></expan> al nauio donde estaua don
+                     <expan>hernā<ex>n</ex>do</expan> Cortes.</p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

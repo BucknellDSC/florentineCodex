@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="8"/> Capitulo quinto de lo que paso quando los mensajeros de
+                  Motecuçoma entraron en el nauio del capitan don hernando cortes.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2>
+               <p>Començaron a subir al nauio, por la escalera: y lleuauan el presente que
+                  Motecuçoma. los mando lleuar como estuuieron delante de don Hernando cortes:
+                  besaron todos la tierra en su presencia, y hablaronse desta manera;</p>
+            </div2>
+
+            <div2>
+               <p> sepa el dios a quien venimos a adorar en persona de su sieruo Motecuçoma, el qual
+                  le rige, y gouierna, la su ciudad de mexico. Y dize a llegado con trabaxo el dios:
+               </p>
+            </div2>
+
+            <div2>
+               <p>y luego <expan>sacarō<ex>n</ex></expan> los ornamentos que lleuauan: y se los
+                  pusieron al capitan don <expan>hernā<ex>n</ex>do</expan> cortes atauiandole con
+                  ellos pusieronle primeramente la corona, y mascara que arriba se dixo: y todo lo
+                  demas <expan>echarō<ex>le</ex></expan> al cuello los collares de piedras que
+                        <expan>lleuauā<ex>n</ex></expan> con los joeles de oro pusieronle en el
+                  braço yzquierdo, la rodela de <expan>q<ex>ue</ex></expan> se dixo arriba:</p>
+               <p>y todas las otras cosas se las <expan>pusierō<ex>n</ex></expan> delante ordenadas
+                  como suelen poner sus presentes</p>
+               <p>el capitan les dixo. Ay otra cosa mas que esto?</p>
+               <p>dixerole señor nuestro, no emos trayado mas cosas destas que
+                     <expan>aq<ex>uí</ex></expan>
+                  <!--can't find symbol --> estan.</p>
+            </div2>
+
+            <div2>
+               <p>El capitan mandolos luego atar: y mando soltar tiros de artilleria, y los
+                  mensajeros que <expan>estauā<ex>n</ex></expan> atados de pies, y manos como
+                        <expan>oyerō<ex>n</ex></expan> los truenos de las lombardas, cayeron en el
+                  suelo, como muertos: y los españoles <expan>leuātaronlos
+                     <!--not sure what the expansion is --></expan>
+                  <pb type="folio" n="8v"/> del suelo, y dieronles a bever vino con que los
+                  esforçaron: y tornaron en si.</p>
+               <p>Despues desto el capitan don <expan>hernā<ex>n</ex>do</expan> cortes les dixo por
+                  su interprete oyd lo que os digo: anme dicho que los mexicanos son valientes
+                  hombres que son grandes peleadores: y <expan>grā<ex>n</ex>des</expan> luchadores
+                  son muy diestros en las armas dizenme que vn solo mexicano es bastante para vencer
+                  a diez: y a veynte de sus enemigos. <pb type="folio" n="9"/> Quiero prouaros, si
+                  es esto verdad si soys tan fuertes como me an dicho: luego les
+                     <expan>mā<ex>n</ex>do</expan> dar espadas y rodelas para que peleasen con otros
+                  tantos españoles para ver quien venceria a los otros.</p>
+               <!-- there is image 12 and 14 here but I forget how to mark them -->
+            </div2>
+
+            <div2>
+               <p>Y los mexicanos dixeron luego al <expan>capitā<ex>n</ex></expan> don
+                        <expan>hernā<ex>n</ex>do</expan> cortes, oyanos vra
+                  <!-- cant find the symbol --> ,merced nra <!--cant find the symbol --> escusa
+                  porque no podemos hazer lo que nos mandays: y es porque Motecuçoma
+                     <expan>nro<ex/></expan>
+                  <!-- cant find symbol --> señor no nos embio a otra cosa sino a saludaros y a
+                  daros este presente, no podemos hazer otra cosa, ni podemos hazer lo que nos
+                  mandays: si lo hizieremos enojarse a mucho nro <!-- cant find symbol --> señor
+                  Motecuçoma, y mandarnos a matar:</p>
+               <p>y el capitan res<pb type="folio" n="9v"/>pondioles, ase de hazer en todo caso lo
+                  que os digo tengo de ver que <expan>hō<ex>
+                        <!-- not sure what this expands to --></ex>bre</expan> soys: que alla en
+                  nuestra tierra emos oydo que soys valientes hombres aparejaos con esas armas y
+                  disponeos para que mañana nos veamos en el campo.</p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

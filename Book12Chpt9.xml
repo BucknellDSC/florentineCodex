@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="9" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Capitulo .9. del llanto que hizo Motecuçoma; y todos los mexicanos , desque
+                  supieron, que los Españoles: eran tan esforçados.</p>
+               <p>Oydas las cosas arriba dichas por Motecuçoma, concibio en si vn sentimiento, que
+                  venian grandes males, sobre el, y sobre su reyno: <pb type="folio" n="13v"/> y
+                  començo a temer grandemente no solamente el pero todos aquellos
+                        <expan>q<ex>ue</ex></expan> supieron estas nueuas ya dichas, Todos llorauan,
+                  y se angustiauan, y andauan tristes, y cabizbaxos hazian corrillos, y hablauan con
+                  espanto de las nueuas que auian venido: las madres llorando
+                        <expan>tomauā<ex>n</ex></expan> en braços a sus hijos, y traendoles la mano
+                  sobre la cabeça, dezian: o hijo mio en mal tiempo as nacido! que grandes cosas as
+                  de ver! en grandes trabaxos te as de hallar!</p>
+               <p>Fue dicho Motecuçoma como los españoles trayan vna india mexicana que se llamaua
+                  Marina vezina del pueblo de teticpac que es a la orilla de la mar del norte, y que
+                  trayan esta por interprete que dezia en la lengua mexicana todo lo
+                        <expan>q<ex>ue</ex></expan> el capitan don hernando cortes la mandaua:</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>luego Motecuçoma començo a embiar mensajeros y principales a donde
+                        <expan>estauā<ex>n</ex></expan> los españoles para que mirasen lo que se
+                  hazia: y procurasen lo que era menester al seruicio de los españoles cada dia
+                        <expan>yuā<ex>n</ex></expan> vnos y boluian otros no
+                     <expan>parauā<ex>n</ex></expan> mensajeros que <expan>yuā<ex>n</ex></expan>, y
+                  venian</p>
+               <p>y los españoles no <expan>cesauā<ex>n</ex></expan> de preguntar por motecuçoma,
+                  queriendo saber que persona era, Si era viejo. O si era moço, o si era de media
+                  edad, o si tenia canas, <pb type="folio" n="14"/> Respondian los indios mexicanos
+                  a los españoles hombre es de media edad no es viejo, ni es gordo: es delgado y
+                  enxuto.</p>
+               <figure xml:id="b12c09sp_image1"/>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>Quando oya motecuçoma la relacion de los mensajeros como los españoles
+                        <expan>preguntauā<ex>n</ex></expan> mucho por el y que
+                        <expan>deseauā<ex>n</ex></expan> mucho de verle angustiauase en gran manera:
+                  penso de huyr o de esconderse para <expan>q<ex>ue</ex></expan> no le viesen los
+                  españoles ni le hallasen pesaua de esconderse en alguna cueua o de salirse deste
+                  mundo, y yrse al infierno o al parayso terrenal, o qualquiera otra parte secreta:
+                  y esto trataua con sus amigos aquellos de quien se confiaua y ellos le dezian. Ay
+                  quien sepa el camino para yr al infierno: y tanbien al parayso terrenal, y a la
+                  casa del sol, y a la cueua que se llama Cincalco que esta cabe atlacuioaian detras
+                  de chapultepec donde ay fama que ay <expan>grā<ex>n</ex>des</expan> secretos en
+                  vnos destos lugares se podra <pb type="folio" n="14v"/> vra
+                  <!--cant find symbol--> magestad remediar escoxa vuestra magestad el lugar que
+                  quisiere que alla le lleuaremos: y alli se consolara sin recibir ningun daño.</p>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="sp">
+               <p>Motecuçoma se inclino a yrse a la cueua de cincalco: y asi se publico por toda la
+                  tierra pero no vuo effecto este negocio ninguna cosa de lo que dixeron los
+                  nigromanticos se pudo verificar. y ansi Motecuçoma procuro desforçase y de esperar
+                  a todo lo que veniese, y de ponerse a todo peligro.</p>
+               <figure xml:id="b12c09_image2"/>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="10" xml:id="b12c02">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Capitulo .10. de como los españoles començaron a entrar la tierra
+                        <expan>adē<ex>n</ex>tro</expan>: y de como Motecuçoma dexo la casa rreal y
+                  se fue a su casa propia.</p>
+               <p>Motecuçoma teniendo ya por <pb type="folio" n="15"/> aueriguado ansi por las cosas
+                  que auia oydo de los españoles como por los pronosticos que auian pasado y
+                  profecias antiguas y moternas que tenian que los españoles
+                     <expan>auiā<ex>n</ex></expan> de reynar en esta tierra: saliose de las casas
+                  reales, y fuese a las casas que el tenian ante que fuese rey o empreador.</p>
+               <p>Desque los españoles partieron de la ribera de la mar para entrar la tierra
+                  dentro, tomaron a vn indio principal que <expan>llamauā<ex>n</ex></expan>
+                  Tlacochcalcatl, para que los mostrase el camino: al qual indio auian tomado de
+                  alli de aquella prouincia los primeros nauios que vinieron a descubrir esta tierra
+                  el qual indio el capitan don hernando cortes turxo consigo, y sabia ya de la
+                  lengua español algo. Este juntamente con marina, <expan>erā<ex>n</ex></expan>
+                  interpretes de don <expan>hernā<ex>n</ex>do</expan> cortes, a este tomaron por
+                  guia de su camino, para venir a mexico.</p>
+               <p>En llegando a la prouincia de tecoac que es tierra de tlaxcalla, alli estauan
+                  poblados los otomies y gente de guerra que guardaua la frontera o terminos de los
+                  tlaxcaltecas: estos salieron de guerra contra los españoles. Los españoles <pb
+                     type="folio" n="15v"/> començaron a pelear con ellos y los de caballo
+                  alancearon mucha: y los arcaboceros, y ballesteros mataron tanbien muchos, de
+                  manera <expan>q<ex>ue</ex></expan>
+                  <expan>desbaratarō<ex>n</ex></expan> a todo <expan>aq<ex>ue</ex>llo</expan>
+                  exercito que venia y <expan>huyerō<ex>n</ex></expan> los que
+                     <expan>q<ex>ue</ex>daron</expan>: los españoles tomaron el pueblo y robaron
+                        <expan>q<ex>ue</ex></expan>
+                  <expan>hallarō<ex>n</ex></expan> y asi destruieron
+                     <expan>aq<ex>ue</ex>llos</expan> pueblos.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Como los de tlaxcalla oyeron lo que auia acontecido a sus soldados y otomies
+                        <expan>espā<ex>n</ex>taronse</expan> començaron a temer luego se
+                        <expan>juntarō<ex>n</ex></expan> a consejo y conferieron todos sobre el
+                  negocio para ver si saldrian de guerra contra los españoles o si se darian de paz
+                        <expan>dixerō<ex>n</ex></expan>: sabemos que los otomies son muy valientes y
+                  pelean reziamente y todos son destruidos niguna resistencia vuo en ellos en vn
+                  cerrar y abrir de ojo los destruieron que podemos hazer nosotros sera bien que los
+                  recibamos de paz y los tomemos por amigos esto es mejor que no perder toda nuestra
+                  gente: y ansi acordaron los señores de tlaxcalla de recebirlos de paz y tomarlos
+                  por amigos.</p>
+               <p>Salieron luego los señores y principales con <expan>grā<ex>n</ex></expan> multitud
+                  de tamemes cargados de comida de todas maneras: llegando a ellos asaludaron de paz
+                  a don hernando cortes</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>y el los pregunto, diziendo: de donde soys vosotros? y de donde venis?</p>
+               <p>Ellos <expan>dixerō<ex>n</ex></expan> somos de la ciudad de taxcala: y venimos a
+                  recebiros porque nos holgamos de <expan>vra<ex>vuestra</ex></expan>
+                  <!-- cant find symbol --> venida, aveys llegado a <expan>nra<ex>nuestra</ex>
+                     <!--cant find symbol --></expan> tierra, seays muy bienvenidos
+                        <expan>vra<ex>vuestra</ex></expan> casa y <expan>vra<ex>vuestra</ex></expan>
+                  tierra <expan>dō<ex>n</ex>de</expan> estays que se llama Quauhtexcalla.</p>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="sp">
+               <p>La ciudad <expan>q<ex>ue</ex></expan> agora se llama tlaxcalla, ante que viniesen
+                  los españoles se llamaua texcalla.</p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

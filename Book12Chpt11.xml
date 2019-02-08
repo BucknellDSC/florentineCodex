@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="11" xml:id="b12c11">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Capitulo .ii. de como los españoles llegaron a tlaxcalla que entoce se llamaua
+                  texcalla.</p>
+               <p><pb type="folio" n="16"/>Los señores y principales de tlaxcalla metieron en
+                  sociedad a los españoles, rescibiendoles de paz,
+                  <expan>lleuarō<ex>n</ex></expan>les luego derechos a las casas reales alli los
+                  aposentaron: y los hizieron muy buen tratamiento administrandoles todas las cosas
+                  necesarias con <expan>grā<ex>n</ex></expan> diligencia: y tambien les dieron a sus
+                  hijas donzellas muchas y ellos las recibieron y <expan>vsarō<ex>n</ex></expan>
+                  dellas como de sus mugeres.</p>
+               <p>Luego el capitan començo a preguntar por mexico diziendo donde esta mexico? esta
+                  lexos de aqui?</p>
+               <p>Dixeronle no esta lexos esta andadura de tres dias es vna ciudad muy populosa, y
+                  los naturales della son valientes y <expan>grā<ex>n</ex>des</expan> conquistadores
+                  en todas partes hazen conquista.</p>
+               <p>Los tlaxcaltecas y chololtecas no eran amigos tenian entre si discordia, y como
+                  los querian mal dixeron mal dellos a los españoles para que los maltratasen,
+                        <expan>dixerō<ex>n</ex>los</expan> que eran sus enemigos y amigos de los
+                  mexicanos y valientes como ellos; los españoles oydas estas nueuas de cholollan
+                  propusieron de tratarlos mal, como lo hizieron</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>partieron de tlaxcalla todos ellos y con muchos Cempoaltecas y tlaxcaltecas que
+                  los <expan>acō<ex>m</ex>pañaron</expan> todos con sus armas de guerra, llegando
+                  todos a chololla: los chololtecas no hiceron cuenta de nada ni los
+                        <expan>recibierō<ex>n</ex></expan> de guerra ni de paz estuuieronse quedos
+                  en sus casas desto <expan>tomarō<ex>n</ex></expan> mala opinion <pb type="folio"
+                     n="16v"/> dellos los españoles y coniectuaron alguna traicion</p>
+               <p>començaron luego a llamar a vozes a los principales y señores y toda la otra gente
+                  para que viniesen a donde <expan>estauā<ex>n</ex></expan> los españoles y ellos
+                  todos se iuntaron en el patio del gran cu de Quetzalcoatl: estando alli iuntos los
+                  españoles afrontados de la poca cuenta que auian hecho dellos: entraron a cauallo
+                  auiendo tomado todas las entradas del patio, començaron a lancearlos y mataron
+                  todos quatos pudieron y los amigos indios de creer es que
+                     <expan>matarō<ex>n</ex></expan> muchos mas. Los chololtecas, ni lleuaron armas
+                  offensiuas ni deffensiuas sino fueronse desarmados pensando que no se haria lo que
+                  si hizo: desta manera murieron mala muerte,</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>Todas estas cosas que acontecieron, luego que acontecieron: los mensajeros de
+                  Motecuçoma se las venian a dezir: todo el camino andaua lleno de mensajeros de aca
+                  por alla, y de alla por aca, y toda la gente aca en mexico y donde venian los
+                  españoles en todas las comarcas andaua la gente muy alborotada y desasosegada
+                  parecia que la tierra se mouia todos <expan>andauā<ex>n</ex></expan>
+                  <expan>espā<ex>n</ex> y antonios</expan></p>
+               <p><pb type="folio" n="17"/>Y como vieron hecho en cholula
+                        <expan>aql<!--missing symbol--><ex>aquel</ex></expan> estrauo, los españoles
+                  con todos los indios sus amigos venian gran multitud en esquadrones con gra ruydo
+                  y con gran poluoreda y de lexos replandecian las armas y causauan gran miedo en
+                  los que mirauan ansimismo ponian gran miedo los lebreles que trayan consigo que
+                  eran grandes, trayan las bocas abiertas las lenguas sacadas y yvan carleando ansi
+                  ponian gran temor en todos los que los vian. <figure xml:id="b12c11sp_image1"
+                  /></p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>

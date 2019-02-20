@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="22" xml:id="b12c22">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="37"/> Capitulo .22. de como llego la nueua de como El capitan
+                  don hernando cortes auiendo vencido a Panphilo de narbaez boluia ya para mexico:
+                  con otros muchos Españoles que de nueuo auian venido.</p>
+               <p>Estando las cosas como arriba se dixo: vino nueua como el capitan Don hernando
+                  cortes, venia con muchos Españoles, y con muchos indios de Cempoalla, y de
+                  Tlaxcalla: todos armados, y a punto de guerra y con gran priesa: y los mexicanos
+                  concertraron entre si, de absconderse, todos: y no los salir a recebir ni de
+                  guerra ni de paz: y los españoles con todos los demas amigos, fueronse derechos;
+                  hazia las casas reales, donde estauan los Españoles.</p>
+               <p>Y los mexicanos todos estauan mirando y <expan>ascō<ex>n</ex>didos</expan>, que no
+                  los viesen: los Españoles. Y esto hazian por dar a entender que ellos no auian
+                  començado la guerra:</p>
+               <p>y como entro el Capitan con toda la otra gente en las <pb type="folio" n="37v"/>
+                  casas reales començaron a soltar todos los tiros en alegria de los que auian
+                  llegado, y para atemorizar a los contrarios: y luego començaron los mexicanos a
+                  mostrarse y a dar alaridos y a pelear contra los españoles, echando saetas, y
+                  dardos <expan>cō<ex>n</ex>tra</expan> ellos: y los Españoles ansimismo començaron
+                  a pelear tirar saetas y tiros de polbora, fueron muertos muchos de los mexicanos
+                  tirauan los españoles todos sus tierras muy certeros que
+                     <expan>nū<ex>n</ex>ca</expan> hereauan tiro que no matase con el: y como vieron
+                  los mexicanos el daño que recibian de parte de los Españoles començaron a culebrar
+                  para escaparse de los tiros: y andar de lado.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Dieron convate quatro dias arreo a las casas donde <expan>estauā<ex>n</ex></expan>
+                  los Españoles: y despues destos quatro dias: los capitanes mexicanos
+                        <expan>escogierō<ex>n</ex></expan> muchos soldados viejos y hombres
+                  valientes: y subieronse sobre v<!--cant find symbol --> cu el que estaua mas cerca
+                  de las casas reales, y subieron alla, dso vigas rollizas para desde alli echarlas
+                  sobre las casas reales y hundirlas para poder entrar.</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p><pb type="folio" n="38"/> Visto esto los españoles, luego subieron al cu con mucha
+                  orden, y lleuauan sus escopetas y vallestas <expan>començarō<ex>n</ex></expan> a
+                  subir muy despacio y <expan>tirauā<ex>n</ex></expan> con los vallestas y escopetas
+                  a los de arriba en cada rencle yua delante vn escopetero: y luego vn soldado con
+                  espada y rodela, y luego vn alabardero por esta orden: yvan
+                     <expan>subiē<ex>n</ex>do</expan> al cu y los de arriba
+                     <expan>echauā<ex>n</ex></expan> los maderos por las gradas del cu abaxo, pero
+                  ningun daño hizieron a los españoles. Y llegando a lo alto del cu,
+                        <expan>comē<ex>n</ex>çaō<ex>n</ex></expan> a herir y matar a los que estauan
+                  arriba, <figure xml:id="b12c22sp_image1"/></p>
+            </div2>
+
+            <div2 type="para" n="4" xml:lang="sp">
+               <p>y muchos dellos se <expan>desperauā<ex>n</ex></expan> por el cu abaxo, finalmente
+                  todos murieron los que auian subido al cu tornaronse los españoles a su fuerte y
+                  barrearonse muy bien.</p>
+            </div2>
+
+            <div2 type="para" n="5" xml:lang="sp">
+               <p>Los mexicanos enterraron a los que alli murieron porque toda era gente principal y
+                  de mucha <expan>cuē<ex>n</ex>ta</expan> en la guerra. <figure
+                     xml:id="b12c22sp_image2"/></p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

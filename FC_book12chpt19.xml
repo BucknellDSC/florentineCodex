@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="19" xml:id="b12c19">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="29v"/> Capitulo .19. de como los españoles mandaron a los
+                  yndios hazer la fiesta de Vitzilobuchtli: esto fue en absencia del capitan quando
+                  fue al puerto por la venida de Panphilo de narbayez. <figure
+                     xml:id="b12c19sp_image1"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Aiendose partido el capitan <expan>Dō<ex>n</ex></expan> hernando cortes, para el
+                  puerto a recebir a Paphilo de narbayez, dexo en su lugar a Don pedro de albarado
+                  con los españoles que quedaron aqui en mexico: el qual en absencia del capitan
+                  persuadio a Motecuçoma para que <expan>mā<ex>n</ex>dasse</expan> hazer la fiesta
+                  de Vitzilobuchtli, porque querian ver como hazian aquella <expan>solēnidad
+                     <!--not sure what to expand to--></expan>. Motecuçoma mando que se hiziesse
+                  esta feista para dar <expan>cō<ex>n</ex>tento</expan> a los españoles aparejaronse
+                  ansi los satrapas como los principales, para hazer la fiesta.</p>
+               <p><pb type="folio" n="30"/> En toda esta letra que se sigue, no de dize otra cosa,
+                  sino la manera como hazian la estatua de Vitzilobuchtli, de masa, de diuersas
+                        <expan>lecū<ex>n</ex>bres</expan> y como la pintauan, y como la
+                        <expan>cō<ex>n</ex>ponian</expan>, y como despues ofrecian delante della,
+                  muchas cosas. <figure xml:id="b12c19sp_image2"/><figure xml:id="b12c19sp_image3"
+                     /><figure xml:id="b12c19sp_image4"/><figure xml:id="b12c19sp_image5"/></p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p><pb type="folio" n="31v"/> Y estando en ella haziendo vn
+                     <expan>grā<ex>n</ex></expan> areyto, muy ricamente adereçados: <pb type="folio"
+                     n="31"/> todos los principales en el patio <expan>grā<ex>n</ex>de del cu de
+                     Vitzilobuchtli donde estaua la ymagen hecha de masa de bledos, y muy ricamente
+                     atauiada con muchos ornamentos: los quales estan en la letra esplicados, y
+                     otras cerimonias que se ponen en todo este capitulo. <figure
+                        xml:id="b12c19sp_image6"/></expan></p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

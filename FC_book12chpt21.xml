@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="21" xml:id="b12c21">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="34"/> Capitulo .21. de como començo la guerra entre los
+                  mexicanos y los Españoles en mexico.</p>
+               <p><pb type="folio" n="34v"/> Como començo la guerra entre los indios y los
+                  españoles. los españoles se fortalecieron en las casas reales en el mesmo
+                  Motecuçoma: y tanbien con Itzquauhtzin el gouernador del tlatilulco, los indios
+                  los cercaron, y los combatian reciamente: los Españoles se deffendian con los
+                  tiros de poluora y ballestas y escopetas y <expan>haziā<ex>n</ex></expan> gran
+                  daño en los indios: y luego hecharon crillos a Motecuçoma: y tanbien los indios
+                  començaron a enterrar los que auian sido muertos en el patio por los españoles por
+                  cuya muerte se hizo gran llanto en toda la ciudad, porque eran
+                     <expan>gē<ex>n</ex>te</expan> muy principal los que auian muerto enterraronlos
+                  diuersas partes segun sus ritos el mesmo dia y a la puesta del sol.</p>
+               <p>Itzquauhtzin gouernador del Tlatilulco, subiose sobre los tlapancos de casa real:
+                  y començo a dar vozes diziendo A mexicanos a tlatilulcas mirad que el señor
+                  Motecuçoma vuestro rey os ruega que se ceseys de pelear y dexeys las armas
+                        <expan>porq<!--cant find sybmol--><ex>ue</ex></expan> estos hombres son muy
+                  fuertes mas que nosotros: y si no dexays de darles guerra recibira gran daño todo
+                  el pueblo porque ya an <pb type="folio" n="35"/> atado con hierro a
+                        <expan>vro<!--cacnt find symbol--><ex>vuestro</ex></expan> rey.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Oydas estas voces por los mexicanos y tlatilulcas: començaron entre si a brauear y
+                  maldezir a Motecuçoma diziendo. Que dize el el puto de Motecuçoma? Y tu vellaco
+                  con el, no cesaremos de la guerra: luego <expan>comē<ex>n</ex>çaron</expan> a dar
+                  alaridos y a tirar saetas y dardos hazia donde estaua el que hablaua, junto con
+                  Motecuçoma: y los españoles arodelaronlas ansi no recibieron daño.</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>Tenian gran ruia contra los españoles porque mataron a los principales y valientes
+                  hobres a traycion: y por tanto tenian cercadas las casas reales que a nadie
+                  dexauan entrar ni salir ni meter ningun bastimento, por que
+                        <expan>muriessē<ex>n</ex></expan> de hambre: y si alguno metia secretamente
+                  comida a algunos de los de dentro los de fuera en sabiendolo le
+                        <expan>matauā<ex>n</ex></expan>: Supieron los de fuera que algunos mexicanos
+                  entrauan alla, y metian saetas secretamente. Y luego pusieron
+                     <expan>grā<ex>n</ex></expan> diligencia en guardar que nadie entrarse, ni por
+                  tierra ni por agua, y a los que hallaron culpados de auer <pb type="folio" n="35v"
+                  /> metido algo mataronlos,</p>
+            </div2>
+
+            <div2 type="para" n="3" xml:lang="sp">
+               <p>y luego se leuanto gran rebuelta entre los mexicanos vnos
+                     <expan>acusauā<ex>n</ex></expan> a otros de aver entrados y ansi matauan muchos
+                  en special los seruiçiales o pajes de Motecuçoma, que
+                     <expan>trayā<ex>n</ex></expan> beçotes de cristal que era particular librea o
+                  señal de las de la familia de Motecuçoma: y tambien a los que trayan mantas
+                  delcadas que <expan>llamā<ex>n</ex></expan> ayatl, que era librea de los pajes de
+                  Motecuçoma: a todos los <expan>acusauā<ex>n</ex></expan>, y dezian. Que
+                        <expan>auiā<ex>n</ex></expan> entrado a dar comida a su señor, y a dezir lo
+                  que pasaua fuera y a todos los <expan>matauā<ex>n</ex></expan>: y de alli
+                        <expan>adelā<ex>n</ex>te</expan> vuo <expan>grā<ex>n</ex>de</expan>
+                  vigilancia que nadie entrase y ansi todos de la casa de Motecuçoma se
+                        <expan>huyerō<ex>n</ex></expan> y ascondieron por que no les matassen.</p>
+               <p>Dieron bateria los mexicanos a los españoles siete dias y los tuuieron cercados
+                  veynte y tres dias: y este tiempo ensancharon y ahondaron las
+                  aceqas<!--cant find symbol-->, y atajaron los caminos con paredes y hizieron
+                  grandes baluartes para que no pudiessen salir los españoles por ninguna parte.
+                     <figure xml:id="b12c21sp_image1"/><figure xml:id="b12c21sp_image2"/><figure
+                     xml:id="b12c21sp_image3"/><figure xml:id="b12c21sp_image4"/></p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -54,7 +54,7 @@
    </teiHeader>
    <text>
       <body>
-         <div1 type="chapter" n="3" xml:id="b12c02">
+         <div1 type="chapter" n="3" xml:id="b12c03">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
             <pb type="folio" n="1"/>
             <head>Capitulo III</head>
@@ -62,54 +62,69 @@
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo tercero de lo que Motecuçoma proueyo despues <expan>q<ex>ue</ex></expan>
                   oyo la Relacion de los que vieron los primeros nauios. </p>
+               <figure xml:id="b12c03sp_image1"/>
                <!-- there's a floral banner here. Not sure what to put -->
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
                <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
             </div2>
 
             <div2>
-               <p>Como vuo oydo Motecuçoma las nueuas de los que vinieron de la ma mando luego
-                  llamar al mas principal dellos que se llamua Cuetlaztecatl y los demas que
-                        <expan>auian<ex>habían</ex></expan> venido con la mensajeria y mandolos que
+               <p>Como vuo oydo Motecuçoma las nueuas de los que vinieron de la mar mando luego
+                  llamar al mas principal dellos que se llamaua Cuetlaztecatl y los demas que
+                  <expan>auian<ex>habían</ex></expan> venido con la mensajeria y mandolos que
                   pusiesen guardas y atalayas en todas las estancias de la ribera de la mar. La vna
-                  se llama Nauhtlan toztlan otra mictlanquactla para que mirasen qn
-                  <!-- can't find symbol --> boluiesen aquellos nauios para
-                     <expan>q<ex>ue</ex></expan>
+                  se llama Nauhtlan toztlan otra mictlanquactla para que mirasen <expan>qn̄<ex>quienes</ex></expan>
+                  boluiesen aquellos nauios para<expan>q<ex>ue</ex></expan>
                   <pb type="folio" n="5V"/> luego diesen relacion con esto se partieron los
                   calpisques o capitantes y mandaron luego poner atalayas en las dichas estancias.
-               </p>
-            </div2>
-
-            <div2>
-               <p>Y Motecuçoma junto luego sus principales, vno que se llamaua Cioacoatl. Otro
+                  Y Motecuçoma junto luego sus principales, vno que se llamaua Cioacoatl. Otro
                   Tlilpotonqui otro Tlacochcalcatl otro Quappiatzin otro Ticociaoacatl otro
                   Quetzalaztatzin otro Vitznaoatlaylotlac otro Hecatempatiltzin. A todos estos
                   comunico las nueuas que ausan llegado y mostrolos las cuentas de vidro que
-                        <expan>auian<ex>habían</ex></expan> trayado los mensajeros, y dixolos</p>
-            </div2>
-
-            <div2>
-               <p>pareceme que son piedras preciosas quardense mucho en la recamara no se pierda
+                  <expan>auian<ex>habían</ex></expan> trayado los mensajeros, y dixolos 
+                  pareceme que son piedras preciosas quardense mucho en la recamara no se pierda
                   ninguna y si algunaperdiere pagarla an los que tienen cargo de guardar la
-                  recamara.</p>
-               <p>Desta ay a vn año en el año treze conejos vieron en la mar nauios los que estauan
-                  en las atalayas y luego vinieron dar mandado a Motecuçoma con gran priesa</p>
-            </div2>
-
-            <div2>
-               <p>como oyo la nueua Motecuçoma despacho luego gente para el recibimento de
+                  recamara. Desta ay a vn año en el año treze conejos vieron en la mar nauios los que estauan
+                  en las atalayas y luego vinieron dar mandado a Motecuçoma con gran priesa
+                  como oyo la nueua Motecuçoma despacho luego gente para el recibimento de
                   Quetzalcoatl porque penso que era el el que venia porque cada dia le
-                        <expand>estauā<ex>n</ex></expand> esperando y como tenia relacion
-                        <expan>q<ex>ue</ex></expan> Quetzalcoatl <expan>auian<ex>habían</ex></expan>
+                  <expan>estauā<ex>n</ex></expan> esperando y como tenia relacion
+                  <expan>q<ex>ue</ex></expan> Quetzalcoatl <expan>auian<ex>habían</ex></expan>
                   ydo por la mar hazia el <expan>oriē<ex>n</ex>te</expan> y las nauios
-                        <expan>veniā<ex>n</ex></expan> de hazia el oriente por esto
-                        <expan>pē<ex>n</ex>sarō<ex>n</ex>></expan>
-                  <expan>q<ex>ue</ex></expan> era el, enbio cinco <!-- can't find p symbol here -->
-                  pncipales a que le recibiesen y le presentasē vna <expan>grā<ex>n</ex></expan>
-                  presente que le ēbio de lo que <expan>fuerō<ex>n</ex></expan> el mas principal
-                  dellos que se llamaua yoalli ichā 2. tepuztecatl el 3. tiçaoa. y el 4. Veuetecatl.
+                  <expan>veniā<ex>n</ex></expan> de hazia el oriente por esto
+                  <expan>pē<ex>n</ex>sarō<ex>n</ex>></expan> <expan>q<ex>ue</ex></expan> era el, 
+                  enbio cinco <expan>p̄<ex>ri</ex>ncipales</expan> a que le recibiesen y le 
+                  <expan>presentasē<ex>n</ex></expan> vna <expan>grā<ex>n</ex></expan>
+                  presente que le <expan>ē<ex>n</ex>bio</expan> de lo que <expan>fuerō<ex>n</ex></expan> 
+                  el mas principal dellos que se llamaua yoalli ichā 2. tepuztecatl el 3. tiçaoa. y el 4. Veuetecatl.
                   y el 5. Veicamecatl heca.</p>
             </div2> 
+
+            <div2 type="para" n="1" xml:lang="na">
+            <p>Inic ei capitulo: vncan mitoa in tlein ic tlanaoati Motecuçoma in iquac oquicac intlatol, 
+               in iehoantin in quittaque acalli in achto valla.</p>
+               <figure xml:id="b12c03na_image1"/>
+            </div2>
+            
+            <div2>
+               <p>In motecuçoma, niman ie ic q’nnaoatia in Cuetlaxtecatl, yoan in izquintin: quimilhui. 
+               Xitlanaoaticā, ma tlapielo, in noviā atenco; inic mitoa. Nauhtlan Toztlan, mictlanquauhtla: 
+               in campa ie quiçaquivi: nimā ic iaque in calpixque, tlanaoatique inic tlapieloia. Auh in 
+               motecuçoma: quincentlai in itecuioan, Cioacoatl, Tlilpotonqui, Tlacochcaltcl, Quappiaztzin, 
+               <pb type="folio" n="5v"/> Ticociaoacatl, Quetzalaztatzin, Vitznaoatlailotlac, hecatenpatiltzin: quincaquiti 
+               in tlatolli, yoan quimittiti, quimixpanti in quioalcuique cozcatl: quimilhui. Ca oticmaviçoque 
+               in matlalteuxivitl, vel mopiaz, in tlatlatique vel quipiazque: intla centetl quichitonizque tocacal, 
+               topipilhoan, titeheoan. Auh niman ie mocuepa in xivitl, ie imonamicioc in matlactli omei tochtli: 
+               auh ie tlamiznequi, ie itzonquizian in xivitl omei tochtli, in quiçaco, in ie no ceppa ittoque. 
+               Auh niman quinonotztivetzico in Motecuçoma; in oquicac, niman iciuhca tlaioa, in iuh quima, 
+               in iuh moma, ca iehoatl in topiltzin Quetzalcoatl in oquiçaco: ca iuh catca iniollo in çan oallaz, 
+               in çan quizaquiuh, quioalmatiz in ipetl, in icpal: ipampa ca vmitztia, in iquac ia. Auh in quimioa 
+               macuiltin, in quinamiquitivi, in quitlamamacativi: in teiacantia Teuoa, in itecutoca, in ipiltoca 
+               Ioalli ichan. Inic vme Tepuztecatl. Inic ie, tiçaoa. Inic navi vevetecatl. Inic macuilli Veicamecatl heca.</p>
+            </div2>
+            
+               
+               
 
          </div1>
       </body>

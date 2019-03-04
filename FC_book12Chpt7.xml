@@ -54,14 +54,14 @@
    </teiHeader>
    <text>
       <body>
-         <div1 type="chapter" n="7" xml:id="b12c02">
+         <div1 type="chapter" n="7" xml:id="b12c07">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+           
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="11"/> Capitulo .7. de la relacion que dieron a Motecuçomatzin
-                  los mensajeros que boluieron de los nauios. <figure xml:id="b12c07sp_image1"/>
-                  <!-- not sure what label to give it. On page 79 --></p>
+                  los mensajeros que boluieron de los nauios. </p>
+               <figure xml:id="b12c07sp_image1"/>
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
                <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
             </div2>
@@ -70,31 +70,56 @@
                <p>Hecho lo que arriba es dicho <expan>dierō<ex>n</ex></expan> la relacion a
                   Motecuçoma de todo lo que avian visto y oydo y dieron la relacion de la comida que
                   comian: y de las armas que vsauan, y de todo lo que les acontecio con los
-                  españoles.</p>
-               <p>Oyda Motecuçoma la relacion que le dieron sus embaxadores, espantose mucho: y
-                        <expan>comē<ex>n</ex>ço</expan> a temer marauillose de la comida de los
-                  españoles, y de oyr el negocio del artilleria
-                     <expan>especialmē<ex>n</ex>te</expan> de los truenos que quiebran las orejas, y
-                  del hedor de la polvora, que parece cosa infernal, y del huego que
-                        <expan>echā<ex>n</ex></expan> por la boca, y del golpe de la pelota, que
-                  desmenuza vn arbol de golpe: y de la relacion que le dieron de las armas muy
+                  españoles. Oyda Motecuçoma la relacion que le dieron sus embaxadores, espantose mucho: y
+                  <expan>comē<ex>n</ex>ço</expan> a temer marauillose de la comida de los
+                  españoles, y de oyr el negocio del artilleria <expan>especialmē<ex>n</ex>te</expan> 
+                  de los truenos que quiebran las orejas, y del hedor de la polvora, que parece cosa 
+                  infernal, y del huego que <expan>echā<ex>n</ex></expan> por la boca, y del golpe de 
+                  la pelota, que desmenuza vn arbol de golpe: y de la relacion que le dieron de las armas muy
                   fuertes que <expan>vsauā<ex>n</ex></expan> asi offensiuas como defensiuas, como
-                  son cosoletes, cotas, celadas, et. Espadas, ballestas arcabuces, lanças et</p>
-            </div2>
-
-            <div2 type="para" n="3" xml:lang="sp">
-               <p>Tambien de la relacion de los cauallos, y de la <expan>grā<ex>n</ex>deza</expan>
-                  dellos: y como subian en ellos los españoles, armados <pb tpye="folio" n="11v"/>
+                  son cosoletes, cotas, celadas, et. Espadas, ballestas arcabuces, lanças et
+                  Tambien de la relacion de los cauallos, y de la <expan>grā<ex>n</ex>deza</expan>
+                  dellos: y como subian en ellos los españoles, armados <pb type="folio" n="11v"/>
                   que no se les parecian mas de la cara: y de como tenian las caras blancas, y los
                   ojos garços, y los cabellos rosos, y las barbas largas: y de como
-                        <expan>veniā<ex>n</ex></expan> algunos negros entre ellos, que
-                        <expan>teniā<ex>n</ex></expan> los cabellos crespos, y prietos:
-                        <expan>tanbiē<ex>n</ex></expan> le dieron relacion de lo que comian los
-                  españoles, y de los perros que trayan, y de la manera que
-                     <expan>erā<ex>n</ex></expan>, y de la ferocidad que mostrauan, y de la color
-                  que tenian.</p>
-               <p>Oyda esta relacion Motecuçoma, espantose: y començo a temer, y a desmayarse, y a
-                  sentir gran angustia. <figure xml:id="b12c07sp_image2"/></p>
+                  <expan>veniā<ex>n</ex></expan> algunos negros entre ellos, que <expan>teniā<ex>n</ex></expan> 
+                  los cabellos crespos, y prietos: <expan>tanbiē<ex>n</ex></expan> le dieron relacion 
+                  de lo que comian los españoles, y de los perros que trayan, y de la manera que
+                  <expan>erā<ex>n</ex></expan>, y de la ferocidad que mostrauan, y de la color
+                  que tenian. Oyda esta relacion Motecuçoma, espantose: y començo a temer, y a desmayarse, y a
+                  sentir gran angustia.</p>
+               
+               <figure xml:id="b12c07sp_image2"/>
+               
+               <figure xml:id="b12c07sp_image3"/>
+               
+            </div2>
+
+            <div2 type="para" n="1" xml:lang="na">
+               <p><pb type="folio" n="11"/> Ic chicome capitulo: vncan mitoa in tlatolli inic quinonotzato in Motecuçoma, 
+                  in titlanti in quittato acalli.</p>
+               <figure xml:id="b12c07na_image1"/>
+            </div2>
+            
+            <div2>
+               <p>Auh in ie iuhqui, niman ie ic quinonotza in Motecuçoma iuh quilhuique in iuhqui oquimaviçoto, 
+                  yoan quittitique in iuhqui intlaqual. Auh in oquicac in iuh tlanonotzque in titlanti cenca 
+                  momoauhti, miçavi, yoan cenca quimaviço in intlaqual: oc cenca iehoatl in quiiolmicti in oquicac 
+                  in quenin vetzi in innaoatil in tlequiquiztili, iuhq’n tlatlatzini ic caquizti in iquac vetzi, 
+                  vel teçotlauh, motzatzaqua in tonacaz. Auh in iquac vetzi iuhquin telolotli oalquiça yitic, 
+                  tlepipixauhtiuh, chichitocatiuh: auh in ipocio cenca hiiac, xoquiiac, vel tetzonvitec: auh 
+                  in quimotla tepetl iuhq’n xitini, xixitica: auh in quavitl quimotlatetextia, iuhquin atetlachialti, 
+                  iuhquin aca conilpitza; çan muchi tepuztli in iniautlatqui, tepuztli in cōmaquia, tepuztli in 
+                  conaquia intzontecon, tepuztli in inma <pb type="folio" n="11v"/> quauh, tepuztli in intlavitol, tepuztli in inchimal, 
+                  tepuztli in intopil: auh in quinmama in inmaçaoa, iuhquin tlapantli ic quaquahtique yoan novian 
+                  quimilivi in innacaio, çanio neci in inxaiac, cenca iztac, ixtetenextique, tzoncoztique, tel 
+                  cequi tiltic in intzon, viiac in intentzon no coztic, tētzōcoztique, cocototztique ocolochtic: 
+                  auh in intlaqual iuhquin tlaçolli, iuhquin ovaquavitl, iuhquin ovaquauhtextli inic aviac, achi 
+                  tzopelic, achi nenecutic monecticaqua, motzopelicaqua: auh in imitzcuioan veveipopul, nacazcuecuelpachtique, 
+                  tenvivilaxpopul, ixtletletique, ixtletlesuchtique, ixcocoztique, ixtlecocoztique, xillanvicoltique, 
+                  xillāoacaltique, xillancapitztique vel quaquauhtique, amo tlaca mani, neneciuhtinemi, nenenepilotinemi, 
+                  ocelocuicuiltique, mocuicuiloque. Auh in o iuhquicac in Motecuçoma, cenca momauhti iuhquin iolmic, 
+                  moioltequipacho, moiollacoma. /. </p>
             </div2>
 
          </div1>

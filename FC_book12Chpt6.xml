@@ -54,78 +54,92 @@
    </teiHeader>
    <text>
       <body>
-         <div1 type="chapter" n="6" xml:id="b12c02">
+         <div1 type="chapter" n="6" xml:id="b12c06">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+           
 
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .6. de como los mensajeros de Motecuçoma boluieron a mexico con la
                   relacion de lo que auian visto.</p>
-               <pb type="image" n="16"/>
+               <figure xml:id="b12c06sp_image1"/>
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
                <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
             </div2>
 
             <div2 type="para" n="2" xml:lang="sp">
                <p>Hecho lo que esta dicho, luego se despidieron del capitan, y se
-                        <expan>baxarō<ex>n</ex></expan> a sus canoas, y començaron luego a yrse
+                  <expan>baxarō<ex>n</ex></expan> a sus canoas, y començaron luego a yrse
                   hazia tierra remando con gran priesa y diziendo los vnos a los otros: ea valientes
-                        <expan>hō<ex>m</ex>bres</expan> esforçaos a remar antes que nos acontezca
-                  algo:</p>
-               <p><expan>llegarō<ex>n</ex></expan> muy presto al pueblo de Xicalanco
-                        <expan>remā<ex>n</ex>do</expan> alli comieron, y descansaron bien poco: y
-                  luego <expan>entrarō<ex>n</ex></expan>
-                  <pb type="folio" n="10"/> otra uez en las canoas y con
-                     <expan>grā<ex>n</ex></expan> priesa remando llegaron al pueblo que se llama
+                  <expan>hō<ex>m</ex>bres</expan> esforçaos a remar antes que nos acontezca
+                  algo: <expan>llegarō<ex>n</ex></expan> muy presto al pueblo de Xicalanco
+                  <expan>remā<ex>n</ex>do</expan> alli comieron, y descansaron bien poco: y
+                  luego <expan>entrarō<ex>n</ex></expan> <pb type="folio" n="10"/> otra uez en las canoas y con
+                  <expan>grā<ex>n</ex></expan> priesa remando llegaron al pueblo que se llama
                   Tecpantlaiacac y de alli començaron a caminar por tierra corriendo con gran priesa
                   y <expan>llegarō<ex>n</ex></expan> al pueblo que se lla Cuetlaxtla alli comieron y
-                  descansaron poco:</p>
-            </div2>
-
-            <div2 type="para" n="3" xml:lang="sp">
-               <p>y los del pueblo les <expan>rogauā
-                     <!-- not sure what to expand this to --></expan> que
-                     <expan>descā<ex>n</ex>sasen</expan>. Siquiera vn dia</p>
-               <p>ellos les <expan>respondierō<ex>n</ex></expan> que no podian porque <expan>yvā
-                     <!-- not sure what to expand to --></expan>
-                  <expan>cō<ex>n</ex></expan>
+                  descansaron poco: y los del pueblo les <expan>rogauā<ex>n</ex></expan> que
+                  <expan>descā<ex>n</ex>sasen</expan>. Siquiera vn dia ellos les <expan>respondierō<ex>n</ex></expan> 
+                  que no podian porque <expan>yvā<ex>n</ex></expan> <expan>cō<ex>n</ex></expan>
                   <expan>grā<ex>n</ex></expan> priesa a hazer saber a Motecuçoma lo que auian visto
                   cosas muy nueuas y nunca vistas ni oydas las quales a ninguno otro podian
-                  dezir</p>
-            </div2>
-
-            <div2 type="para" n="4" xml:lang="sp">
-               <p>y caminando con gran priesa de noche y de dia, llegaron a mexico de noche.</p>
-               <p>En el tiempo que estos mensajeros fueron y boluieron. Motecuçoma no podia comer ni
-                  dormir ni hazia de buena gana ninguna cosa, sino estaua con
-                     <expan>grā<ex>n</ex></expan> congoxa, ninguna cosa de pasatiempo le daua
-                  placer, ninguna cosa le daua contento,</p>
-               <p>y dieza que sera nosotros? quien a de çufrir estos trabaxos? ninguno otro sino yo!
+                  dezir y caminando con gran priesa de noche y de dia, llegaron a mexico de noche.
+                  En el tiempo que estos mensajeros fueron y boluieron. Motecuçoma no podia comer ni
+                  dormir ni hazia de buena gana ninguna cosa, sino estaua con <expan>grā<ex>n</ex></expan> congoxa, 
+                  ninguna cosa de pasatiempo le daua placer, ninguna cosa le daua contento,
+                  y dieza que sera nosotros? quien a de çufrir estos trabaxos? ninguno otro sino yo!
                   pues que soy señor y rey! que tengo cargo de todos! <pb type="folio" n="10v"/>
                   estaua su coraçon parecia que se leuauan en agua de chili, y ansi tenia
-                        <expan>grā<ex>n</ex></expan> tormento: y dezia O señor a donde yre? Como
-                  escapare?</p>
-               <p>llegando los mensajeros a donde estaua la guarda de Motecuçoma dixeronlos: aunque
-                  duerma nro <!-- cant find symbol --> señor Motecuçoma desportade y dezilde que
-                  somos venido de la ribera de la mar donde nos enbio: </p>
-            </div2>
-
-            <div2 type="para" n="5" xml:lang="sp">
-               <p>luego los de la guarda le <expan>dixerō<ex>n</ex></expan> aquello: y el respondio
+                  <expan>grā<ex>n</ex></expan> tormento: y dezia O señor a donde yre? Como
+                  escapare? llegando los mensajeros a donde estaua la guarda de Motecuçoma dixeronlos: aunque
+                  duerma <expan>nrō<ex>nuestro</ex></expan> señor Motecuçoma desportade y dezilde que
+                  somos venido de la ribera de la mar donde nos enbio: luego los de la guarda le 
+                  <expan>dixerō<ex>n</ex></expan> aquello: y el respondio
                   no quiero oyr aqui las nueuas que traen alla quiero yr a la sala alla me
-                        <expan>hablarā<ex>n</ex></expan> vayanse alla: y luego mando que vntasen
-                        <expan>cō<ex>n</ex></expan> greda todo el cuerpo a ciertos captiuos para
-                  sacrificarlos:</p>
-            </div2>
-
-            <div2 type="para" n="6" xml:lang="sp">
-               <p>los mensajeros fueronse a la sala: y tambien Motecuçoma se fue alla, y alli
+                  <expan>hablarā<ex>n</ex></expan> vayanse alla: y luego mando que vntasen
+                  <expan>cō<ex>n</ex></expan> greda todo el cuerpo a ciertos captiuos para
+                  sacrificarlos: los mensajeros fueronse a la sala: y tambien Motecuçoma se fue alla, y alli
                   delante mensajeros mataron los captiuos, y rociaron a los mensajeros con la sangre
                   de los captiuos: hizieron esta cerimonia? porque auian visto
-                     <expan>grā<ex>n</ex>des</expan> cosas: y auian visto a los dioses, y hablado
-                  con ellos. <pb type="image" n="17"/></p>
+                  <expan>grā<ex>n</ex>des</expan> cosas: y auian visto a los dioses, y hablado
+                  con ellos.</p>
+               <figure xml:id="b12c06sp_image2"/>
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               <p>Inic chiquacen capitulo: vncā mitoa, in quenin ititlanoan Motecuçoma, oalmocuepque
+                  in nican mexico quilhuico in motecuçoma in quittaque.</p>
+               <figure xml:id="b12c06na_image1"/>
+            </div2>
+            
+            <div2>
+               <p>Niman ie ic quincauh, quinoaltemovique in imacalco: auh in ovaltemoque acalco, 
+                  niman ie ic tequitlaneloa, ontetemi in tlaneloa, cequintin matlaneloa. centlaquauh 
+                  oalmotlaloa, quimolhuitivitze, tiacaoane ixquich amotlapal, xitequitlanelocan, 
+                  ma itla nican taxti ma itla nican topan muchiuh: <pb type="folio" n="10"/> iciuhca acitivetzico 
+                  in atl iitic in itocaiocan xicalanco, çan tequitl vncan oalihiocuitiquizq̄, ic ie 
+                  no ceppa centlaquauh oaltotoca: niman ie no ic oalmeoaltia, oalmotlaloa, acitivetzico 
+                  in cuetlaxtlan, çanno oalquiztiquizque, vncan ihiocuique. Auh in cuetlaxtecatl quimilhui 
+                  ma oc cemilhuitzintli ximocevicā ma oc amihio xiccuican. Auh quilhuique, ca amo ca 
+                  çan ticiuhtivi tictononochilizque in tlein otiquittaque, in cenca temamauhti, in 
+                  aic iuhqui omottac, cuix ie cuel ie teachto, toconaquiz: niman iciuhca oalpeuhque, 
+                  acitivetzico in mexico, çan ioaltica in acico, çan oalioalcalacque. Auh in iquac in 
+                  aoquicochiz, aoquitlaqual quimatia, aoc ie quilhuiaia in çaço tlein quichioaia, ça 
+                  iuhquin nentlamatia, iuhquin achica elcicivi, mociauhquetza, mociauhpoa, aoctle velic, 
+                  aoctle tepac, aoctle teavialti ipan <pb type="folio" n="10v"/> quimatia; ipampa in quitoaia, tlein 
+                  ie topan muchioaz, ac neli icac, ha ieppa nehoatl, vel patzmiqui in noiollo, iuhquin 
+                  ma chilatequilo, vel toneoa chichinaca campanel totecue. Niman quimōnaoatique in quipia 
+                  in itzontlan tlapia quimonilhuique intla mocochitia xicmolhuilican ca ovallaque in 
+                  tiquinmotitlani atl itic. Auh in oconilhuito: niman quioalito. Amo nican quioalito. 
+                  Amo nican niccaquiz, vmpa niccaquiz in coacalco, ma vmpa vian, yoan oallanaoati: 
+                  quioalito: ma ontetiçavilo in mamalti. Auh niman vmpa iaque in coacalco in titlanti: 
+                  no iehoatl in motecuçomatzin, nimā ie ic imixpan micoa quimeltetequi in mamalti, 
+                  in imezio ic quimonatzelhuiaia in titlanti (ipampa in iuh quichiuhqe in, ca cenca 
+                  ovican in ovia ca oquimittato, imixco imicpac otlachiato, vel oquinotzque in teteu.</p>
+               <figure xml:id="b12c06na_image2"/>
+            </div2>
+                  
+                  
+               
          </div1>
       </body>
    </text>

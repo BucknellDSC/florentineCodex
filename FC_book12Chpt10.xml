@@ -54,74 +54,92 @@
    </teiHeader>
    <text>
       <body>
-         <div1 type="chapter" n="10" xml:id="b12c02">
+         <div1 type="chapter" n="10" xml:id="b12c10">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
-
+          
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .10. de como los españoles començaron a entrar la tierra
-                        <expan>adē<ex>n</ex>tro</expan>: y de como Motecuçoma dexo la casa rreal y
+                  <expan>adē<ex>n</ex>tro</expan>: y de como Motecuçoma dexo la casa rreal y
                   se fue a su casa propia.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+            
+               
+               <div2 type="para" n="2" xml:lang="sp">
+
                <p>Motecuçoma teniendo ya por <pb type="folio" n="15"/> aueriguado ansi por las cosas
                   que auia oydo de los españoles como por los pronosticos que auian pasado y
                   profecias antiguas y moternas que tenian que los españoles
-                     <expan>auiā<ex>n</ex></expan> de reynar en esta tierra: saliose de las casas
-                  reales, y fuese a las casas que el tenian ante que fuese rey o empreador.</p>
-               <p>Desque los españoles partieron de la ribera de la mar para entrar la tierra
+                  <expan>auiā<ex>n</ex></expan> de reynar en esta tierra: saliose de las casas
+                  reales, y fuese a las casas que el tenian ante que fuese rey o empreador.
+                  Desque los españoles partieron de la ribera de la mar para entrar la tierra
                   dentro, tomaron a vn indio principal que <expan>llamauā<ex>n</ex></expan>
                   Tlacochcalcatl, para que los mostrase el camino: al qual indio auian tomado de
                   alli de aquella prouincia los primeros nauios que vinieron a descubrir esta tierra
                   el qual indio el capitan don hernando cortes turxo consigo, y sabia ya de la
                   lengua español algo. Este juntamente con marina, <expan>erā<ex>n</ex></expan>
                   interpretes de don <expan>hernā<ex>n</ex>do</expan> cortes, a este tomaron por
-                  guia de su camino, para venir a mexico.</p>
-               <p>En llegando a la prouincia de tecoac que es tierra de tlaxcalla, alli estauan
+                  guia de su camino, para venir a mexico.
+                  En llegando a la prouincia de tecoac que es tierra de tlaxcalla, alli estauan
                   poblados los otomies y gente de guerra que guardaua la frontera o terminos de los
-                  tlaxcaltecas: estos salieron de guerra contra los españoles. Los españoles <pb
-                     type="folio" n="15v"/> començaron a pelear con ellos y los de caballo
+                  tlaxcaltecas: estos salieron de guerra contra los españoles. Los españoles <pb type="folio" n="15v"/> 
+                  començaron a pelear con ellos y los de caballo
                   alancearon mucha: y los arcaboceros, y ballesteros mataron tanbien muchos, de
-                  manera <expan>q<ex>ue</ex></expan>
-                  <expan>desbaratarō<ex>n</ex></expan> a todo <expan>aq<ex>ue</ex>llo</expan>
-                  exercito que venia y <expan>huyerō<ex>n</ex></expan> los que
-                     <expan>q<ex>ue</ex>daron</expan>: los españoles tomaron el pueblo y robaron
-                        <expan>q<ex>ue</ex></expan>
-                  <expan>hallarō<ex>n</ex></expan> y asi destruieron
-                     <expan>aq<ex>ue</ex>llos</expan> pueblos.</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
-            </div2>
-
-            <div2 type="para" n="2" xml:lang="sp">
-               <p>Como los de tlaxcalla oyeron lo que auia acontecido a sus soldados y otomies
-                        <expan>espā<ex>n</ex>taronse</expan> començaron a temer luego se
-                        <expan>juntarō<ex>n</ex></expan> a consejo y conferieron todos sobre el
+                  manera <expan>q<ex>ue</ex></expan> <expan>desbaratarō<ex>n</ex></expan> a todo 
+                  <expan>aq<ex>ue</ex>llo</expan> exercito que venia y <expan>huyerō<ex>n</ex></expan> los que
+                  <expan>q<ex>ue</ex>daron</expan>: los españoles tomaron el pueblo y robaron
+                  <expan>q<ex>ue</ex></expan> <expan>hallarō<ex>n</ex></expan> y asi destruieron
+                  <expan>aq<ex>ue</ex>llos</expan> pueblos. Como los de tlaxcalla oyeron lo que auia 
+                  acontecido a sus soldados y otomies <expan>espā<ex>n</ex>taronse</expan> començaron a temer luego se
+                  <expan>juntarō<ex>n</ex></expan> a consejo y conferieron todos sobre el
                   negocio para ver si saldrian de guerra contra los españoles o si se darian de paz
-                        <expan>dixerō<ex>n</ex></expan>: sabemos que los otomies son muy valientes y
+                  <expan>dixerō<ex>n</ex></expan>: sabemos que los otomies son muy valientes y
                   pelean reziamente y todos son destruidos niguna resistencia vuo en ellos en vn
                   cerrar y abrir de ojo los destruieron que podemos hazer nosotros sera bien que los
                   recibamos de paz y los tomemos por amigos esto es mejor que no perder toda nuestra
                   gente: y ansi acordaron los señores de tlaxcalla de recebirlos de paz y tomarlos
-                  por amigos.</p>
-               <p>Salieron luego los señores y principales con <expan>grā<ex>n</ex></expan> multitud
+                  por amigos. Salieron luego los señores y principales con <expan>grā<ex>n</ex></expan> multitud
                   de tamemes cargados de comida de todas maneras: llegando a ellos asaludaron de paz
-                  a don hernando cortes</p>
-            </div2>
-
-            <div2 type="para" n="3" xml:lang="sp">
-               <p>y el los pregunto, diziendo: de donde soys vosotros? y de donde venis?</p>
-               <p>Ellos <expan>dixerō<ex>n</ex></expan> somos de la ciudad de taxcala: y venimos a
-                  recebiros porque nos holgamos de <expan>vra<ex>vuestra</ex></expan>
-                  <!-- cant find symbol --> venida, aveys llegado a <expan>nra<ex>nuestra</ex>
-                     <!--cant find symbol --></expan> tierra, seays muy bienvenidos
-                        <expan>vra<ex>vuestra</ex></expan> casa y <expan>vra<ex>vuestra</ex></expan>
-                  tierra <expan>dō<ex>n</ex>de</expan> estays que se llama Quauhtexcalla.</p>
-            </div2>
-
-            <div2 type="para" n="4" xml:lang="sp">
-               <p>La ciudad <expan>q<ex>ue</ex></expan> agora se llama tlaxcalla, ante que viniesen
+                  a don hernando cortes y el los pregunto, diziendo: de donde soys vosotros? y de donde venis?
+                  Ellos <expan>dixerō<ex>n</ex></expan> somos de la ciudad de taxcala: y venimos a
+                  recebiros porque nos holgamos de <expan>vrā<ex>vuestra</ex></expan>
+                  venida, aveys llegado a <expan>nrā<ex>nuestra</ex></expan> tierra, seays muy bienvenidos
+                  <expan>vra<ex>vuestra</ex></expan> casa y <expan>vra<ex>vuestra</ex></expan>
+                  tierra <expan>dō<ex>n</ex>de</expan> estays que se llama Quauhtexcalla.
+                  La ciudad <expan>q<ex>ue</ex></expan> agora se llama tlaxcalla, ante que viniesen
                   los españoles se llamaua texcalla.</p>
             </div2>
 
+            <div2 type="para" n="1" xml:lang="na">
+               <p>Inic matlactli Capitulo: vncan mitoa in quenin Españoles çan ivian, oallalhoaccaquizque, 
+                  oallotlatocatiaque yoā in quenin Motecuçoma quicauh in veti tecpan, vmpa ia in ipilchan.</p>
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               <p>
+                  Niman quiollalcavi in ive<pb type="folio" n="15"/>vechan in vei tecpan, vncan oallamattia, vncan oallama, 
+                  quioalma, quioaltocac in ipilchan in iehoatl Motecuçoma. Auh in iequene vitze, in ie vitze, 
+                  in ie ovalmolinique: ce tlacatl, cempoaltecatl, itoca tlacochcalcatl, no achto canaco; 
+                  in iquac quittato tlalli, in altepetl, no oalnaoatlatotia, qnoaloquechilitia, quinoalotlaxilitia, 
+                  quinoallaixtlatitia, quinoaliacan, quinoaliacantia. Auh in oacico Tecoac: intlalpan tlaxcalteca 
+                  vncan onoque imotonoan. Auh in otomi iautica quinnamicque, chimaltica quinnamicque: auh in otomi 
+                  in Tecoaca vel quimixtlatique, vel ixpoliuhque, quinxixilque, texixilioac, quintlequiquizvique, 
+                  quintepuzmivique, quintlavitolhuique, amo çan quexquichtin, vel ixachintin in ixpoliuhque.
+                  Auh in ontlapoliuh Tecoac; in tlaxcalteca in oconcacque in ocōmatque, in onilhuiloto, cenca 
+                  mauhcaçonecque, mocuetlaxoque, cenca intlan ia in maviztli, mavizcuique: nimā mocentlalique mononotzque, 
+                  motecuiononotz<pb type="folio" n="15v"/>que, motlatocanonotzque, quimoottitique in tlatolli: 
+                  quitoque. Quen toiezque, cuix tiquinnamiquizque: ca vei oquichtli vei ticauh in otomitl, 
+                  atle ipan oquittac, atle ipan oconittac, çan ixquich cavitontli in çan ixpeioctli in oconpopolo maceoalli. 
+                  Auh in axcan ma çan itlan tonocalaquicā, ma çan tictocniuhtican, ma çan titocniuhtlacan, motolinia 
+                  in maceoalli. Auh nima ie ic vi in quīnamiquizque in tlaxcalteca tlatoque: quitquique in tlaqualli, 
+                  in totoli, in totoltetl in iztac tlaxcalli, in chipaoac tlaxcalli: quimilhuique. Oanquimihioviltique 
+                  totecuioane: quinoalnanquilique. Can amochan? Campa oanoallaque? Conitoque. Titlaxcalteca, oanquimociaviltique, 
+                  oanmaxitico, otlatech anmaxitico in amochantzinco quauhtlaxcalla. (auh in ie vecauh moteneoaia Texcalla, 
+                  in maceoalti mitoaia, Texcalteca.)</p>
+            </div2>
+                  
+            
          </div1>
       </body>
    </text>

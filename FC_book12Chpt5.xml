@@ -54,13 +54,14 @@
    </teiHeader>
    <text>
       <body>
-         <div1 type="chapter" n="1" xml:id="b12c02">
+         <div1 type="chapter" n="5" xml:id="b12c05">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+          
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="8"/> Capitulo quinto de lo que paso quando los mensajeros de
                   Motecuçoma entraron en el nauio del capitan don hernando cortes.</p>
+               <figure xml:id="b12c05sp_image1"/>
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
                <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
             </div2>
@@ -68,64 +69,89 @@
             <div2>
                <p>Començaron a subir al nauio, por la escalera: y lleuauan el presente que
                   Motecuçoma. los mando lleuar como estuuieron delante de don Hernando cortes:
-                  besaron todos la tierra en su presencia, y hablaronse desta manera;</p>
-            </div2>
-
-            <div2>
-               <p> sepa el dios a quien venimos a adorar en persona de su sieruo Motecuçoma, el qual
+                  besaron todos la tierra en su presencia, y hablaronse desta manera;
+                  sepa el dios a quien venimos a adorar en persona de su sieruo Motecuçoma, el qual
                   le rige, y gouierna, la su ciudad de mexico. Y dize a llegado con trabaxo el dios:
-               </p>
-            </div2>
-
-            <div2>
-               <p>y luego <expan>sacarō<ex>n</ex></expan> los ornamentos que lleuauan: y se los
+                  y luego <expan>sacarō<ex>n</ex></expan> los ornamentos que lleuauan: y se los
                   pusieron al capitan don <expan>hernā<ex>n</ex>do</expan> cortes atauiandole con
                   ellos pusieronle primeramente la corona, y mascara que arriba se dixo: y todo lo
                   demas <expan>echarō<ex>le</ex></expan> al cuello los collares de piedras que
-                        <expan>lleuauā<ex>n</ex></expan> con los joeles de oro pusieronle en el
-                  braço yzquierdo, la rodela de <expan>q<ex>ue</ex></expan> se dixo arriba:</p>
-               <p>y todas las otras cosas se las <expan>pusierō<ex>n</ex></expan> delante ordenadas
-                  como suelen poner sus presentes</p>
-               <p>el capitan les dixo. Ay otra cosa mas que esto?</p>
-               <p>dixerole señor nuestro, no emos trayado mas cosas destas que
-                     <expan>aq<ex>uí</ex></expan>
-                  <!--can't find symbol --> estan.</p>
-            </div2>
-
-            <div2>
-               <p>El capitan mandolos luego atar: y mando soltar tiros de artilleria, y los
-                  mensajeros que <expan>estauā<ex>n</ex></expan> atados de pies, y manos como
-                        <expan>oyerō<ex>n</ex></expan> los truenos de las lombardas, cayeron en el
-                  suelo, como muertos: y los españoles <expan>leuātaronlos
-                     <!--not sure what the expansion is --></expan>
+                  <expan>lleuauā<ex>n</ex></expan> con los joeles de oro pusieronle en el
+                  braço yzquierdo, la rodela de <expan>q<ex>ue</ex></expan> se dixo arriba:
+                  y todas las otras cosas se las <expan>pusierō<ex>n</ex></expan> delante ordenadas
+                  como suelen poner sus presentes el capitan les dixo. Ay otra cosa mas que esto?
+                  dixerole señor nuestro, no emos trayado mas cosas destas que <expan>aq'<ex>uí</ex></expan>
+                  estan. El capitan mandolos luego atar: y mando soltar 
+                  tiros de artilleria, y los mensajeros que <expan>estauā<ex>n</ex></expan> atados de pies, 
+                  y manos como <expan>oyerō<ex>n</ex></expan> los truenos de las lombardas, cayeron en el
+                  suelo, como muertos: y los españoles <expan>leuā<ex>n</ex>taronlos</expan>
                   <pb type="folio" n="8v"/> del suelo, y dieronles a bever vino con que los
-                  esforçaron: y tornaron en si.</p>
-               <p>Despues desto el capitan don <expan>hernā<ex>n</ex>do</expan> cortes les dixo por
-                  su interprete oyd lo que os digo: anme dicho que los mexicanos son valientes
+                  esforçaron: y tornaron en si. Despues desto el capitan don <expan>hernā<ex>n</ex>do</expan> 
+                  cortes les dixo por su interprete oyd lo que os digo: anme dicho que los mexicanos son valientes
                   hombres que son grandes peleadores: y <expan>grā<ex>n</ex>des</expan> luchadores
                   son muy diestros en las armas dizenme que vn solo mexicano es bastante para vencer
-                  a diez: y a veynte de sus enemigos. <pb type="folio" n="9"/> Quiero prouaros, si
-                  es esto verdad si soys tan fuertes como me an dicho: luego les
-                     <expan>mā<ex>n</ex>do</expan> dar espadas y rodelas para que peleasen con otros
-                  tantos españoles para ver quien venceria a los otros.</p>
-               <!-- there is image 12 and 14 here but I forget how to mark them -->
-            </div2>
-
-            <div2>
-               <p>Y los mexicanos dixeron luego al <expan>capitā<ex>n</ex></expan> don
-                        <expan>hernā<ex>n</ex>do</expan> cortes, oyanos vra
-                  <!-- cant find the symbol --> ,merced nra <!--cant find the symbol --> escusa
+                  a diez: y a veynte de sus enemigos. 
+                  
+                  <figure xml:id="b12c05sp_image2"/>
+                  
+                  <figure xml:id="b12c05sp_image3"/>
+                  
+                  <pb type="folio" n="9"/> 
+                  
+                  <figure xml:id="b12c05sp_image4"/>
+                  
+                  Quiero prouaros, si es esto verdad si soys tan fuertes como me an dicho: luego les
+                  <expan>mā<ex>n</ex>do</expan> dar espadas y rodelas para que peleasen con otros
+                  tantos españoles para ver quien venceria a los otros.
+                  Y los mexicanos dixeron luego al <expan>capitā<ex>n</ex></expan> don
+                  <expan>hernā<ex>n</ex>do</expan> cortes, oyanos <expan>vrā<ex>vuestra</ex></expan>,
+                  merced <expan>nrā<ex>nuestra</ex></expan> escusa
                   porque no podemos hazer lo que nos mandays: y es porque Motecuçoma
-                     <expan>nro<ex/></expan>
-                  <!-- cant find symbol --> señor no nos embio a otra cosa sino a saludaros y a
+                  <expan>nrō<ex>nuestro</ex></expan> señor no nos embio a otra cosa sino a saludaros y a
                   daros este presente, no podemos hazer otra cosa, ni podemos hazer lo que nos
-                  mandays: si lo hizieremos enojarse a mucho nro <!-- cant find symbol --> señor
-                  Motecuçoma, y mandarnos a matar:</p>
-               <p>y el capitan res<pb type="folio" n="9v"/>pondioles, ase de hazer en todo caso lo
-                  que os digo tengo de ver que <expan>hō<ex>
-                        <!-- not sure what this expands to --></ex>bre</expan> soys: que alla en
-                  nuestra tierra emos oydo que soys valientes hombres aparejaos con esas armas y
+                  mandays: si lo hizieremos enojarse a mucho <expan>nrō<ex>nuestro</ex></expan> señor
+                  Motecuçoma, y mandarnos a matar: y el capitan res<pb type="folio" n="9v"/>pondioles, 
+                  ase de hazer en todo caso lo que os digo tengo de ver que <expan>hō<ex>m</ex>bre</expan> soys: 
+                  que alla en nuestra tierra emos oydo que soys valientes hombres aparejaos con esas armas y
                   disponeos para que mañana nos veamos en el campo.</p>
+            </div2>
+            <div2 type="para" n="1" xml:lang="na">
+               <p><pb type="folio" n="8"/> Inic macuilli capitulo: vncan mitoa in tlein muchiuh, 
+               iquac ititlanoan motecuçoma in vmpa callacque in iacalco don hernando Cortes.</p>
+            <figure xml:id="b12c05na_image1"/>
+               
+               <p>Niman ie ic tleco, quinanapalotivi in itlatquitl: in otlecoto acalco ceceniaca 
+                  ontalquatimani yixpan in capitan: Niman ie ic contlatlauhtia: quilhuique: Ma quimocaquilti 
+                  in teutl: ca quioalmotlatlauhtila in itechiuhcauh Motecuçoma in cōmotlapielilia mexico; 
+                  ca conitoa. Oquimihiovilti, oquimociavilti in teutl: niman ie ic quichichioa in capitan 
+                  vel iehoatl conaquique in xiuhcoaxaiacatl, itech ietiuh in qutzalpancaiotl, yoan itech 
+                  ieietiuh, itech aactiuh, itech pipilcatiuh chalchiuhcoanacochtli: yoan conaquique xicolli, 
+                  conxicoltique, yoan concozcatique in chalchiuhcozcapetlatl nepantla mantiuh in teucuitlacomalli, 
+                  ic conxillancuitlalpique in tezcacuitlapilli, no ic contzinapanque in tilmatli in itoca tzitzilli, 
+                  yoan <pb type="folio" n="8v"/> icxic contlalilique in chalchiuhtecuecuextili teucuitlacoiollo: yoan conmamaque 
+                  imac cōmanilique chimalli teucuitlatica nenepaniuhqui, yoan epnepaniuhcaio, quetzaltençouhtiuh 
+                  qetzalpaniotiuh: yoan ixpā contemilique itzcactli. Auh in oc etlamantli nechichioalli, 
+                  teutlaquitl, çan ixpan contecpāque, convipanque: auh in ie iuhqui, quimilhui in capitā. 
+                  Cuix ie ixquich in, in amotenamiquia, in amotetechacia? quinnanquilique ca ie ixquich inic 
+                  tioallatiaque totecue. Niman tlanoati in capitan inic ilpiloque, tepoztli imicxic quintlalilque, 
+                  yoan inquechtlan: in ie iuhqui niman ic quitlazque in tomaoac tlequiquiztli: auh in titlanti in 
+                  iquac in vel iolmicque, yoan çoçotlaoaque, vehuetzque, nenecuiliuhtivetzque, aocmo quimatque: 
+                  auh in españoles quimeeuhq̄ quimeeoatitlalique, quimoniitique vino: nimā ie ic quintla<pb type="folio" n="9"/>maca, 
+                  quintlaqualtique, ic imihio quicuique, ic oalihiocuique: auh in ie iuhqui in, niman quimilhui 
+                  in capitan. Tla xiccaquican, onicman, oniccac, qilmach in iehoantin mexica cenca chicaoaque, 
+                  cenca tiacaoan, cenca maiavini, intla ce mexicatl vel quintocaz, vel quinteputztiz  in manel 
+                  matlactin, in manel noço centecpantin in iiaovan. Auh in axcan noiollo pachiviznequi, namechittaznequi, 
+                  namechieiecoznequi, in quenin anchicaoaque, in quenin antlapalivi; nimā ic quinoalmacac eoachimalli, 
+                  yoan tepuzmacquavitl, yoā tepuztopilli: auh inin vel oc iovatzinco, tlavizcalpan in muchioaz, 
+                  in titomaiztlacozque, titoneneuhcavizque, tinevivicatlamatizique, ac ie tlani vetziz: quinanquilique 
+                  in Capitan: quilhuique. Tla quimocaquitin tlacatl, achcamo ic technaoati in itechiuhcauh in Motecuçoma; 
+                  ca çan tiquixcavico in tictociauhquechi<pb type="folio" n="9v"/>lico, in tictotlapalhuico, ca amo tonaoatil in 
+                  quimonequiltia tlacatl: auh intla iuh ticchioazque, cuix amo cenca ic qualaniz in Motecuçoma, 
+                  amo ic techtlatlatiz. Niman quito in capitan ca amo ca ça mochioaz niquittaznequi, nicmaviçoznequi 
+                  ca in omachiztito in castillan quil cenca anchicaoaque, antiiacaoan, ma oc veca ioac in xitlaquacan, 
+                  oc no ioan in nitlaquaz, ma vel ximochichioacā.
+               </p>
+               <figure xml:id="b12c05na_image2"/>
             </div2>
 
          </div1>

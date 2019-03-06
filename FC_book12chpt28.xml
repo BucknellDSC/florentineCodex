@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="28" xml:id="b12c28">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="51v"/> Capitulo .28. de la primera fiesta que hizieron los
+                  mexicanos despues que los Españoles salieron de noche desta ciudad. <figure
+                     xml:id="b12c28sp_image1"/></p>
+               <p>Quando los Españoles <expan>salierō<ex>n</ex></expan> de mexico y fueron a
+                  tlaxcalla era en el mes que se llama Tecuilhuitontli que comiença a veynte y dos
+                  de junio como ya <expan>estauā<ex>n</ex></expan> algo descansados de la guerra
+                  pasada, hizieron muy gran fiesta a todos sus dioses y sacaron todas las estatuas
+                  dellos y atauiaronlas de torquesas hechas de mosayco: esto hizieron agradeziendo a
+                  sus dioses porque los <expan>auiā<ex>n</ex></expan>
+                  <pb type="folio" n="52"/> librado de sus enemigos.</p>
+               <p>Luego se sigue el otro mes suyo que se llama Tlaxochimaco que comiença a doze de
+                  Julio: Tras este se sigue el mes que llaman Xocotl vetzi que comiença primero dia
+                  de agosto. Tras este se sigue el mes que <expan>llamā<ex>n</ex></expan>
+                  Ochpaniztli que es a veynte de agosto. Tras este se sigue el mes
+                        <expan>q<ex>ue</ex></expan> llaman Teutleco que comiença a diez de
+                  setiembre. Tras este se sigue el mes que <expan>llamā<ex>n</ex></expan>
+                  Tepeiluitl, que caye treynta de setiembre. Tras este se sigue el mes que llaman.
+                  Quecholli que comiença a veynte de octubre. Luego se sigue el mes que se
+                        <expan>llamā<ex>n</ex></expan> Panquetzaliztli que comiença a nueue de
+                  nuuiembre. Luego se sigue que <expan>llamā<ex>n</ex></expan> Atemuztli que
+                  comiença a veynte y nueue de nuuiembre. Luego se sigue el mes que se llama Tititl
+                  que comiença a diezinueue de deziembre. Tras este se sigue el mes que
+                        <expan>llamā<ex>n</ex></expan> yzcalli que comiençaua a ocho de henero: y
+                  luego se sigue cinco dias que ellos <expan>llamauā<ex>n</ex></expan> Nemontemi que
+                  quiere dezir dias validos o aciagos, los quales no contauan con el año: y luego
+                     comen<pb type="folio" n="52v"/>çaua otro año en el mes que llamauan Quauitl Eua
+                  que començaua segundo dia de hebrero. Luego se sigue el 2. mes que llaman
+                  Tlacaxipeoaliztli que comiença a veynte y vno de hebrero. Luego se sigue el 3. mes
+                  que se llama Toçozontli que comiença a .15. dias de março. Luego se sigue el 4.
+                  mes que se llama Vey toçoztli que comeinça a .3. dias de abrir en este mes
+                  salieron los españoles huyendo de mexico: En el año pasado.</p>
+               <p>En este año <expan>boluierō<ex>n</ex></expan> algunos dellos vinieron por la uia
+                  de Quauhtitlan y llegaron hasta tlacuba, y no estuuieron mas de siete dias: y
+                  luego se boluieron y dende a quarenta dia boluieron otra uez, y destruyeron
+                  algunos lugares mataron mas de quatrocientos hombres que eran maceoales del
+                  Tlatilulco. Y dende a quarenta dias se contaron dos años de su uenida boluieron
+                  todos en el mes que se llamaua Toxcatl. <figure xml:id="b12c28sp_image2"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

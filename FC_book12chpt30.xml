@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="30" xml:id="b12c30">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="54v"/> Capitulo .30. de como los vergantines que hizieron los
+                  Españoles: en Tetzuco, venieron sobre mexico. Estos vergantines se labraron en
+                  Tlaxcalla y los indios los truxeron <expan>ē<ex>n</ex></expan> pieças a cuestas
+                  hasta la lengua donde se armaron</p>
+               <p>Estando los españoles en tlaxcalla labraron doze vergantines y ante
+                        <expan>q<ex>ue</ex></expan> los armasen truxeronlos en pieças los indios
+                  hasta tetzcuco y alli los armaron enclauaron y brearon los quales hechos; y puesta
+                  en ellos los españoles que para esto <expan>estauā<ex>n</ex></expan> asinados y
+                  vinieron por la laguna hasta vn desembarcadero que se llama Acachinanco que se
+                  cerca de mexico en aquel derecho de Sancto antonio yglesia, que esta cerca de las
+                  casas de albarado y el capitan don hernando cortes: luego se metio en los
+                  vergantines, y començaron a sondar el agua para descubrir el alto que auia por
+                  donde auian de andar los vergatines:</p>
+               <p>como vuieron descubierto los caminos por donde <expan>podiā<ex>n</ex></expan>
+                  andar los vergantines, <expan>pusierō<ex>n</ex>se</expan> a gesto de guerra en los
+                  mesmos vergantines con determinacion <pb type="folio" n="55"/> de destruyr a los
+                  mexicanos y luego puestos en orden con su bandera delante y tocando su atambor y
+                  pifano començaron a pelear contra los mexicanos</p>
+               <p>y muchos de los mexicanos que tenian las casas dentro en el agua como començo la
+                  guerra por el agua començaron a huyr <expan>cō<ex>n</ex></expan> sus hijos y otros
+                  en canoas. Todas sus haziendas xauan en sus casas y los indios que syudauan a los
+                  españoles <expan>entrauā<ex>n</ex></expan> en las casas que dexauan y robaban
+                  quanto hallauan <figure xml:id="b12c30sp_image1"/></p>
+               <p><pb type="folio" n="55v"/> Tanbien los indios del tlatilulco, andauan alli
+                  peleando con sus canoas: Como llegaron los españoles, adonde estauan atajada, vna
+                  acequia <expan>cō<ex>n</ex></expan> albarrada, y pared desbarataronla con el
+                  artilleria,</p>
+               <p>y pasaron dos vergantines començaron a pelear con los que estauan defendiendo la
+                  acequia los españoles que <expan>yuā<ex>n</ex></expan> en los vergantines
+                        <expan>tornaua<ex>n</ex>los</expan> la artilleria hazia donde estauan mas
+                  espesas las canoas y hazian gran daño en los indios con la artilleria, y
+                  escopetas.</p>
+               <p>Visto esto los mexicanos començaron apartarse, y a guardaese del artilleria, yendo
+                        <expan>culbreā<ex>n</ex>do</expan> con las canoas: y tambien quando vian
+                  algun tiro que <expan>soltauā<ex>n</ex></expan>
+                  <expan>agaçapauā<ex>n</ex>se</expan>, en las canoas: y començaron a retraerse
+                  hazia las casas, y ansi quedo desocupado el camino</p>
+               <p>llegaron los españoles a vn lugar <pb type="folio" n="56"/> que se llama vitzillan
+                  que es cerca de la yglesia de sanct Pablo, alli estaua otro paredon hecho, y a las
+                  espaldas del, estauan muchas gentes de los mexicanos alli se detuuieron algo los
+                  vergantines entre tanto que adereçauan la artillerioa pa<!--cant find symbol-->
+                  derrocar al paredon. <figure xml:id="b12c30sp_image2"/><figure
+                     xml:id="b12c30sp_image3"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

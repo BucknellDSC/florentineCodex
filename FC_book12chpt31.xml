@@ -56,40 +56,47 @@
       <body>
          <div1 type="chapter" n="1" xml:id="b12c02">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="56v"/> Capitulo .31. de como los vergantines, auiendo oxeado
-                  las canoas; que los salieron por la laguna: llegaron a tierra junto a las casas.
-                     <figure xml:id="b12c31sp_image1"/> Despues que los Españoles, adereçaron sus
+                  las canoas; que los salieron por la laguna: llegaron a tierra junto a las casas.</p>
+               
+                   <figure xml:id="b12c31sp_image1"/> 
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Despues que los Españoles, adereçaron sus
                   tiros, tiraron al <expan>paredō<ex>n</ex></expan> con ellos: y de los primeros
                   tiros, arroynaronle todo, y de los segundos tiros, dieron con el en el suelo, y
                   los soldados indios que estauan detras el <expan>paredō<ex>n</ex></expan>: luego
                   echaron a huyr, y los indios amigos, luego cegaron la acequia para pasar adelante
                   con piedras, y adoues, y tierra, y maderos, desque tuuieron llana la acequia:
                   luego vinieron los de a caballo, y entraron en la ciudad, y
-                        <expan>alancearō<ex>n</ex></expan> los que puedieron de los indios: y tor<pb
-                     type="folio" n="57"/>naronse a salir: y luego entraron otros de a caballo, y
+                  <expan>alancearō<ex>n</ex></expan> los que puedieron de los indios: y tor<pb type="folio" n="57"/>naronse 
+                  a salir: y luego entraron otros de a caballo, y
                   hizieron lo mismo, y los indios, acogianse a las casas reales. Tambien
-                        <expan>alancearō<ex>n</ex></expan> a algunos indios entre los quales, fue
+                  <expan>alancearō<ex>n</ex></expan> a algunos indios entre los quales, fue
                   alanceado vn indio del Tlatilulco, y asio de la lança con que estaua atrauesado: y
                   otros sus compañeros asieron. tanbien della y <expan>quitarō<ex>n</ex>sela</expan>
                   al de a cauallo, y con ella le mataron y derrocaron del cauallo: y luego se
                   juntaron los españoles y <expan>ē<ex>n</ex>traron</expan> dentro, del en vn patio
-                        <expan>q<ex>ue</ex></expan> llamaua Quauhquiaoac y
-                     <expan>lleuauā<ex>n</ex></expan> consigo vn tiro grueso y
-                        <expan>asestarō<ex>n</ex>le</expan>. Este lugar estaua vna aguila se piedra
+                  <expan>q̄<ex>ue</ex></expan> llamaua Quauhquiaoac y
+                  <expan>lleuauā<ex>n</ex></expan> consigo vn tiro grueso y
+                  <expan>asestarō<ex>n</ex>le</expan>. Este lugar estaua vna aguila se piedra
                   grande y alta como vn estado de hombre: y por eso llamauan aquel patio
                   Quauhquiyauac de la vna parte del aguila estaua vn tigre de piedra tambien y de la
                   otra vn oso, tanbien de piedra: y los capitanes de los indios
-                        <expan>ascondiā<ex>n</ex>se</expan> detras de ocho colunas de piedra que
+                  <expan>ascondiā<ex>n</ex>se</expan> detras de ocho colunas de piedra que
                   alli estaua y mucha otra gente estaua encima de la casa que estaua armada sobre
                   las <expan>colū<ex>m</ex>nas</expan> y los españoles tiraron con el tiro grueso
-                  que lleuauan consigo a aquel edificio que estaua alli y con el trueno <pb
-                     type="folio" n="57v"/> y con el humo los que estauan abaxo, se espantaron y
+                  que lleuauan consigo a aquel edificio que estaua alli y con el trueno 
+                  <pb type="folio" n="57v"/> y con el humo los que estauan abaxo, se espantaron y
                   echaron a huyr, y los de arriba se echaron de alli abaxo, y todos huyeron,
                   lleuaron el tiro mas adelante hazia el patio del Vitzilobuchtli, donde estaua vna
-                        <expan>grā<ex>n</ex>de</expan> piedra redonda como muela de molino; y sobre
+                  <expan>grā<ex>n</ex>de</expan> piedra redonda como muela de molino; y sobre
                   el cu de Vitzilobuchtli estauan vnos satrapas, sentados tañendo vn teponaztl, y
                   cesaua de tañer, y <expan>cā<ex>n</ex>tar</expan>; y subieron dos españoles, y
                   mataronlos echaronlos por las gradas abaxo del cu. Como los españoles entrauan por
@@ -102,15 +109,24 @@
                   acachinanco, y exaron el tiro en el patio de Vitzilobuchtli, y de alli lo tomaron
                   los indios, y le echaron en vna agua profunda que <expan>llamauā<ex>n</ex></expan>
                   Tetamaçulco, que esta cabe <pb type="folio" n="58"/> el monte que se llama
-                  Tepetzinco, donde estan los baños. <figure xml:id="b12c31sp_image2"/><figure
-                     xml:id="b12c31sp_image3"/><figure xml:id="b12c31sp_image4"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  Tepetzinco, donde estan los baños. </p>
+                  
+                  <figure xml:id="b12c31sp_image2"/>
+                  
+                  <figure xml:id="b12c31sp_image3"/>
+                  
+                  <figure xml:id="b12c31sp_image4"/>
+               
+                  <figure xml:id="b12c31sp_image5"/>
+               
+                  <figure xml:id="b12c31sp_image6"/>
+               
+                  <figure xml:id="b12c31sp_image7"/>
+              
             </div2>
-            <div2 type="para" n="1" xml:lang="nah">
-               <p/>
-
-            </div2>
+           
+            
+            
          </div1>
       </body>
    </text>

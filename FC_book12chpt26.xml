@@ -56,73 +56,93 @@
       <body>
          <div1 type="chapter" n="26" xml:id="b12c26">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="45v"/> Capitulo .26. de como los Españoles llegaron al pueblo
                   Teucalhuiacan y del buen tratamiento que alli los hizieron.</p>
-               <p>Llegados los Españoles al pueblo de Teucalhuiacan ante mediodia <pb type="folio"
-                     n="46"/> fueron muy bien recebidos por los otomies cuyo era aquel pueblo, y
-                        <expan>dierō<ex>n</ex>los</expan> luego mucha comida la qual les tenian
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="sp">
+               
+               <p>Llegados los Españoles al pueblo de Teucalhuiacan ante mediodia 
+                  <pb type="folio" n="46"/> fueron muy bien recebidos por los otomies cuyo era aquel pueblo, y
+                  <expan>dierō<ex>n</ex>los</expan> luego mucha comida la qual les tenian
                   aparejada regocijaronlos y recrearonlos mucho ansi a ellos como todos los que con
                   ellos yuan, y tambien a los cauallos dandolos quanto auia menester, y ellos
-                  tenian</p>
-               <p>los otomies de tlaxcaltecas que se escaparon de la guerra conozieronse con los de
+                  tenian los otomies de tlaxcaltecas que se escaparon de la guerra conozieronse con los de
                   Teucaluiacan porque eran todos parientes y desde pueblo de Teucaluiacan auian ydo
-                  a poblar a Tlaxcalla:</p>
-               <p>y luego todos ellos juntos se hablaron para saludar al capitan, y a los españoles:
+                  a poblar a Tlaxcalla: y luego todos ellos juntos se hablaron para saludar al capitan, y a los españoles:
                   luego todos juntos fuero a hablar al capitan, y a los otros capitanes diziendolos
                   que aquella era su casa y su pueblo: y ellos eran sus basallos, tanbien se
                   quexaron al capitan del mal tratamiento que les quian hecho a Motecuçoma, y los
                   mexicanos cargandolos mucho tributo, y muchos trabaxos y dixeronlos que si los
                   dexaua que mas mal tratamiento les auian de hazer porque eran crueles y inhumanos
-                     <pb type="folio" n="46v"/> mexicanos:</p>
-               <p>como Marina vuo <expan>dho<!--cant find symbol or expansion--></expan> al capitan
+                  <pb type="folio" n="46v"/> mexicanos: como Marina vuo <expan>dhō<ex>dicho</ex></expan> al capitan
                   lo que los otomies <expan>deziā<ex>n</ex></expan>: Dixoles el capitan. No tengays
                   pena <expan>aū<ex>n</ex>q<ex>ue</ex></expan> me vaya que yo boluere presto y hare
-                  que esta sea cabecera y no sea subjecta a mexico y destruyere a los mexicanos.</p>
-               <p>Como oyeron estas palabras los otomies de Teucalhuiacan consolaronse mucho, y
-                  cobraron presumcion, y argullo para reuelarse de los mexicanos:</p>
-               <p>y los españoles dormieron aquella noche alli; y otro dia ante que amanesciese
+                  que esta sea cabecera y no sea subjecta a mexico y destruyere a los mexicanos.
+                  Como oyeron estas palabras los otomies de Teucalhuiacan consolaronse mucho, y
+                  cobraron presumcion, y argullo para reuelarse de los mexicanos:
+                  y los españoles dormieron aquella noche alli; y otro dia ante que amanesciese
                   aparejaronse para partirse, y tomaron el camino de Tepotzotlan llegaron a aquel
                   lugar antes de mediodia. Como los de Teputzotlan los vieron que yuan a su pueblo:
                   començaron luego todos a huyr metieronse en los <expan>mō<ex>n</ex>tes</expan> y
                   ascondieronse por las <expan>barrā<ex>n</ex>cas</expan> no quedo nadie en el
                   pueblo que recibiese a los españoles, ninguna cosa lleuaron consigo dexaron todas
                   sus haziendas solamente saluaron sus personas porque tuuieron gran miedo que las
-                        <expan>auiā<ex>n</ex></expan>
+                  <expan>auiā<ex>n</ex></expan>
                   <pb type="folio" n="47"/> de matar: y los españoles entraronse en las casas
                   principales o palacios del señor en aquel pueblo dormieron aquella noche todos
-                        <expan>jū<ex>n</ex>tos</expan> y todos <expan>estauā<ex>n</ex></expan> con
-                  gran temor de que viniesen sobre ellos los enemigos:</p>
-               <p>otro dia en amaneciendo almorçaron de lo que hallaron por las casas del pueblo.
+                  <expan>jū<ex>n</ex>tos</expan> y todos <expan>estauā<ex>n</ex></expan> con
+                  gran temor de que viniesen sobre ellos los enemigos:
+                  otro dia en amaneciendo almorçaron de lo que hallaron por las casas del pueblo.
                   Despues que vuieron almorçado partieronse y por el camino donde yuan: yuan tras
                   ellos: los mexicanos <expan>dā<ex>n</ex>doles</expan> grita y si alguno se
-                  acercaua a los españoles, luego le <expan>matauā<ex>n</ex></expan></p>
-               <p>fueron derechos al pueblo de citlaltepec: y como <expan>vierō<ex>n</ex></expan>
+                  acercaua a los españoles, luego le <expan>matauā<ex>n</ex></expan>
+                  fueron derechos al pueblo de citlaltepec: y como <expan>vierō<ex>n</ex></expan>
                   los de Citlaltepec que yuan alla, los Españoles ascondieronse ningun recibimiento
                   les hizieron comieron de lo que hallaron por las casas, y dormieron alli aquella
-                  noche, y de mañana almorçaron: aviendo almorçado partieronse.</p>
-               <p>Y llegaron al pueblo que se llama Xoloc los de aquel peblo, todos huyeron, y nadie
+                  noche, y de mañana almorçaron: aviendo almorçado partieronse.
+                  Y llegaron al pueblo que se llama Xoloc los de aquel peblo, todos huyeron, y nadie
                   oso esperar todos se subieron al cerro que se llama xoloc, y alli se
-                        <expan>ascondierō<ex>n</ex></expan>, y todos tuuieron gran temor. <pb
-                     type="folio" n="48v"/> Los españoles dormieron alli aquella noche: <figure
-                     xml:id="b12c26sp_image1"/><figure xml:id="b12c26sp_image2"/><figure
-                     xml:id="b12c26sp_image3"/><figure xml:id="b12c26sp_image4"/></p>
-               <p>y otro dia muy de mañana, como vuieron almorçado, partieronse los españoles, yuan
+                  <expan>ascondierō<ex>n</ex></expan>, y todos tuuieron gran temor.</p>
+               
+               <pb type="folio" n="48v"/> 
+               
+               <figure xml:id="b12c26sp_image1"/>
+               
+               <figure xml:id="b12c26sp_image2"/>
+               
+               <figure xml:id="b12c26sp_image3"/>
+               
+               <figure xml:id="b12c26sp_image4"/>
+               
+               <figure xml:id="b12c26sp_image5"/>
+               
+               <figure xml:id="b12c26sp_image6"/>
+               
+               <figure xml:id="b12c26sp_image7"/>
+               
+               <p>
+                  Los españoles dormieron alli aquella noche: y otro dia muy de mañana, 
+                  como vuieron almorçado, partieronse los españoles, yuan
                   por el camino, en dos rencles, los de cauallo: y todos les de a pie, y los que
-                        <expan>lleuauā<ex>n</ex></expan> cargas, yuan en medio de los de cauallo, y
+                  <expan>lleuauā<ex>n</ex></expan> cargas, yuan en medio de los de cauallo, y
                   de camino: quemaron todas las casas de los demonios, que hallaron a mano, porque
                   eran paxizas, y como las casas ardia. Espantauanse los que lo vian yendo por su
                   camino adelante los españoles: yuan tras ellos dandoles grita los maceoallas de
-                  aquellos <pb type="folio" n="49"/> lugares, pero no osauan llegarse:</p>
-               <p>aquel dia llegaron al pueblo que se llama aztaquemecan, este es vn monte alto
+                  aquellos <pb type="folio" n="49"/> lugares, pero no osauan llegarse:
+                  aquel dia llegaron al pueblo que se llama aztaquemecan, este es vn monte alto
                   poblado los españoles les subieron al monte, aposentaronse en la falda del monte
                   en vna poblacion que se llama Çacamulco, que esta en vn collado, aposentaronse en
                   vn cu de los otomies: Tanbien los habitadores, de aquel pueblo, se huyeron; y
-                  dexron el pueblo. <figure xml:id="b12c26sp_image5"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  dexron el pueblo.</p> 
+               
+               <figure xml:id="b12c26sp_image8"/>
+              
             </div2>
 
          </div1>

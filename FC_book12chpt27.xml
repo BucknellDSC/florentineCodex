@@ -56,57 +56,68 @@
       <body>
          <div1 type="chapter" n="27" xml:id="b12c27">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
 
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .27. de como los mexicanos llegaron adonde estauan los españoles
                   siguiendo el alcance.</p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="sp">
+               
                <p>Estando los españoles en este pueblo: llegaron <expan>grā<ex>n</ex></expan> numero
                   de mexicanos con proposito de acabarlos y asentaronse cerca de vna cuesta que se
-                  llama Tona, que q<!--cant find symbol-->ere <pb type="folio" n="49v"/> dezir
-                        <expan>nra<!--cant find symbol--><ex>nuestra</ex></expan> madre embiaron
+                  llama Tona, que <expan>q'<ex>uiere</ex></expan> <pb type="folio" n="49v"/> dezir
+                  <expan>nrā<ex>nuestra</ex></expan> madre embiaron
                   luego espias los mexicanos para que <expan>espiasē<ex>n</ex></expan> a los
-                  españoles para que viesen <expan>quā<ex>n</ex>do</expan> començasen a caminar</p>
-               <p>y como començaron los españoles a caminar las espias dieron vozes a los mexicanos
+                  españoles para que viesen <expan>quā<ex>n</ex>do</expan> començasen a caminar
+                  y como començaron los españoles a caminar las espias dieron vozes a los mexicanos
                   diziendoles como ya los españoles se yuan. Oydo esto: luego mexicanos començaron a
-                  marchar tras ellos;</p>
-               <p>los españoles como los vieron yr tras si con gran priesa entendieron querian
+                  marchar tras ellos; los españoles como los vieron yr tras si con gran priesa entendieron querian
                   pelear, y pararonse y pusieronse en orden de guerra: y los mexicanos como eran
                   muchos tomaron en medio a los españoles començaron a combatirlos de todas partes:
                   y los españoles mataron muchos mexicanos y tlatilulcanos por quanto se arrojaron
                   mucho en los españoles; y ansi murieron muchos dellos y fueron ahuyentados:
                   auiendo vencido, los españoles, esta batalla <expan>prosiguierō<ex>n</ex></expan>
                   su camino y de alli <expan>adelā<ex>n</ex>te</expan> no
-                     <expan>siguierō<ex>n</ex></expan> los mexicanos.</p>
-               <p>Estuuieron los españoles desde que entraron en mexico hasta que salieron dozientos
-                  y treynta y cinco dias: y estuuieron en paz y amistad con los indios ochenta <pb
-                     type="folio" n="50"/> y cinco dias,</p>
-               <p>quando los españoles vuieron vencido la batalla arriba dicha luego tomaron su
+                  <expan>siguierō<ex>n</ex></expan> los mexicanos. Estuuieron los españoles desde 
+                  que entraron en mexico hasta que salieron dozientos
+                  y treynta y cinco dias: y estuuieron en paz y amistad con los indios ochenta 
+                  <pb type="folio" n="50"/> y cinco dias, quando los españoles vuieron vencido 
+                  la batalla arriba dicha luego tomaron su
                   camino para Tlaxcalla, y <expan>entrā<ex>n</ex>do</expan> en el termino de
                   Tlaxcalla: los mexicanos de boluieron buscaron entre los muertos las personas
                   señaladas, que auian sido muertos, y hizieronles sus exequias, y quemaron sus
                   cuerpos, y tomaron las cenizas: y boluieronse a mexico,
-                     <expan>diziē<ex>n</ex>do</expan> que los Españoles auian huydo, que nunca mas
-                  auian de boluer</p>
-               <p>como los españoles, vuieron entrado en las terminos de tlaxcalla segun la relacion
+                  <expan>diziē<ex>n</ex>do</expan> que los Españoles auian huydo, que nunca mas
+                  auian de boluer como los españoles, vuieron entrado en las terminos de tlaxcalla segun la relacion
                   de los españoles: que alli se hallaron los principales de Tlaxcalla ansi hombres
                   como mugeres salieron a recebirlos con mucha comida lleuaronlos a su ciudad
                   lleuando a cuestas los que no <expan>podiā<ex>n</ex></expan> andar y curando a los
                   heridos y llegados a la ciudad de Tlaxcalla les hizieron muy buen
-                        <expan>tratamiē<ex>n</ex>to</expan>, y se compadescieron y lloraron por el
+                  <expan>tratamiē<ex>n</ex>to</expan>, y se compadescieron y lloraron por el
                   desastre que les auia <pb type="folio" n="50v"/> acontescido, y por los muchos que
-                  quedaron muertos en mexico, ansi los españoles como los indios Tlaxcaltecas.</p>
-               <p>Curaronse los españoles, y esforçaronse ē<!--not sure what to expand to--> la
+                  quedaron muertos en mexico, ansi los españoles como los indios Tlaxcaltecas.
+                  Curaronse los españoles, y esforçaronse <expan>ē<ex>n</ex></expan> la
                   ciudad de Tlaxcalla por mas de medio año y eran muy pocos para tornar a dar guerra
-                  a los mexicanos:</p>
-               <p>en este medio tiempo llego a tlaxcalla vn fran. hernandez español con trescientos
+                  a los mexicanos: en este medio tiempo llego a tlaxcalla vn fran. hernandez español con trescientos
                   soldados españoles y con muchos cauallos y armas y tiros de artilleria y municion
                   con esto tomo animo el capitan don hernando cortes y los que con el
-                        <expan>estauā<ex>n</ex></expan> que auian escapado de la guerra para
-                  tornarse aparejar y boluer a conquistar a mexico. <figure xml:id="b12c27sp_image1"
-                     /><figure xml:id="b12c27sp_image2"/><figure xml:id="b12c27sp_image3"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  <expan>estauā<ex>n</ex></expan> que auian escapado de la guerra para
+                  tornarse aparejar y boluer a conquistar a mexico. </p>
+                  
+                  <figure xml:id="b12c27sp_image1"/>
+                  
+                  <figure xml:id="b12c27sp_image2"/>
+                  
+                  <figure xml:id="b12c27sp_image3"/>
+               
+                  <figure xml:id="b12c27sp_image4"/>
+               
+                  <figure xml:id="b12c27sp_image5"/>
+              
             </div2>
 
          </div1>

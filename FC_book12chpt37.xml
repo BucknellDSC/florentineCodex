@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="37" xml:id="b12c37">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="70"/> Capitulo .37. de como de noche abrianlas los caminos del
+                  agua que de dia los cerrauanlos los españoles. Los Españoles y sus amigos cegauan
+                  de dia las acequias para pasar a donde estauan los enemigos: y todo lo que cegauan
+                  de dia los enemigos mexicanos lo tornauan de noche abrir y çanjar en esto
+                  entendieron algunos dias y por esto se dilato lac victoria por muchos dias: los
+                  españoles y los tlaxcaltecas <expan>cō<ex>n</ex>batian</expan> por tierra vnos por
+                  la parte que se dize yacalco y otros por la parte que se dize Tliloacan, y otros
+                  por la parte que se dize <expan>atezcapā<ex>n</ex></expan>, y de la parte del agua
+                  peleauan los de xuchmilco y los de Cuitlaoac, y los de Mizquic, y los de coloacan,
+                  y los de Itztapalapan, y los tlatilulcanos del barrio de atliceuhyan, y los del
+                  barrio de ayacac resistian por el agua no descansauan en la pelea eran tan espesas
+                  las saetas <pb type="folio" n="70v"/> y los dardos que todo el ayre parecia
+                  amarillo: y los capitanes de los mexicanos vno que se llamaua Xiuhcozcatzin, y
+                  otro se llamaua <expan>Quaquauhtzī<ex>n</ex></expan>, y otro se llamaua
+                  Tezcacoatl, y otro se llamaua Tecpanecatl, y otro se llamaua Vitzitzi, y otro se
+                  llamaua <expan>Itzcuī<ex>n</ex>tzin</expan>; estos todos eran del barrio de
+                  yacacolco todos estos deffendian las entradas por que no entrasen donde estaua
+                  recogida la gente mugeres y niños, y peleando con gran perseuerancia y hizieron
+                  retraer a los ya dhos<!--cant find symbol--> de la parte de otra acequia que se
+                  llama Amaxac. <pb type="folio" n="71"/> Otra uez acometieron los españoles y
+                  lleuaron a vn lugar que se llama ayacac donde estaua vna casa grande que se
+                  llamaua Telpuchcalli posieron hoego a la casa y <expan>⊽<ex>n</ex></expan>
+                  vergantin de los españoles por el barrio que se llama atliceuhyan
+                        <expan>cō<ex>n</ex></expan> muchas canoas que les
+                     <expan>siguierō<ex>n</ex></expan> de los amigos y vn capitan que se llamaua
+                  Coioueuetzin mexicano, que traya vnas armas vestidas la mitad dellas era vna
+                  aguila, y la otra mitad de vn tigre vino en vna canoa de hazia la parte que se
+                  llama Tolmaiecan y seguianle muchas canoas con gente armada luego començo a dar
+                  vozes a los suyos que començasen a pelear: y luego començaron la pelea, y los
+                  españoles se retruxeron: y este capitan con los suyos los siguian y retruxeronse
+                  hazia vn lugar que se llama atliceuhia: Tambien los vergantines se retruxeron
+                  hazia la laguna deste alcance morieron muchos Xochmilcanos. Otra uez <pb
+                     type="folio" n="71v"/> tornaron los españoles encerraronse en vn cu que se
+                  llama Mumuztli, y otra uez boluieron tras los españoles hasta donde estaua
+                  Telpuchcalli que llaman Atliceuhian: boluieron otra uez los españoles tras los
+                  indios con coioueuetzin en el acequia: reboluio vn capitan mexicano que se llamaua
+                  Itzpapalotzin otomi hiz retraer a los españoles a los
+                     <expan>vergā<ex>n</ex>tines</expan>: entonce censo la batalla y los del pueblo
+                  de Cuitlaoac pensando que su señor que se llamaua Maieoatzin quedaua muerto con
+                  los demas, y enojaronse mucho contra los Mexicanos entre los quales estaua señor
+                  dixeron por que aveys muerto <expan>nro<ex>nuestro</ex></expan> señor? Y su señor
+                  que estaua viuo como supo que sus basallos estauan enojados hablo al calitan
+                  Coioueuetzin y dixole? Señor hermano bus vno de sus soldados valientes que tenia
+                  recia voz: y coioueuetzin llamo a vn capitan que se llamaua Tlamaiocatl y el señor
+                  de cuitlaoac dixole, ve y di a mis basallos que yo te embio para que les digas que
+                  estoy biuo <pb type="folio" n="72"/> y que mire aca y verme an. Como aquel Capitan
+                  hablo a los de cuitlaoac, y les dixo lo que les auia mandado el señor Maiehoatzin
+                  ellos no quisieron creerle mas dixeron que le auian muerto y que no era verdad lo
+                  que les dezian y el otro respondio no es muerto como pensays mirad <pb
+                     type="folio" n="72v"/> y verleys adonde esta viuo que alli se puso para que le
+                  veays y hablo el señor de Cuitlaoac y dixo mirad que no me perdays nada de mis
+                  atauios y joyas y armas que viuo estoy. Como dixo estas palabras el señor de
+                  Cuitlaoac luego los indios amigos de los españoles comencaron a dar grita y a
+                  pelear contra los mexicanos y metieronlos hasta dentro del tianquiz adonde se
+                  vende el copal, y alli pelearon gran rato. Otra uez entraron en consejo
+                        <expan>nros<ex>nuestros</ex></expan> enemigos para acometernos y destruyrnos
+                  en especial los otomies de tlaxcalla: y otros capitanes muchos y determinaron de
+                  entrar por vna calle que estaua junto donde es agora sanct
+                  min<!--cant find symbol-->: y la calle yva derecho a vna casa de vn pilli
+                  Tlatilulcano que se llamaua Tlacatzin, y luego los salieron al encuentro los del
+                  tlatilulco vn capitan que se llamaua tlappanecatl que yua delante pero los que
+                  yuan con el arrojaronse sobre los enemigos con gran furia y tomaronles al capitan
+                  que lleuauan preso que se llamaua Tlappanecatl pero escapo con vna herida en vna
+                  pierna: y ceso la guerra por entonce.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

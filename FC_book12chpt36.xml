@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="36" xml:id="b12c36">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="68"/> Capitulo .36. de la primera vez que los Españoles
+                  entraron en el <expan>tiā<ex>n</ex>quez</expan> del tlatilulco. Andando la guerra
+                  como arriba esta dicho, vn dia entraron quatro de caullo en el tianquiz del
+                  tlatilulco y dieron vna buelta por todo alrededor yvan
+                     <expan>alanceā<ex>n</ex>do</expan> a quantos topauan y mataron muchos soldados
+                  mexicanos: despues que dieron vna buelta atrauesaron por el medio del tianquiz,
+                  luego salieron huyendo y saltaron tras ellos muchos soldados tirandolos: esta
+                  entrada que hizieron fue supita que nadie penso <expan>q<ex>ue</ex></expan> osaran
+                  entrar y el mesmo dia pusieron hoego al cu mayor que era de Vitzilobuchtli y todos
+                  se <expan>qmo<!--dont know what to expand to--></expan>
+                  <pb type="folio" n="68v"/> en obra de dos o tres horas. <figure
+                     xml:id="b12c36sp_image1"/> Como vieron los mexicanos que se quemaua el cu
+                  començaron a llorar amargamente porque <expan>tomarō<ex>n</ex></expan> mal aguero
+                  de uer quemar el cu: y luego se trauo vna batalla muy recia dieron esta batalla
+                  casi <expan>⊽<ex>n</ex></expan> dia y derrocaron los españoles vnos paredones o
+                  albarradas con el artilleria de donde los dauan guerra y despues de derrocados
+                  acogeronse a las casas de que estaua cercado del tianquiz y
+                        <expan>subierō<ex>n</ex></expan> los soldados mexicanos sobre los tlapancos
+                  destas casas y de alli tirauan saetas y piedras: y los mexicanos agujeraron
+                  aquellas casas y hizieorn dellas guardias para valerse de los cauallos. Otra uez
+                  entraron los españoles: y los indios amigos en el tianquiz y començaron a robar y
+                  catiuar indios <pb type="folio" n="69"/> Como vieron esto los soldados mexicanos
+                  salieron tras ellos y hizieronlos dexar la presa y aq<!--cant find symbol--> murio
+                  vn capitan señalado de los mexicanos que se llamaua Axuquentzin y luego se
+                  retruxeron los españoles que <expan>peleauā<ex>n</ex></expan> de la parte de san
+                     <expan>min <!-- not sure on expansion --></expan> aunque de las otras partes
+                  todavia <expan>peleauā<ex>n</ex></expan> los españoles y sus amigos: vna capitania
+                  de soldados mexicanos hizieron vna celada para tomar a los españoles y sus amigos
+                  descuydados. Y dar sobre ellos a la pasada: y algunos soldados de Tlaxcalla que
+                  ayudauan a los españoles subieronse sober los tlapancos y vieron la celada y
+                  dieron vozes a los demas para que acudiesen a pelear con los que estauan celada:
+                  como vieron los de la celada que los auian visto huyeron y ansi pasaron aquel paso
+                  seguros para yr a su estancia auiendo peleado todo el dia boluieronse los
+                  españoles sin romper a sus enemigos aquel dia porque los auian quitado las puentes
+                  de manera que no podieron pasar a los enemigos. <figure xml:id="b12c36sp_image2"
+                     /><figure xml:id="b12c36sp_image3"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

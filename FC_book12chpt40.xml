@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="40" xml:id="b12c40">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Capitulo .40. de como los del Tlatilulco se dieron a los españoles con los
+                  mexicanos y su señor que con ellos estaua. Desque llegaron a tierra el señor de
+                  mexico Quauhtemoctzin, con los que con el yuan, saltaron en tierra cerca de la
+                  casa, donde estaua el capitan: y los españoles que estauan cerca del agua, tomaron
+                  por las manos a Quauhtemoctzin, amigablemente, y lleuaronle adonde estaua el
+                  capitan Don <expan>hernā<ex>n</ex>do</expan> cortes encima de la açotea: y como
+                  llego adonde estaua el capitan, luego el le abraço, y mostro muchas señales de
+                  amor al dicho Quauhtemoctzin, y todos los españoles le
+                     <expan>estauā<ex>n</ex></expan>
+                  <expan>mirā<ex>n</ex>do</expan> con <expan>grā<ex>n</ex></expan> alegria: y luego
+                  soltaron todos los tiros por alegria de la <pb type="folio" n="81v"/> conclusion
+                  de la guerra, quando esto acontescio salieron dos canoas de mexicanos y entraron
+                  en la casa de vn principal que se llamaua Coioueuetzin donde estauan indios
+                  Tlaxcaltecas y reboluieronse los vnos con los otros murieron alli algunos: y los
+                  mexicanos huyeron y ascondieronse. Despues de aver hecho esto luego mando el
+                  capitan Don hernando cortes apregonar que todos los que estauan en el corral
+                  saliesen libremente y se fuesen a sus casas y como començaron a salir los
+                  mexicanos se <expan>lluauā<ex>n</ex></expan> sus armas y yvan agauillados y
+                  dondequiera <expan>q<ex>ue</ex></expan>
+                  <expan>topauā<ex>n</ex></expan> a algunos indios de los amigos de los españoles
+                        <expan>matauā<ex>n</ex>los</expan> y desto se enojaron mucho los españoles y
+                  a bueltas de los que se yvan algunos de los mismos vezinos del Tlatilulco dexaron
+                  sus casas y se fueron pensando que avn los matarian ansi esperasen en sus casas
+                  vno se fueron hazia Tlacuba y otros hazia Sanct Xpoual<!--cant find symbol-->: y
+                  los que tenian casas en el agua vnos dellos se fueron en canoas, otros salieron
+                  apeando por el agua, otros nadando, y lleuan sus haziedas y sus hijos a cuestas
+                  salian muchos de noche y otros de dia <pb type="folio" n="82"/> Los españoles y
+                  sus amigos pusieronse en todos los caminos y <expan>robauā<ex>n</ex></expan>
+                  <pb type="folio" n="82v"/> a los que <expan>pasauā<ex>n</ex></expan> tomandolos el
+                  oro <expan>q<ex>ue</ex></expan> lleuauan y <expan>escudrinā<ex>n</ex>dolos</expan>
+                  todos sus hatos y todas sus vestiduras y ninguna cosa otra tomauan sino el oro y
+                  las mugeres moças y algunas de las mugeres por escaparse
+                        <expan>desfracauā<ex>n</ex>se</expan> poniendo lodo en la cara, y
+                  vestiendose de handrajos: Tambien tomauan mancebos y hombres recios para esclauos
+                  pusieronlos nombres tlamacazque y a muchos dellos herraron en la cara. <pb
+                     type="folio" n="83"/> Rendieronse los mexicanos, y despartiose la guerra en la
+                  cuenta de los años, que se dize tres casas, y <expan>ē<ex>n</ex></expan> la cuenta
+                  de los dias: en el signo que se llama Ce coatl. Al señor de mexico Quauhtemoctzin
+                  el mismo dia que se rendio le <expan>lleuarō<ex>n</ex></expan> al lugar de
+                  acachinanco con todos los principales adonde era la aposento de Don
+                        <expan>hernā<ex>n</ex>do</expan> cortes: y luego otro dia vinieron muchos
+                  españoles al tlatilulco todos ordenados a punto de guerra y todos
+                        <expan>atapauā<ex>n</ex></expan> las narizes por el hedor de los muertos que
+                        <expan>estauā<ex>n</ex></expan> por enterrar y trayan consigo al señor de
+                  mexico Quauhtemoctzin, y a otro principal que se llama Coanacotzin, y a otro
+                  principal que se llamaua <expan>Tetlepā<ex>n</ex>quetzatzin</expan>, <pb
+                     type="folio" n="83v"/> y los demas principales que guardauan el tesoro, y
+                  fueron derechos al lugar donde estaua el corral, donde se auian hecho, fuertes los
+                  mexicanos que se llamaua Atactzinco y <expan>ē<ex>n</ex>traron</expan> en la casa
+                  del Tlacuchcalcatl que se llamaua Coioueuetzin: y luego subieron al açotea, y
+                  sentraonsey pusieron alli vn pauellon al <expan>capitā<ex>n</ex></expan> Don
+                  hernando cortes: y sentose en su silla. <pb type="folio" n="84"/> La yndia que era
+                  interprete que se llamaua Marina pusose cerca del capitan y de la otra parte el
+                  señor de mexico Quauhtemoctzin tenia cubierta vna manta que se llama
+                  Quetzalychpetztli y estaua cabe el señor de Tetzcuco que se llamaua Coancotzin y
+                  tenia cubierta vna manta de <expan>nequē<ex>n</ex></expan> que se llama
+                  Xoxochiteio estaua <expan>tā<ex>m</ex>bien</expan> alli otro principal que se
+                  llamaua Tetlepanquetzatzin señor de Tlacuba tenia cubierta otra manta pobre y
+                  suzia, <expan>tambiē<ex>n</ex></expan> estaua alli otro principal que se llamaua
+                  Miscoatlaylotlactzin, y otro se llamaua Auelitoctzin a la postre de todos estaua
+                  otro principal que se llamaua yupicatl pupucatzin, de la otra parte estauan vnos
+                  principales mexicanos vno de los quales se llamaua Tlacutzin, otro Petlauhtzin,
+                  otro Motelchiuhtzin, otro Mexicatl, otro achcauhtli, otro Teutlamacazqui, otro
+                  Coatzintlatlatin, otro tlaçulyautl</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="FC%20image%202.png" xml:id="graphic_ffm_n4c_jhb" />
+         <zone xml:id="horse_sweat" lry="860" lrx="465" uly="493" ulx="198">
+            <line>Horse feature</line>
+            <line></line>
+         </zone>
+         <zone xml:id="zone_ot4_qgz_hhb" points="642,238 671,248 689,273 689,303 671,328 642,338 613,328 595,303 595,273 613,248" />
+         <!--this is about the horse -->
+         <zone xml:id="zone_lzc_5gz_hhb" points="450,30 350,93 295,140 267,196 285,226 334,233 350,251 395,260 470,233 500,216 537,206 554,206">
+            <line>Flag</line>
+         </zone>
+         <zone xml:id="zone_n3c_shz_hhb" points="34,450 55,398 55,377 60,345 67,322 84,307 104,310 125,355 125,375 165,460 195,465">
+            <line>Mountain in background</line>
+         </zone>
+         <zone xml:id="spear" points="837,21 775,35 769,63 780,81">
+            <line>This is an annotation</line>
+         </zone>
+      </surface>
+   </facsimile>
+ 
+</TEI>

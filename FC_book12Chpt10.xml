@@ -56,13 +56,14 @@
       <body>
          <div1 type="chapter" n="10" xml:id="b12c10">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
           
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .10. de como los españoles començaron a entrar la tierra
                   <expan>adē<ex>n</ex>tro</expan>: y de como Motecuçoma dexo la casa rreal y
                   se fue a su casa propia.</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+              
             </div2>
             
                

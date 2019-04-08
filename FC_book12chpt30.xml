@@ -56,56 +56,113 @@
       <body>
          <div1 type="chapter" n="30" xml:id="b12c30">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="54v"/> Capitulo .30. de como los vergantines que hizieron los
-                  Españoles: en Tetzuco, venieron sobre mexico. Estos vergantines se labraron en
+                  Españoles: en Tetzuco, venieron sobre mexico. </p>
+               
+            </div2>
+               
+            <div2 type="para" n="2" xml:lang="sp">
+                  <p>Estos vergantines se labraron en
                   Tlaxcalla y los indios los truxeron <expan>ē<ex>n</ex></expan> pieças a cuestas
-                  hasta la lengua donde se armaron</p>
-               <p>Estando los españoles en tlaxcalla labraron doze vergantines y ante
-                        <expan>q<ex>ue</ex></expan> los armasen truxeronlos en pieças los indios
+                  hasta la lengua donde se armaron. Estando los españoles en tlaxcalla labraron doze vergantines y ante
+                  <expan>q<ex>ue</ex></expan> los armasen truxeronlos en pieças los indios
                   hasta tetzcuco y alli los armaron enclauaron y brearon los quales hechos; y puesta
                   en ellos los españoles que para esto <expan>estauā<ex>n</ex></expan> asinados y
                   vinieron por la laguna hasta vn desembarcadero que se llama Acachinanco que se
                   cerca de mexico en aquel derecho de Sancto antonio yglesia, que esta cerca de las
                   casas de albarado y el capitan don hernando cortes: luego se metio en los
                   vergantines, y començaron a sondar el agua para descubrir el alto que auia por
-                  donde auian de andar los vergatines:</p>
-               <p>como vuieron descubierto los caminos por donde <expan>podiā<ex>n</ex></expan>
+                  donde auian de andar los vergatines: como vuieron descubierto los caminos por donde <expan>podiā<ex>n</ex></expan>
                   andar los vergantines, <expan>pusierō<ex>n</ex>se</expan> a gesto de guerra en los
                   mesmos vergantines con determinacion <pb type="folio" n="55"/> de destruyr a los
                   mexicanos y luego puestos en orden con su bandera delante y tocando su atambor y
-                  pifano començaron a pelear contra los mexicanos</p>
-               <p>y muchos de los mexicanos que tenian las casas dentro en el agua como començo la
+                  pifano començaron a pelear contra los mexicanos y muchos de los mexicanos que 
+                  tenian las casas dentro en el agua como començo la
                   guerra por el agua començaron a huyr <expan>cō<ex>n</ex></expan> sus hijos y otros
                   en canoas. Todas sus haziendas xauan en sus casas y los indios que syudauan a los
                   españoles <expan>entrauā<ex>n</ex></expan> en las casas que dexauan y robaban
-                  quanto hallauan <figure xml:id="b12c30sp_image1"/></p>
-               <p><pb type="folio" n="55v"/> Tanbien los indios del tlatilulco, andauan alli
+                  quanto hallauan </p>
+                     
+                  <figure xml:id="b12c30sp_image1"/>
+                     
+                     
+                 
+                  
+                  <pb type="folio" n="55v"/> 
+                    
+                  <figure xml:id="b12c30sp_image2"/>
+                    
+                  <p>Tanbien los indios del tlatilulco, andauan alli
                   peleando con sus canoas: Como llegaron los españoles, adonde estauan atajada, vna
                   acequia <expan>cō<ex>n</ex></expan> albarrada, y pared desbarataronla con el
-                  artilleria,</p>
-               <p>y pasaron dos vergantines començaron a pelear con los que estauan defendiendo la
+                  artilleria, y pasaron dos vergantines començaron a pelear con los que estauan defendiendo la
                   acequia los españoles que <expan>yuā<ex>n</ex></expan> en los vergantines
-                        <expan>tornaua<ex>n</ex>los</expan> la artilleria hazia donde estauan mas
+                  <expan>tornaua<ex>n</ex>los</expan> la artilleria hazia donde estauan mas
                   espesas las canoas y hazian gran daño en los indios con la artilleria, y
-                  escopetas.</p>
-               <p>Visto esto los mexicanos començaron apartarse, y a guardaese del artilleria, yendo
-                        <expan>culbreā<ex>n</ex>do</expan> con las canoas: y tambien quando vian
+                  escopetas. Visto esto los mexicanos començaron apartarse, y a guardaese del artilleria, yendo
+                  <expan>culbreā<ex>n</ex>do</expan> con las canoas: y tambien quando vian
                   algun tiro que <expan>soltauā<ex>n</ex></expan>
                   <expan>agaçapauā<ex>n</ex>se</expan>, en las canoas: y començaron a retraerse
-                  hazia las casas, y ansi quedo desocupado el camino</p>
-               <p>llegaron los españoles a vn lugar <pb type="folio" n="56"/> que se llama vitzillan
+                  hazia las casas, y ansi quedo desocupado el camino llegaron los españoles a vn lugar 
+                  <pb type="folio" n="56"/> que se llama vitzillan
                   que es cerca de la yglesia de sanct Pablo, alli estaua otro paredon hecho, y a las
                   espaldas del, estauan muchas gentes de los mexicanos alli se detuuieron algo los
                   vergantines entre tanto que adereçauan la artillerioa pa<!--cant find symbol-->
-                  derrocar al paredon. <figure xml:id="b12c30sp_image2"/><figure
-                     xml:id="b12c30sp_image3"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  derrocar al paredon. </p>
+                     
+                  <figure xml:id="b12c30sp_image3"/>
+               
+                  <figure xml:id="b12c30sp_image4"/>
+               
+                  <figure xml:id="b12c30sp_image5"/>
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p><pb type="folio" n="54v"/>Inic cempoalli ommatlactli capitulo vncan mitoain quenin Españoles 
+                  quixinque imacal vmpa tetzcocu, inic tepevaco nican mexico. 
+               </p>
+               
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p> Auh in ovalla imacal tetzcocu matlactetl omume, çan oc much vmpa mocenten in acachinanco, niman vncā valmiquani in
+                  Marques in acachinanco: nimā ie ic quitlatemolitinemi in campa vel calaquiz acalli, in campa iemelavaticac acalotli, 
+                  in aço vecatlan, in acanoço vecatlan inic amo cana macanaz: auh in acalotli in cocoltic, in cuecuelpachtic, amo vel vncan 
+                  quicalaquique, vntetl in acalli in concalaquique, concuitlaviltequiltique in vtli xolloco vallamelauhticac: auh ceppa 
+                  quīcentlatalhuique, quicemitoque, inic quincentlaxilizque mexica in quincentlatalhuizque: nec motec<pb type="folio" n="55"/>pana, 
+                  quivica in tlequiquiztli quiniacantivitz in quachpanitl, çan niman amo mamana, amo momocivia, tlatzotzontivitze, yoan 
+                  tlapitztivitze yoan quavilacapitztli. Auh in vntetl acalli, çan ivian onotivitz, çan cectlapalin vallonotia in acalli: 
+                  auh in oc cectlapal atle valla inacalli, iehica ca calla, nec iativitze, necalivativitz, necoc micoa, necoc tlamalo. 
+                  Auh in oquittaque in tenuchca inçoquipan onoque: nec motlaloa, momauhcatlaloa, tetlantlaano in pipiltzitzinti, çan 
+                  atlan in vi, cematl mantiuh in macevalli, tlachoquiztleva. Auh in acaleque quimacaltenque in impilhoantzitzin, 
+                  quintlanelhuia, quintequitlanelhuia, aoc tle ma itla conmocuiliquintlatquitzin, çan much vmpa contepeuhtiquizque. 
+                  Auh in toiaovan tlanamoxtivi, <pb type="folio" n="55v"/> quicuitivi in tlein ipan oquiçato, in tlein oquipantito quicui, quimotquilia 
+                  in aço tilmatli, in aço quachtli, in anoço tlaviztli, in anoço teponaztli in anoço vevetl. Auh in tlatilulca vmpa 
+                  tlaiecoque in çoquipan, acalchimaltica: auh in xolloco in oacico in vncan tenamitl onoca, in onepātla in quitzacutoca 
+                  vtli: in tlequiquiztli vei, ic quimotlaq̄, aiamo xitin in iancuican vetz; auh inic vppa, xitin: auh inic expa, iequene 
+                  vel tlaltitech ia: auh inic nappa ie quene vel ic cen tlaltitech ia in tenamitl. Auh in ontetl acalli quinnamictiuh 
+                  in acalchimaleque, necaliva in atlan. Auh in tlequiquiztli imacaliacactetentiuh: auh in vnca tetzavatoc acalli, in 
+                  vncan tecpichauhtoc; vmpa inpan contlaça<pb type="folio" n="56"/>miec tlacatl ic mic: niman aaquetztivetzi, nenecuiliuhtivetzi, 
+                  papachiuhtivetzi: can ie no ivi in tpuzmitl in aquin vel quimottilia, aocmo quica, niman miqui, vncan quihiovia. 
+                  Auh in o vel quittaque Mexica, in o vel quinemiliq̄ in iuh vetzi tlequiquiztli, yoā in tepuzmitl, aocac motlamelauhcaquetza, 
+                  ça avic vivi, tlatlaxtlapaloa, ça ixtlapalhuivi. Auh in iquac ie no quitta in ie vetziz in veitlequiquiztli, tlaltech viloa, 
+                  tlaltech neteco, nepacholo. Auh in tiacavan cacalactivetzque in caltzalan chipavatimoquetz in vtli, in vchpantli, ça iuhquin 
+                  chipacpul icac. Auh niman onacico in vitzillan, in oc ce vncā onoc tenamitl: auh miequintin itlan mopachotoca, quimotoctitoca 
+                  in tenamitl: achitonca vncan ommacā, ontzo <pb type="folio" n="56v"/>tzon in imacal, vncan achitonca onvecavaque in 
+                  oquicconchichiuhque tlequiquiztli.
+               </p>
+               
+               <figure xml:id="b12c30na_image1"/>
+               
+               
+            </div2>
          </div1>
       </body>
    </text>

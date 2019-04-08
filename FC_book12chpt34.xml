@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="34" xml:id="b12c34">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="64"/> Capitulo .34. de como los yndios mexicanos prendieron
+                  quinze Españoles. <figure xml:id="b12c34sp_image1"/> Dezian los capitanes. Ea pues
+                  mexicanos Ea pues mexicanos: luego començaron todos a tocar sus trompetas y a
+                  pelear con los Españoles y <expan>lleuauā<ex>n</ex></expan> de vencida a los
+                  españoles y prendieron quinze Españoles: y los Españoles huyeorn con los
+                        <expan>vergā<ex>n</ex><pb type="folio" n="64v"/>tines</expan> a lo alto de
+                  la laguna: y a los presos quitaron las armas y despojaronlos, y lleuaronlos a vn
+                  cu <expan>q<ex>ue</ex></expan> se llama Tlacuchalco alli los sacaronlos los
+                  coraçones delante del ydolo que se llamaua Macuiltotec y los otros españoles
+                  estauan mirando desde los vergantines como los matauan. <figure
+                     xml:id="b12c34sp_image2"/> Otra uez vinieron dos vergantines al barrio que se
+                  llama Xocotitlan y como llegaron a tierra saltaron en tierra por el barrio
+                  adelante peleando: y como vio aquel capitan indio que se llamaua Tzilacatzin
+                        <expan>q<ex>ue</ex></expan> entrauan peleando acudio a ellos con otro gente
+                  que le siguio y <expan>peleā<ex>n</ex>do</expan> los echaron de aquel barrio: y
+                  los hizieron acoger a los vergantines. Otra uez vinieron dos vergantines al barrio
+                  que se llama Coionacazco y saltaron en tierra: los Españoles y començaron a pelear
+                  venia alli por capitan Rodrigo de <pb type="folio" n="65"/> castañeda començaron a
+                  echar saetas: y castañeda mato vno <expan>cō<ex>n</ex></expan> vna saeta y
+                  saltaron con el ciertos soldados indios y dieron con el en el agua y estuuieron a
+                  punto de matarle si no que se escapo asido de vn vergantin. Estaua otro vergatin
+                  de los Españoles en el lugar que se llama Tetenanteputzco cerca de aquella yglesia
+                  que se llama <expan>sā<ex>n</ex>cta</expan> lucia, otro vergantin estaua en el
+                  barrio que se llama Totecco que es cabe la yglesia de Concepcion: estos
+                  vergantines estauan en el agua aguardando <expan>tpo
+                     <!--cant find symbol. not sure what to expand to--></expan> estauan todol dia
+                  alli, y a la noche se yuan y dende a tres o quatro dias determinaron entre si los
+                  españoles de darnos guerra por alli. <expan>Entrarō<ex>n</ex></expan> por el
+                  camino que se llama Quauecatitlan que va derechos hazia
+                     <expan>dō<ex>n</ex>de</expan> venden la sal <expan>yuā<ex>n</ex></expan> tantos
+                  yndios y españoles que no cabian por el camino porque de vna parte y de otra auia
+                  agua y echaron tierra y adoues y maderos para poder mejor pasar y como vuieron
+                        <expan>ensā<ex>n</ex>chado</expan> el camino luego
+                     <expan>comē<ex>n</ex>çaron</expan> a entrar por el camino en orden de guerra
+                  con su banders <expan>delā<ex>n</ex>te</expan>
+                  <pb type="folio" n="65v"/> y tocando el tambor y pifano y venian tras ellos todos
+                  los yndios de tlaxcalla y de otros pueblos, que eran amigos: entraron los
+                  españoles con mucha fantasia que no tenian en nada a los mexicanos y los
+                  Tlaxcaltecas, y otros indios amigos yvan <expan>cā<ex>n</ex>tando</expan>: y
+                  tambien los mexicanos <expan>cā<ex>n</ex>tauan</expan> de la misma manera, segun
+                        <expan>q<ex>ue</ex></expan> solian hazer en las guerras, y como llegaron a
+                  vn barrio que se llama Tliloacan que se agora Sanct <expan>min
+                     <!--cont find symbol. not sure what to expand to--></expan>: los soldados
+                  Tlatilulcanos estauan ascondidos y agaçapados por temor del artilleria: esperando
+                  la pelea y la grita de sus capitanes que mandasen pelear y como oyeron el mandato,
+                  luego aremetio a los españoles aquel capitan Tlatilulco
+                     <expan>q<ex>ue</ex></expan> se llamaua Tlappanecatl hecatzin y
+                        <expan>comē<ex>n</ex>ço</expan> a dar vozes esforcando a los suyos y aferro
+                  con vn español yn dio con el en tierra y tomaronle los otros soldados que yuan con
+                  este Tlappanectal hecatl. <figure xml:id="b12c34sp_image3"/><figure
+                     xml:id="b12c34sp_iamge4"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -56,50 +56,92 @@
       <body>
          <div1 type="chapter" n="28" xml:id="b12c28">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="51v"/> Capitulo .28. de la primera fiesta que hizieron los
-                  mexicanos despues que los Españoles salieron de noche desta ciudad. <figure
-                     xml:id="b12c28sp_image1"/></p>
+                  mexicanos despues que los Españoles salieron de noche desta ciudad. </p>
+                  
+                  <figure xml:id="b12c28sp_image1"/>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="sp">
+            
                <p>Quando los Españoles <expan>salierō<ex>n</ex></expan> de mexico y fueron a
                   tlaxcalla era en el mes que se llama Tecuilhuitontli que comiença a veynte y dos
                   de junio como ya <expan>estauā<ex>n</ex></expan> algo descansados de la guerra
                   pasada, hizieron muy gran fiesta a todos sus dioses y sacaron todas las estatuas
                   dellos y atauiaronlas de torquesas hechas de mosayco: esto hizieron agradeziendo a
                   sus dioses porque los <expan>auiā<ex>n</ex></expan>
-                  <pb type="folio" n="52"/> librado de sus enemigos.</p>
-               <p>Luego se sigue el otro mes suyo que se llama Tlaxochimaco que comiença a doze de
+                  <pb type="folio" n="52"/> librado de sus enemigos.
+                  Luego se sigue el otro mes suyo que se llama Tlaxochimaco que comiença a doze de
                   Julio: Tras este se sigue el mes que llaman Xocotl vetzi que comiença primero dia
                   de agosto. Tras este se sigue el mes que <expan>llamā<ex>n</ex></expan>
                   Ochpaniztli que es a veynte de agosto. Tras este se sigue el mes
-                        <expan>q<ex>ue</ex></expan> llaman Teutleco que comiença a diez de
+                  <expan>q̄<ex>ue</ex></expan> llaman Teutleco que comiença a diez de
                   setiembre. Tras este se sigue el mes que <expan>llamā<ex>n</ex></expan>
                   Tepeiluitl, que caye treynta de setiembre. Tras este se sigue el mes que llaman.
                   Quecholli que comiença a veynte de octubre. Luego se sigue el mes que se
-                        <expan>llamā<ex>n</ex></expan> Panquetzaliztli que comiença a nueue de
+                  <expan>llamā<ex>n</ex></expan> Panquetzaliztli que comiença a nueue de
                   nuuiembre. Luego se sigue que <expan>llamā<ex>n</ex></expan> Atemuztli que
                   comiença a veynte y nueue de nuuiembre. Luego se sigue el mes que se llama Tititl
                   que comiença a diezinueue de deziembre. Tras este se sigue el mes que
-                        <expan>llamā<ex>n</ex></expan> yzcalli que comiençaua a ocho de henero: y
+                  <expan>llamā<ex>n</ex></expan> yzcalli que comiençaua a ocho de henero: y
                   luego se sigue cinco dias que ellos <expan>llamauā<ex>n</ex></expan> Nemontemi que
                   quiere dezir dias validos o aciagos, los quales no contauan con el año: y luego
-                     comen<pb type="folio" n="52v"/>çaua otro año en el mes que llamauan Quauitl Eua
+                  comen<pb type="folio" n="52v"/>çaua otro año en el mes que llamauan Quauitl Eua
                   que començaua segundo dia de hebrero. Luego se sigue el 2. mes que llaman
                   Tlacaxipeoaliztli que comiença a veynte y vno de hebrero. Luego se sigue el 3. mes
                   que se llama Toçozontli que comiença a .15. dias de março. Luego se sigue el 4.
                   mes que se llama Vey toçoztli que comeinça a .3. dias de abrir en este mes
-                  salieron los españoles huyendo de mexico: En el año pasado.</p>
-               <p>En este año <expan>boluierō<ex>n</ex></expan> algunos dellos vinieron por la uia
+                  salieron los españoles huyendo de mexico: En el año pasado.
+                  En este año <expan>boluierō<ex>n</ex></expan> algunos dellos vinieron por la uia
                   de Quauhtitlan y llegaron hasta tlacuba, y no estuuieron mas de siete dias: y
                   luego se boluieron y dende a quarenta dia boluieron otra uez, y destruyeron
                   algunos lugares mataron mas de quatrocientos hombres que eran maceoales del
                   Tlatilulco. Y dende a quarenta dias se contaron dos años de su uenida boluieron
-                  todos en el mes que se llamaua Toxcatl. <figure xml:id="b12c28sp_image2"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  todos en el mes que se llamaua Toxcatl. </p> 
+               
+               <figure xml:id="b12c28sp_image2"/>
+               
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p> Inic cempoalli onchicuei capitulo: vncan mitoa in quenin Mexica vei ilhuitl quichiuhq̄ 
+                  in iquac oquizque Españoles vncan mexico. 
+               </p>
+               
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p> Auh in oacic vei tecuilhuitl: oc ceppa, ie no ceppa ilhuiquixtique in Mexica, vncā cempoaltica. 
+                  In ixquich inimixiptlavan, in impatilloan in diablome, ie no ceppaquincecencauhque, quintlaquentique, 
+                  quinquequetzallotique, quincocozcatique, quimonaaquique xiuhxaiacatl, yoan quinquequentia in 
+                  teuquemitl, in quetzalqui<pb type="folio" n="52"/>mitl, in tozquemitl, quauhquemitl. Auh inin tlatquitl inmonec, 
+                  quipiaia in vevei pipiltin: niman quioaltoquilia in Tlasuchimaco, no cempoaltique: nimā quivaltoquilia 
+                  in xocotl vetzi, no cempoaltique. Auh in Ochpaniztli ic nappoaltique. Teutl eco: icmacuilpoaltique. 
+                  Tepeilhuitl chiquacempoaltique. Quechulli ic chicōpoaltique: vncan cexiuhtizquia y, intlacatle muchivani, 
+                  intlacamo iani. Panquetzaliztli, chicuepoaltique. Atemuztli, chicunappoaltique. Tititl matlacpoaltique. 
+                  Izcalli tlami, ic matlacpoalli oce: nican in muchioa in Nemontemi, macuililhuitl. Atl cavalo, matlacpoalli 
+                  omume, anoço Quavitl eoa. Tlacaxipeoaliztli, matlacpoalli omei. Toçoztontli matlacpoalli onnavi. Vei toçoz<pb type="folio" n="52v"/>tli, 
+                  ic caxtolpoalli omume. Tecuilhuitontli, ic caxtolpoalli omei: vncan cexiuhtico y, inic micque tultecaacaloco. 
+                  Auh in ie no ceppa quiçaco, in ie no ceppa tiquimittaque ce xivitl, ipā matlacpoalli oce, ipan in Izcalli: 
+                  quauhtitlan in quiçaco, ommotlalico in Tlacuban çanonchicomilhuitico: niman iaque vmpoaltito. Auh ie noceppa quiçaco, 
+                  çan quiztiquizque quauhtitlampa itztiaque: çan tequitl ontemictitiquizque in tlaliztacapan yiztacalla: tlatilulca in micque, 
+                  achi vel centzontli in mic. Auh in tecentlatalhui, in ie topan nenonotzaloc, no vmpoaltica ipan toxcatl: ie vel ic oxivitl 
+                  in tiacacoan micque in teuitvalco, in Toxcatica./.
+    
+               </p>
+               
+               
+               
+               
+            </div2>
          </div1>
       </body>
    </text>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="41" xml:id="b12c41">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="84v"/> Capitulo .41. de la platica que hizo el capitan Don
+                  hernando cortes, a los señores de mexico, tetzcucu, y tlacuba: despues de la
+                  victoria, procurando por el oro, que se auia perdido, quando
+                        <expan>salierō<ex>n</ex></expan> huyendo de mexico. <pb type="folio" n="85"
+                  /> Como estuuieron juntos los tres señores de mexico, y tetzcuco, y tlacuba, con
+                  sus principales <expan>delā<ex>n</ex>te</expan> de Don
+                     <expan>hernā<ex>n</ex>do</expan> cortes, mando a Marina que les dixese donde
+                  esta el oro que auia dexado en mexico? Y luego los mexicanos le sacaron todas las
+                  joyas que tenian ascondidas en vna canoa llena, y todo lo pusieron delante del
+                  capitan, y de los españoles que con el <expan>estauā<ex>n</ex></expan>: y como lo
+                  vio dixo no ay mas oro que este en mexico? Sacaldo todo, que es menester todo: y
+                  luego vn principal que llamauan Tlacutzin hablo a Marina
+                     <expan>respō<ex>n</ex>diendo</expan>: Di a <expan>nro<ex>nuestro</ex></expan>
+                  señor y dios, que quando llego a las casas reales, la primera vez vio todo lo que
+                  avia, y todas las salas cerramos con adoues, no sabemus que se hizo el oro que
+                  auia tenemos que todo lo lleuaron ellos, y no tenemos mas desto agora; y el
+                  capitan respondio diziendo que es <pb type="folio" n="85v"/> verdad que todo lo
+                  tomamos? pero todo nos lo tomaron en aquel paso del acequia que se llama
+                  Toltecaacaloco, es menester que luego parezca. Y luego respondio vn principal
+                  mexicano que se llamaua Cioacoatl Tlacutzin, y dixo a Marina dile al dios capitan
+                        <expan>q<ex>ue</ex></expan> nosotros los mexicanos no peleamos por el agua
+                  con canoas ni sabemos esta manera de pelea que solos los del tlatilulco que
+                  peleauan por el agua atajaron a <expan>nros<ex>nuestors</ex></expan> señores los
+                  españoles y creemos que solos ellos lo tomaron: y luego respondio Quauhtemoctzin y
+                  dixo al principal Cioacoatl que es lo que dizes aunque es asi, que los del
+                  Tlatilulco lo tomaron por ello fueron presos, y todo lo tomaron por ello fueron
+                  presos, y todo lo tornaron en el lugar de Texopan se junto todo, y esto es lo que
+                  esta aqui y no ay mas; dixo luego Marina: el <expan>nro<ex>nuestro</ex></expan>
+                  capitan dize que no esta aqui todo: y respondio el principal Cioacoatl por uentura
+                  algun maceoal a tomado algo. Buscarse a: y traerse a la presencia del capitan <pb
+                     type="folio" n="86v"/> Otra uez dixo Marina el señor capitan, dize que busqueys
+                  docientos tesoelos de oro tan grandes, como asi: y señaloles con las manos, el
+                  grandor de vna patena de caliz: otra uez hablo el principal Cioacoatl, y dixo por
+                  uentura algunas de las mugeres lo lleuaron ascondido debaxo, de las nauas,
+                  buscarse a, y traerse a la presencia del señor capitan: luego alli hablo otro
+                        <expan>p<ex>ri</ex>cipal</expan>, que se llamaua Miscoatlaylotlac
+                  auelitoctzin, dile al señor capitan que quando viuia Motecuçoma el estilo que se
+                  tenia en conquistar era este que yuan los mexicanos, y los tetzcucanos, y los de
+                  Tlacuba, y los de las chinampas, todos juntos yvan sobre el pueblo o prouincia que
+                        <expan>queriā<ex>n</ex></expan> conquistar: <pb type="folio" n="87"/> y
+                  despues que la auian conquistados, luego se boluian a sus casas, y a sus pueblos:
+                  y despues venian los señores de los pueblos que auian sido conquistados, y trayan
+                  su tributo de oro, y de piedras preciosas, y de plumajes ricos: y todo lo dauan a
+                  Motecuçoma, todo el oro venia a su poder.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

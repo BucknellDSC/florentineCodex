@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="35" xml:id="b12c35">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p><pb type="folio" n="66"/> Capitulo .35. de como los mexicanos prendieron otros
+                  españoles mas de cincuenta y tres y mucho Tlaxcaltecas, Tetzcucanos, chalcas,
+                  xuchmilcas y a todos los mataron delante los ydolos. <pb type="folio" n="66v"/>
+                  Trauose vna batalla muy recia en este dia: de manera que los mexicanos como
+                  borrachos se arrojaron contra los enemigos, y captiuaron muchos de los
+                  Tlaxcaltecas, y chlacas, y tezcucanos, y mataron muchos dellos, y peleando
+                  hizieron saltar a los españoles en las acequias y a todos los indios sus amigos
+                  parose con esto el camino todo lodoso que no podian andar por el aqui prendieron
+                  muchos españoles y <expan>lleuauā<ex>n</ex>los</expan> arrastrando en este lugar
+                  tomaron a los españoles vna <expan>bā<ex>n</ex>dera</expan> donde esta yglesia de
+                        <expan>sā<ex>n</ex>c</expan>
+                  <expan>mi<!--cant find symbol or expansion--></expan>: y los Españoles huyeron y
+                  siguieronlos hasta el barrio que llaman Coloacatonco alli se recogieron y los
+                  indios boluieron a coger el campo y tomaron sus captiuos y pusieronlos en
+                  procesion todos maneatados pusieron delante los a los españoles: y luego a los
+                  Tlaxcaltecas, y luego a los demas indios captiuos y lleuaronlos al cu que
+                        <expan>llamauā<ex>n</ex></expan> mumuzco alli los mataron vno a vno sacando
+                  los coraçones primeramente mataron a los españoles: y despues a todos los yndios
+                  sus amigos: <expan>auiē<ex>n</ex>dolos</expan> muerto pusieron la cabeça <pb
+                     type="folio" n="67"/> en vnos palos delante de los ydolos todas espetadas por
+                  las sienes las de los españoles mas altas: y las de los cauallos mas baxas
+                  murieron en esta batalla Cincuenta y tres españoles y quatro cauallos: <figure
+                     xml:id="b12c35sp_image1"/><figure xml:id="b12c35sp_image2"/>
+                  <pb tpye="folio" n="67v"/> en todo esto no cesaua la guerra, por el agua
+                        <expan>matauā<ex>n</ex>se</expan> vnos a otros por las canoas, y auia gran
+                  hambre entre los mexicanos y grande enfermedad porque bebian del agua de la
+                  laguna: y comian sauandixas lacartixas y ratones eta. Porque no los
+                        <expan>ē<ex>n</ex>trauan</expan> ningun bastimento y poco a poco fueron
+                  acorralando a los mexicanos cercandolos de todas partes. <figure
+                     xml:id="b12c35sp_image3"/><figure xml:id="b12c35sp_image4"/></p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

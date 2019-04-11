@@ -21,6 +21,9 @@
          <p>Some text here.</p>
       </body>
    </text>
+   
+   
+   
    <facsimile>
       <surface>
          <graphic url="Paynal%20Book%201.png"/>
@@ -34,9 +37,17 @@
          <line>fo. ibidem.</line>
          </zone>
          <zone xml:id="zone_xrp_cqs_jhb"
-            points="128,347 143,350 157,357 168,368 175,382 178,397 175,412 168,426 157,437 143,444 128,447 113,444 99,437 88,426 81,412 78,397 81,382 88,368 99,357 113,350"/>
-         <zone xml:id="zone_udm_hqs_jhb" points="228,230 248,245 242,270 208,262 201,244"/>
-         <zone xml:id="zone_iby_nqs_jhb" points="408,248 397,216 412,179 426,207 425,225 416,253"/>
+            points="128,347 143,350 157,357 168,368 175,382 178,397 175,412 168,426 157,437 143,444 128,447 113,444 99,437 88,426 81,412 78,397 81,382 88,368 99,357 113,350">
+            <note>The Nahuatl text describes all the attributes of Paynal. The shield is described a mosaic of turquoise.</note>
+         </zone>
+         <zone xml:id="zone_udm_hqs_jhb" points="228,230 248,245 242,270 208,262 201,244">
+            <note>The Nahuatl text tells that Paynal has the star design painted in his face.  Around his eye and between the horizontal bars,
+            the image resembles the star glyph made in circles, as well as the design at the edge of his cloak.</note>
+         </zone>
+         <zone xml:id="zone_iby_nqs_jhb" points="408,248 397,216 412,179 426,207 425,225 416,253">
+            <note>His lance is capped with a flint stone, which also happens to be the glyph sign for flint, 
+            depicted in two colors, and it is widely used throughout the Codex.</note>
+         </zone>
       </surface>
    </facsimile>
 </TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b1c05">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>El capitulo quinto, trata: del dios, que se llama, quetzalcoatl: dios de los
+                  vientos.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Este quetzalcoatl, aunque fue hombre, tenjanle por dios; y dezian que barria el
+                  camjno, a los dioses, del agua. Y esto adiujnauan, porque ante que comjençan, las
+                  aguas, ay grandes vientos u poluos: yesto dezian, que quetzalcoatl, dios de los
+                  vientos, barria los camjnos, alos dioses, de las lluujas: paraque vinjessen,
+                  alluuer. Los sacrificios, y cerimonjas, <expan>cō<ex>n</ex>que</expan> honrrauan
+                  aeste dios: estan escritas adelante, enel segundo libro. Los ataujos,
+                        <expan>cō<ex>n</ex>que</expan> le adorauan, eran los sigujentes: vna mitra
+                  enla cabeça, con vn penacho de plumas, que se <expan>llamā<ex>n</ex></expan>
+                  quetzalli: la mitra, era manchada, como cuero de tigre. La cara tenja teñjdo de
+                  negro, y todo el cuerpo: tenja vestida, vna camissa, como sobrepeliz labrada: no
+                  le llegaua, mas de hasta la cinta. Tenja, vnas orejeras de turquesas, de labor
+                  mosayco: tenja vn collar de oro, de que colgauan, vnos caracolitos mariscos,
+                  preciosos. Lleuaua acuestas, por deujsa, vn plumaje: amanera de llamas de fuego.
+                  Tenja vnas calças, desde la rodilla abaxo, de cuero de tigre: de las quales
+                  colgauan, vnos caracolitos mariscos. Tenja calçados vnas sandalias, teñjdas de
+                  negro: rebuelto com marcagita <!--we think-->. Tenja enla mano izqujerda, vna
+                  rodela, con vna pintura, con cinco angulos: que llaman, el joel de Viento
+                  <!--not sure if upper or lower case-->. Enla mano derecha, tenja vn cetro: amanera
+                  de bacculo, de obispo: en lo alto, era en roscado, como baculo, de obispo, muy
+                  labrado, de pedrerja: pero no era largo, como el baculo: parecia por donde se
+                  tenja, era como enpuñadora de espada. Era este, el gran sacerdote, del templo.</p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

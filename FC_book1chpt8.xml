@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="chapter" n="8" xml:id="b1c08">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="1"/>
+
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>El capitulo octauo, trata: de vna diosa, que se llamaua, la madre de los dioses:
+                  coraçon de la tierra, y nuestra abuela.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>
+
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Esta diosa, era la diosa, de las medicinas, y de las yeruas medicinales:
+                  adorauanla, los medicos, y los ciujanos, y los
+                  <expan>sā<ex>n</ex>gradores</expan>. Y tambien las parteras, y las que dan yeruas,
+                  para abortar. Y tambien, los adiujnos: que dizen la buenauentura, o mala, que han
+                  detener, los niños: segun su nacimjento. Adorauanla tambien, los que echan
+                  suertes, con granos de mahiz: y los que agurean, mirando el agua, en vna
+                  escudilla. Y los que echan suertes, con vnas cordeçuelas, que atan, vnas con
+                  otras: que llaman, mecatlapouhque. Y los <expan>q<ex>ue</ex></expan> sacan,
+                  gusanillos, de la boca, y de los ojos: y pedreçuelas, de las otras partes del
+                  cuerpo: que se llaman, tetlacujcujlique. Tambien, la adorauan, los que tienen,
+                  ensus casas, baños, o temazcales: y todos ponjan, la ymagen desta diosa, en los
+                  baños: y <expan>llamauā<ex>n</ex>la</expan>, Temazcalteci, que qujere dezir: la
+                  abuela, de los baños. Todos los arriba dichos, hazian cada año, vna fiesta, aesta
+                  diosa: enla qual, comprauan vna muger: y la componjan, conlos ornamentos, que eran
+                  desta diosa: como parecen, enla pintura, que es de su ymagen. Y todos los dias, de
+                  su fiesta: hazian conella, areyto, y la regalauan mucho, y la halagauan: porque no
+                  se entristeciesse, por su muerte, nj llorasse: y la dauan de comer delicadamente,
+                  y combidauan conlo que auja de comer: y la rogauan, que comjesse, como agran
+                  señora. Y estas dias, hazian delante della, ardides de guerra,
+                     <expan>cō<ex>n</ex>bozeria</expan>, y regozijo, y con muchos deuisas de guerra:
+                  y dauan dones, alos soldados: que delante della peleauan, por hazerla plazer, y
+                  regozijo. llegada la hora, quando auja de morir: despues de
+                     <expan>auerlā<!--dont know what to expand to --></expan> muerto, con otros dos,
+                  que lo acompañauan, enla muerte: la desollauan. Y vn hombre, o satrapa, vestiase
+                  su pellejo: y trayale vestido, por todo el pueblo: y bazian con esto, muchas
+                  vanjdades: las vestiduras, y ornato desta diosa: <expan>erā<ex>n</ex></expan>, que
+                  tenja la boca, y barba, hasta la garganta teñjida con vlli: que es vna goma negra.
+                  Tenja enel rostro, como vn pache redondo, de lo mismo: tenja en la cabeça, amanera
+                  de vna gorra, hecha de manta: rebuelta, y an<!--cant find symbol for n-->udada los
+                  cabos del nodo<!--not sure rosto or nodo-->, cayan sobre las espaldas, enel mesmo
+                  nodo: estuana enxerido, vn plumaje: del qual salian, vnas plumas, a manera de
+                  llamas: estauan colgando, azia la parte trassera, de la cabeça. Tenja vestido, vn
+                  vipilli: el qual en la estremjdad de abaxo, tenja vna cortapisa, ancha, y harpada.
+                  Las nauas<!--nauas or naoas not sure-->, que tenja eran blancas. Tenja sus
+                  cutaras, o sandalias, enlos pies: enla mano, yzqujerda, vna rodela, con vna chapa
+                  redonda de oro, enel medio: enla mano derecha, tenja vna escoba: que es
+                  instrumento, para barrer. <figure xml:id="b1c08sp_image1"/>
+               </p>
+            </div2>
+
+         </div1>
+      </body>
+   </text>
+</TEI>

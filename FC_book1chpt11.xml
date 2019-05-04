@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>Florentine Codex Project</title>
-            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
                <address>
                   <addrLine>Lewisburg, Pennsylvania</addrLine>
                </address>
@@ -29,8 +30,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
-               including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -47,26 +49,55 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      
-      
+
+
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div1 type="chapter" n="1" xml:id="b1c11">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
             <pb type="folio" n="1"/>
-            
+
             <div2 type="para" n="1" xml:lang="sp">
-               <p>Enel vnzeno, capitulo, se trata: de la diosa, del agua: que la llamauan, chalchiuhtli ycue, es otra juno.</p>
+               <p>Enel vnzeno, capitulo, se trata: de la diosa, del agua: que la llamauan,
+                  chalchiuhtli ycue, es otra juno.</p>
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
                <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
-            </div2>    
-            
+            </div2>
+
             <div2 type="para" n="1" xml:lang="spn">
-               <p>Esta diosa, llamada chalchiuhtliycue: diosa del agua: pintauanla, como a muger: y dezian que era hermana, de los dioses, de la lluuja: que llaman tlaloques. Honrrauanla, porque dezian, que ella tenja poder, sobre el agua de la mar, y delos rjos: para ahogar, los que andan enestas aguas aguas. Y hazer tempestades, y toruellinos, enel agua: y anegar los naujos, y barcas: y otros vasos, que andan por el agua. Hacian fiesta, aesta diosa: en la fiesta que se llama,  </p>
-               
+               <p>Esta diosa, llamada chalchiuhtliycue: diosa del agua: pintauanla, como a muger: y
+                  dezian que era hermana, de los dioses, de la lluuja: que llaman tlaloques.
+                  Honrrauanla, porque dezian, que ella tenja poder, sobre el agua de la mar, y delos
+                  rjos: para ahogar, los que andan enestas aguas aguas. Y hazer tempestades, y
+                  toruellinos, enel agua: y anegar los naujos, y barcas: y otros vasos, que andan
+                  por el agua. Hacian fiesta, aesta diosa: en la fiesta que se llama,
+                  etzalqualiztli: que se pone enel segundo libro, enel capitulo septimo alliesta ala
+                  larga, las cerjmonjas, y sacrificios, con que la festejauan: alli se podra ver.
+                  Los que eran deuotos aesta diosa, y la festejauan: eran todos aquello, que
+                        <expan>tienē<ex>n</ex></expan> sus granjerias, enel agua: como son los que
+                  venden agua, en canoas: y los que venden agua, entinajas, en la plaça. Los
+                  ataujos, conque pintuan, aesta diosa, son: que la pintauan, la cara, concolor
+                  amarilla, y la ponjan vn collar, de piedras preciosas: de que colgaua, vna medalla
+                  de oro. En la cabeça, tenja vna corona: hecha de papel pintada, de azul claro: con
+                  vnos penachos, de plumas verdes: y con vnas borlas, que colgauan ázia el
+                  colodrillo: yotras azia la frente, de la mjsma corona: todo de color açul claro.
+                  Tenja sus orejeras, labrada, de turquesas: de obra mosayca. Estaua vestida, de un
+                  vipil, y vnas naoas pintadas: de la mjsma color açul claro: con vnas franjas, de
+                  que colgauan, caracolitos mariscos. Tenja en la mano, izqujerda, vna rodela, con
+                  vna hoja ancha, y redonda: que se cria enel agua: La llaman atla cueçona. Tenja
+                  enlamano, derecha, vn vaso, con vna cruz: hecho amanera, de la custodia, enque se
+                  lleua el sacramento, quando vno solo le lleua: y era como cetro, desta diosa.
+                  Tenja sus cutaras blancas. Los señores, y reyes, venerauan mucho, aesta diosa: con
+                  otras dos, que era la diosa, de los mantenjmjentos: que llamauan chicumecoatl: y
+                  la diosa de la sal, que llamauan vixtocioatl: porque dezian, que estas tres
+                  diosas: mantenjan, ala gente popular: paraque pudiessen, viujr, y multiplicar. </p>
+               <figure xml:id="b1c11sp_image1"/>
+               <figure xml:id="b1c11sp_image2"/>
+               <!--Este es un díptico con dos imágenes diferentes-->
+
             </div2>
          </div1>
       </body>
-  </text>
+   </text>
 </TEI>

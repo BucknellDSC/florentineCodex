@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+               including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      
+   </teiHeader>
+  <text>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b1c13">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="10"/>
+            
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>El capitulo treze, trata, de los dioses: que son menores en dignjdad, que los arriba dichos. Y el primero destos, es, que llaman xiuhtecutli, es otro Vulcan.</p>
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>           
+            <div2 type="para" n="2" xml:lang="sp">
+               <p>Este dios, del fuego, llamado xiuhtecutli, tiene tambien, otros dos nombres: el vno, es, ixcoçauhquj, que qujere dezir: cariamarilla. y el otro es, cueçaltzin, que qujere dezir: llama de de fuego. Tambien se llamaua, veueteutl, que qujere dezir: el dios antiguo: y todos le tenjan, por padre. Considerando, los effectos que hazia: por que quema, y la llama, enciende, y abrasa. Estos son effectos, que causan temor: otros effectos tiene: que causan amor, reuerençia: como es, que calienta, a los que tienen frio: y gujsa las viandas, para comer: assando, y coziendo, y tostando, y friendo. El haze la sal, y la miel espessa, y el carbon, y la cal: y calienta los baños, para bañarse: y haze el azeyte, que se llama Vxtil: conel se calienta, la lexia, y agua: para lauar las ropas suzias. y viejas, y se bueluen assi nueuas. A este dios, se le hazia fiesta, cada año, al fin del mes, que se llama Izcalli: y a su ymagen, le ponjan, todas las vestiduras, y ataujos, y plumajes, del principal señor, en tiempo de moteccuçuma: hazianla a semejança de motecuçuma. Y en tiempo, de los señores passados: hazianle, la semejança, de cada vno dellos: y puesto en su altar, o trono: descabeçauan, en su presencia, muchas codornizes: derramauan la sangre dellas delante del. Y tambien, ofrezianle copal, como adios: y ofrezianle, vnos pastelejos, que llaman, qujltamalli: hechos de bledos. Y estos mjsmos, comjan por su honrra, en todos los barrjos por su honrra, en cada casa: antes que los comjessen, los <expan>ofreziā<ex>n</ex></expan> al fuego: y ante de ofrezerselos, no los comjan. Y los satrapas, que estauan, diputados, al serujcio deste dios: que los llamauan, y veuejovan, que qujere dezir: sus viejos, todo el dia, hazian areyto, o dança, en su presencia: cantando, y baylando, asu modo. Y tanjan, caracoles, como cuernos: y tanjan, atambores, y teponaztli: que son atambores, de madera. Y trayan, en las manos, vnas sonajas: conque hazen vn son, al proposito del cantar: son ala manera de trebejos o trebesinos, con que hazen callar alos niños, quando lloran: vsan se enlos campos. No se cozia pan, en comal, eneste dia: y enesto se tenja cujdado, de que nadie, coziesse pan, nj otra cosa, encomal: porque njnguno, se tocasse del fuego: por ser el pimero dia: en que se comjan, y <expan>ofreziā<ex>n</ex></expan>. los tamales, arriba dichos. Enesta mjsma fiesta, los padres, y madres, de los njños caçauan: vnos culebras, otros otros ranas, otros peces, que se llaman xoujles: o lagartillos del agua, que se <expan>llamā<ex>n</ex></expan> axolotl, o aues: o qualqujer otros anjmalejos. Y estos, echauanlos, en las brasas enel hogar: y desque ya estauan tostados, comjanlos, los njños: y dezian, come cosas tostadas, <expan>nr̄o<ex>nuestro</ex></expan> padre el fuego. Y llegada la noche, los viejos, y viejas, todos beujan vctli: que es vino de l tierra: y del vctli, que beujan, derramauan, ante que beujessen, en quatro partes del hogar, del vctli que aujan de beuer: ya esto dezian, que dauan agustar al fuego, aquella beujda: honrrandole como a dios: enesto, que era como sacrificio, o ofrenda. Y de quatro en quatro años, haziase, esta fiesta, muy solenne: y hazia areyto, el señor, con todos sus principales: delante de la casa, o templo, deste dios. Y enesta fiesta, de quatro en quatro años, no solamente los viejos, y viejas, beujan vino, o pulque: pero todos moços, y moças, njños, y njñas, lo beujan: por esso se llamaua esta fiesta, pillaoano, que qujere dezir: fiesta donde los njños, y njñas, beuen el vino, o pulcre. Y dauan padrinos, y madrjnas, alos njños: y buscauan se los, sus padres, y madres: y <expan>dauā<ex>n</ex>los</expan>, algunos dones: estos padrinos y madrinas, <expan>lleuauā<ex>n</ex></expan> acuestas, alos njños, y njñas, <expan>q̄<ex>ue</ex></expan> eran sus ahijados: al templo deste dios, del fuego. Tambien le llamauan, ixcoçauhquj: alli delante del, agujerauan las orejas, atodos los njños, y njñas: señalauanlos desta señal, <expan>ē<ex>n</ex></expan> presencia de sus padrinos, y madrinas, njños, y njñas. La ymagen deste dios, se pintauan, vn hombre desnudo: el que tenja, la barba, teñjda <expan>cō<ex>n</ex></expan> la resina, que es llamada vlli, <expan>q̄<ex>ue</ex></expan> es negra: y vn barbote de piedra colorada, enel agujero de la barba. Tenja en la cabeça, vna corona de papel: pintada de djuersas solores y de diuersos labores: en lo alto de la corona, tenja vnos penachos, de plumas verdes: a manera de llamas de fuego: tenja vnas borlas de pluma, azia las orejas. <!-- pag. 23 --> </p>
+               
+            </div2>
+         </div1>
+      </body>
+  </text>
+</TEI>

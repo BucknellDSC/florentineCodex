@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+               including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      
+   </teiHeader>
+  <text>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b1c14">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <pb type="folio" n="12"/>
+            
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>El catorzeno capitulo, habla: cerca de vn dios, que se llamaua macujlxochitl, que qujere dezir: cinco flores. Y tambien, se llamaua, xochipilli, <expan>q̄<ex>ue</ex></expan>qujere dezir: el principal, que da flores, o que tiene cargo, de dar flores.</p>  
+               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            </div2>           
+            <div2 type="para" n="1" xml:lang="sp">
+               <p>Aeste dios, llamado macujlxochitl, tenjan le por dios, como al arriba dicho: que es el dios, del fuego. Era mas particular dios, de los que morauan, en las casas de los señores: o en los palacios, de los principales. A honrra deste dios, hazian fiesta: y su fiesta, se llamaua, xochilhujtl: la qual fiesta, se contaua, entrelas fiestas, moujbles: que estan, enel quarto libro: que trata del arte, adiujnatorja. Quatro dias, antes desta fiesta, ayunavan todos, los que la celebrauan: assi hombres, como mugeres: y si algun hombre, enel tiempo deste ayuno: tenja accesso, a muger, o alguna muger a hombre, durante el dicho ayuno: dezian, que ensuziaua su ayuno. Y este dios, se offendia mucho desto: y por esto, herja, con emfermedades, de las partes secretas, alos que tal hazian: como son, almorranas, pudredumbre del mjembro secreto, deviesos, y encordios. Et <!-- or Ej -->. Y porque tenjan entendido, que estas emfermedades, eran castigos, deste dios: por la causa arriba dicha, hazian le votos, y prometimjentos: paraque se aplacasse, y cesasse, de afligir: con aquellas emferdades. Quando llegaua, esta fiesta, deste dios, que se llamaua, xochilhujtl: que qujere dezir, la fiesta de las flores, como dicho es: ayunauan todos, quatro dias: algunos no comjan chilli, o axi. Y comjan solamente, al medio dia, y ala media noche, beujan vna maçamorra, que se llamaua, tlacujlolatulli, que qujere dezir: maça morra pintada, con vna flor, puesta encima, enel medio. llamauase, este ayuno: el ayuno de las flores. Tambien los que ayunavan, sin dexar el chilli, nj otras cosas sabrosas, que sulen comer: comjan vna vez sola al medio dia. Otros, ayunavan, comjendo panes azimos: estoes: que el mahiz, de que se hazia el pan, que comjan: no se cozia con cal, ante de molerlo: que esto es como hormentar: sino molian, el mahiz seco: y de aquella harjna, hazian pan, y cozianlo enel comal: y no comjan chilli, nj otra cosa con ello: no comjan mas que vna vez, al medio dia. llegado, el quinto dia, era la fiesta, deste dios: enesta fiesta, vno se componja, con los ataujos, deste dios: enesta fiesta, vno se componja, con los ataujos, deste dios: como si fuera, su ymagen o persona, que significaua al mjsmo dios. Con este, hazian areyto: con <expan>cā<ex>n</ex>tares</expan>, y con teponaoztli, y atambor. llegando, al medio dia, desta fiesta: descabeçauan muchas codornizes: derramando la sangre, delante deste dios, y de su ymagen: otros sangrauanse, de las orejas, delante del: otros traspassauan, las lenguas, con vna punta de maguey: y por aqul agujero, passauan muchas mjmbres delgadas: derramando sangre. Tambien le hazian, otras ofrendas, ensu templo: hazian <expan>tambiē<ex>n</ex></expan>, vna cerimonja, que hazian cinco tamales: son como panes redondos, hechos de mahiz: nj bien rollizos, nj bien redondos, que se llamauan, pan de ayuno: eran grandes, encima de los quales, yua vna saeta, hinchada: que llamavan xuchmjtl: Esta era ofrenda, de todo el pueblo: los particulares, que querian, ofrezian en vn plato de madera, cinco tamales pequeños: ala manera de los de arrjba dichos: que diximos ser grandes, con chilmolli, en otro vaso. <!-- pag. 25 -->  </p>
+               
+            </div2>
+         </div1>
+      </body>
+  </text>
+</TEI>

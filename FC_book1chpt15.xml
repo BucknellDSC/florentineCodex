@@ -3,69 +3,115 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Florentine Codex Project</title>
-            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
-               <address>
-                  <addrLine>Lewisburg, Pennsylvania</addrLine>
-               </address>
-            </principal>
-            <respStmt>
-               <persName>Diane Jakacki</persName>
-               <orgName>Bucknell University</orgName>
-               <resp>Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Quinn Smith</persName>
-               <orgName>Bucknell University</orgName>
-               <resp>Transcriber, encoder</resp>
-            </respStmt>
-            <respStmt>
-               <persName>Mauricio Valdes</persName>
-               <orgName>Bucknell University</orgName>
-               <resp>Transcriber, encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
-               including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>Biblioteca Medicea Laurenziana</repository>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
-                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      
-      
-   </teiHeader>
-  <text>
-      <body>
-         <div1 type="chapter" n="1" xml:id="b12c02">
-            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
-            
-            <div2 type="para" n="1" xml:lang="sp">
-               <p></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
-            </div2>           
-            <div2 type="para" n="1" xml:lang="nah">
-               <p></p>
-               
-            </div2>
-         </div1>
-      </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="15" xml:id="b1c15">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>El capitulo quinze, habla del dios, llamado omacatl: qujere dezir, dos cañas: es el dios, de los combites</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> Este dios, de los combites, dezian: que tenja domjnjo, y poder: sobre los
+                        combites, y combidados: que es quando los principales, hermanos, combidauan
+                        atoda su parentela: para darlos de comer, y mantas, y flores: y que
+                        baylassen, y dançassen: y cantassen, en su casa. Y quando este regozijo, se
+                        auya de hazer: el que le hazia, lleuaua, la <expan>ymagē<ex>n</ex></expan>,
+                        deste dios, a su casa: lleuauanla, algunas satrapas, de los que serujan, en
+                        su templo. Dezian, que si no le hazian aquella honrra, que se le deuya
+                        hazer, enojauase: y aparecia en sueños, al dueño del combite, y
+                        reprehendiale, y reñyale: diziendo desta manera. Tu mal hombre, porque no me
+                        has honrrado, como conuenja,' yo te dexare, yo me apartare de ti: y tu me
+                        pagaras, muy bien, la injuria, que has hecho. Y si mucho se enojaua,
+                        mostraua su enojo: enque entre la comjda, y beujda, mezclaua: pelos, o
+                        cabellos, para dar pena, alos combidados: y deshonrra, al señor del combite.
+                        Y estos, quando comulgauan, en la fiesta deste dios: emfermavan muchas
+                        vezes. Y quando comjan, o beujan, añuzcauanse, con la comjda, obeujda: que
+                        no la podian tragar. Y yendo, y andando, <expan>tropeçauā<ex/></expan>, y
+                        cayan, muchas vezes. Y quando hazian fiesta, aeste dios, que era de noche,
+                        comulgauan con su cuerpo: y para esta comunjon, los principales, y
+                        teupisques, y los que tenjan cargo, de los barrjos: hazian de massa, una
+                        figura de vn huesso, gruesso, redondo, y largo: como vn cobdo: y llamauanle,
+                        el huesso deste dios. Y antes que comulgassen, comjan y beujan pulcre:
+                        despues de auer comjdo, y beujdo, en amaneciendo al que era la ymagen deste
+                        dios, punçavanle, en la barriga: como con alfileres, o con cosa
+                                <expan>semejā<ex>n</ex>te</expan>, y lastimauanle: hecho esto,
+                        repartian aquella figura de huesso, que <expan>aujā<ex>n</ex></expan> hecho,
+                        de massa, que se llama tzoalli: y diujdianla entre si: y comja cada vno, lo
+                        que le cabia. Y todos estos, que aquj, comulgauan, se tenjan por dicho, y
+                        entendido: que el año que venja, e nesta fiesta, aujan de contribuyr: para
+                        hazer la fiesta, deste dios: proueyendo todo, lo necessarjo, que se auja de
+                        gastar en ella. La ymagen deste dios, era com vn hombre, que esta assentado,
+                        sobre un haz, de juncias. Tenja la cara manchada, de negro, y blanco. Tenja
+                        vna corona, de papel, apretada ala frente: con vna venda larga, y ancha, de
+                        diuersas colores: la qual estaua, añudada, azia el colodrillo, con vna
+                        laçada, que parecian borlas: tenja rebuelta, ala corona, vnas cuentas, de
+                        chalchiujtes. Tenja, puesta vna manta, amanera de red, cō que estaua,
+                        cubierto: la qual tenja, vna franja ancha, donde estauan sembradas, vnas
+                        flores: texidas enla mjsma franja. Tenja vna rodela, junto assi: de la qual
+                        cogauan, vnas borlas anchas: por la parte de abaxo. Tenja en la mano
+                        derecha, un cetro: donde estaua, vna medalla redonda, agujezada, amanera de
+                        claraboya: estaua assentada de canto, sobre vna impugnadora redonda: y en lo
+                        alto tenja, un chapitel piramjdal. A este cetro, llamvan tlachielonj, que
+                        qujere dezir miradero, <expan>porq̄<ex>ue</ex></expan> encubria la cara
+                        conla medalla y mjraua por la claraboya.</p>                    
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>

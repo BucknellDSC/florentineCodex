@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="16" xml:id="b1c16">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>Capitulo deziseys, enque se trata, del dios llamado, ixtlilton: que qujere
+                        dezir, el negrillo: ytambien se llama, tlaltetecujn.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> A este dios, hazianle vn oratorio, de tablas pintadas, como tabernaculo,
+                        donde estaua, su ymagen. E neste oratorjo, otemplo, auja muchos lebrillos, y
+                        tinajasde agua: todas estavauan atapadas, con tablas, o comales: llamauan
+                        aesta agua, tlilatl, que qujere dezir: agua negra. Y quando algun njño,
+                        emfermaua: lleuauanle al templo, otabernaculo, deste dios ixtlilton: y
+                        abrian, vna de aquellas tinajas, y dauan abeuer, al njño, de aquel agua: y
+                        con ella sanaua. Y quando alguno, queria hazer la fiesta deste dios, por su
+                        deuocion: lleuaua asu ymagen, asu casa. Esta ymagen no era de bulto, nj
+                        pintada: si no era vno, de los satrapas, que se vestia, los ornamentos,
+                        deste dios: y <expan> quā<ex>n</ex>do</expan>le lleuauan, yuanle encensando,
+                        delante, con humo de copal: como llegaua esta ymagen, ala casa, del que auja
+                        de hazerle fiesta, con danças, y cantares, como ellos vsauan: Porque esta
+                        manera, de dançar, o baylar: es muy diferente, de
+                                <!--diacritic goes over ro--><expan>nrō<ex>nuestros</ex>s</expan>
+                        bayles, ydanças: pongo aquj, la manera, que <expan>tienē<ex>n</ex></expan>,
+                        e nestas danças, obayles: que por otro nombre, se llaman areytos: y en su
+                        lengua se llaman, maceoaliztli. <expan> Juntauā<ex>n</ex>se</expan> muchos,
+                        de dos endos, o de tres entres: en vn gran corro, segun la cantidad, de los
+                        que eran: lleuando flores, en las manos, yataujados con plumajes: hazian
+                        todos a vna, vn mesmo meneo, con el cuerpo, y con los pies, y con las manos:
+                        cosa bien deuer, ybien artificiosa: todos los meneos, <expan>
+                            iuā<ex>n</ex></expan> segun el son, que tañjan, los tañedores, de
+                        atambor, y del teponaztli. Con esto, yuan cantando, con gran concierto,
+                        todos, y con bozes, muy sonoras: los loores, de aquel dios, aqujen
+                        festejauan. Y lo mjsmo vsan agora: aun que endereçado de otra manera:
+                        endereçando los meneos, contenencias, yataujos, conforme alo que cantan:
+                        porque vsan diuersissimos meneos, y diuersissimos tonos, enel cantar: pero
+                        todo muy agraçiado, y aun muy mistico.
+                        <!-- add marginal tag: "Es el bosque de la ydolatrja que no esta talado"-->.
+                        llegado, como esta dicho, la ymagen deste dios, ala casa, del que la
+                        festajua: lo primero que hazian: era, comer, y beuer: despues de lo qual,
+                        començauan la dança, y cantar del dios: aqujen festejauan. Despues que este
+                        dios, auja baylado, con los demas, gran rato: entraua dentro de casa, ala
+                        bodega: donde estaua el pulcre, o vino, que ellos vsauan: enmuchas tinajas,
+                        todas atapadas, con tabalas, o comales enbarrados: las quales, auja quatro
+                        dias, que estauan atapadas. Este dios, abria vna, o muchas: y aeste
+                        abrimjento, llamavan tlaiacaxapotla, qujere dezir, esto: abrimjento primero,
+                        o vino nueuo. hecho esta, abrimjento: el, y los que yuan conel, beujan de
+                        aquel vino: y salianse fuera, al patio, al patio de la casa: donde se hazia
+                        la fiesta. Y yuan donde <expan> estauā<ex>n</ex></expan> las tinajas, del
+                        agua negra: que eran, dedicadas ael: y aujan estado cerradas, quatro dias: y
+                        abrialas, este mjsmo: <expan>q̄<ex>ue</ex></expan> era la ymagen deste dios.
+                        Y si despues de abiertas, estas tinajas, parecia en algunas dellas, alguna
+                        suziedad: como alguna pajuela, o cabello, o pelo, o
+                            <expan>carbō<ex>n</ex></expan> luego dezian, que elque hazia, la fiesta:
+                        era hombre de mala vida, adultero, o ladron, o dado al vicio carnal: y
+                        entonce, le afrontauan, con dezirle: que alguno, de aquellos vicios, estauan
+                        enel: oque era sembrador, de discordias, o de zizañas: afrontauanle, en
+                        presencia de todos. Y quando aquel, que era la ymagen deste dios: salia de
+                        aquella casa, dauanle <expan> mā<ex>n</ex>tas</expan>: las quales llamauan,
+                        ixquen: que qujere dezir, cubertura de la cara: porque quedaua, auergonçado,
+                        aquel que auja hecho, la fiesta: si alguna falta, se hallaua, enel agua
+                        negra. la manera de ataujos, deste dios, se pondra al fin deste libro.</p>                    
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

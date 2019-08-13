@@ -56,12 +56,19 @@
       <body>
          <div1 type="chapter" n="35" xml:id="b12c35">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
+            
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="66"/> Capitulo .35. de como los mexicanos prendieron otros
                   españoles mas de cincuenta y tres y mucho Tlaxcaltecas, Tetzcucanos, chalcas,
-                  xuchmilcas y a todos los mataron delante los ydolos. <pb type="folio" n="66v"/>
+                  xuchmilcas y a todos los mataron delante los ydolos. </p>
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="sp">  
+                  <p><pb type="folio" n="66v"/>
                   Trauose vna batalla muy recia en este dia: de manera que los mexicanos como
                   borrachos se arrojaron contra los enemigos, y captiuaron muchos de los
                   Tlaxcaltecas, y chlacas, y tezcucanos, y mataron muchos dellos, y peleando
@@ -77,20 +84,79 @@
                   Tlaxcaltecas, y luego a los demas indios captiuos y lleuaronlos al cu que
                         <expan>llamauā<ex>n</ex></expan> mumuzco alli los mataron vno a vno sacando
                   los coraçones primeramente mataron a los españoles: y despues a todos los yndios
-                  sus amigos: <expan>auiē<ex>n</ex>dolos</expan> muerto pusieron la cabeça <pb
-                     type="folio" n="67"/> en vnos palos delante de los ydolos todas espetadas por
+                  sus amigos: <expan>auiē<ex>n</ex>dolos</expan> muerto pusieron la cabeça 
+                     <pb type="folio" n="67"/> en vnos palos delante de los ydolos todas espetadas por
                   las sienes las de los españoles mas altas: y las de los cauallos mas baxas
-                  murieron en esta batalla Cincuenta y tres españoles y quatro cauallos: <figure
-                     xml:id="b12c35sp_image1"/><figure xml:id="b12c35sp_image2"/>
-                  <pb tpye="folio" n="67v"/> en todo esto no cesaua la guerra, por el agua
+                  murieron en esta batalla Cincuenta y tres españoles y quatro cauallos: 
+                  
+                     <figure  xml:id="b12c35sp_image1"/>
+                     
+                     <figure xml:id="b12c35sp_image2"/>
+                     
+                     <figure xml:id="b12c35sp_image3"/>
+                     
+                  <pb type="folio" n="67v"/> en todo esto no cesaua la guerra, por el agua
                         <expan>matauā<ex>n</ex>se</expan> vnos a otros por las canoas, y auia gran
                   hambre entre los mexicanos y grande enfermedad porque bebian del agua de la
                   laguna: y comian sauandixas lacartixas y ratones eta. Porque no los
                         <expan>ē<ex>n</ex>trauan</expan> ningun bastimento y poco a poco fueron
-                  acorralando a los mexicanos cercandolos de todas partes. <figure
-                     xml:id="b12c35sp_image3"/><figure xml:id="b12c35sp_image4"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  acorralando a los mexicanos cercandolos de todas partes. 
+                  
+                     <figure xml:id="b12c35sp_image4"/>
+                     
+                     <figure xml:id="b12c35sp_image5"/>
+                     
+                     <pb type="folio" n="68"/>
+                  
+                     <figure xml:id="b12c35sp_image6"/>
+                  
+                  </p>
+ 
+            </div2>
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p><pb type="folio" n="66"/>Inic cempoalli oncaxtolli capitulo: vncan moteneoa, 
+                  in quenin ie no ceppa tlamaque mexica in quimacique Españoles, in iuh mopouhque 
+                  in axivaque Españoles, ontecpātli ommatlactli omei: yoā no miequin tlaxcalteca, 
+                  Tetzcuca, chalca, xuchmilca. Auh in quenin muchtin, vncā quinmictique in imixpan 
+                  in Teuoan catca./. 
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p><pb type="folio" n="66v"/> Auh in ie iuhqui in ixquichtin tiiacavan, nec quivalcentlaça 
+                  in omopachotoca, caltzalantli quivaltotocatiquizque. Auh in Españoles in 
+                  oquittaque ça iuhquin tlavāque: niman ie ic tlamalo, miequintin in axivaque 
+                  in tlaxcalteca, in aculhoaque, in chalca, in xuchmilca .&amp;. vel tonacatlamaloc, 
+                  tonacamicoac, vel atlan quinnemitique in Españoles, yoā in ie ixquich tlacatl: 
+                  auh in vtli vel petzcauhtimoquetz, aoc vel nenemoa, ça nepepetzcolo, ça neaalaoalo. 
+                  Auh in mamaltin tevivilano. Ie vncan in, in axioac in vandera, vncan anoc; iehoantin 
+                  caciq̄ in Tlatilulca: vncan in macic, in ie axcan sanct Martin moteneoa: çan atle ipā quittaque, 
+                  amo ōnecuitlaviloc. Auh in oc cequintin tematitlampa quizque: vmpa quimōciauhcavato in col 
+                  <pb type="folio" n="67"/> hoacatonco, acalotenco, vmpa valmomanato. Auh nimā ie ic quinvica in 
+                  mamaltin in vmpa iacacolco, tetototzalo, quimololhuitivi in immalhoan, in aca 
+                  chocatiuh, in aca cuicatiuh, in aca motenvitectiuh. Auh in onteaxitiloc iacaculco: 
+                  nimā ie ic tevipano, tevipanolo, ceceniaca oniatimani in mumuzco, in vncan tlamictilo, 
+                  iacattiaq̄ in Españoles, coniacatique: auh ça vntlatzacuique, ontlatoquilique in ixquichtin 
+                  altepeoaque. Auh in ontlamictiloc, nec quinquaquauhço in intzontecon in Españoles: 
+                  no quiçoçoque in cavallosme intzōtecon, tlatzintlan in quitecaque: auh in intzontecon 
+                  Españoles tlacpac in onoca, in çoçotoca, tonatiuh quixnamictoca. Auh in ixquich nepapan 
+                  tlacatl, amo quinçoçoque in intzontecō in veca tlaca. auh in axioaque Españoles ontec 
+                  <pb type="folio" n="67v"/> pantli onmatlactli omei, yoan nauhtetl cavallos: auh tel novian tlatlapielo, necalioa: 
+                  amo ic mocaoa in tlapieliztli, in novian techiaoalotinemi in xuchmilca in acaltica, 
+                  necoccampa tlamalo, necoccampa micoa. Auh in ixquich macevalli, cenca tlaihioviaia maianaia, 
+                  miec in mapizmiquili aocmo quia in qualli atl, in ecatl, ça tequixquiatl in quia ic miec tlacatl 
+                  momiquili, yoā miec tlacatl ic tlaelli quitlaz ic mic: yoan much qualoc in cuetzpalin, in cuicuitzcatl, 
+                  yoan Eloçacatl, yoan in tequixquiçacatl: yoan quiquaquaque in tzumpanquavitl, yoan quiquaquaque 
+                  in tzacuxuchitl, yoan in tlaquili, yoan in cuetlaxtli yoan in maçaeoatl, quitletleoatzaia, quimooxquiaia 
+                  quitototopotzaia, quitotoponiaia inic quiquaia yoā <pb type="folio" n="68"/> in tetzmetl, yoan in xantetl quitetexoaia: 
+                  aoctle iuhqui inic tlaihioviloc, temamauhti in tzaqualoc, vel tonac in apizmic: auh çan ivian 
+                  techvalcaltechpachotiaque, çan iviā techololalique.
+               </p>
+               
             </div2>
 
          </div1>

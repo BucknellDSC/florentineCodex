@@ -56,11 +56,18 @@
       <body>
          <div1 type="chapter" n="37" xml:id="b12c37">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
+
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="70"/> Capitulo .37. de como de noche abrianlas los caminos del
-                  agua que de dia los cerrauanlos los españoles. Los Españoles y sus amigos cegauan
+                  agua que de dia los cerrauanlos los españoles. </p></div2>
+                  
+                  
+                  <div2 type="para" n="2" xml:lang="sp"><p>
+                  Los Españoles y sus amigos cegauan
                   de dia las acequias para pasar a donde estauan los enemigos: y todo lo que cegauan
                   de dia los enemigos mexicanos lo tornauan de noche abrir y çanjar en esto
                   entendieron algunos dias y por esto se dilato lac victoria por muchos dias: los
@@ -107,8 +114,8 @@
                   estoy biuo <pb type="folio" n="72"/> y que mire aca y verme an. Como aquel Capitan
                   hablo a los de cuitlaoac, y les dixo lo que les auia mandado el señor Maiehoatzin
                   ellos no quisieron creerle mas dixeron que le auian muerto y que no era verdad lo
-                  que les dezian y el otro respondio no es muerto como pensays mirad <pb
-                     type="folio" n="72v"/> y verleys adonde esta viuo que alli se puso para que le
+                  que les dezian y el otro respondio no es muerto como pensays mirad <pb type="folio" n="72v"/> 
+                     y verleys adonde esta viuo que alli se puso para que le
                   veays y hablo el señor de Cuitlaoac y dixo mirad que no me perdays nada de mis
                   atauios y joyas y armas que viuo estoy. Como dixo estas palabras el señor de
                   Cuitlaoac luego los indios amigos de los españoles comencaron a dar grita y a
@@ -123,10 +130,64 @@
                   yuan con el arrojaronse sobre los enemigos con gran furia y tomaronles al capitan
                   que lleuauan preso que se llamaua Tlappanecatl pero escapo con vna herida en vna
                   pierna: y ceso la guerra por entonce.</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+  
             </div2>
-
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p><pb type="folio" n="70"/>Inic cempoalli oncaxtolli omume capitulo: vncan mitoa 
+                  in q̄nin Mexica in cohuvitiaia in quitlatlapoaia in atl in ioaltica, in vncan catzupaia Españoles in tlaca. 
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>Auh in toiaovan, catzuptivitze in acalutli. Auh in onoiaque in iavme ie no ceppa quiquixtia in 
+                  tetl inic otlaatzupca iaume: in otlatvic ie no ceppa iuhcan, in iuhcan catca ialhoa: muchipa iuh 
+                  quichiuhque in vncā catzupaia in acalotli, in çan nimā quivalquixtiaia in tetl in quavitl .&amp;. ic achi 
+                  vecaoac in iauiotl, aiaxcan in quinvalpetlaque: auh in acalotli in, iuhq̄n vei tenamitl ipan momatia. 
+                  Auh in Españoles yoan in ixquich tlaxcaltecatl incentequiuh in vtli, in vei vtli iacacolco, yoan in 
+                  tlilhoacan in atezcapan. Auh in iacaculco, in cuepopan, in apaoazcan, yoan atliceuhian inic 
+                  <pb type="folio" n="70v"/> iaticac aiacac, in totecco intequiuh muchiuh in xuchmilcatl, in cuitla 
+                  oacatl, in mizquicatl, in culhoacatl in Itztapalapanecatl, incētequiuh muchiuh in acaltica in tlaiecoaia. 
+                  Auh in atliceuhca, yoan aiacacalque in acaleque, in tlaminani, vel muchicaoa inic quinnamiqui, 
+                  amo moquequetza, vel moneneuhcavia, iuhquin tzetzelivi in tlatzontectli, iuhquin coatl motlamina 
+                  mopipiaçoa in mitl: in iquac atlatica quitlaça iuhquin cozpul ommoteca in impan iaume: auh in 
+                  cequintin tiacaoan in Xiuhcozcatzin, quaquatzi, Tezcacoacatl, Tecpanecatl, Vitzitzin, Itzcuintzin: 
+                  in iacaculca vel ipan mantivia in calli; amo moquequetzaia, amo quixiccavaia in Cioatzintli, in piltzintli, 
+                  aiaxcan in quimōcaltechpachoto in oc ce acalotli itech in amaxac icac <pb type="folio" n="71"/> Auh ceppa 
+                  muchiuh in vmpa totecco, vmpa oalquizque in Españoles: auh in onacico in vncan telpuchcalli icac: 
+                  itocaiocan. aiacac: niman contleminque. Auh in oc centetl in imacal in Españoles, valcalac in vncan atliceuhian, 
+                  yoā miec in imacal in xuchimilca in quivalhuicaticalac. Auh in tiiacauh in Temilotzin, tlacateccatl; momuzco 
+                  in oquetzticac, quimonitzticac in Españoles: auh in tiiacauh Coiovevetzin: in onaqui tlaviztli quauhtlocelutl; 
+                  cectlapal quauhtli cectlapal ocelutl acaltica in valla tolmaiecampa in quivallaz: yoan miec in acalchimalli, 
+                  in quitlamatilitivitze: quivalitotia. Tiacavane ma ie cuel iehoatl ticcentlaça: nimā ie ic macalhuitequi. 
+                  Auh in oquittaque in Españoles: niman ic moteputztique, quintocaque: nec vallamelaoa in atliceuhiā. 
+                  Auh in imacal Españoles: nec <pb type="folio" n="71v"/>quitzinquixtia, contecato amanalco. Auh in 
+                  Xuchimilca, miequintin inic micque mitl: auh in ie iuhqui in oq̄ntocaque, oc ceppa valmomāque, 
+                  nec quinvaltoca in tiiacavan: in Coiovevetzin quimotocti in mumuztli: nimā ic quīcuep vel quimaxitito 
+                  in vmpa icac telpuchcalli in atliceuhian: ie no ceppa quivaltocaque in coiovevetzin atlan conchololtico: 
+                  ie no cuele contlaz in telpuchotomitl, Itzpapalotzin inn oonaqui tlaviztli, nec q̄ntoca, iuhquin çoquitl 
+                  quimololoa, vel quintepeoato acaacalco: niman ic iaque, ic popolivito. Auh in cuitlaoaca in momatque 
+                  ca omic, ca o tehoan mic, in intlatocauh in Maiehoatzin, cenca qualani: quitoaia, Ca oanquimictique 
+                  in totlatocauh Xiqual <pb type="folio" n="72"/> ''nextican, tleica in oanquimictique totlatocauh. 
+                  Auh in Maiehoatzin in oquima in ca qualani, in imaceoalhoan: inic quitlaqualanilia: nimā quilhui in 
+                  Coiovevetzin. Nachcauhtzine, tla ce xiqualquetza in tachcavan in vel tzatzi, in tlatolchicaoac, in tozcachicaoac: 
+                  niman ic quivalnotzque ce tequioa, itoca: Tlamaiocatl: nec quinaoatia in Maiehoatzin: quilhuia. Tla xoniauh, 
+                  tla xiquimonilhui in cuitlaoaca: Cuitlavacae, onechoaliva in amotlatocauh in Maiehoatzin, xoconittacan 
+                  nechca moquetzticac mumuzco. Auh in oquicacque cuitlaoaca, quivalitoque. Ca amo, ca oanquimictique: 
+                  nec quimonilhuia. Ca amo miqui, vel, xocottacan ie in nechca icac: yoan quivalitoa, ca amo nimiqui, ma 
+                  itla nechitlacalhuiti, in notençac, in nochalchiuh, <pb type="folio" n="72v"/> in notlaviz: auh in ocontzonquixti 
+                  in itlatol, nec tlacaoaca: niman ie ic necalioa, nec quivaltoca. Auh in tianquizco in vmpa copalnamacoian, 
+                  aiaxcan in mocauh, vncā vecaoac in iauiotl. Auh ceppa tecentlatalhuique in toiaovan in Tliliuhquitepeca, 
+                  atetemoleque: ie quimottilique in vpitzactli in calla quizticac, yiovi catca ce pilli: itoca, Tlacatzin. Auh in ie 
+                  calaqui in toiaovan: nec quintoca in tiiacaoan. Auh ce tlacatl tiacauh, tequioa, itoca Tlapanecatl, atezcapā ichan catca: 
+                  nec quinoalnamiqui, nimā ic quicuitivetzque in toiaovan: auh in tiiacavan, nimā ipan ommotepeuhque, quinmintivi 
+                  in toiaovan: nimā ic contetlaçaltito in cacica tiiacauh. Auh in toiaovan nec quivalmetzvi: tecque: vncā in Inez
+                  <pb type="folio" n="73"/> coaian: niman ic iaque, ōmocacauhque in micali.
+               </p>
+               
+            </div2>
          </div1>
       </body>
    </text>

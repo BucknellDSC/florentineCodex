@@ -56,11 +56,18 @@
       <body>
          <div1 type="chapter" n="36" xml:id="b12c36">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
+
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="68"/> Capitulo .36. de la primera vez que los Españoles
-                  entraron en el <expan>tiā<ex>n</ex>quez</expan> del tlatilulco. Andando la guerra
+                  entraron en el <expan>tiā<ex>n</ex>quez</expan> del tlatilulco. </p></div2>
+                  
+                  <div2 type="para" n="2" xml:lang="sp">
+                     <p>
+                  Andando la guerra
                   como arriba esta dicho, vn dia entraron quatro de caullo en el tianquiz del
                   tlatilulco y dieron vna buelta por todo alrededor yvan
                      <expan>alanceā<ex>n</ex>do</expan> a quantos topauan y mataron muchos soldados
@@ -69,8 +76,11 @@
                   entrada que hizieron fue supita que nadie penso <expan>q<ex>ue</ex></expan> osaran
                   entrar y el mesmo dia pusieron hoego al cu mayor que era de Vitzilobuchtli y todos
                   se <expan>qmo<!--dont know what to expand to--></expan>
-                  <pb type="folio" n="68v"/> en obra de dos o tres horas. <figure
-                     xml:id="b12c36sp_image1"/> Como vieron los mexicanos que se quemaua el cu
+                  <pb type="folio" n="68v"/> en obra de dos o tres horas. 
+                        
+                        <figure xml:id="b12c36sp_image1"/> 
+                        
+                  Como vieron los mexicanos que se quemaua el cu
                   començaron a llorar amargamente porque <expan>tomarō<ex>n</ex></expan> mal aguero
                   de uer quemar el cu: y luego se trauo vna batalla muy recia dieron esta batalla
                   casi <expan>⊽<ex>n</ex></expan> dia y derrocaron los españoles vnos paredones o
@@ -93,10 +103,58 @@
                   como vieron los de la celada que los auian visto huyeron y ansi pasaron aquel paso
                   seguros para yr a su estancia auiendo peleado todo el dia boluieronse los
                   españoles sin romper a sus enemigos aquel dia porque los auian quitado las puentes
-                  de manera que no podieron pasar a los enemigos. <figure xml:id="b12c36sp_image2"
-                     /><figure xml:id="b12c36sp_image3"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  de manera que no podieron pasar a los enemigos. 
+                        
+                        <pb type="folio" n="69v"/>
+                        
+                        <figure xml:id="b12c36sp_image2"/>
+                        <figure xml:id="b12c36sp_image3"/>
+                        <figure xml:id="b12c36sp_image4"/>
+                     
+                     </p>
+  
+            </div2>
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p><pb type="folio" n="68"/>Inic cempoalli oncaxtolli oce capitulo: vncan 
+                  mitoa in quenin Españoles iancuican calaquico tianquizco in nican tlatilulco. 
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>Auh ceppa muchiuh nauhteme in cavallos in calaquico tianquizco. Auh 
+                  in ocalaquico, nec tlanaoatl quitoca, tianquiztentli quitoca in tiiacavan quinxixiltivi, 
+                  mieq̄ntin in micque concuitlaxeloco in tianquiztli: iquac iancuican quittaco in tianquiztli: 
+                  niman ic iaque, ic moteputztique. Auh in tiacaoan intech motlapaloque quintocaq̄: auh in 
+                  iquac calaquico iancuican tianquizco amo tene <pb type="folio" n="68v"/> machpan, amo 
+                  quiteimachitique: auh yoan nimā iquac quitlatique in teucalli, contleminque: auh in 
+                  ocontleminque nec cuetlan, cenca veca eoac in tletl, in tlenenepilli, iuhquin ihicoioca 
+                  tletl yoan cuecuetlani. Auh in oquittaque in ie tlatla in teucalli: niman ie ic nechoquililo, 
+                  nechoquiztlapalolli: iuh nemachoc in ca ie ontenamoieloz. Auh vecauhtica in necalioac in 
+                  tianquizco, vel tetemman in iauiotl, aiaxcā in quicauhque in tenamitl, in vncan in tenexnamacoiā 
+                  Auh in vncan copalnamacoian, yoan atecocolecan, yoā in vncan xuchicalco in caltzalan, in calacoaia, 
+                  vel ipā mantinenca in tiacavan in tenamitl. Auh in ixquich quauhquecholtecacalli in tianquiztli 
+                  quiiavalotoc moch tenamitl mochiuh <pb type="folio" n="69"/> miequintin tlapanco onoca in 
+                  vallamotla, quioallaça in tetl, in mitl, oallatepachoa, vallamina, yoan moch mocuitlacoioni in 
+                  quauhquecholtecacalli, achitoton quicoionique. Auh in iquac ie no valtetoca in cavallosme, in ie 
+                  no quinxopiloznequi, in ie quiniacatzacuiliznequi: vmpa cacalacti vetzi in tiacavan. Auh ceppa 
+                  muchiuh in Españoles: acatl yiacapan in valcalacq̄ nec tenamoielo, nec teçaçaco in maceoaltzitzinti. 
+                  Auh in oquittaque in tiiacavan: nec quivallaça in tiiacavan, vncan icativitz quachic: itoca Axoquentzin 
+                  quintocac in iiaovan, quintetlaçalti, quinmalacacho: auh inin tiacauh vncā momiquili, vncan quitepuzmiviq̄ 
+                  yielpan, in quitlaxilique, yiollopan in quitlaxilique tepuzmitl, iuhquin necochaano in <pb type="folio" n="69v"/>
+                  ic ommomiquili: auh nimā ic mocototztlalique in toiaovan. Auh in vmpa in iacacolco: çanno ivi in tlaiecolo, 
+                  in Espanoles in tlatepuzmivia tecpantivitze, quinpalevitivitze, quintlamatilitivitze in nauhtecutli, quitzacutivitze 
+                  in vtli. Auh in tiacavan nec nepacholo, inic quincuitla xelozque, ie ommopiloa in tonatiuh. Auh in ie iuhqui in ie 
+                  vitze: cequintin tlapanco tlecoque in toiaovan: auh in otzatzic, quito. hui tlaxcaltecae, xioalnenemican, nican cate 
+                  in amoiaovan: nec quivallaça in mitl, in impan in mopachotoca, nec xitinque: yiolic onacico in iacaculco vncā 
+                  motetemmā in iauiotl: çan vncā ommotzotzonaco avel quinpetlaque in Tlatilulca, in amac onoque quinvalmina, 
+                  quinvaltepachoa aoctle in panoani, aoctle acuepanavaztli, ocaanque.
+                  
+               </p>
+               
             </div2>
 
          </div1>

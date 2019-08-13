@@ -56,11 +56,18 @@
       <body>
          <div1 type="chapter" n="40" xml:id="b12c40">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+
 
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .40. de como los del Tlatilulco se dieron a los españoles con los
-                  mexicanos y su señor que con ellos estaua. Desque llegaron a tierra el señor de
+                  mexicanos y su señor que con ellos estaua. </p></div2>
+            
+            
+            <div2 type="para" n="2" xml:lang="sp"><p>
+               
+                  Desque llegaron a tierra el señor de
                   mexico Quauhtemoctzin, con los que con el yuan, saltaron en tierra cerca de la
                   casa, donde estaua el capitan: y los españoles que estauan cerca del agua, tomaron
                   por las manos a Quauhtemoctzin, amigablemente, y lleuaronle adonde estaua el
@@ -123,10 +130,59 @@
                   principales mexicanos vno de los quales se llamaua Tlacutzin, otro Petlauhtzin,
                   otro Motelchiuhtzin, otro Mexicatl, otro achcauhtli, otro Teutlamacazqui, otro
                   Coatzintlatlatin, otro tlaçulyautl</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+      
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p>Inic ompoalli capitulo vnca mitoa in quenin iehoantin tlatilulca yoā tenuchca 
+                  yoan in intlatocauh in intlan oncalacque Espanoles: auh in tlein muchiuh in iquac ie intlā cate. /. 
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>Auh in oconaxitito in ocontlalhoacaquixtito: niman ie ic much vallachia in Españoles, quivalanque, 
+                  imatitech quivalanque in Españoles niman ie ic quitlecavia in tlapanco ixpan conquetzato in Capitan 
+                  in iautachcauh. Auh in o ixpan conquetzato, nimā ie ic quitta, quimoottitia, quipepepetla in Quauhtemoctzin: 
+                  niman ic itlan quitlalique yoan contlazque in tlequiquiztli, aiac ic quimotlaque, çan impan qui <pb type="folio" n="81v"/> 
+                  quixtique çan imicpac quiz in macevalti: niman ic cētetl convicaque, concalaquique in acalli: vmpa cōvicaque 
+                  in ichan Coiovevetzin. Auh in oacique: nimā ic tlecoque in tlapanco: niman ie ic no ceppa temictia miec in 
+                  vncan mic: auh çā choloque, çan ic vmpolivito in iauiotl: nec valtzatzioa: quitoa. Ie ixquich ma quixoa, xicmoqualtitin 
+                  in quiltzintli: in o iuh quicacque in niman ie ic oneoa in macevalli: niman ie ic vi, çan atlan. Auh in oquiçato vei vtli 
+                  ipan, ie no ceppa cequin vmpa quinmictia, ic qualāque in Españoles in oc no çan cequintin quitqui in immaquauh 
+                  yoan inchimal; in calla onoca quivalmelauhque in amaxac vallamelaoa, in vncan vel <pb type="folio" n="82"/> vmaxac: vncan xexeliuh 
+                  in macevalli, ixquich tepeiacac itztia, ixquich xoxoviltitlā itztia, ixquich nonoalco itztia. Auh in xollocopa, yoan in 
+                  maçatzintamalcopa, aiac vmpa itztia. Auh in ixquich acaltica onoca yoan in tlapechco catca, yoan in tolmaiecan çan 
+                  atlan in iaque: in aca ixillan acitiuh in atl, in aca ielchiquipan, in aca iquechtlan acitiuh: auh in aca vel polaqui, in 
+                  vncan vecatlan: in pipiltzitzinti temamamalo, tlachoquiztleoa: cequinti mopapaquiltitivi, maavieltitivi: in oconnepanoto 
+                  vtli Auh in acaleque, in ixquich acale ça ioaltica in quiz, yoā tel cemilhuitl in quizque iuhquin moquequeztivi inic vi. 
+                  Auh in izquican antica tetlatlaçaltiaia in Españoles <pb type="folio" n="82r"/> in teucuitlatl quitemoa amo tle ipan quitta, in chalchivitl, 
+                  in quetzalli yoan in xivitl: novian nemia in inxilla* in incuetitlan, in cioatzitzinti. Auh in toquichtin novian nemi in 
+                  imaxtlatitlan, yoan in incamac. yoan quimanaia, quinpepenaia in Cioa in chipavaque, in Cuztic innacaio in cuztique. 
+                  Auh in cequintin cioa inic motetlaçaltiaia, miçoquivique, yoan tatapatli in quimo cuetiq̄ tzotzomatli in quimovipiltique, 
+                  çan moch tzotzomatli in intech quitlalique. Auh no cequintin pepenaloque in toquichtin iehoantin in chicaoaque in iniolloco 
+                  oquichtin yoā in quin telpupuchtotonti <pb type="folio" n="83"/> in quintitlanizque, in intitlanvan iezque, in moteneoa intlamacazcaoan: 
+                  cequintin nimā quincamatlatiq̄ cequintin quincamaicuiloque: cequintin quintenicuiloque. Auh in omomā chimalli; 
+                  inic tixitinque, in xiuhtonalli ei calli. Auh in cemilhuitlapoalli ce coatl: Auh in iquac in ōmotemacato in Quauhtemoctzin: 
+                  nimā quivicaque in acachinanco in ie ioa. Auh in imuztlaioc in ie achiton tonatiuh, ie no ceppa vallaque in Españoles: 
+                  vel miequintin, no çaniuh tlantivitze, in moiauchichiuhtivitze, tepuzvipilli, in tepuzquacalalatli: auh aoctle in intepuzmaquauh, 
+                  yoan aoctle in inchimal, ça mu<pb type="folio" n="83v"/>chintin valmoiacapachotiaque iztac canaoac ica quintlaieltiaia in mimicque in ie iyaia, 
+                  in ie potoni: muchintin vallacxipanvitiaque, quivalquitzquitiaque itilmatitech in Quauhtemoctzin, Coanacotzin, Tetlepanquetzatzin, 
+                  çan ieixtin valmantiaque. Auh in Cioacoatl tlacutzin: Tlillancalqui. Petlauhtzin, vitznaoatl, motelchiuhtzin mexicatl. Achcauhtli, 
+                  Tecutlamacazqui, Coatzin, tlatlati, tlaçuliautl, in iehoantin in quipiaia in ixquich teucuitlatl: niman vmpa tlamelauhque in atactzinco, 
+                  in vncan ichan in tiiacauh in tlacuchcalcatl, in Coiovevetzin: pipilivi in <pb type="folio" n="84"/> Espanoles, ie vmmecatl motilinia, veca tlantivi, 
+                  veca acitivi: auh in oacito in ichā coiovevetzin, nimā ic tlecoque in tlapanco, in tlapechco: niman ic motlalique, tlatlapalquachtli 
+                  in quicevalcaltique capitan, nimā ic oncā ommotlali in Marques, itlan ommotlali in Malintzin: auh in Quauhtemoctzin itlan ca in 
+                  Capitan: in quimolpilia Quetzalichpetztli, tlatlacuhuitectli, vitzitzilin hivio inic ocuiltecaio, omach catzaoac, çan quixcavitica: 
+                  nimā contoquilitica in Coanacutzin, tetzcucu tlatoani: in quimolpilitica, çan vel ichtilmatli, xoxochiteio, xochimoiaoac, 
+                  omach no catzaoac: nimā cōtoquilitica. Tetlepanquetz<pb type="folio" n="84v"/>tzi, tlacuban tlatoani, çāno iuhqui in quimolpilitica in ichtilmatli, 
+                  o no vel catzactix, o uel catzaoac: nimā contoquilitica. Mixcoatlailotlac, avelitoctzin: tlatzacutica Iopicatl, pupucatzin, pilli: 
+                  cectlapal onoque in tenochca. Tlacutzin. Petlauhtzin. Motelchiuhtzin mexicatl, achcauhtli, tecutlamacazqui, coatzin tlatlati, Tlaculiautl.
+               </p>
+               
+            </div2>
          </div1>
       </body>
    </text>

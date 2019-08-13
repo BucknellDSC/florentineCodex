@@ -56,11 +56,18 @@
       <body>
          <div1 type="chapter" n="39" xml:id="b12c39">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
+     
 
             <div2 type="para" n="1" xml:lang="sp">
                <p>Capitulo .39. de como los del Tlatilulco quando estauan cercados vieron venir
-                  huego del cielo sobre si de color de sangre. El dia siguiente cerca de medianoche
+                  huego del cielo sobre si de color de sangre. </p></div2>
+            
+            <div2 type="para" n="2" xml:lang="sp"><p>
+                  
+                  El dia siguiente cerca de medianoche
                   lluuia menudo y a desora <expan>vierō<ex>n</ex></expan> los mexicanos vn hoego asi
                   como torbellino que echaua de si brasas <expan>grā<ex>n</ex>des</expan> y menores
                   y centellas muchas remolineando y respendando estallando y anduuo alrededor del
@@ -95,11 +102,10 @@
                         <expan>hernā<ex>n</ex>do</expan> cortes començaron toda la gente mexicana
                   que estaua en el corral diziendo. Y a ua <expan>nro<ex>nuestro</ex></expan> señor
                   rey a ponerse en las manos de los dioses españoles. </p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+
             </div2>
 
-            <div2 type="para" n="2" xml:lang="sp">
+            <div2 type="para" n="3" xml:lang="sp">
                <p>Autor</p>
                <p>De las cosas arriba dhas <!--cant find symbol-->, parece claramente, quanto
                   temporizo, y diximulo el capitan Don <expan>hernā<ex>n</ex>do</expan> cortes: con
@@ -108,7 +114,40 @@
                   destruyr; y no lo hizo esperando siempre a que se rendiesen para que no fuesen
                   destruydos del todo:</p>
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p>Inic cempoalli oncaxtolli onnavi capitulo: vncā mitoa in quenin iehoantin Mexica 
+                  in iquac o vel quincaltechpachoto in nez in mottac Eztetl: iuhq̄nma ilhuicacpa valla. 
+                  Auh inic valneztia iuhquin vei tlexuchtli. 
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>Auh in ovalioac: niman ie ic quiquiiavi, avachquiquiiavi, ie tlaquauhiova in nez tletl: 
+                  in iuh mottac, in iuh nez, iuhquin ilhuicacpa valla, iuhquin ecamalacutl, momamalacachotiuh, 
+                  motevilacachotiuh, iuhquin cuecuepocatiuh tlexuchtli, cequi vevei, ce <pb type="folio" n="80"/> qui çan 
+                  tepitoton, cequi ça iuhquin tlemoiutl, iuhquin ecatepuztli, moquetza, cenca icoioca, tetecuica, 
+                  titicuica, çan quiiavalo in atenamitl; coionacazco in valitztia: nimā ic ia in anepantla, vmpa 
+                  popolivito, aiac motenvitec, aiac navat: auh in imuztlaioc, aoc no tle muchiuh, ça onoac, 
+                  çano onoque in toiaovan. Auh in capitan tlapāco vallachixtica in amaxac, Aztavatzin itlapanco, 
+                  cevalcalco, tlatlapalli in cevalcalli, quimonitztica in macevaltin, cololhuitoque in Españoles, 
+                  mononotztoque. Auh in Quauhtemoctzin; yoan in oc cequintin tlatoque. Civacoatl Tlacutzin. 
+                  Tlillancalqui. vitznaoatl. Petlauhtzin. Motelchiuhtzi mexicatl. Achcauhtli, Tecutlamacazcatzin. 
+                  Niman ie iehoantin in Tla<pb type="folio" n="80v"/>tilulco tlatoque. Tlacuchcalcatl. Coiovevetzin. Tlacateccatl. 
+                  Temilotzin. Ticociavacatl. Topantemoctzin. Mixcoatlailotlactzin. Auelitoctzin, vitznaoatl. 
+                  Vitzilivitzin. Tepanecatl vitzitzin: in muchintin in tlatoque, mocentlaliticatca tolmaiecan 
+                  mononotztoca in quenin muchioaz in tlein tictequitizque: auh in quenin intlan toncalaquizque. 
+                  Niman ie ic quivica in Quauhtemoctzin, acaltica, çan ommote: vmētin in convicaque, itlan ietiaque. 
+                  Teputzitoloc tequioa, yoan Iaztachimal ixolouh in Quauhtemoctzin. Auh ce quitlanelhuitia itoca 
+                  Ceniautl: auh in iquac ie quivica in Quauhtemoctzin: nimā ie ic mochoquilia in ixquich macevalli 
+                  <pb type="folio" n="81"/> quitoque. Ie iauh in tlacatl xocoiotl in Quauhtemoctzin ie iauh quinmomacaz in teteu in Españoles.
+               </p>
+               
+            </div2>
+            
          </div1>
       </body>
    </text>

@@ -56,14 +56,22 @@
       <body>
          <div1 type="chapter" n="41" xml:id="b12c41">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
+
 
             <div2 type="para" n="1" xml:lang="sp">
                <p><pb type="folio" n="84v"/> Capitulo .41. de la platica que hizo el capitan Don
                   hernando cortes, a los señores de mexico, tetzcucu, y tlacuba: despues de la
                   victoria, procurando por el oro, que se auia perdido, quando
-                        <expan>salierō<ex>n</ex></expan> huyendo de mexico. <pb type="folio" n="85"
-                  /> Como estuuieron juntos los tres señores de mexico, y tetzcuco, y tlacuba, con
+                   <expan>salierō<ex>n</ex></expan> huyendo de mexico. </p></div2>
+            
+            
+                  
+            <div2 type="para" n="2" xml:lang="sp">
+                  <p><pb type="folio" n="85"/> 
+                  Como estuuieron juntos los tres señores de mexico, y tetzcuco, y tlacuba, con
                   sus principales <expan>delā<ex>n</ex>te</expan> de Don
                      <expan>hernā<ex>n</ex>do</expan> cortes, mando a Marina que les dixese donde
                   esta el oro que auia dexado en mexico? Y luego los mexicanos le sacaron todas las
@@ -88,8 +96,8 @@
                   presos, y todo lo tornaron en el lugar de Texopan se junto todo, y esto es lo que
                   esta aqui y no ay mas; dixo luego Marina: el <expan>nro<ex>nuestro</ex></expan>
                   capitan dize que no esta aqui todo: y respondio el principal Cioacoatl por uentura
-                  algun maceoal a tomado algo. Buscarse a: y traerse a la presencia del capitan <pb
-                     type="folio" n="86v"/> Otra uez dixo Marina el señor capitan, dize que busqueys
+                  algun maceoal a tomado algo. Buscarse a: y traerse a la presencia del capitan 
+                  <pb type="folio" n="86v"/> Otra uez dixo Marina el señor capitan, dize que busqueys
                   docientos tesoelos de oro tan grandes, como asi: y señaloles con las manos, el
                   grandor de vna patena de caliz: otra uez hablo el principal Cioacoatl, y dixo por
                   uentura algunas de las mugeres lo lleuaron ascondido debaxo, de las nauas,
@@ -103,10 +111,53 @@
                   y despues venian los señores de los pueblos que auian sido conquistados, y trayan
                   su tributo de oro, y de piedras preciosas, y de plumajes ricos: y todo lo dauan a
                   Motecuçoma, todo el oro venia a su poder.</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+       
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p>Inic ompoalli oce capitulo vncā mitoa in tlatolli inic quinnonotz do hernando 
+                  Cortes in ixquichtin altepetl ipā tlatoque, in nican Mexico: auh tetzcucu, tlacuba, 
+                  in iquac ic omoman chimalli, in quintemoliaia in cuztic teucuitlatl, in vncan 
+                  quicenmantiquizque tultecaacaluco, in iquac quizque, choloque mexico.
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p><pb type="folio" n="85"/> 
+                  Niman ie ic quinnonotza in Marques in Capitan in tlatoque: quimilhuia. 
+                  Catli in teucuitlatl? in omopiaia Mexico: niman ie ic vallaquixtilo in acalco in ixquich 
+                  in teucuitlatl, in teucuitlapanitl, in teucuitlacopilli, in teucuitlamatemecatl, in 
+                  teucuitlacotzevatl, in teucuitlaquacalalatli, in teucuitlacomalli: muchi ixpan contecaque 
+                  in capitan, çā much iehoan in Españoles in vallaquixtique: niman ie ic quitoa in Capitan, 
+                  çan ie ixquich in in teucuitlatl? in omopiaia Mexico, muchi anquinextizque? ca vel quitemoa 
+                  in totecuiovan: Nimā ie ic ontlatoa in Tlacutzin. <pb type="folio" n="85v"/> 
+                  Tlaquimocaquiti in totecuio in teutl, ca o ipan maxitico in totecpan, ca much ticxaxantzacque, amo nel much quimotquilique in totecuiovan? 
+                  niman quivalito in Malintzin, quimitalhuia in Capitan, Quemaca ca much ticcuique, muchi omocentlali, 
+                  yoan muchi omumachioti: auh ca much techtlaçaltique in vncā tulteca acaloco, much oncā techtepevaltique, 
+                  much quinextizque: nimā ie ic tlananquilia in Cioacoatl tlacutzin, tla quimocaquiti in teutl in Capitā. 
+                  Ca vel acalco moquetza in tenuchcatl, ca amo ichivil, ca çan ineixcavil quichiuh in tlatilulcatl, in 
+                  acal<pb type="folio" n="86"/>tica tlaiecoque, in quiniacatzacuilito in totecuiovā amo nel iehoantin muchi quicuique 
+                  in tlatilulca: nimā ie ic vallatoa in Quauhtemoctzin: quivalilhui in Cioacoatl, tlein tiquitoa Cioacoatle: 
+                  maço quicuiq̄ in tlatilulca, amo ic çaçacoque in tlamaceuhque? amo muchi quinextique? amo texopan 
+                  in monechico? auh tlein oconmocuilique in totecuiovan amo iehoatl in? commapilhui in teucuitlatl in 
+                  Quauhtemoctzin: nimā quivalilhui in Malintzin quimitalhuia in capitan Çan ie ixquich in? niman ic 
+                  conito in cioacoatl, aço aca quiquixti in Macevalli, atel motlatemoliz, aquimottiliz in totecuio in capi<pb type="folio" n="86v"/>tan: 
+                  nimā ie no ceppa quivalito in Malintzin, quimitalhuia in Capitan Matlacpoalli anquinextizque in teucuitlatl 
+                  ixquich in: quivaltamachiuh imatica, quivaliavallali in ima: ie no ceppa ontlananquili in civacoatl: quito. 
+                  Aço ça aca ipan mocueti in civatzintli, amotemoliz, aquimottiliz: niman ie ic ontlatoa in Mixcoatlailotlac, 
+                  avelitoctzin: quito. tla quimocaquiti in tlacatl in totecuio in Capitan, in oc vnca Motecuçoma, in iquac ontepevaloia 
+                  cana, ca cemolini in Mexicatl, in tlatilulcatl, in tepanecatl in aculhoa: in ixquich tepanecatl, in ixquich acul<pb type="folio" n="87"/> 
+                  hoa yoan in ixquich chinampanecatl, ca ticemolini, in tontepeva: auh in onia altepetl, ca nimā ie ic valnecuepalo, 
+                  ceceniaca cōmati in imaltepeuh. Auh çatepan valhui in altepevaque in ie pevallaca, quivalitqui in intlacalaquil, 
+                  intlatqui valmuchiuhtiuh in chalchivitl in teucuitlatl, in quetzalli yoan in oc cequi tlaçotetl, in teuxivitl, in xiuhtototl, 
+                  in tlauhquechol: quioalmacaia in Motecuçoma, çan cē vmpa valaci, çā vmpa valmocemaci in tenuchtitlan in ixquich 
+                  tlacalaquili in teucuitlatl.
+               </p>
+               
+            </div2>
          </div1>
       </body>
    </text>

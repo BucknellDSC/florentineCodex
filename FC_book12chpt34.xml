@@ -50,18 +50,24 @@
          </sourceDesc>
       </fileDesc>
 
-
+      <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+      <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+      <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+      
    </teiHeader>
    <text>
       <body>
          <div1 type="chapter" n="34" xml:id="b12c34">
-            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+      
 
             <div2 type="para" n="1" xml:lang="sp">
+               
                <p><pb type="folio" n="64"/> Capitulo .34. de como los yndios mexicanos prendieron
-                  quinze Españoles. <figure xml:id="b12c34sp_image1"/> Dezian los capitanes. Ea pues
-                  mexicanos Ea pues mexicanos: luego començaron todos a tocar sus trompetas y a
+                  quinze Españoles. <figure xml:id="b12c34sp_image1"/> </p></div2>
+                  
+            <div2 type="para" n="2" xml:lang="sp">
+                  
+                  <p>Dezian los capitanes. Ea pues mexicanos Ea pues mexicanos: luego començaron todos a tocar sus trompetas y a
                   pelear con los Españoles y <expan>lleuauā<ex>n</ex></expan> de vencida a los
                   españoles y prendieron quinze Españoles: y los Españoles huyeorn con los
                         <expan>vergā<ex>n</ex><pb type="folio" n="64v"/>tines</expan> a lo alto de
@@ -108,10 +114,59 @@
                      <expan>q<ex>ue</ex></expan> se llamaua Tlappanecatl hecatzin y
                         <expan>comē<ex>n</ex>ço</expan> a dar vozes esforcando a los suyos y aferro
                   con vn español yn dio con el en tierra y tomaronle los otros soldados que yuan con
-                  este Tlappanectal hecatl. <figure xml:id="b12c34sp_image3"/><figure
-                     xml:id="b12c34sp_iamge4"/></p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                  este Tlappanectal hecatl. 
+                     
+                     <figure xml:id="b12c34sp_image3"/>
+                     
+                     <pb type="folio" n="66"/>
+                     
+                     <figure xml:id="b12c34sp_image4"/>
+                     <figure xml:id="b12c34sp_image5"/>
+                     <figure xml:id="b12c34sp_image6"/>
+                  
+                  
+                  </p>
+
+            </div2>
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p><pb type="folio" n="64"/>Inic cempoalli ommatlactli onnavi capitulo: 
+                  vncan mitoa in quenin iehoantin Mexica tlamaque in quimacique Españoles caxtolti. 
+               </p></div2>    
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>Mexicae ma ie cuel: niman ie ic tlacaoaca, yoan tlapitzalo yoan chimallaça in iautlachixqui: 
+                  niman ie ic quintoca in Españoles, quimaiauhtivi yoā quimantivi, caxtoltin in anoque in Españoles: 
+                  nimā ic quin <pb type="folio" n="64v"/> oalhuicaque: auh in imacal nimā ic quitzinquixtique, anepantla contecato. 
+                  Auh in oquimaxitico caxtoltin omei in vncan miquizque itoca: tlacuchcalco: nimā ie ic quinpepetlaoa, 
+                  much quincuilique in iniautlatqui, yoā in imichcavipil, yoan in ixquich in intech catca, moch quintepeoaltique: 
+                  niman ie ic tlacoti quinmictia: auh in imicnioan quinvalitztoque anepantla. Auh ceppa quicalaquique vntetl 
+                  in imacal in vmpa xocotitlā: in oconacanque, nimā ie ic vmpa itztivi in incalla xocoteca. Auh in Tzilacatzin, 
+                  yoan oc cequintin tiacaoan; in oquimittaque in Españoles: niman intech oalietiquizque, quinoallalochtocaque, 
+                  quintepachotivi, atlan quintepeoaco in Españoles. Auh ie no ceppa quioalhuicaque in imacal in vncan coionacazco 
+                  inic tlaie <pb type="folio" n="65"/> cozque, inic micalizque. Auh in oacico niman ic valquizque cequintin Españoles, quinvaliacan 
+                  in Castañeda xicotencatl: iquetzaltemal ietinemi. Nimā ie ic vallatepuzmivia: auh ça ce in minoc ixquac, niman 
+                  ic momiquili: iehoatl in valtemi in Castañeda. Auh in tiacaoā itech ietiquizque, atlan quinnemitique, quintetepachoque: 
+                  auh vncā miquizquia in castañeda: auh ça acaltitech pilcatia inic quivicaque xocotitlan. Auh centetl acalli onoca 
+                  tetenanteputzco, vncā in colivi tetenamitl: auh in oc centetl acalli vmpa onoca in totecco: in ipan vtli tlamelaoa 
+                  Tepetzinco, çan tlatlapixtoca in atlan. Auh in ie ioa quivica. Auh iquezquilhuioc ie no ceppa techcentlatalhui in 
+                  Españoles: nec vitze, ie quioalmottilique in quavecatitlan vtli, in oallamelauhticac iztanamacoian. Auh in vncan 
+                  in quauecatitlan in vtli <pb type="folio" n="65v"/> camoiauhque. Auh in ixquich tlaxcaltecatl, in aculhoacatl, in chalcatl: niman ie ic 
+                  catzupa in acalutli: yoan in ocamoiauhque vtli: contlaça in xamitl, yoan in calquavitl, in tecoc in tlaix quatl in tlaquetzalli, 
+                  in quāmimilli, in acatl quicuitlalpia in contepeoa atlan. Auh in iquac in omotzop nec valmotema in Españoles, cencā ivian 
+                  in iativitze, quiniacana in quachpanitl, tlapitztivitze, tlatzotzontivitze. Auh imicampa onotivitze in ie ixquich tlaxcaltecatl, 
+                  yoan in ie ixquich altepeoa, cenca muchicava moquaquacuecuechoa, meeltzotzona in tlaxcalteca, cuica, no cuica in mexica 
+                  necoccampa cuico, queoa in çaço tlein quilnamiqui, ic mellaquaoa muchioa. Auh in oacico tlalhoacan* in tiacaoā vel nepacholo, 
+                  vel mopachoa <pb type="folio" n="66"/> vel netlatilo, quitetetzontlaliaia, quichixtoque in quemman teevitiloz, in quenman quicaquizque tzatziliztli, 
+                  in teevitiliztli: auh in otzatzioac. Mexicae, ma ie cuel iehoatl: niman ic quivalixti, in Tlapanecatl hecatzin, otomitl, inca ommomotlac: 
+                  quito. Tiiacavane tlatilulcae, ma ie cuel, aquique in in Tenime, xivalnenemican: niman ic ica ce maiavito in Español, tlalli ic quivitec: 
+                  iehoatl in valiacattivia in quimaiavito in quivaliacatitivia. Auh in oquimaiavito: nec convilanato in Español.
+                  
+               </p>
+               
+               
             </div2>
 
          </div1>

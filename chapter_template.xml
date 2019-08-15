@@ -56,12 +56,12 @@
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
             <pb type="folio" n="1"/>
             
-            <div2 type="para" n="1" xml:lang="sp">
+            <div2 type="para" n="1" xml:lang="es">
                <p></p>
                <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; es=Spanish, na=Nahuatl -->
             </div2>           
-            <div2 type="para" n="1" xml:lang="nah">
+            <div2 type="para" n="1" xml:lang="na">
                <p></p>
                
             </div2>

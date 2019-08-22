@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="17" xml:id="b1c17">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>El capitulo dezisiete, habla del dios
+                        <!-- marginal note crossed out -  "fa" --> llamado opuchtli: el qual era
+                        tenjdo y adorado, enesta nueua españa.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> Este dios, llamado opuchtli, le contau<ex>ā</ex>n conlos dioses, que se
+                        llamauan tlaloques: <expan>q̄<ex>ue</ex></expan> qujere dezir, habitadores
+                        del parayso terrenal: aunque sabian, que era puro hombre. Atribuyan, aeste
+                        dios, la inuencion de las redes, para pescar peces: y tambien vn
+                        instrumento, para matar peces, que le llaman mjnacachalli: que es como
+                        fisga, aunque no tiene, sino tres puntas,
+                        <!-- add marginal note, in () is cutoff in the MS: "(en),triangulo (co)mo tridente -->conque
+                        hiere, alos peces: y tambien <expan>cō<ex>n</ex></expan> el matan aues.
+                        Tambien este, inuento los lazos, para matar las aues: y los remos para
+                        remar. Quando hazian hiesta, aeste dios, los pescadores, y gente del agua:
+                        que tienen sus grangerias, en las aguas: alqual tenjan por dios. Ofrezianle,
+                        cosas de comer, y vino: deloque ellos vsauan, que se llama vetli: y por
+                        outro <expan>nō<ex>m</ex>bre</expan> se llama pulcre. Tambien le ofrezian,
+                        cañas de mahiz verdes, y flores, y cañas de humos que llaman yietl: y
+                        encienso blanco, que llaman copalli: y vna yerua olorosa, que se llama,
+                        yiauhtli: sembrauan delante del, como quando hechan juncos, quando se haze
+                        procession. Vsauan tambien, enesta solennjdad, de vnas sonajas: que yuan
+                        envnos bacculos huecos: que sonauan como casacabeles, o casi. Sembrauan
+                        tambien, delante del, vn mahiz tostado, que llaman mumuchitl: que es vna
+                        manera de mahiz: <expan>q̄<ex>ue</ex></expan> quando se tuesta, rebienta, y
+                        descubre el meollo, yse haze como vna flor, muy blanca: dezian, que estos,
+                        eran granizos: los quales son atribuydos, alos dioses del algua. Los viejos
+                        satrapas, que tenjan cargo deste dios, ylas viejas: dezianle, los cantares,
+                        de su loor. La ymagen deste dios, es vn hombre desnudo, y teñjdo de negro
+                        todo: y la cara pardilla: tirante alas plumas de la codorniz. Tenja vna
+                        corona de papel, de diuersas colores: compuesta amanera de rosa: que las
+                        vnas hojas, sobrepujan, alas otras: y encima tenja, vn penacho de plumas
+                        verdes, que salian, de vna borla amarilla: colgauan desta corona, vnas
+                        borlas largas, azia las espaldas. Tenja, vna estola verde cruzada, amanera
+                        de las que se <expan>ponē<ex/></expan> los sacerdotes: quando dizen missa.
+                        Tenja, ceñjdo, vnos papeles verdes: que le colgauan hasta las rodillas.
+                        Ten<!--in MS there is an i above the n -->ja, vnas cotaras, o sandalias
+                        blancas: tenjia en lamano izqujerda vna rodela, tenjda de colorado: y enel
+                        medio deste campo, vna flor blanca: con quatro hojas, amanera de cruz: y de
+                        los espacios de las hojas, salian quatro puntas, que eran tambien hojas, de
+                        la mjsma flor. Tenja, vncetro en la mano derecha, como vn caliz: y de lo
+                        alto del, salia como vn casqujllo, de saeta.</p>                  
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

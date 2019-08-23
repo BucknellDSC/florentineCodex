@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="18" xml:id="b1c18">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>Capitulo deziocho, que habla, del dios, llamado xipe totec: qie qujere dezir,
+                        desollado.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> Este dios, era honrrado de aquellos, que biujan ala orilla de la mar: y su
+                        origen, tuuo en tzapotlan, pueblo de salixco. Atribuyan aeste dios, estas
+                        emfermedades, que se siguen: primeramente las viruelas, tambien las
+                        postemas, que se hazen enel cuerpo, y la sarna: tambien las emfermedades, de
+                        los ojos: como es el mal, de los ojos, que procede de mucho beuer: y todas
+                        las
+                        <!-- add marginal note, in () is cutoff in the MS: "(de)mas" -->emfermedades,
+                        que se <expan>causā<ex>n</ex></expan> en los ojos. Todos los que eran
+                        enfermos, de alguna de las emfermedades dichas: hazian voto aeste dios, de
+                        vestir su pellejo: quando se hiziesse su fiesta: laqual se llama,
+                        tlacaxjpeoaliztli: que qujere dezir, desollamjento de hombres. Enesta
+                        fiesta, hazian como vn juego de cañas: demanera que el vn vando, era de la
+                        parte deste dios, o ymagen deldios totec: y estos todos, yuan vestidos, de
+                        pellejos de hombres, que aujan muerto, y desollado, en aquella fiesta: todos
+                        rezientes, y sangrientos, y corriendo sangre. los del bando contrarjo, eran
+                        los soldados valientes, y osados, y personas velicosas, y esforçados: que no
+                        tenjan en nada, la muerte: osados, atreujdos, que de su voluntad salian,
+                        acombatirse, con los otros. Alli los vnos, con los otros, se
+                                <expan>exercitauā<ex>n</ex></expan> enel exercicio de la guerra:
+                        persegujan los vnos, alos otros: hasta su puesto, y de alli bolujan huyendo,
+                        hasta su proprio puesto. Acabado este juego, aquellos que lleuauan, los
+                        pellejos de los hombres vestidos: que eran de la parte deste dios totec,
+                        yuanse por todo el pueblo: y entrauan enlas casas, demandando, que les
+                        diessen, alguna limosna: por amor de aquel dios. Enlas casas donde entrauan:
+                        hazianlos sentar, sobre vnos hazezillos, de hojas de tzapotes: y echauanlos
+                        al cuello, vnos sartales, de maçorcas de mahiz: y otros sartales de flores,
+                        que yuan, desde el cuello, azia los sobacos: y ponjan las gujrnaldas: y
+                        dauanlos, abeuer pulcre, que es su vino. Si algunas mugeres, enfermavan,
+                        destas emfermedades, dichas arriba: enesta fiesta, deste dios:
+                                <expan>ofreziā<ex>n</ex></expan> sus ofrendas, segun que aujan
+                        votado. La ymagen deste dios, es amanera de vn hombre desnudo, que tiene el
+                        vn lado, teñjdo de amarillo: y elotro de leonado. Tiene, la cara labrada, de
+                        ambas partes: amanera devna tira angosta, que cae, desde la frente, hasta la
+                        qujxada. Enla cabeça, amanera de vn capillo, de diuersas colores: con vnas
+                        borlas, que cuelgan, azia las espaldas. Tiene, vestido, vn cuero de hombre:
+                        tiene los cabellos trançados, en dos partes: y vnas orejezas de oro: esta
+                        ceñjdo, <expan>cō<ex>n</ex></expan> vnas faldetas verdes: que le llegan,
+                        hasta la rodillas: con vnos caracolillos <expan>pē<ex>n</ex>dientes</expan>.
+                        Tiene, vnas cotaras, o sandalias: tiene vna rodela, de color amarillo: con
+                        vn remate de colorado, todo al rededor. Tiene vn cetro, con ambas manos:
+                        amanera de la copa, de la dormjdera: donde tiene la semjlla: con vn
+                        casquejllo de saeta encima, enpinado.</p>
+                    <p>
+                        <figure xml:id="b01c18sp_image1"/>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

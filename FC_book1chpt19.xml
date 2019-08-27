@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="19" xml:id="b1c19">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>El capitulo dezinueue, habla del dios, que se llamava yiacatecutli: dios de los mercaderes.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> Este dios, llamado yiacatecutli, ay conjectura, que començo los tratos, y
+                        mercaderjas entre esta gente: y ansi los mercaderes le tomaron por dios: y
+                        le honrrauan de diuersas maneras: vna de las cosas, con que le honrrauan:
+                        era, que le ofrezian papel, y le cubijauan, con el mjsmo papel, donde qujera
+                        que estauan, sus estatuas. Tambien tenjan, en mucha veneraçion, al bacculo,
+                        conque <expan>camjnauā<ex>n</ex></expan>: que era vna caña maziza, que ellos
+                        llaman vtlatl. Y tambien vsan de otra manera de baculo, que es vna caña
+                        negra liujana, maziza: sin ñudo njnguno: que es como junco, de los que se
+                        vsan en españa. Todos los mercaderes vsan desta manera de bacculos por
+                        elcamjno: y quando llegauan, adonde aujan de dormjr, juntauan todos sus
+                        bacculos, en vna gaujlla atados: y <expan>hincavā<ex>n</ex>los</expan> ala
+                        cabeçera, donde aujan de dormjr: y derramauan sangre, delante dellos, de la
+                        orejas, ode lalengua, ode las piernas o de los braços: y ofrezian copal,
+                        hazian fuego, y quemauanle delante, de los bacculos: los quales tenjan por
+                        ymagen, del mjsmo dios: y enellos honrrauan, al mjsmo dio yiacatecutli: con
+                        esto le suplicauan, que los amparasse, de todo peligro. Estos mercaderes,
+                        discurren por toda la tierra, tratando, <expan>cō<ex>m</ex>prando</expan> en
+                        vna parte, y vendiendo en ontra: lo que aujan comprado. Estos, mercaderes,
+                        discurren por todas las poblaciones, que estan ribera de la mar: y la tierra
+                        adentro, no dexan cosa, que no escudrjñan, y passean: en vnas partes
+                        comprando, y en otras vendiendo: no dexan lugar, donde no buscan, lo
+                                <expan>q̄<ex>ue</ex></expan> alli se puede comprar, o vender: nj
+                        porque la tierra sea muy caliente, nj porque sea muy fria, nj porque sea muy
+                        aspera: no dexan de passarla, nj de trastornalla, buscando lo que en ella ay
+                        preçioso, o prouechoso, para comprar o vender. Son estos mercaderes,
+                        çufridores, de muchos trabajos: y osados para entrar, entodas las tierras:
+                        aunque sean las tierras, de enemjgos: y muy astutos, para tratar, con los
+                        estraños: assi deprendiendo, sus lenguas, como tratando conellos, con
+                        benjuolencia: para atraerlos, asu famjliaridad. Estos descubren, donde ay
+                        las plumas preciosas, y las piedras preciosas, yeloro: y las compran, y las
+                        lleuan a vender, donde saben, que han de valer mucho. Tambien estos
+                        descubren, donde aypellejos de anjmales esqujsitos, y preciosos: y los
+                        venden, adonde vale mucho. Tratan tambien, en vasos preciosos, hechos, de
+                        diuersas maneras, y pintados con diuersas figuras: segun que endiuersas
+                        tierras, se vsan. Vnos con tapaderos, hechos de conchas, de tortugas: y
+                        cucharas de lo mjsmo: para reboluer el cacao. Otros, con tapaderos, muy
+                        pintados, de diuersas colores, y figuras: hechas a maneras, de vna hoja, de
+                        vn arbol: y otros palos preciosos, para reboluer el cacao. Si han de entrar,
+                        entierra de guerra: primero deprenden, el lenguaje de aquella gente: y toman
+                        el traje della: para que no parezcan, que son estranjeros: sino que son
+                        naturales. Acontecia muchas vezes, que los enemjgos, los conocian, y los
+                        prendian, ymatavan: y si vno, o dos, o mas, se podian escapar, yuan adar
+                        mandado, al señor principal, de la tierra: como motecuçuma, o otros sus
+                        antecessores: y <expan>lleuavā<ex>n</ex></expan> algunas, de aquellas
+                        riquezas, que aujan en aquella tierra: y presentauanlas, al señor:
+                        ycontauanle, lo que aujan passado, y dayable la relacion, de la tierra: que
+                        aujan visto. El señor, en remuneracion, de sus trabajos, paraque fuesse
+                        honrrado, enel pueblo, y tenjdo por valiente: ponjale, vnbeçote, de ambar:
+                        que es vna piedra
+                        larga<!-- add marginal note, in () is cutoff in the MS: "(ama)rilla, tras(par)ente" -->,
+                        que cuelga del beço baxo, agujerado: en señal, que era valiente, y era
+                        noble: y esto se tenja en mucho. Estos mercaderes, partianse, de sus
+                        parientes, con grandes cerjmonjas: segun su ritos antiguas, quando yuan
+                        amercadear, a tierras estrañas: yestauan por alla muchos años: yquando
+                        bolujan, asus tierras, venjan cargados de muchas riquezas: y
+                        pa<!-- add insert, "ra" --> hazer demostracion, de lo que trayan, ydar
+                        relaçion, de las tierras, por donde <expan>aujā<ex>n</ex></expan> andado, y
+                        de las cosas aujan visto: combidauan atodos, los mercaderes, en especial
+                        alos principales dellos: y alos señores del pueblo: y los hazian gran
+                        combite. A este combite, llamauanle, lauatorjo de pies: ylos combidados,
+                        reuerenciauan, grandemente, al baculo: conque auja ydo, y buelto. Tenjan que
+                        era ymagen, de aquel dios, y que le auja dado fauor, para yr, y boluer, y
+                        andar los camjnos que anduuo. Para hazer, estar honrra, albaculo, le ponjan
+                        en vna de las casas de <expan>or<ex>aci</ex>ōn</expan>, que tenjan en los
+                        barrios: que ellos llamauan, calpulli: que qujere dezir: yglesia del barrio,
+                        o perrocha. En este calpulli, donde se contaua, este, mercader, ponjan el
+                        bacculo, en lugar venerable: y quando dauan comjda, a los combidados,
+                        primeramente ponjan comjda, y flores, y acayietl,
+                        <!-- sign that looks like etc., Garibay has it "etc." -->delante del
+                        bacculo. Y fuera del combite, todas las vezes, que comja este mercader:
+                        ofrezia primeramente, comjda, y las demas cosas, al baculo: que le tenja en
+                        su oratorjo, dentro de su casa. Estos mercaderes, despues que venjan
+                        prosperos, de las tierras, de donde aujan andado, como tenjan caudal:
+                        comprauan esclauos, y esclauas: para ofrezerlos, a su dios, en su fiesta: el
+                        qual principalmente, era yiacatecutli. Y este, tenja cinco hermanos, y vna
+                        hermana: y atodos los tenjan, por dioses: ycomo se inclinaua, su deuocion,
+                                <expan>sacrificauā<ex>n</ex></expan> esclauos, acada vno dellos, en
+                        su fiesta, o atodos juntos: o ala hermana. El vno de los hermanos, se
+                        llamaua chiconqujaujtl, elotro, xomocujl, el otro nacxjtl, el otro
+                        cochimetl, el otro acapitzaoac: la hermana se llamavua, chalmecacioatl. A
+                        estos, o alguno dellos, ofrezian <!-- S inserts "un" -->esclauo, o mas:
+                        sacrificandolos, en su presencia, vestidos <expan>cō<ex>n</ex></expan> los
+                        ornamentos, de aquel dios: como si fuesse su ymagen. Auja vna feria
+                        ordinaria, donde se vendian, y comprauan esclauos, hombres, y mugeres, en
+                        vnpueblo, que se llama azcaputzalco, que es dos leguas, de mexico: alli los
+                        yuan, a escojer, entre muchos. Y los que comprauan, mjrauan muy bien: que el
+                        esclauo, o esclaua, no tuujiesse alguna emfermedad, o fealdad, enel cuerpo.
+                        A estos esclauos, hombres y mugeres: despues que los compravan: criavanlos,
+                        en mucho regalo, y vestianlos muy bien: dauanlos a comer, y beuer,
+                        abundantemente; y bañavanlos, con agua caliente: de manera que los
+                        engordauan, porque los aujan de comer, y ofrezer a su dios. Tambien los
+                        regozijavan haziendolos cantar, y dançar: alas vezes sobre el açotea, de sus
+                        casas: o enla plaça: cantauan todos, los cantares, que sabian: hasta que se
+                        hartauan de cantar: y no estimauan en nada, la muerte que les estaua
+                        aparejada. Matauan, estos esclauos, en la fiesta, que se llama,
+                        panquetzaliztli: ytodo el tiempo, ante de llegar, aquella fiesta, los
+                                <expan>regalauā<ex>n</ex></expan>: como esta dicho. Y si entre,
+                        estos escaluos, auja algun hombre, que parecia de buen juyzio, y que era
+                        diligente, para serujr, y sabia bien cantar: o alguma muger, que era
+                        dispuesta, y sabia bien hazer de comer, y de beuer, y labrar, y texer:
+                        aestos tales, los principales, los comprauan, para serujrse dellos, ensus
+                        casas: y los escapavan, del sacrificio. Laymagen deste dios, se pintaua,
+                        como vn yndio: que yua camjno, con su bacculo. Y la cara tenja manchada de
+                        blanco, y negro: en los cabellos, lleuaua atadas, dos borlas, de plumas
+                        ricas, que se llaman quetzalli: yvan atadas en los cabellos, del medio de la
+                        cabeça, recogidos como vna gaujlla, de todo lo alto de la cabeça. Tiene vnas
+                        orejeras, de oro: esta cubierto, con vna manta açul, y sobre el açul, vna
+                        red negra: de manera quel açul, se pareçe, por las
+                        ma<!-- S inserts "l"-->las de la red: tenja vna flocadura esta manta, por
+                        todas las orillas: en la qual, estauan texidas, vnas flores. Tenja, en la
+                        garganta de los pies, vnas como calçuelas, de cuero amarillo: delas quales
+                        colgauan, vnos caracolitos mariscos. Tenja, enlos pies, vnas cotaras, muy
+                        curiosas, y labradas: Tenja, vna rodela, teñjda de amarillo, con vna mancha,
+                        enel medio, de açul claro: que no tiene, njngun labor. Tenja enla mano
+                        derecha, su baculo: con que van, camjno.</p>                    
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

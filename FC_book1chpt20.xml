@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="20" xml:id="b1c20">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>Capitulo veynte, que habla del dios llamado, napatecutli.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> Este dios, napatecutli, era el dios, de los que hazen esteras de juncias: y
+                        es vno de los que llaman, tlaloques. Dizen que este es, el que inuento, el
+                        arte de hazer esteras: y por esso le adoran, pordios, los deste officio, que
+                        hazen esteras, que llaman petates: y hazen sentaderos, que llaman icpales: y
+                        hazen cañizos de juncias: que llaman tolcuextli. Dezian
+                        <expan>q̄<ex>ue</ex></expan> por la virtud, deste dios, nacian,
+                        y secriauan, las juncias, y juncos, y cañas: conque ellos hazen su officio.
+                        Y <expan>porq̄<ex>ue</ex></expan> tenjan, que este dios,
+                        produzia tambien la lluujas: hazianle fiesta, donde le reuerenciauan, y
+                        adorauan: y le demandauan, que diesse las cosas, que suele dar: que es agua,
+                        juncias. <!--sign that looks like etc., Garibay has it "etc." -->. En su
+                        fiesta, comprauan un esclauo, para sacrificarle, delante del: ataujandole,
+                        con los ornamentos deste dios: como que fuesse su ymagen. Este, el dia que
+                        auja de morir, despues de compuesto, como esta dicho: ponjanle enla mano, vn
+                        vaso verde, lleno de agua: y con vn ramo de salze, rociaua atodos, con
+                        aquella agua: como, qujen hecha agua bendita. Y quando entre año, alguno
+                        destos, deste officio: queria, por su deuocion, hazer fiesta aeste dios,
+                        daua relacion dello, asus satrapas: y todos ellos, lleuauan a vn satrapa,
+                        vestido con los ornamentos, deste dios: como su ymagen. Y por donde yua, yua
+                        hechando el agua: rociando, alos que estauan, por donde passavan: con vn
+                        ramo de salze, como qujen hecha agua bendita. Llegado, ponjanle, ensu lugar,
+                        y hazian algunas cerjmonjas, ensu presencia: rogandole, que hiziesse
+                        mercedes, en aquella casa. El que hazia esta fiesta, daua de comer, y de
+                        beuer al dios, y alos que conel yuan: y atodos los que auja combidado. Esto
+                        hazia en agradecimjento, de la prosperidad, yriqueza, que ta tenja: tenjendo
+                        entendido, que este dios, sela auja dado. Y aeste proposito, hazia este
+                        combite: y enel, se hazian danças, y cantares, asu modo: a honrra, deste
+                        dios: porque le tuujesse, por agradecido: y gastaua todo, quanto tenja, y
+                        dezia. No se me da nada, de no quedar con nada, contalque, que sea mj dios
+                        serujdo, desta giesta. Ysi me quesiere dar mas, o dexarme sin nada: hagase,
+                        com el qujsiere. dicho esto, cubrja con vna manta blanca, al que yua, por
+                        ymagen, dete dios: y assi se yua, para su templo, conlos que aujan venjdo
+                        conel. Ydo el, comjan: el que hazia, combite, y los parientes. Estos
+                        officiales, de hazer petates, y otras cosas de juncia: tenian, cujdado, de
+                        ataujar, y componer, y barrer, y limpiar, y sembrar juncia: enel templo,
+                        deste dios. Tenjan, assi mjsmo cujdado, de poner petates: y assentadores de
+                        juncia: que llaman icpales: y que vujesse alli, toda limpieza, y todo
+                        ataujo: demanera, que nj vna paja, nj otra cosa, estuujesse cayda, enel
+                        templo. La ymagen, deste dios, es como vn hombre, que esta teñjdo de negro
+                        todo: assi el cuerpo, como lacara: saluo que la cara, tiene vnas pecas
+                        blancas, entre lo negro. Tiene vna corona, de papel, pintada de blanco, y
+                        negro: tiene vnas borlas, que cuelgan, de la corona, sobre las espaldas: y
+                        de las mjsmas borlas, sale vn penacho, azia el colodrillo: que tiene, tres
+                        plumas verdes. Tiene, ceçnjdo, vnas faldetas; que le llegan, hasta la
+                        rodilla: con vnos caracolitos mariscos: y pintado de blanco, y negro. tiene
+                        las cotaras, blancas: y en la mano izqujerda, tiene vna rodela: amanera de
+                        njnfa, que es vna yerua, de agua ancha, como vn plato grande: y enla mano
+                        derecha, tiene, vn baculo florido: las flores, son de papel. Tiene, vna
+                        vanda; amanera, de estola, desde el hombro derecho: cruzada, por el sobaco
+                        izqujerdo: pintado, de vnas flores negras, sobre blanco.</p>
+                    <p>
+                        <figure xml:id="b01c20sp_image1"/>
+                    </p>                    
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

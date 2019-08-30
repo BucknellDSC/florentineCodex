@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Florentine Codex Project</title>
+                <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+                    <address>
+                        <addrLine>Lewisburg, Pennsylvania</addrLine>
+                    </address>
+                </principal>
+                <respStmt>
+                    <persName>Diane Jakacki</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Quinn Smith</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Mauricio Valdes</persName>
+                    <orgName>Bucknell University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Nelson Shuchmacher Endebo</persName>
+                    <orgName>Stanford University</orgName>
+                    <resp>Transcriber, encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana,
+                    including original Spanish and Nahuatl texts, images, annotations, glosses, and editorial apparatus.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829"/>
+                        <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830"/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="chapter" n="21" xml:id="b1c21">
+                <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+                <pb type="folio" n="1"/>
+                
+                <div2 type="para" n="1" xml:lang="sp">
+                    <p>Capitulo veynte y vno, que habla, de muchos dioses, ymaginarios: alos quales
+                        todos: llamavan, tlaloques.</p>
+                    <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+                    <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+                </div2>           
+                <div2 type="para" n="2" xml:lang="sp">
+                    <p> A todos los montes emjnentes, especialmente, donde se arman ñublados, para
+                        lluuer; ymaginavan, que eran dioses: y acada vno dellos, hazian su ymagen:
+                        segun la ymaginacion, que tenjan dellos. Tenjan tambien ymaginacion, que
+                        ciertas emfermedades: los quales parecen, que son enfermedades de frio:
+                        procedian de los montes, o que aquellos montes, tenjan poder, para sanallas.
+                        Y aquellos, aqujen estas emfermedades, acontecian: hazian voto, de hazer
+                        fiesta, y ofrenda, atal, o tal monte: de qujen estaua mas cerca, o conqujen
+                        tenja, mas deuoçion. Tambien, hazian semejante voto, aquellos que se vian en
+                                <expan>algū<ex>n</ex></expan> peligro, de ahogarse, enel agua; de
+                        los rios, o de la mar. Las emfermedades, porque hazian estos votos era la
+                        gota de las manos, o de los pies, ode qualqujera parte del cuerpo. Y
+                        tambien, el tullimjento de algun miembro, o de todo el cuerpo: y tambien, el
+                        embaramjento, del pescuezo, o de otra parte de cuerpo: o encogimjento, de
+                        algun mjembro, o el pararse yerto: aquellos aqujen estas emfermedades,
+                        aconte<!-- BdS crosses out "n"--> cian: hazian voto, de hazer las ymagines,
+                        destos dioses, que se siguen: del dios del ayre, la diosa del agua, y el
+                        dios de la lluuja. Tambien la ymagen, del vulcan, que se llama popucatepetl,
+                        y la ymagen, de la sierra neuada, y la ymagen de vn monte, que se llama,
+                        poiauhtecatl: o de otros qualesqujer montes, aqujen se inclinauan, por su
+                        deuocion. El que auja hecho voto a alguno, a algunos montes, o destos
+                        dioses: hazia su figura, de vna massa, que se llama tzoalli: y ponjalos, en
+                        figura de personas: no lo hazia el, por sus manos, porque no le era licito:
+                        sino rogaua, a los satrapas: que eran enesto, experimentados, y para esto
+                        señalados: que le hiziessen, estas ymagines, aqujen auja hecho voto. los que
+                        las hazian, ponjales, dientes de pepitas, de calabaça, yponjanles, en lugar
+                        de ojos, vnos frisoles negros: que son tan grandes, con avas: aunque no de
+                        la misma hechura: y llamanlos, aiecutli. En los demas ataujos, ponjanselos,
+                        segun la ymagen, <expan>cō<ex>n</ex></expan>que los ymaginan, y pintan: al
+                        dios del viento, como aquetzalcoatl: al agua, como la diosa, del agua: ala
+                        lluuja, com al dios, de la lluuja: y alos otros montes, segun las ymagenes,
+                        conque los pintan. Despues de hechas, estas ymagines, ofrezianles papel, de
+                        lo que ellos hazian: y era, que vn pliego de papel, le
+                                <expan>hechavā<ex>n</ex></expan> muchas gotas, de la goma, que se
+                        llama vlli, derretido. hecho esto, colgauan al cuello, de la ymagen, el
+                        papel: de manera, que le cubria, desde los pechos abaxo: y con el remate, de
+                        abaxo, harpavan el papel. Tambien, ponjan estos mjsmos papeles, goteados con
+                        vlli: y colgados de vnos cordeles, delante de las mjsmas ymagines: de manera
+                        que los papeles, estauan asidos, los vnos de los otros: y meneaualos el
+                        ayre, por que estauan, los cordeles, en que <expan>estauā<ex>n</ex></expan>
+                        los papeles colgados: atados a las puntas de vnos barales, o baculos: que
+                                <expan>estabā<ex>n</ex></expan> hincados, enel suelo: y dela vna
+                        punta del vno, ala punta del otro, estaua atado, el cordel, omecatl.
+                        Ofrezian, ansimjsmo, aestas ymagines, vino, o vctli, o pulcre: que es, el
+                        vino de la tierra: Ylos vasos, enque lo ofrezian, eran desta manera: ay vnas
+                        calabaças lisas, redondas, pecosas entre verde, y blanco, o manchadas: que
+                        las llaman, tzilacaiutli, que son tan grandes, como vn gran melon: acada vna
+                        destas, partianla por la mjtad, y sacauanle, lo que tenja dentro: y quedaua
+                        hecha, como vna taça: y henchianla del vino dicho, y ponjanlas, delantes, de
+                        aquella ymagen, o ymagines. Y dezian, que aquellos, eran vasos, de piedras
+                        preciosas: que llaman chalchiujtl. Todas estas cosas dichas, hazian los
+                        satrapas: que eran experimentados, o estauan, señalados, para estos
+                        sacrificios: la otra gente, no vsauan hazer, esto: aunque fuesse, para en
+                        sua casa. Despues de hechas, las ymagines, aquellos, por cuyo voto, se
+                        hazian: conbidauan, a los satrapas, para el qujnto dia: despues de hechas,
+                        las ymagines, se auja de hazer la fiesta. Y llegado, el qujnto dia, aquella
+                        noche, velando, cantando, y baylando: a honrra de aquellas ymagines, y de
+                        los dioses, que representauan. Y aquella noche,
+                            <expan>ofreziā<ex>n</ex></expan> quatro vezes, tamales: que son como
+                        vnos pastelejos redondos, hechos de mahiz: alos que cantauan, y baylauan,
+                        que eran los <!--BdS inserts "sa" -->trapas, que
+                            <expan>aujā<ex>n</ex></expan> hecho, estas ymagines: y otros combidados
+                        para esta fiesta: atodos dauan comjda, quatro vezes, en aquella noche: y
+                        todas quatro vezes, tocauan instrumentos musicales, los que ellos usauan:
+                        que eran siluos, que hazen, metiendo el dedo muñjque, en la boca: y tocando
+                        caracoles, y flautas, de las que ellos vsauan. Esto hazian, vnos moços,
+                        juglares: que usauan, de hazer esta musica: y tambien aestos, les dauan
+                        comjda. Esto se hazia, quatro vezes, enesta noche: en amaneciendo los
+                        satrapas, descabeçauanlos, torciendoles las cabeças: y tomauan, todas
+                        aquella massa, ylleuauanla, ala casa, donde estauan todos juntos, los
+                        satrapas, que se llamaua calmecac: y aquellos, por cuyo voto, se aujan
+                        hecho, aquellas ymagines, entrauanse luego donde estauan sus combidados,
+                        estauan conellos, todo aquel dia: y ala tarde de par de noche, beujan todos
+                        los biejos, y viejas, vino, que se llama puclre o vetli: porque estos tenjan
+                        licencia, de beuer este vino. Y despues que ya estauan, medio borrachos,
+                        odel todo, se <expan>yuā<ex>n</ex></expan> para sus casas: vnos dellos, yuan
+                                <expan>llorā<ex>n</ex>do</expan>, otros yuan haziendo fieros, como
+                        valientes, y baylando, y pompeandose: otros yuan reñjendo, vnos con otros.
+                        los que hazian esta fiesta, conbidavan, y apercebian para ella, alos
+                        taberneros, <expan>q̄<ex>ue</ex></expan> hazian el pulcre: y exortauanlos,
+                        para que hiziessen, buen vino: y los taberneros, procurauan de hazer bien su
+                        vino. Y para esto se abstenjan, quatro dias, de llegar a muger ninguna: por
+                        que tenjan, que si llegassen a muger, en aquellos dias: el vino que
+                        hiziessen, se auja de azedar, y estragar. Abstenjanse ansimismo, aquellos
+                        dias, de beuer el pulcre: nj la mjel de que se haze, nj aun mojando, el dedo
+                        enella, lo llegaua ala boca, hasta entanto, que el quarto dia, se encetase,
+                        con la cerimonja, que arriba se dixo. Tenjan por aguero, que si alguno,
+                        beuja el vino, aunque fuesse muy poco, antes que se hiziesse, la cerimonja,
+                        del abrimiento, de las tinajas, como arriba se dixo: que
+                        <!--Bds inserts "se"--> le auja de torçer la boca, azia vn lado, en pena de
+                        su pecado. Dezian tambien, que si alguno, se le secaua la mano, o el pie: o
+                        temblaua, o se le acucharraua, la mano, o el pie, o le temblaua la cara, o
+                        le temblaua la boca, o los labios: o si entraua enel, algun demonjo: todos
+                        esto dezian, que acontecia, porque estos dioses, de que aquj, se trata, se
+                        aujan enojado contra el. Despues de acabada la fiesta, otro dia luego de
+                        mañana, el que auja hecho, la fiesta: juntauan asus parientes, y asus
+                        amigos, y alos de su barrio, <expan>cō<ex>n</ex></expan> todos los de su
+                        casa: y acabauan de comer, y beuer, todo lo que auja sobrado, de la fiesta.
+                        A estos llamavan, apeoalo, que qujere dezir: añadidura, alo que estaua
+                        comjdo, y beujdo: ninguna cosa quedaua de comer, nj de beuer, para otro dia.
+                        Dezian que los gotosos, haziendo esta fiesta,
+                            <expan>sanauā<ex>n</ex></expan> de la gota: ode qualesqujera, de las
+                        emfermedades, que arriva se <expan>dixerō<ex>n</ex></expan>: y los que aujan
+                        escapado, de algun peligro de agua: con hazer esta fiesta, cumplian con su
+                        voto. Acabada toda la fiesta: los papeles, y adereços, conque aujan
+                        adornado, estas ymagines: y todas las vasijas, que aujan sido menester, para
+                        el combite: tomauanlo todo, y lleuauanlo, a vn sumjdero, que esta en la
+                        laguna de mexico: que se llama pantitlan, y alli lo arronjauan todo.</p>        
+                    <p>
+                        <figure xml:id="b01c21sp_image1"/>
+                    </p> 
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

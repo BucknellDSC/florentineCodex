@@ -56,12 +56,13 @@
       <body>
          <div1 type="chapter" n="9" xml:id="b1c09">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
-            <pb type="folio" n="1"/>
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+            
 
             <div2 type="para" n="1" xml:lang="sp">
                <p>El noueno capitulo, se trata: de vna diosa, llamada, Tzaputla tena.</p>
-               <!-- If there is a figure it should follow this format <figure xml:id="b12c01sp_image1"/>-->
-               <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01sp_image1" is Book 12, Chapter 01, Spanish, Image 1; sp=Spanish, na=Nahuatl -->
+           
             </div2>
             <div2 type="para" n="2" xml:lang="sp">
                <p>Esta diosa, que se dize, tzaputla tena: fue vna muger, segun su nombre: nacida
@@ -79,7 +80,28 @@
                   este azeyte: contaranla, entre las diosas, y hazian, la fiesta, y sacrificios:
                   aquellos que venden, y hazen este azeyte: que se llama vxtil. </p>
             </div2>
-
+            
+            <div2 type="para" n="1" xml:lang="na">
+               
+               <p>
+                  Jnjc chicunauj, capitulo: vncan moteneoa yn cioateutl, yn jtoca Tzaputla tena.
+               </p>
+               
+            </div2>
+            
+            <div2 type="para" n="2" xml:lang="na">
+               
+               <p>
+                  Ce cioatl, ipan mjxeoaia, yn oxitl ynacaio muchioaia:
+                  quipaleuja yn tenacaio, yn aqujn quaxocociuj, tozcamjiaoaciuj, 
+                  motozcaoxiuja: chaquachiuj, quaçaoati, xotzaianj, tentzaianj, ixteteçonauj, mateteçonauj, 
+                  icxitzatzaianj, yoan in qualo, yn tlaxcaliciuj: yn jchiaoaca yn j tonal vel mieccan monequj.
+                  Auh yn jquac ilhujquixtiloia, yn oxinamacaque, motlacacoujaia, tlacamjctiaia, qujtzooallotiaia yn jxiptla, 
+                  qujcujcatiak, yn iveveiooan, qujteponacilhujaia, caiotzotzonjlia, caioujtequjlia, caiacachilhuja, comjchicaoacilhuja.
+                  Jnjc nechichioale omexaoale, amacale, olchachapanquj, tlaolchipinilli yn jamacal, yoan quetzalmjiaoaio, aiuchicaoace.
+               </p>
+               
+            </div2>
          </div1>
       </body>
    </text>

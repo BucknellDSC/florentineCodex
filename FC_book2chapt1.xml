@@ -51,70 +51,84 @@
    </teiHeader>
 
    <!-- For now this structure provides a one file/one book structure for ease of editing -->
-   
+
    <text ana="book" n="2">
-      
+
       <!-- There is no title page -->
-      
+
       <front>
          <div type="book_title" xml:lang="es">
-            <head><supplied ana="main">
-              
-               Segundo libro, que trata, del
-               calendario, fiestas, y ceri
-               monjas, sacrificios, y so
-               lenjdades: que estos na
-               turale, desta nue
-               ua españa, hazi
-               an: a honrra
-               de sus dioses.
-               
-               Ponese al cabo, deste libro, por via de 
-               apendiz: los edificios, officios
-               y serujcios: y officia
-               les, que auja
-               en el templo 
-               mexicano. 
-                
-            </supplied>
+            <head><supplied ana="main"> Segundo libro, que trata, del calendario, fiestas, y ceri
+                  monjas, sacrificios, y so lenjdades: que estos na turale, desta nue ua españa,
+                  hazi an: a honrra de sus dioses. Ponese al cabo, deste libro, por via de apendiz:
+                  los edificios, officios y serujcios: y officia les, que auja en el templo
+                  mexicano. </supplied>
             </head>
          </div>
          <div type="prologue" xml:lang="es">
-            
-           <!-- there page numbers but no folio numbers -->
-            
+
+            <!-- there page numbers but no folio numbers -->
+
             <head>Prologo</head>
-            
-            <p>Todos los escriptores...
-            </p>
-             
-             <p>fin del prologo</p><!--ask Diane about markup for ending/footers-->
-            
+
+            <p>Todos los escriptores trabaxan de autorizar, sus escripturas, lo mejor que pueden:
+               vnos con testigos fide dignos: otros con otros escriptores, que ante dellos an
+               escripto, los testimonjos de los quales son aujdos por ciertos: otros con testimonjo,
+               de la sagrada escriptura: amj me an faltado, todos estos fundamentos, para autorizar
+               lo que enestos doze libros, tengo escripto: y no hallo otro fundamento, para
+               autorizarlo: sino poner aquj, la relation, de la diligentia que hize: para saber la
+               verdad, de todo lo que enestos libros, he escripto. Como enotros prologos desta obra
+               he dicho: amj me fue mandado, por sancta obediencia, de mi prelado mayor: que
+               escriujese en lengua mexicana, lo que me pareciese, ser vtil: para la doctrina,
+               cultura, y manu tenencia, de la cristiandad, destos naturales, desta nueua españa: y
+               para ayuda, de los obreros, y ministros, que los doctrinan: rescebido este
+               mandamjento, hize en lengua castellana, vna mjnuta, o memoria, de todas las materias,
+               de que auja de tratar: que fue lo que esta escripto, en los doze libros: y la
+               postilla, y canticos: los qual se puso, de prima tigera, en el pueblo de tepepulco,
+               que es de la proujncia, de <expan>aculhuacā<ex>n</ex></expan>
+               <!--I am not sure bout the mark abouve letter a in this expanssion-->, o tezcucu:
+               hizose desta manera. Enel dicho pueblo, hize juntar, todos los principales, con el
+               señor del pueblo, que se llamaua don diego de mendoça, hombre anciano, de gran marco,
+               y habiliad, muy esperimentado, en todas las cosas curiales, belicas y politicas, y
+               aun ydolatricas. Aujendolos juntado, propuseles, lo que pretendia hazer: y pediles,
+               me diesen personas habiles, y esperimentadas, con qujen pudiese platicar: y me
+               supiesen dar razon, de lo que les preguntase: ellos me respondieron, que se
+               hablarian, cerca de los propuesto, y que otro dia, me responderian: y ansi se
+               despidieron demj. Otro dia vinieron, el senor, con los principales: y hecho vn muy
+               solenne parlamento, como ellos entonce le vsauan hazer: señalaronme, hasta diez, o
+               doze principales ancianos: y dixernome, que con aquellos, podia comunjcar, y que
+               ellos me darian razon, de todo lo que les preguntase.</p>
+
+            <p>fin del prologo</p>
+            <!--ask Diane about markup for ending/footers-->
+
             <div type="para" n="2" xml:lang="es">
-               
+
                <head> Al sincero lector</head>
-               
-               <p>Es de notar, para la intelligencia,...
-               </p>
-                
+
+               <p>Es de notar, para la intelligencia,... </p>
+
+            </div>
          </div>
-      </div></front>
-      
+      </front>
+
       <body>
          <div1 type="chapter" n="1" xml:id="b2c01">
             <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
             <!-- If there is a figure it should follow this format <figure xml:id="b12c01es_image1"/>-->
-            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01es_image1" is Book 12, Chapter 01, Spanish, Image 1; es=Spanish, na=Nahuatl -->            
-            
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01es_image1" is Book 12, Chapter 01, Spanish, Image 1; es=Spanish, na=Nahuatl -->
+
             <pb type="folio" n="3"/>
 
             <div2 type="para" n="1" xml:lang="es">
-               <p>Libro segundo que trata de las fiestas, y sacrificios: con que estos naturales, honrrauan a sus dioses, en el tiempo de su infidelidad.</p>
-             
+               <p>Libro segundo que trata de las fiestas, y sacrificios: con que estos naturales,
+                  honrrauan a sus dioses, en el tiempo de su infidelidad.</p>
+
             </div2>
 
             <div2 type="para" n="2" xml:lang="es">
-               <p>Capitulo primero, del caldendario, de las fiestas fixas. la primera de las quales es lo que se sigue</p>
+               <p>Capitulo primero, del caldendario, de las fiestas fixas. la primera de las quales
+                  es lo que se sigue</p>
             </div2>
 
             <div2 type="para" n="3" xml:lang="es">
@@ -134,25 +148,23 @@
 
 
             <div2 type="para" n="1" xml:lang="na">
-   
+
                <p>I.</p>
-   
-             </div2>
-            
+
+            </div2>
+
             <div2 type="para" n="2" xml:lang="na">
-               
-               <p>
-               </p>
-               
+
+               <p> </p>
+
             </div2>
-            
+
             <div2 type="para" n="3" xml:lang="na">
-               
-               <p>
-                  </p>
-               
+
+               <p> </p>
+
             </div2>
-            
+
          </div1>
       </body>
    </text>

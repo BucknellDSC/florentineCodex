@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/tei_FlorentineCodex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -49,202 +49,196 @@
    </teiHeader>
    <text>
       <front>
-         <head></head>
+         <head xml:lang="sp">text</head>
       </front>
-
-      <body>         
+      <body>
          <div1 type="book" n="1">
             <head xml:lang="sp">Libro primero, en que se trata, de los dioses que adorauan, los naturales, desta tierra: que es la nueua españa</head>
             <head xml:lang="na">Inic ce amuxtli, vncan moteneoa, in teteuh: in qujnmoteutiaia in nican tlaca.</head>
-            
             <div2 type="chapter" n="1">
                <div3 type="folio_block" n="1">
-                  <pb type="folio" n="1"/>
+                  <pb type="folio" n="1" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">Capitulo primero, que habla, del principal dios: que <expan>adorauā<ex>n</ex></expan>, y aquien sacrificauan los mexicanos llamado vitsilubuchtli.</head>
-                     <p xml:lang="sp">Este dios, llamdo vitsilbuchtli, fue otro hercules: el qual fue robustisimo, de grandes fuerças, y muy belicoso: <expan>grā<ex>n</ex></expan> destriuydor de pueblos y matador de
-                        gentes; en las guerra era como fuego biuo, muy temeroso asus contrarios: y afsi<!--looks like asi but cant tell what letter after a is--> la deuisa que traya, era vna cabeça de
-                        dragon, muy espantable: que echaua fuego, por la boca. Tambien este, era nigromantico, o embaydor:que se trasformaua, enfigura de diuersas aues, y bestias. A este hombre, que por su
-                        fortaleza, y destreza en la guerra: le tuujeron en mucho, los mexicanos quando viuja. Despues que murjo, le honrraron, como adios: y le ofrezian esclauos, sacrificandolos, en su
-                        presencia: buscauan, que estos esclauos, fuesen muy regalados, y muy bien ataujados, <expan>cō<ex>n</ex></expan> aquellos aderecos, <expan>q<ex>ue</ex></expan> ellos
-                        <expan>vsauā<ex>n</ex></expan>: de orejeras, y barbotes: esto hazian, por mas <expan>hō<ex>n</ex>rrarle</expan>. Otro semejante a este vuo en las partes de tlaxcalla: que se
-                        llamaua, camaxtle.</p>
+                     <p xml:lang="sp">Este dios, llamdo vitsilbuchtli, fue otro hercules: el qual fue robustisimo, de grandes fuerças, y muy belicoso: <expan>grā<ex>n</ex></expan> destriuydor de
+                        pueblos y matador de gentes; en las guerra era como fuego biuo, muy temeroso asus contrarios: y afsi<!--looks like asi but cant tell what letter after a is--> la deuisa que
+                        traya, era vna cabeça de dragon, muy espantable: que echaua fuego, por la boca. Tambien este, era nigromantico, o embaydor:que se trasformaua, enfigura de diuersas aues, y
+                        bestias. A este hombre, que por su fortaleza, y destreza en la guerra: le tuujeron en mucho, los mexicanos quando viuja. Despues que murjo, le honrraron, como adios: y le
+                        ofrezian esclauos, sacrificandolos, en su presencia: buscauan, que estos esclauos, fuesen muy regalados, y muy bien ataujados, <expan>cō<ex>n</ex></expan> aquellos aderecos,
+                              <expan>q<ex>ue</ex></expan> ellos <expan>vsauā<ex>n</ex></expan>: de orejeras, y barbotes: esto hazian, por mas <expan>hō<ex>n</ex>rrarle</expan>. Otro semejante a este
+                        vuo en las partes de tlaxcalla: que se llamaua, camaxtle.</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnic ce capitulo, yntechpa tlatoa, yn oc cenca tlapanauja teteuh: yn qujnmoteutiaia, yoan yn qujntlamanjliaia, yn ievecauh.</head>
-                     <p xml:lang="na">Vitzilubuchtli: çan maceoalli, gan tlacatl catea: naoalli, tetzaujtl, atlacacemelle, teixcuepanj: qujiocoianj in iaoiutl, iaotecanj, iaotlatoanj: ca itechpa mjtoaia, tepan qujtlaça
-                        yn xiuhcoatl, in mamalhoaztli. q. n. iaoiutl, teuatl, tlachinolli. Auh yn jquac ilhujqujxtiloia, malmjcoaia, tlaaltilmjcoaia: tealtiaia, yn pochteca. Auh ynjc muchichioaia;
-                        xiuhtotonacoche catca, xiuhcoanaoale, xiuhtlalpile, matacaxe, tzitzile, oiuoalle.</p>
+                     <p xml:lang="na">Vitzilubuchtli: çan maceoalli, gan tlacatl catea: naoalli, tetzaujtl, atlacacemelle, teixcuepanj: qujiocoianj in iaoiutl, iaotecanj, iaotlatoanj: ca itechpa
+                        mjtoaia, tepan qujtlaça yn xiuhcoatl, in mamalhoaztli. q. n. iaoiutl, teuatl, tlachinolli. Auh yn jquac ilhujqujxtiloia, malmjcoaia, tlaaltilmjcoaia: tealtiaia, yn pochteca.
+                        Auh ynjc muchichioaia; xiuhtotonacoche catca, xiuhcoanaoale, xiuhtlalpile, matacaxe, tzitzile, oiuoalle.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="2">
                <div3 type="folio_block" n="1">
-                  <pb type="folio" n="1"/>
+                  <pb type="folio" n="1" />
                   <div4 type="language_block" xml:lang="sp">
-                     <head>Capitulo segundo, que trata del dios llamado paynal: el qual siendo hombre, era adorado por dios.</head>
-                     <p>Este dios, llamado paynal: era como sota capitan, del arriba dicho: porque el arriba dicho, como mayor capitan dictaua, quando se auja de hazer <expan>guer<ex>ra</ex></expan></p>
+                     <head xml:lang="sp">Capitulo segundo, que trata del dios llamado paynal: el qual siendo hombre, era adorado por dios.</head>
+                     <p>Este dios, llamado paynal: era como sota capitan, del arriba dicho: porque el arriba dicho, como mayor capitan dictaua, quando se auja de hazer
+                        <expan>guer<ex>ra</ex></expan></p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
-                     <head>Jnic vme capitulo, ytechpa tlatoa yn teutl yn jtoca paynal: yn qujmoteutiaia, yoan in qujtlamanjliaia ie uecauh.</head>
+                     <head xml:lang="na">Jnic vme capitulo, ytechpa tlatoa yn teutl yn jtoca paynal: yn qujmoteutiaia, yoan in qujtlamanjliaia ie uecauh.</head>
                      <p>Paynal: motepatillotianj, moteixiptlatianj: tepan mixeoanj: iehica ca qujmixiptlatiaia, in <expan>vitzilubuch<ex>tli</ex></expan></p>
                   </div4>
                </div3>
-               <div3 type="section" subtype="folio_block">
-                  <pb type="folio" n="1v"/>
+               <div3 type="folio_block" n="1v">
+                  <pb type="folio" n="1v" />
                   <div4 xml:lang="sp">
-                     <p>ra, a algunas prouyncias. Este como su vicario, seruja de quando <expan>repentinamē<ex>n</ex>te</expan>, se ofresia de salir al encuentro, a los enemigos: porque entonce
-                        era menester, que este paynal, que qujere dezir: ligero, apresurado, saliese en persona, a mouer la gente: para que <expan>cō<ex>n</ex></expan> toda priesa saliesen, auerse con
-                        los enemigos. Despues de muerto, la fiesta que le hazian: era que vno de los satrapas, tomaua la ymagen, deste paynal: compuesta con ricos ornamentos, como dios: y hazian vna
-                        procesion con el, bien larga: y todos yuan corriendo, a mas correr: ansi el que le lleuaua, como los que le segujan. En esto, <expan>representauā<ex>n</ex></expan>, la priesa, que
-                        muchas vezes, es necesaria: para resitir, a los enemigos: que sin saberlos acometer, haziendo celadas</p>
+                     <p>ra, a algunas prouyncias. Este como su vicario, seruja de quando <expan>repentinamē<ex>n</ex>te</expan>, se ofresia de salir al encuentro, a los enemigos: porque entonce era
+                        menester, que este paynal, que qujere dezir: ligero, apresurado, saliese en persona, a mouer la gente: para que <expan>cō<ex>n</ex></expan> toda priesa saliesen, auerse con los
+                        enemigos. Despues de muerto, la fiesta que le hazian: era que vno de los satrapas, tomaua la ymagen, deste paynal: compuesta con ricos ornamentos, como dios: y hazian vna
+                        procesion con el, bien larga: y todos yuan corriendo, a mas correr: ansi el que le lleuaua, como los que le segujan. En esto, <expan>representauā<ex>n</ex></expan>, la priesa,
+                        que muchas vezes, es necesaria: para resitir, a los enemigos: que sin saberlos acometer, haziendo celadas</p>
                   </div4>
                   <div4 xml:lang="na">
                      <p>tli, yn iquac tlaiaoaloaia, motocaiotia paynal: ipampa ca cenca, qujtototzaia, qujmotlalochtiaia. Auh in maceoalti, qujtocaia, qujtlalochtocaia, coiohujtiuja, quicaoatztiuja,
-                        teuhtli quiquetztiuja, tlalli qujpototztiuja: iuhqujn tlaixqujqujça, tlalli tetecujca: auh ce tlacatl qujnapalotiuja. Auh ynjc muchichioaia, teuquemetiuja, quetzalapanecaiutl, in
-                        contlalitiuja, ixoacalichioale, ixcitlalichioale, mixcitlalichiuh, xiuhiacamjoa, vitzitzilnaoale, eltezcaoa, xiuhchimale.</p>
+                        teuhtli quiquetztiuja, tlalli qujpototztiuja: iuhqujn tlaixqujqujça, tlalli tetecujca: auh ce tlacatl qujnapalotiuja. Auh ynjc muchichioaia, teuquemetiuja, quetzalapanecaiutl,
+                        in contlalitiuja, ixoacalichioale, ixcitlalichioale, mixcitlalichiuh, xiuhiacamjoa, vitzitzilnaoale, eltezcaoa, xiuhchimale.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="3">
                <div3 type="folio_block" n="1v">
-                  <pb type="folio" n="1v"/>
+                  <pb type="folio" n="1v" />
                   <div4 type="language_block" xml:lang="sp">
-                     <head xml:lang="sp">El tercero capitulo, trata: del dios llamado, tezcatlipoca: el qual generalmente, era tenjdo por dios: entre estos naturales, desta nueua españa, es otro Jupiter.</head>
-                     <p xml:lang="sp">El dios, llamado tezcatlipuca: era tenido por verdadero dios, y invissible: el qual andaua, en todo lugar: enel cielo, enla tierra, y enel infierno. Y tenjan, que quando andaua
-                        enla tierra, mouja guerras, enemistades, y discordias: dedonde resultauan, muchas fatigas, y desasosiegos: dezian que el mesmo, incitaua a vnos contra otros: para que tuuiessen
-                        guerras. Y por esto le llamauan necoc iautl<!-- not sure on spelling-->, quiere dezir: sembrador de discordias, de ambas partes. Y dezian, el solo ser el que entendia, en el
-                        regimjento del mundo: y que el solo daua, las prosperidades, y riquezas y que el solo las quitaua, quando se antojaua. Daua riquezas, <expan>prospe<ex>ridades</ex></expan></p>
+                     <head xml:lang="sp">El tercero capitulo, trata: del dios llamado, tezcatlipoca: el qual generalmente, era tenjdo por dios: entre estos naturales, desta nueua españa, es otro
+                        Jupiter.</head>
+                     <p xml:lang="sp">El dios, llamado tezcatlipuca: era tenido por verdadero dios, y invissible: el qual andaua, en todo lugar: enel cielo, enla tierra, y enel infierno. Y tenjan, que
+                        quando andaua enla tierra, mouja guerras, enemistades, y discordias: dedonde resultauan, muchas fatigas, y desasosiegos: dezian que el mesmo, incitaua a vnos contra otros: para
+                        que tuuiessen guerras. Y por esto le llamauan necoc iautl<!-- not sure on spelling-->, quiere dezir: sembrador de discordias, de ambas partes. Y dezian, el solo ser el que
+                        entendia, en el regimjento del mundo: y que el solo daua, las prosperidades, y riquezas y que el solo las quitaua, quando se antojaua. Daua riquezas,
+                              <expan>prospe<ex>ridades</ex></expan></p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnic ey, capitulo, ytechpa tlatoa in teutl, yn jtoca tezcadipoca: in qujmoteutiaia, yoan in qujtlamanjliaia, ie uecauh.</head>
-                     <p xml:lang="na">Tezcatlipoca: ynin vel teutl ipan machoia, noujian ynemjian: mictla, tlalticpac, ylhujcac. Jn jquac nemja tlalticpac, iehoatl qujiolitiaja, in teuhtli tlaçolli: cococ teupouhquj,
-                        qujteittitiaia, tetzalā, tenepantla motecaia: ipampa y, mjtoaia necoc iautl, muchi qujiocoiaia, qujtemoujaja, qujteecaujltiaia, qujtecujtiaia, yn jxquich aqualli tepan muchioaia:
-                        teca maujltiaia, tequequeloaia. Auh in quenman, <expan>qujtema<ex>caia</ex></expan></p>
+                     <p xml:lang="na">Tezcatlipoca: ynin vel teutl ipan machoia, noujian ynemjian: mictla, tlalticpac, ylhujcac. Jn jquac nemja tlalticpac, iehoatl qujiolitiaja, in teuhtli tlaçolli:
+                        cococ teupouhquj, qujteittitiaia, tetzalā, tenepantla motecaia: ipampa y, mjtoaia necoc iautl, muchi qujiocoiaia, qujtemoujaja, qujteecaujltiaia, qujtecujtiaia, yn jxquich
+                        aqualli tepan muchioaia: teca maujltiaia, tequequeloaia. Auh in quenman, <expan>qujtema<ex>caia</ex></expan></p>
                   </div4>
                </div3>
-               
-               <div3 type="folio_block">
-                  <pb type="folio" n="2"/>
+               <div3 type="folio_block" n="2">
+                  <pb type="folio" n="2" />
                   <div4 type="language_block" xml:lang="sp">
-                     <p xml:lang="sp">ridades, y riquezas y que el solo las quitaua, quando se antojaua. Daua riquezas, prosperidades, y forma, y fortaleza, y señorios, y dignidades, y honrras: y las quitaua, quando
-                        se le antojaua: por esto le tenjan. y reuerenciauan: porque tenjan, que es su mano estaua,el leuantar, y abatir. De la honrra, que se le hazia, esta adelante, en el libro
-                        segundo.</p>                     
+                     <p xml:lang="sp">ridades, y riquezas y que el solo las quitaua, quando se antojaua. Daua riquezas, prosperidades, y forma, y fortaleza, y señorios, y dignidades, y honrras: y las
+                        quitaua, quando se le antojaua: por esto le tenjan. y reuerenciauan: porque tenjan, que es su mano estaua,el leuantar, y abatir. De la honrra, que se le hazia, esta adelante,
+                        en el libro segundo.</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <p xml:lang="na">caia, in necujltonolli: in tlatqujtl, in oqujchiotl, in tiacauhiutl, in tecuiotl, in tlatocaiutl, in pillotl, in mauizçotl.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="4">
                <div3 type="folio_block" n="2">
-                  <pb type="folio" n="2"/>
+                  <pb type="folio" n="2" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">El quarto capitulo, trata: de dios que se llamava, tlaloc tlamacazquj</head>
                      <p xml:lang="sp">Este dios, llamado tlaloc tlamacazquj, era el dios de las lluujas: tenjan que el daua, las lluujas, paraque regassen la tierra: mediante la qual lluuja, se
-                        <expan>crjauā<ex>n</ex></expan> todas las yeruas, arboles, y frutas, <expan>ymā<ex>n</ex>tenjmjentos</expan>. Tambien tenjan, que el embiaua, el granizo, y los relampagos y
-                        rayos, y las tempestades del agua: y los peligros de los rios, y de la mar. En llamarse, tlaloc tlamacazquj, qujere dezir: que es dios, que habita, en el parayso terrenal: y que
-                        da a los hombres, los mantenjmjentos necessarios: para la vida corporal. Los serujicios, que se le hazian, estan en el sugundo libro: entre las fiestas, de los dioses.</p> 
-                     <figure  xml:id="b1c04_image1" xml:lang="sp" />
+                              <expan>crjauā<ex>n</ex></expan> todas las yeruas, arboles, y frutas, <expan>ymā<ex>n</ex>tenjmjentos</expan>. Tambien tenjan, que el embiaua, el granizo, y los relampagos
+                        y rayos, y las tempestades del agua: y los peligros de los rios, y de la mar. En llamarse, tlaloc tlamacazquj, qujere dezir: que es dios, que habita, en el parayso terrenal: y
+                        que da a los hombres, los mantenjmjentos necessarios: para la vida corporal. Los serujicios, que se le hazian, estan en el sugundo libro: entre las fiestas, de los dioses.</p>
+                     <figure xml:id="b1c04_image1" xml:lang="sp" />
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnjc nauj capitulo, ytechpa tlatoaia yn teutl, yn jtoca daloc, tlamacazquj.</head>
-                     <p xml:lang="na">Tlaloc, tlamacazquj: ynjn ipan machoia, in qujiaujtl: ca iehoatl quiiocoaia, qujtemoujaia, qujpixoaia, in quijaujtl, yoan in teciujtl: quixotlaltiaja, qujtzmolinaltiaja,
-                        qujxoxuvialtiaja, quicueponaltiaja, quizcaltiaia in quaujtl, in çacatl, in tonacaiotl. Yoan no itech tlamjloia, in teilaqujliztli, in tlaujtequjliztli. Auh ynjc muchichioaia,
-                        tlaixtlilpopotzalli, tlaixolhujlli, motliloçac, ixmjchioave, ixmichioauhio, auachxicole, aiauhxicole, aztatzone, chalchiuhcozque, poçulcaque, no tzitzile, aztapilpane.</p>
+                     <p xml:lang="na">Tlaloc, tlamacazquj: ynjn ipan machoia, in qujiaujtl: ca iehoatl quiiocoaia, qujtemoujaia, qujpixoaia, in quijaujtl, yoan in teciujtl: quixotlaltiaja,
+                        qujtzmolinaltiaja, qujxoxuvialtiaja, quicueponaltiaja, quizcaltiaia in quaujtl, in çacatl, in tonacaiotl. Yoan no itech tlamjloia, in teilaqujliztli, in tlaujtequjliztli. Auh
+                        ynjc muchichioaia, tlaixtlilpopotzalli, tlaixolhujlli, motliloçac, ixmjchioave, ixmichioauhio, auachxicole, aiauhxicole, aztatzone, chalchiuhcozque, poçulcaque, no tzitzile,
+                        aztapilpane.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="5">
                <div3 type="folio_block" n="2">
-                  <pb type="folio" n="2"/>
+                  <pb type="folio" n="2" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">El capitulo quinto, trata: del dios, que se llama, quetzalcoatl: dios de los vientos.</head>
-                     <p xml:lang="sp">Este quetzalcoatl, aunque fue hombre, tenjanle por dios; y dezian que barria el camjno, a los dioses, del agua. Y</p>                     
+                     <p xml:lang="sp">Este quetzalcoatl, aunque fue hombre, tenjanle por dios; y dezian que barria el camjno, a los dioses, del agua. Y</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnic macujlli capitulo, ytechpa tlatoa yn teutl, yn jtoca quetzalcoatl.</head>
                      <p xml:lang="na">Quetzalcoatl: yn ehecatl ynteiacancauh yntlachpancauh in <expan>tlalo<ex>que</ex></expan></p>
                   </div4>
                </div3>
-               <div3 type="folio" n="2v">
+               <div3 type="folio_block" n="2v">
                   <div4 type="language_block" xml:lang="sp">
-                     <p xml:lang="sp">esto adiujnauan, porque ante que comjençan, las aguas, ay grandes
-                        vientos u poluos: yesto dezian, que quetzalcoatl, dios de los vientos, barria los camjnos, alos dioses, de las lluujas: paraque vinjessen, alluuer. Los sacrificios, y cerimonjas,
-                        <expan>cō<ex>n</ex>que</expan> honrrauan aeste dios: estan escritas adelante, enel segundo libro. Los ataujos, <expan>cō<ex>n</ex>que</expan> le adorauan, eran los sigujentes:
-                        vna mitra enla cabeça, con vn penacho de plumas, que se <expan>llamā<ex>n</ex></expan> quetzalli: la mitra, era manchada, como cuero de tigre. La cara tenja teñjdo de negro, y todo
-                        el cuerpo: tenja vestida, vna camissa, como sobrepeliz labrada: no le llegaua, mas de hasta la cinta. Tenja, vnas orejeras de turquesas, de labor mosayco: tenja vn collar de oro, de
-                        que colgauan, vnos caracolitos mariscos, preciosos. Lleuaua acuestas, por deujsa, vn plumaje: amanera de llamas de fuego. Tenja vnas calças, desde la rodilla abaxo, de cuero de
-                        tigre: de las quales colgauan, vnos caracolitos mariscos. Tenja calçados vnas sandalias, teñjdas de negro: rebuelto com marcagita <!--we think-->. Tenja enla mano izqujerda, vna
-                        rodela, con vna pintura, con cinco angulos: que llaman, el joel de Viento <!--not sure if upper or lower case-->. Enla mano derecha, tenja vn cetro: amanera de bacculo, de obispo: en
-                        lo alto, era en roscado, como baculo, de obispo, muy labrado, de pedrerja: pero no era largo, como el baculo: parecia por donde se tenja, era como enpuñadora de espada. Era este, el
-                        gran sacerdote, del templo.></p>
+                     <p xml:lang="sp">esto adiujnauan, porque ante que comjençan, las aguas, ay grandes vientos u poluos: yesto dezian, que quetzalcoatl, dios de los vientos, barria los camjnos, alos
+                        dioses, de las lluujas: paraque vinjessen, alluuer. Los sacrificios, y cerimonjas, <expan>cō<ex>n</ex>que</expan> honrrauan aeste dios: estan escritas adelante, enel segundo
+                        libro. Los ataujos, <expan>cō<ex>n</ex>que</expan> le adorauan, eran los sigujentes: vna mitra enla cabeça, con vn penacho de plumas, que se <expan>llamā<ex>n</ex></expan>
+                        quetzalli: la mitra, era manchada, como cuero de tigre. La cara tenja teñjdo de negro, y todo el cuerpo: tenja vestida, vna camissa, como sobrepeliz labrada: no le llegaua, mas
+                        de hasta la cinta. Tenja, vnas orejeras de turquesas, de labor mosayco: tenja vn collar de oro, de que colgauan, vnos caracolitos mariscos, preciosos. Lleuaua acuestas, por
+                        deujsa, vn plumaje: amanera de llamas de fuego. Tenja vnas calças, desde la rodilla abaxo, de cuero de tigre: de las quales colgauan, vnos caracolitos mariscos. Tenja calçados
+                        vnas sandalias, teñjdas de negro: rebuelto com marcagita <!--we think-->. Tenja enla mano izqujerda, vna rodela, con vna pintura, con cinco angulos: que llaman, el joel de
+                        Viento <!--not sure if upper or lower case-->. Enla mano derecha, tenja vn cetro: amanera de bacculo, de obispo: en lo alto, era en roscado, como baculo, de obispo, muy
+                        labrado, de pedrerja: pero no era largo, como el baculo: parecia por donde se tenja, era como enpuñadora de espada. Era este, el gran sacerdote, del templo.></p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
-                     <p xml:lang="na">que, yn aoaque, yn qujqujiauhti. Auh yn jquac molhuja eheca, mjtoa: teuhtli quaqualaca, ycoioca, tetecujca, tlatlaiooa,
-                        tlatlalpitza, tlatlatzinj, motlatlaueltia. Auh yujn yn muchichioaia: ocelocopile, mjxtlilpopotz, hecanechioale, mizqujnechioale, tzicoliuhcanacoche, teucujtlaacuechcozque,
-                        quetzalcoxollamamale, ocelotzitzile, icpaomjcicujle, hecacozcachimale, hecaujque, no poçulcaque.</p>
+                     <p xml:lang="na">que, yn aoaque, yn qujqujiauhti. Auh yn jquac molhuja eheca, mjtoa: teuhtli quaqualaca, ycoioca, tetecujca, tlatlaiooa, tlatlalpitza, tlatlatzinj, motlatlaueltia.
+                        Auh yujn yn muchichioaia: ocelocopile, mjxtlilpopotz, hecanechioale, mizqujnechioale, tzicoliuhcanacoche, teucujtlaacuechcozque, quetzalcoxollamamale, ocelotzitzile,
+                        icpaomjcicujle, hecacozcachimale, hecaujque, no poçulcaque.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="6">
                <div3 type="folio_block" n="2v">
-                  <pb type="folio" n="2v"/>
+                  <pb type="folio" n="2v" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">Enel capitulo sexto, se trata: de las diosas, principales: que se <expan>adorauā<ex>n</ex></expan>, enesta nueua españa.</head>
-                     <p xml:lang="sp">La primera, destas diosas, se llamaua cioacoatl: dezian que esta diosa, daua cosas aduersas: como pobreça, abatimjento, trabajos. Aparecia muchas vezes, segun dizen: como vna señora,
-                        compuesta, con vnos ataujos: como se vsan, en palaçio. Dezian, que de noche, bozcaua, y bramaua, enel ayre. Esta diosa, se llama cioacoatl, que qujere dezir: muger de la culebra: y
-                        tambien la llamauan, tonantzin, que quejere dezir:<expan>nra<ex>nuestra</ex></expan> madre. Enestas dos cosas parece, que esta diosa, es nuestra madre eua: la qual fue engañada de la
-                        culebra: yque ellos tenjan noticia, del negocio, que passo: entre nuestra madre, eua, y la culebra. Los ataujos conque esta muger, aparecia:</p>
+                     <p xml:lang="sp">La primera, destas diosas, se llamaua cioacoatl: dezian que esta diosa, daua cosas aduersas: como pobreça, abatimjento, trabajos. Aparecia muchas vezes, segun
+                        dizen: como vna señora, compuesta, con vnos ataujos: como se vsan, en palaçio. Dezian, que de noche, bozcaua, y bramaua, enel ayre. Esta diosa, se llama cioacoatl, que qujere
+                        dezir: muger de la culebra: y tambien la llamauan, tonantzin, que quejere dezir:<expan>nra<ex>nuestra</ex></expan> madre. Enestas dos cosas parece, que esta diosa, es nuestra
+                        madre eua: la qual fue engañada de la culebra: yque ellos tenjan noticia, del negocio, que passo: entre nuestra madre, eua, y la culebra. Los ataujos conque esta muger,
+                        aparecia:</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnjc chiquace capitulo: vncan moteneoa, yn oc cenca tlapanauja yn cioateteu: yn qujnmotcutiaia, in qujnteutlapiqujaia yn njcan tlaca.</head>
-                     <p xml:lang="na">Cioacoatl tequanj: yoan tetzaujtl, tetetzaujanj, icnoiutl qujteittitia: ca mjtoaia, victli mecapalli, qujtemacaia, ic temotlaia. Auh ynjc moteittitiaia, motenextiliaia: iuhqujn
-                        tecpan cioatl, nanacoche, iitznacoche, iztaian moquetza, iztaian actica, iztacatla ycaia, iztazticac, vel panj qujquetza yn <expan>jne<ex>axtlaoal</ex></expan></p>
+                     <p xml:lang="na">Cioacoatl tequanj: yoan tetzaujtl, tetetzaujanj, icnoiutl qujteittitia: ca mjtoaia, victli mecapalli, qujtemacaia, ic temotlaia. Auh ynjc moteittitiaia,
+                        motenextiliaia: iuhqujn tecpan cioatl, nanacoche, iitznacoche, iztaian moquetza, iztaian actica, iztacatla ycaia, iztazticac, vel panj qujquetza yn
+                           <expan>jne<ex>axtlaoal</ex></expan></p>
                   </div4>
                </div3>
                <div3 type="folio_block" n="3">
-                  <pb type="folio" n="3"/>
+                  <pb type="folio" n="3" />
                   <div4 type="language_block" xml:lang="sp">
-                     <p xml:lang="sp">eran blancos. Y los cabellos, los tocaua:
-                        de manera que tenja, como vnos corneçuelos, cruzados: sobre la frente. Dizen <expan>tā<ex>m</ex>bien</expan>, que traya, vna cuna, acuestas: como qujen trae, asu hijo, enella: y
-                        ponjase enel tianquez, entre las otras mugeres: y desapareciendo, dexaua allo, la cuna: quando las otras mugeres, aduertian: <expan>q<ex>ue</ex></expan> aquella cuna, estaua alli
-                        olujdada: mjrauan, lo que estaua enella: y <expan>hallauā<ex>n</ex></expan> vn pedernal, como hierro, de lançon: <expan>cō<ex>n</ex>que</expan> ellos matauan, alos que
-                        <expan>sacrificavā<ex>n</ex></expan>. Enesto, entendian: que fue cioacoatl, la que lo dexo alli.</p>
+                     <p xml:lang="sp">eran blancos. Y los cabellos, los tocaua: de manera que tenja, como vnos corneçuelos, cruzados: sobre la frente. Dizen <expan>tā<ex>m</ex>bien</expan>, que traya,
+                        vna cuna, acuestas: como qujen trae, asu hijo, enella: y ponjase enel tianquez, entre las otras mugeres: y desapareciendo, dexaua allo, la cuna: quando las otras mugeres,
+                        aduertian: <expan>q<ex>ue</ex></expan> aquella cuna, estaua alli olujdada: mjrauan, lo que estaua enella: y <expan>hallauā<ex>n</ex></expan> vn pedernal, como hierro, de
+                        lançon: <expan>cō<ex>n</ex>que</expan> ellos matauan, alos que <expan>sacrificavā<ex>n</ex></expan>. Enesto, entendian: que fue cioacoatl, la que lo dexo alli.</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
-                     <p xml:lang="na">axtlaoal, yn jaxtlacujl, ioaltica chocatinenca,
-                        tecoiouhtinenca, no iautetzaujtl catca. Auh yuj yn muchichioaia yxiptla, yn jxaiac, centlacochichiltic, centlacotliltic, yujquatzone, teucujtlanacoche, quechqueme, xiuhtzotzopace.</p>
+                     <p xml:lang="na">axtlaoal, yn jaxtlacujl, ioaltica chocatinenca, tecoiouhtinenca, no iautetzaujtl catca. Auh yuj yn muchichioaia yxiptla, yn jxaiac, centlacochichiltic,
+                        centlacotliltic, yujquatzone, teucujtlanacoche, quechqueme, xiuhtzotzopace.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="7">
-               <div3 type="folio_break" n="3">
-                  <pb type="folio" n="3"/>
+               <div3 type="folio_block" n="3">
+                  <pb type="folio" n="3" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">El septimo capitulo, trata: dela diosa, que se llamaua, chicomecoatl: es otra diosa ceres.</head>
-                     <p xml:lang="sp">Esta diosa, llamada chicome coatl: era la diosa, de los mantenjmjentos: assi delo que come, y de lo que beue. A esta la pintauan, con vna corona, en la cabeça: y en la mano derecha,
-                        vn vaso, y en la izqujerda, vna rodela, con vna flor grande pintauan. Tenja su cueytl, y vipilli, y sandalias, todo bermejo: y la cara teñjda de bermejo. Deujo esta, ser la primera
-                        muger: que començo a hazer, pan, y otros manjares, y gujsados.</p>
+                     <p xml:lang="sp">Esta diosa, llamada chicome coatl: era la diosa, de los mantenjmjentos: assi delo que come, y de lo que beue. A esta la pintauan, con vna corona, en la cabeça: y
+                        en la mano derecha, vn vaso, y en la izqujerda, vna rodela, con vna flor grande pintauan. Tenja su cueytl, y vipilli, y sandalias, todo bermejo: y la cara teñjda de bermejo.
+                        Deujo esta, ser la primera muger: que començo a hazer, pan, y otros manjares, y gujsados.</p>
                      <figure xml:id="b1c07sp_image1" />
                   </div4>
                   <div4 type="language_block" xml:lang="na">
                      <head xml:lang="na">Jnic chicome capitulo: vncan moteneoa, yn cioateutl: yn jtoca, chicome coatl.</head>
-                     <p xml:lang="na">Chicome coatl: iehoatl ipan mjxeoaia, qujmjxiptlatiaia, in tonacaiotl: yoan in çaço tlein ynenca, yiolca maceoalli, yn joa, yn qualo. Auh yujn yn nechichioale catea; ixtlauhxaoale,
-                        amacale, axochiavipiie, axochiacueie, no poçulcaque, tonalchimale, tonatiuhchimale.</p>
+                     <p xml:lang="na">Chicome coatl: iehoatl ipan mjxeoaia, qujmjxiptlatiaia, in tonacaiotl: yoan in çaço tlein ynenca, yiolca maceoalli, yn joa, yn qualo. Auh yujn yn nechichioale
+                        catea; ixtlauhxaoale, amacale, axochiavipiie, axochiacueie, no poçulcaque, tonalchimale, tonatiuhchimale.</p>
                   </div4>
                </div3>
             </div2>
-            
             <div2 type="chapter" n="8">
-               <div3 type="folio_break" n="3">
-                  <pb type="folio" n="3"/>
+               <div3 type="folio_block" n="3">
+                  <pb type="folio" n="3" />
                   <div4 type="language_block" xml:lang="sp">
                      <head xml:lang="sp">El capitulo octauo, trata: de vna diosa, que se llamaua, la madre de los dioses: coraçon de la tierra, y nuestra abuela.</head>
                      <p xml:lang="sp">Esta diosa, era la diosa, de las medicinas, y de las yeruas medicinales: adorauanla, los medicos, y los <expan>ciuja<ex>nos</ex></expan></p>
@@ -254,54 +248,51 @@
                      <p xml:lang="na">Jnnā catea yn teteu, qujmoteutiaja, in titici, in teitzmjnque,</p>
                   </div4>
                </div3>
-               
-               <div3 type="folio_break" n="3v">
-                  <pb type="folio" n="3v"/>
+               <div3 type="folio_block" n="3v">
+                  <pb type="folio" n="3v" />
                   <div4 type="language_block" xml:lang="sp">
-                     <p xml:lang="sp">nos, y los <expan>sā<ex>n</ex>gradores</expan>. Y tambien las parteras, y
-                        las que dan yeruas, para abortar. Y tambien, los adiujnos: que dizen la buenauentura, o mala, que han detener, los niños: segun su nacimjento. Adorauanla tambien, los que echan
-                        suertes, con granos de mahiz: y los que agurean, mirando el agua, en vna escudilla. Y los que echan suertes, con vnas cordeçuelas, que atan, vnas con otras: que llaman,
-                        mecatlapouhque. Y los <expan>q<ex>ue</ex></expan> sacan, gusanillos, de la boca, y de los ojos: y pedreçuelas, de las otras partes del cuerpo: que se llaman, tetlacujcujlique.
-                        Tambien, la adorauan, los que tienen, ensus casas, baños, o temazcales: y todos ponjan, la ymagen desta diosa, en los baños: y <expan>llamauā<ex>n</ex>la</expan>, Temazcalteci, que
-                        qujere dezir: la abuela, de los baños. Todos los arriba dichos, hazian cada año, vna fiesta, aesta diosa: enla qual, comprauan vna muger: y la componjan, conlos ornamentos, que eran
-                        desta diosa: como parecen, enla pintura, que es de su ymagen. Y todos los dias, de su fiesta: hazian conella, areyto, y la regalauan mucho, y la halagauan: porque no se
-                        entristeciesse, por su muerte, nj llorasse: y la dauan de comer delicadamente, y combidauan conlo que auja de comer: y la rogauan, que comjesse, como agran señora. Y estas dias,
-                        hazian delante della, ardides de guerra, <expan>cō<ex>n</ex>bozeria</expan>, y regozijo, y con muchos deuisas de guerra: y dauan dones, alos soldados: que delante della peleauan, por
-                        hazerla plazer, y regozijo. llegada la hora, quando auja de morir: despues de <expan>auerlā<!--dont know what to expand to --></expan> muerto, con otros dos, que lo acompañauan, enla
-                        muerte: la desollauan. Y vn hombre, o satrapa, vestiase su pellejo: y trayale vestido, por todo el pueblo:</p>
+                     <p xml:lang="sp">nos, y los <expan>sā<ex>n</ex>gradores</expan>. Y tambien las parteras, y las que dan yeruas, para abortar. Y tambien, los adiujnos: que dizen la buenauentura, o
+                        mala, que han detener, los niños: segun su nacimjento. Adorauanla tambien, los que echan suertes, con granos de mahiz: y los que agurean, mirando el agua, en vna escudilla. Y
+                        los que echan suertes, con vnas cordeçuelas, que atan, vnas con otras: que llaman, mecatlapouhque. Y los <expan>q<ex>ue</ex></expan> sacan, gusanillos, de la boca, y de los
+                        ojos: y pedreçuelas, de las otras partes del cuerpo: que se llaman, tetlacujcujlique. Tambien, la adorauan, los que tienen, ensus casas, baños, o temazcales: y todos ponjan, la
+                        ymagen desta diosa, en los baños: y <expan>llamauā<ex>n</ex>la</expan>, Temazcalteci, que qujere dezir: la abuela, de los baños. Todos los arriba dichos, hazian cada año, vna
+                        fiesta, aesta diosa: enla qual, comprauan vna muger: y la componjan, conlos ornamentos, que eran desta diosa: como parecen, enla pintura, que es de su ymagen. Y todos los dias,
+                        de su fiesta: hazian conella, areyto, y la regalauan mucho, y la halagauan: porque no se entristeciesse, por su muerte, nj llorasse: y la dauan de comer delicadamente, y
+                        combidauan conlo que auja de comer: y la rogauan, que comjesse, como agran señora. Y estas dias, hazian delante della, ardides de guerra, <expan>cō<ex>n</ex>bozeria</expan>, y
+                        regozijo, y con muchos deuisas de guerra: y dauan dones, alos soldados: que delante della peleauan, por hazerla plazer, y regozijo. llegada la hora, quando auja de morir:
+                        despues de <expan>auerlā<!--dont know what to expand to --></expan> muerto, con otros dos, que lo acompañauan, enla muerte: la desollauan. Y vn hombre, o satrapa, vestiase su
+                        pellejo: y trayale vestido, por todo el pueblo:</p>
                   </div4>
                   <div4 type="language_block" xml:lang="na">
-                     <p xml:lang="na">tetzinanque, tetlanoqujlique, teixpatique. Auh yn cioa, temjxiujtique, tepillalilique, tetlatlaxilique, tlapouhque,
-                        atlan teittanj, tlaolchaiauhque, mecatlapouhque, tetlacujcujlique, tetlanocujlanque, teixocujlanque. No iehoantin qujtlatlauhtiaia, in temazealeque; ypampa y, quitlaliliaia yn
-                        jxiptla, in temazcalixquac, qujtocaiotiaia, temazcalteci. Auh yn jquac, in ie ilhujqujxtililoia, in ie imjquiztequippa: in iehoantin titici, yn jxiptla catea teteu ynna,
-                        qujtlaoculpopoloaia, amo vel chocaia, queelelqujxtiaia, qujtlanenectiaia, qujtlanenequjltiaia, qujeeceltiaia, haqujchoctlanja, qujtlatlahtitiaia, momjquizquequeloaia,
-                        qujnecaliltiaia, qujiaochioaia, qujtlacaoachiliaia, coiuujaia, tlauiznextiloia, netlauizmacoia, netlauhtiloia: in qujmjliuhca muchioaia in tiiacaoa, ic quintiçaujaia, ic
-                        qujnpotonjaia, qujmotzacujlitiuja, ic panj moquetzaia. Auh yn jquac onmjc, yn jxiptla:</p>
+                     <p xml:lang="na">tetzinanque, tetlanoqujlique, teixpatique. Auh yn cioa, temjxiujtique, tepillalilique, tetlatlaxilique, tlapouhque, atlan teittanj, tlaolchaiauhque,
+                        mecatlapouhque, tetlacujcujlique, tetlanocujlanque, teixocujlanque. No iehoantin qujtlatlauhtiaia, in temazealeque; ypampa y, quitlaliliaia yn jxiptla, in temazcalixquac,
+                        qujtocaiotiaia, temazcalteci. Auh yn jquac, in ie ilhujqujxtililoia, in ie imjquiztequippa: in iehoantin titici, yn jxiptla catea teteu ynna, qujtlaoculpopoloaia, amo vel
+                        chocaia, queelelqujxtiaia, qujtlanenectiaia, qujtlanenequjltiaia, qujeeceltiaia, haqujchoctlanja, qujtlatlahtitiaia, momjquizquequeloaia, qujnecaliltiaia, qujiaochioaia,
+                        qujtlacaoachiliaia, coiuujaia, tlauiznextiloia, netlauizmacoia, netlauhtiloia: in qujmjliuhca muchioaia in tiiacaoa, ic quintiçaujaia, ic qujnpotonjaia, qujmotzacujlitiuja, ic
+                        panj moquetzaia. Auh yn jquac onmjc, yn jxiptla:</p>
                   </div4>
                </div3>
-               
-               <div3 type="folio_break" n="4">
-                  <pb type="folio" n="4"/>
+               <div3 type="folio_block" n="4">
+                  <pb type="folio" n="4" />
                   <div4 type="language_block" xml:lang="sp">
-                     <p xml:lang="sp">y bazian con esto, muchas vanjdades: las vestiduras, y ornato desta diosa:
-                        <expan>erā<ex>n</ex></expan>, que tenja la boca, y barba, hasta la garganta teñjida con vlli: que es vna goma negra. Tenja enel rostro, como vn pache redondo, de lo mismo:
-                        tenja en la cabeça, amanera de vna gorra, hecha de manta: rebuelta, y an<!--cant find symbol for n-->udada los cabos del nodo<!--not sure rosto or nodo-->, cayan sobre las espaldas,
-                        enel mesmo nodo: estuana enxerido, vn plumaje: del qual salian, vnas plumas, a manera de llamas: estauan colgando, azia la parte trassera, de la cabeça. Tenja vestido, vn vipilli: el
-                        qual en la estremjdad de abaxo, tenja vna cortapisa, ancha, y harpada. Las nauas<!--nauas or naoas not sure-->, que tenja eran blancas. Tenja sus cutaras, o sandalias, enlos pies:
-                        enla mano, yzqujerda, vna rodela, con vna chapa redonda de oro, enel medio: enla mano derecha, tenja vna escoba: que es instrumento, para barrer.</p> 
+                     <p xml:lang="sp">y bazian con esto, muchas vanjdades: las vestiduras, y ornato desta diosa: <expan>erā<ex>n</ex></expan>, que tenja la boca, y barba, hasta la garganta teñjida con
+                        vlli: que es vna goma negra. Tenja enel rostro, como vn pache redondo, de lo mismo: tenja en la cabeça, amanera de vna gorra, hecha de manta: rebuelta, y
+                        an<!--cant find symbol for n-->udada los cabos del nodo<!--not sure rosto or nodo-->, cayan sobre las espaldas, enel mesmo nodo: estuana enxerido, vn plumaje: del qual salian,
+                        vnas plumas, a manera de llamas: estauan colgando, azia la parte trassera, de la cabeça. Tenja vestido, vn vipilli: el qual en la estremjdad de abaxo, tenja vna cortapisa,
+                        ancha, y harpada. Las nauas<!--nauas or naoas not sure-->, que tenja eran blancas. Tenja sus cutaras, o sandalias, enlos pies: enla mano, yzqujerda, vna rodela, con vna chapa
+                        redonda de oro, enel medio: enla mano derecha, tenja vna escoba: que es instrumento, para barrer.</p>
                      <figure xml:id="b1c08sp_image1" />
                   </div4>
                   <div4 type="language_block" xml:lang="na">
-                     <p xml:lang="na">njman ce tlacatl onmaqujaia, yn jeoaio, ynnepantla oalmoquetzaia, vmentin ycuexoa, qujujcaia,
-                        qujtzatzacutiujia: motipauique, motlotloujtecque, pan pepetlauhtiuj, in memecamaxtli: amacalli in qujmama, mahmalacaquetzallo, ichcaxochiio, hiujquetzallo: vmpa concaoa, in
-                        tocititlan: quauhtlapechco contlaliaia yn jeoaio. Auh ynjc nechichioale, motenolcopi, tlaxapuchtli qujmotlatlalili yn jcamapā ichcaxochioa, poiatemale, cuechcueie, mocuechcueti: ic
-                        mjtoa, citlalli ycue, citlalcueie, quavivih, tzetzeliuhquj yn juipil, quauhtzetzeliuhquj, iztac quavihujio, quauhteuitzpo; yn jchimal, teucujtlaytixapo, totoicxiio, popoa, izqujce.</p>
+                     <p xml:lang="na">njman ce tlacatl onmaqujaia, yn jeoaio, ynnepantla oalmoquetzaia, vmentin ycuexoa, qujujcaia, qujtzatzacutiujia: motipauique, motlotloujtecque, pan pepetlauhtiuj,
+                        in memecamaxtli: amacalli in qujmama, mahmalacaquetzallo, ichcaxochiio, hiujquetzallo: vmpa concaoa, in tocititlan: quauhtlapechco contlaliaia yn jeoaio. Auh ynjc nechichioale,
+                        motenolcopi, tlaxapuchtli qujmotlatlalili yn jcamapā ichcaxochioa, poiatemale, cuechcueie, mocuechcueti: ic mjtoa, citlalli ycue, citlalcueie, quavivih, tzetzeliuhquj yn
+                        juipil, quauhtzetzeliuhquj, iztac quavihujio, quauhteuitzpo; yn jchimal, teucujtlaytixapo, totoicxiio, popoa, izqujce.</p>
                   </div4>
                </div3>
- 
             </div2>
-         </div1>
 
+         </div1>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,161 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Florentine Codex ODD</title>
+        <author>Diane Jakacki</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <p>TEI material can be licensed differently depending on the use you intend to make of it. Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is generally
+            appropriate for usages which treat TEI content as data or documentation. The BSD-2 licence is generally appropriate for usage of TEI content in a software environment. For further
+            information or clarification, please contact the TEI Consortium (info@tei-c.org).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>TEI Complete</head>
+      <p>This TEI customization describes a schema that includes <emph>all</emph> of the TEI (P5) modules. This is a very useful starting place for manually creating your own customizations — it is
+        much easier to delete the modules you do not want than to add the modules you do. Furthermore this customization often proves helpful for testing TEI software.</p>
+      <p>However, this particular TEI customization is <emph>not recommended</emph> for actual use for encoding documents. It produces schemas and reference documentation that will be much larger, and
+        include many more elements, than almost anyone could conceivably ever need. Tempting though it may be simply to have absolutely everything, and <q>just ignore</q> elements not required,
+        experience has shown that their presence makes the documentation harder to read and use, and makes a schema that is far more lax than desired.</p>
+      <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei" targetLang="en" docLang="en">
+        <moduleRef key="tei" />
+        <!-- required -->
+        <moduleRef key="core" except="analytic binaryObject cit citedRange media postBox postCode said soCalled speaker stage" />
+        <!-- required -->
+        <moduleRef key="analysis" except="phr" />
+        <moduleRef key="certainty" except="precision" />
+        <moduleRef key="corpus" except="channel interaction preparedness" />
+        <moduleRef key="dictionaries" except="colloc dictScrap entryFree hom mood pRef per pos sense stress usg" />
+        <moduleRef key="drama" except="actor camera castGroup castItem castList move performance set sound tech" />
+        <moduleRef key="figures" except="formula notatedMusic" />
+        <moduleRef key="gaiji" />
+        <moduleRef key="header" except="correspAction correspContext correspDesc punctuation" />
+        <!-- required -->
+        <moduleRef key="iso-fs" except="bicond binary then" />
+        <moduleRef key="linking" except="altGrp" />
+        <moduleRef key="msdescription" except="altIdentifier binding bindingDesc dim dimensions musicNotation recordHist seal sealDesc support supportDesc surrogates watermark" />
+        <moduleRef key="namesdates" />
+        <moduleRef key="nets" except="arc listForest node tree triangle" />
+        <moduleRef key="spoken" except="broadcast equipment kinesic recording recordingStmt writing" />
+        <moduleRef key="textcrit" />
+        <moduleRef key="textstructure" except="postscript salute" />
+        <!-- required -->
+        <moduleRef key="transcr" except="am redo restore retrace surplus" />
+        <moduleRef key="verse" except="rhyme" />
+        <moduleRef key="tagdocs" except="altIdent alternate empty remarks" />
+        <elementSpec ident="div1" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="open" mode="change" />
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div2" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" ns="Chapter">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="chapter">
+                  <desc versionDate="2020-01-08" xml:lang="en">Chapter</desc>
+                </valItem>
+                <valItem mode="add" ident="other">
+                  <desc>Other - if some other form of div2 is required, change in schema</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div3" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" ns="folio_block">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="folio_block">
+                  <desc versionDate="2020-01-08" xml:lang="en">Text at the level of folio - provide folio number</desc>
+                </valItem>
+                <valItem mode="add" ident="other">
+                  <desc>Other - if some other form of div3 is required, change in schema</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change" />
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div4" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" ns="language_block">
+              <valList mode="change" type="closed">
+                <valItem ident="language_block" mode="add">
+                  <desc>Transcribed text from the MS (either Spanish or Nahuatl)</desc>
+                </valItem>
+                <valItem ident="other" mode="add">
+                  <desc> Other - if some other form of div4 is required, change in schema</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="sp">
+                  <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
+                </valItem>
+                <valItem mode="add" ident="na">
+                  <desc versionDate="2020-01-08" xml:lang="en">Nahuatl</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="head" mode="change">
+          <attList>
+            <attDef ident="xml:lang" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="sp">
+                  <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
+                </valItem>
+                <valItem mode="add" ident="na">
+                  <desc versionDate="2020-01-08" xml:lang="en">Nahuatl</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="pb" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="folio">
+                  <desc versionDate="2020-01-08" xml:lang="en">Folio</desc>
+                </valItem>
+                <valItem mode="add" ident="other">
+                  <desc versionDate="2020-01-08" xml:lang="en">Other (should add option in schema)</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change" />
+          </attList>
+        </elementSpec>
+        <elementSpec ident="p" mode="change">
+          <attList>
+            <attDef ident="xml:lang" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="sp">
+                  <desc>Spanish</desc>
+                </valItem>
+                <valItem mode="change" ident="na">
+                  <desc>Nahuatl</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

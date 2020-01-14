@@ -85,13 +85,29 @@
 
                <div3 type="calendario" n="izquierda">
                   <!-- div3 is the third level, nested inside div2 ... one div3 for each of the three columns. div3 can hold lists, paragraphs, etc. -->
-                  <head type="calendar">Cuetade ... s d</head>
+                  <head type="calendar"> <expan>Cuē<ex>n</ex>ta</expan>deste calendario. s d</head>
                   <list>
-                     <item>1 3</item>
+                     <item>1 e</item>
                      <item>2 f</item>
                      <item>3 g</item>
                      <item>4 A</item>
                      <item>5 b</item>
+                     <item>6 c</item>
+                     <item>7 d</item>
+                     <item>8 e</item>
+                     <item>9 f</item>
+                     <item>10 g</item>
+                     <item>11 A</item>
+                     <item>12 b</item>
+                     <item>13 c</item>
+                     <item>14 d</item>
+                     <item>15 e</item>
+                     <item>16 f</item>
+                     <item>17 g</item>
+                     <item>18 A</item>
+                     <item>19 b</item>
+                     <item>20 c</item>
+                     
                   </list>
                </div3>
 
@@ -120,10 +136,16 @@
                </div3>
 
                <div3 type="calendaria" n="derecha">
-                  <head>d 1 Cuenta del ...</head>
+                  <head>d 1 Cuenta del <expan>calē<ex>n</ex>dario romano.</expan> ...</head>
                   <list>
                      <item>e 2</item>
                      <item>f 3</item>
+                     <item>g 4</item>
+                     <item>A 5</item>
+                     <item>b 6</item>
+                     <item>c 7</item>
+                     <item>d 8</item>
+                     <item>e </item>
                   </list>
                </div3>
             </div2>

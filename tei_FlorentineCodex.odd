@@ -66,6 +66,9 @@
                 <valItem mode="add" ident="chapter">
                   <desc versionDate="2020-01-08" xml:lang="en">Chapter</desc>
                 </valItem>
+                <valItem ident="prologue" mode="add">
+                  <desc>Prologue</desc>
+                </valItem>
                 <valItem mode="add" ident="other">
                   <desc>Other - if some other form of div2 is required, change in schema</desc>
                 </valItem>
@@ -102,7 +105,7 @@
             </attDef>
             <attDef ident="xml:lang" mode="change">
               <valList type="closed" mode="change">
-                <valItem mode="add" ident="sp">
+                <valItem mode="add" ident="es">
                   <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
                 </valItem>
                 <valItem mode="add" ident="na">
@@ -116,7 +119,7 @@
           <attList>
             <attDef ident="xml:lang" mode="change">
               <valList mode="change" type="closed">
-                <valItem mode="add" ident="sp">
+                <valItem mode="add" ident="es">
                   <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
                 </valItem>
                 <valItem mode="add" ident="na">
@@ -145,7 +148,7 @@
           <attList>
             <attDef ident="xml:lang" mode="change">
               <valList mode="change" type="closed">
-                <valItem mode="add" ident="sp">
+                <valItem mode="add" ident="es">
                   <desc>Spanish</desc>
                 </valItem>
                 <valItem mode="change" ident="na">

@@ -26,52 +26,68 @@
         </html>
     </xsl:template>
 
-<!-- This hides "title" of the memoir 
-    <xsl:template match="tei:head" />-->
-
-<xsl:template match="tei:div1/tei:head">
-    <h1>
+<!-- Identifies Book by number, and then bold -->
+    <xsl:template match="tei:div1">
+        <h3>
+            <xsl:text>Book </xsl:text>
+            <xsl:value-of select="@n"/>
+            <xsl:text></xsl:text>
+        </h3>
         <xsl:apply-templates/>
-    </h1>
-</xsl:template>    
+    </xsl:template>
     
- 
- <xsl:template match="tei:div4/tei:head[@xml:lang='sp']| tei:p[@xml:lang='sp']">
+    <xsl:template match="tei:div1/tei:head[@xml:lang='sp']">
+        <h4>   <xsl:text>Spanish: </xsl:text>         
+        <xsl:apply-templates/>
+</h4>
+    </xsl:template>
+
+<xsl:template match="tei:div1/tei:head[@xml:lang='na']">
+       <h4> <xsl:text>Nahuatl: </xsl:text>
+    <xsl:apply-templates/>
+</h4>
+</xsl:template>
+    
+<!-- Identifies Chapter by number, and then bold -->    
+<xsl:template match="tei:div2">
+   <hr/>
+    <strong> 
+       <xsl:text>Chapter </xsl:text>
+    <xsl:value-of select="@n"/>
+        <xsl:text>: </xsl:text>
+   </strong>
+    <p/>    
+    <xsl:apply-templates/>
+</xsl:template>
+<!-- Identifies Folio by number, and then italic -->    
+ <xsl:template match="tei:div3">
+     <em> 
+        <xsl:text>Folio </xsl:text>
+     <xsl:value-of select="@n"/>
+         <xsl:text>: </xsl:text>
+    </em>
      <p/>
-     <xsl:text>Spanish: </xsl:text>
      <xsl:apply-templates/>
  </xsl:template>
+
+ <!-- Labels Spanish and Nahuatl head sections -->   
+ <xsl:template match="tei:div4/tei:head[@xml:lang='sp']">
+     <xsl:text>(Spanish): 
+     </xsl:text>
+     <xsl:apply-templates/>
+ </xsl:template>
+    
+<xsl:template match="tei:div4/tei:head[@xml:lang='na']" >
+    <xsl:text>(Nahuatl): 
+    </xsl:text>
+    <xsl:apply-templates/>
+</xsl:template>
+    
 <!-- This breaks the text into paragraphs as marked up in text (not the same as pages) -->
     <xsl:template match="tei:p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
 
-    
-    
-<!-- This renders the superscript letters in HTML <sup> tag -->
-    <xsl:template match="tei:hi[@rend='superscript'] | tei:sup">
-        <sup xmlns="http://www.w3.org/1999/xhtml">
-            <xsl:value-of select="."/>
-        </sup>        
-    </xsl:template>
-
-<!-- This renders underlined letters in HTML <u> tag -->
-    
-    
-<!-- This renders strikethrough in HTML -->
-    <xsl:template match="tei:del">
-        <del xmlns="http://www.w3.org/1999/xhtml">
-            <xsl:value-of select="."/>
-        </del>
-    </xsl:template>
-    
-<!-- This hides the catchword form of note -->
-    <xsl:template match="tei:note[@type='catchword']" />
-
-<!-- This adds /// at each page break -->
-    <xsl:template match="tei:div[@type='page']">
-        <p><xsl:apply-templates/>
-        <xsl:text>///</xsl:text>
-        </p>
-    </xsl:template>
+<!-- This hides the expanded words at the letter level -->
+<xsl:template match="tei:ex"/>
 </xsl:stylesheet>

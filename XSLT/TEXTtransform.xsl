@@ -11,6 +11,10 @@
     <xsl:template match="/">
         <xsl:apply-templates/>
     </xsl:template>
+    
+    <xsl:template match="tei:div1"/>
+
+    
  
     <xsl:template match="tei:div4/tei:head[@xml:lang='sp']| tei:p[@xml:lang='sp']">
         <br />

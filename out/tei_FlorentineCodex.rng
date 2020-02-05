@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-01-29T21:07:29Z. .
+Schema generated from ODD source 2020-02-04T19:12:51Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -134,7 +134,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e101242-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e101252-constraint">
          <rule context="tei:content">
             <report test="descendant::*[not(namespace-uri(.) = ('http://relaxng.org/ns/structure/1.0'))]">content content must be in the namespace ''</report>
          </rule>
@@ -160,7 +160,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e101514-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e101524-constraint">
          <rule context="tei:constraint">
             <report test="descendant::*[not(namespace-uri(.) = ('http://purl.oclc.org/dsdl/schematron'))]">constraint content must be in the namespace ''</report>
          </rule>
@@ -186,7 +186,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e102405-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e102415-constraint">
          <rule context="tei:datatype">
             <report test="descendant::*[not(namespace-uri(.) = ('http://relaxng.org/ns/structure/1.0'))]">datatype content must be in the namespace ''</report>
          </rule>
@@ -13740,6 +13740,8 @@ Sample values include: </a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chapter</a:documentation>
                   <value>prologue</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Prologue</a:documentation>
+                  <value>toc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Table of Contents</a:documentation>
                   <value>other</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Other - if some other form of div2 is required, change in schema</a:documentation>
                </choice>
@@ -13947,6 +13949,8 @@ Sample values include: </a:documentation>
                <choice>
                   <value>language_block</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Transcribed text from the MS (either Spanish or Nahuatl)</a:documentation>
+                  <value>image_block</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Drawn image from the MS</a:documentation>
                   <value>other</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Other - if some other form of div4 is required, change in schema</a:documentation>
                </choice>

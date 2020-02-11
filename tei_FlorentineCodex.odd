@@ -69,6 +69,9 @@
                 <valItem ident="prologue" mode="add">
                   <desc>Prologue</desc>
                 </valItem>
+                <valItem ident="toc" mode="add">
+                  <desc>Table of Contents</desc>
+                </valItem>
                 <valItem mode="add" ident="other">
                   <desc>Other - if some other form of div2 is required, change in schema</desc>
                 </valItem>
@@ -97,6 +100,9 @@
               <valList mode="change" type="closed">
                 <valItem ident="language_block" mode="add">
                   <desc>Transcribed text from the MS (either Spanish or Nahuatl)</desc>
+                </valItem>
+                <valItem ident="image_block" mode="add">
+                  <desc>Drawn image from the MS</desc>
                 </valItem>
                 <valItem ident="other" mode="add">
                   <desc> Other - if some other form of div4 is required, change in schema</desc>

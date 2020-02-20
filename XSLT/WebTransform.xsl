@@ -90,4 +90,11 @@
 
 <!-- This hides the expanded words at the letter level -->
 <xsl:template match="tei:ex"/>
+    
+    
+<xsl:template match="tei:item">
+    <br />
+    <xsl:apply-templates/>
+</xsl:template>    
 </xsl:stylesheet>
+

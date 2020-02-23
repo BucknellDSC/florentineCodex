@@ -104,6 +104,9 @@
                 <valItem ident="image_block" mode="add">
                   <desc>Drawn image from the MS</desc>
                 </valItem>
+                <valItem ident="cuerpo_block" mode="add">
+                  <desc>Structured body from the MS</desc>
+                </valItem>
                 <valItem ident="other" mode="add">
                   <desc> Other - if some other form of div4 is required, change in schema</desc>
                 </valItem>
@@ -116,6 +119,39 @@
                 </valItem>
                 <valItem mode="add" ident="na">
                   <desc versionDate="2020-01-08" xml:lang="en">Nahuatl</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div5" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" ns="calendar_block">
+              <valList mode="change" type="closed">
+              <valItem ident="calendario" mode="add">
+                <desc>Calendario</desc>
+              </valItem>
+                <valItem ident="texto" mode="add">
+                  <desc>Texto</desc>
+                </valItem>
+                <valItem ident="other" mode="add">
+                  <desc>Other - if some other form of div5 @type is required, change in schema</desc>
+                </valItem>
+            </valList>
+            </attDef>
+            <attDef ident="rend" mode="change" ns="position">
+              <valList mode="change" type="closed">
+                <valItem ident="izquierda" mode="add">
+                  <desc>Izquierdo (left)</desc>
+                </valItem>
+                <valItem ident="medio" mode="add">
+                  <desc>Medio (center)</desc>
+                </valItem>
+                <valItem ident="derecha" mode="add">
+                  <desc>Derecha (right)</desc>
+                </valItem>
+                <valItem ident="other" mode="add">
+                  <desc>Other - if some other form of div5 @rend is required, change in schema</desc>
                 </valItem>
               </valList>
             </attDef>

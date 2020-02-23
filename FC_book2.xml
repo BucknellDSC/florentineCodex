@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/CSS/fc_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project: Book 2</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder, 2019</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Dombrowski</persName>
+               <orgName>Stanford University</orgName>
+               <resp>Collaborator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Nelson</persName>
+               <orgName>Stanford University</orgName>
+               <resp>Collaborator</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana, including original Spanish and Nahuatl texts, images, annotations, glosses, and
+               editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <!-- <msDesc etc./> -->
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="b02">
+                  <catDesc>Book 2</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div1 type="book" n="2">
+            <head xml:lang="es"></head>
+            <head xml:lang="na"></head>
+            <div2 type="chapter" n="1">
+               <div3 type="folio_block" n="1">
+                  <pb type="folio" n="1" facs="000.jpg" />
+                  <div4 type="language_block" xml:lang="es">
+                     <head xml:lang="es"></head>
+                     <p xml:lang="es"></p>
+                  </div4>
+                  <div4 type="language_block" xml:lang="na">
+                     <head xml:lang="na"></head>
+                     <p xml:lang="na"></p>
+                  </div4>
+               </div3>
+            </div2>
+         </div1>
+      </body>
+  </text>
+</TEI>

@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-02-23T21:24:16Z. .
+Schema generated from ODD source 2020-05-19T22:16:19Z. .
 TEI Edition: Version 3.6.0. Last updated on
 	16th July 2019, revision daa3cc0b9
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
@@ -135,7 +135,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e98779-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e98843-constraint">
          <rule context="tei:content">
             <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the
               namespaces
@@ -184,7 +184,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e99934-constraint">
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d9e99998-constraint">
          <rule context="tei:datatype">
             <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the
               namespaces
@@ -6122,8 +6122,43 @@ The attributes @to and @from on <name/> may each contain only a single value</re
                <ref name="teimodel.certLike"/>
             </choice>
          </zeroOrMore>
-         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.global.attribute.xmlid"/>
+         <ref name="teiatt.global.attribute.n"/>
+         <ref name="teiatt.global.attribute.xmllang"/>
+         <ref name="teiatt.global.attribute.xmlbase"/>
+         <ref name="teiatt.global.attribute.xmlspace"/>
+         <ref name="teiatt.global.rendition.attribute.rend"/>
+         <ref name="teiatt.global.rendition.attribute.style"/>
+         <ref name="teiatt.global.rendition.attribute.rendition"/>
+         <ref name="teiatt.global.linking.attribute.corresp"/>
+         <ref name="teiatt.global.linking.attribute.synch"/>
+         <ref name="teiatt.global.linking.attribute.sameAs"/>
+         <ref name="teiatt.global.linking.attribute.copyOf"/>
+         <ref name="teiatt.global.linking.attribute.next"/>
+         <ref name="teiatt.global.linking.attribute.prev"/>
+         <ref name="teiatt.global.linking.attribute.exclude"/>
+         <ref name="teiatt.global.linking.attribute.select"/>
+         <ref name="teiatt.global.facs.attribute.facs"/>
+         <ref name="teiatt.global.change.attribute.change"/>
+         <ref name="teiatt.global.responsibility.attribute.cert"/>
+         <ref name="teiatt.global.responsibility.attribute.resp"/>
+         <ref name="teiatt.global.source.attribute.source"/>
          <ref name="teiatt.interpLike.attributes"/>
+         <optional>
+            <attribute name="ana">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>signoExpresivo</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Signo expresivo (Nahuatl)</a:documentation>
+                        <value>signoLógico</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Signo loógico (traducción al español)</a:documentation>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

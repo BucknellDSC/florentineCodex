@@ -202,83 +202,71 @@
         </elementSpec>
         <elementSpec ident="interp" mode="change">
           <attList>
-            <attDef ident="ana" mode="change">
+            <attDef ident="xml:id" mode="change">
               <valList mode="change" type="closed">
                 <valItem mode="add" ident="signoExpresivo">
                   <desc>Signo expresivo (Nahuatl)</desc>
                 </valItem>
                 <valItem mode="add" ident="signoLógico">
-                  <desc>Signo loógico (traducción al español)</desc>
+                  <desc>Signo lógico (traducción al español)</desc>
                 </valItem>
               </valList>
             </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="signoExpresivo" mode="add">
-          <attList>
-            <attDef ident="type" mode="change">
+            <attDef ident="inst" mode="change">
               <valList mode="change" type="closed">
                 <valItem ident="natural" mode="add">
-                  <desc>Natural</desc>
+                  <desc>Natural (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="motivado" mode="add">
-                  <desc>Motivado</desc>
+                  <desc>Motivado (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="analógico" mode="add">
-                  <desc>Analógico</desc>
+                  <desc>Analógico (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="subjectivo" mode="add">
-                  <desc>Subjectivo</desc>
+                  <desc>Subjectivo (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="afectivo" mode="add">
-                  <desc>Afectivo</desc>
+                  <desc>Afectivo (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="concreto" mode="add">
-                  <desc>Concreto</desc>
+                  <desc>Concreto (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="singular" mode="add">
-                  <desc>Singular</desc>
+                  <desc>Singular (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="inmanente" mode="add">
-                  <desc>Inmanente</desc>
+                  <desc>Inmanente (Signo expresivo)</desc>
                 </valItem>
                 <valItem ident="total" mode="add">
-                  <desc>Total</desc>
+                  <desc>Total (Signo expresivo)</desc>
                 </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="signoLógico" mode="add">
-          <attList>
-            <attDef ident="type" mode="change">
-              <valList mode="change" type="closed">
                 <valItem ident="convencional" mode="add">
-                  <desc>Convencional</desc>
+                  <desc>Convencional (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="arbitrario" mode="add">
-                  <desc>Arbitrario</desc>
+                  <desc>Arbitrario (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="homológico" mode="add">
-                  <desc>Homológico</desc>
+                  <desc>Homológico (Signo loógico)</desc>
                 </valItem>
                 <valItem ident="objetivo" mode="add">
-                  <desc>Objetivo</desc>
+                  <desc>Objetivo (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="racional" mode="add">
-                  <desc>Racional</desc>
+                  <desc>Racional (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="abstracto" mode="add">
-                  <desc>Abstracto</desc>
+                  <desc>Abstracto (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="general" mode="add">
-                  <desc>General</desc>
+                  <desc>General (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="transitivo" mode="add">
-                  <desc>Transitivo</desc>
+                  <desc>Transitivo (Signo lógico)</desc>
                 </valItem>
                 <valItem ident="selectivo" mode="add">
-                  <desc>Selectivo</desc>
+                  <desc>Selectivo (Signo lógico)</desc>
                 </valItem>
               </valList>
             </attDef>

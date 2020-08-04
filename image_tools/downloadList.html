@@ -1,0 +1,159 @@
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+
+      <title>The HTML5 Herald</title>
+      <meta name="description" content="The HTML5 Herald">
+      <meta name="author" content="SitePoint">
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+      <style>
+       /* http://meyerweb.com/eric/tools/css/reset/ 
+          v2.0 | 20110126
+          License: none (public domain)
+        */
+
+       html, body, div, span, applet, object, iframe,
+       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+       a, abbr, acronym, address, big, cite, code,
+       del, dfn, em, img, ins, kbd, q, s, samp,
+       small, strike, strong, sub, sup, tt, var,
+       b, u, i, center,
+       dl, dt, dd, ol, ul, li,
+       fieldset, form, label, legend,
+       table, caption, tbody, tfoot, thead, tr, th, td,
+       article, aside, canvas, details, embed, 
+       figure, figcaption, footer, header, hgroup, 
+       menu, nav, output, ruby, section, summary,
+       time, mark, audio, video {
+         margin: 0;
+         padding: 0;
+         border: 0;
+         font-size: 100%;
+         font: inherit;
+         font-family: 'Libre Baskerville', serif;
+         vertical-align: baseline;
+         line-height: 1.2em;
+       }
+       body {
+         padding: 2em;
+       }
+       p {
+         margin-bottom: 2em;
+       }
+       h1, h2, h3 {
+         margin-bottom: 1em;
+       }
+
+       h1 {
+         font-size: 2em;
+         font-style: bold;
+       }
+
+       h2 {
+         font-size: 1.2em;
+       }
+
+       /* HTML5 display-role reset for older browsers */
+       article, aside, details, figcaption, figure,
+       footer, header, hgroup, menu, nav, section {
+         display: block;
+       }
+       body {
+         line-height: 1;
+       }
+       ol, ul {
+         list-style: none;
+       }
+       blockquote, q {
+         quotes: none;
+       }
+       blockquote:before, blockquote:after,
+       q:before, q:after {
+         content: '';
+         content: none;
+       }
+       table {
+         border-collapse: collapse;
+         border-spacing: 0;
+       }
+       ul {
+         margin: 0;
+         padding: 0;
+       }
+       li {
+         list-style-type: none;
+         padding: 20px;
+         border-top: 1px solid grey;
+         display: flex;
+       }
+       image {
+         width: 100px;
+       }
+       .link-container {
+         position: relative;
+         flex-grow:1;
+       }
+       h3 {
+         font-weight: bold;
+       }
+       a.download {
+         background: black;
+         color: white;
+         font-style: bold;
+         text-decoration: none;
+         cursor: pointer;
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         padding: 1em;
+         font-family: sans-serif;
+       }
+       a.inline {
+         position: inherit;
+         display: inline-block;
+         margin-bottom: 2em;;
+       }
+      </style>
+
+    </head>
+    <body>
+      <h1>Florentine Codex</h1>
+      <h2>Book 1</h2>
+      <p>This page provides an index of downloadable images in their full resolution for Book 1. The table below gives URLs for the WDL image server and the Internet Archive Mirror Item. Canvas identifiers are also given for the IA Mirror, WDL Book 1 manifest, and WDL full manuscript manifest (so we can keep the correspondence straight).</p>
+      <a class="download inline" href="https://archive.org/details/floretine_codex_backup">Download Zipped Archive of Book 1 Images</a>
+      <ul>
+      </ul>
+      <script>
+       fetch('https://www.wdl.org/en/item/10612/iiif/manifest.json')
+         .then(response=>response.json())
+         .then((json) => {
+           const parentUL = document.querySelector('ul');
+           json.sequences[0].canvases.forEach(canvas=>{
+             const row = document.createElement('li');
+             const image = new Image();
+             const linkContainer = document.createElement('div');
+             linkContainer.className = 'link-container';
+             const fullResLink = document.createElement('a');
+             const WDLFullImageLabel = 'Download from WDL in Full Resolution';
+             const fullResHref = `${canvas.images[0].resource.service['@id']}/full/full/0/default.jpg`;
+             fullResLink.text = WDLFullImageLabel;
+             fullResLink.href = fullResHref;
+             fullResLink.className = 'download';
+             fullResLink.target='_blank';
+             linkContainer.appendChild(fullResLink);
+             /* const IAFullImageLabel */
+             /* const WDLBook1CanvasIdLabel */
+             /* const WDLCodexCanvasIdLabel */
+             /* const IACanvasIdLabel */
+             image.src = canvas.thumbnail['@id'];
+             row.appendChild(image);
+             row.appendChild(linkContainer);
+
+             parentUL.appendChild(row);
+           });
+         })
+      </script>
+    </body>
+  </html>

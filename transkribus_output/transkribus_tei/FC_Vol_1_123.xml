@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:29.717-07:00</Created>
+        <LastChange>2020-06-24T06:05:11.146+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_123.png" imageWidth="2698" imageHeight="4084">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736935186" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="74,103 74,3982 2601,3982 2601,103"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="2418,192 2496,182 2512,169 2550,167 2572,177 2616,162 2619,40 2562,58 2540,45 2515,54 2503,41 2471,53 2456,46 2421,49"/>
+                <Baseline points="2436,141 2463,150 2491,153 2518,152 2546,150 2573,149 2601,153"/>
+                <TextEquiv>
+                    <Unicode>fo2.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="64,291 2517,276 2516,186 2394,152 868,240 63,184"/>
+                <Baseline points="81,269 202,275 323,279 444,282 565,284 686,284 807,285 928,284 1049,282 1170,281 1291,279 1412,278 1533,275 1654,273 1775,272 1896,272 2017,270 2138,270 2259,272 2380,273 2502,276"/>
+                <TextEquiv>
+                    <Unicode>fueron los de tepepulco: el segundo, los del tlatilulco: el tercero, los de mexico: y en todos estos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="69,347 2531,345 2530,270 68,290"/>
+                <Baseline points="84,339 205,344 327,347 448,350 570,351 691,351 813,350 934,350 1056,347 1177,345 1299,342 1420,340 1542,338 1663,335 1785,333 1906,332 2028,332 2149,332 2271,333 2392,335 2514,339"/>
+                <TextEquiv>
+                    <Unicode>escrutinjos, vuo gramaticos colegiales. El principal ymas sabio, fue antonjo valeria</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="70,415 2529,430 2528,345 2384,340 69,365"/>
+                <Baseline points="86,410 207,414 328,417 450,420 571,420 692,420 814,420 935,419 1056,416 1178,414 1299,411 1420,408 1542,405 1663,404 1784,402 1906,401 2027,399 2148,399 2270,401 2391,402 2513,407"/>
+                <TextEquiv>
+                    <Unicode>no, vezino de azcaputzalco: otro poco menos, que este fue alonso vegerano, vezino de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="60,516 2554,513 2553,413 60,434"/>
+                <Baseline points="74,483 197,486 320,488 443,488 566,488 689,488 812,486 936,485 1059,483 1182,481 1305,479 1428,477 1551,475 1674,474 1798,473 1921,471 2044,471 2167,473 2290,474 2413,477 2537,480"/>
+                <TextEquiv>
+                    <Unicode>quauhtitlan: otro fue martin Jacobita, de que arriba hize mencion: otro, pedro de san</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="58,575 2508,587 2508,512 2170,487 58,522"/>
+                <Baseline points="75,560 195,563 316,564 437,564 558,563 679,561 800,560 921,557 1042,555 1163,552 1284,549 1404,546 1525,545 1646,543 1767,542 1888,542 2009,542 2130,545 2251,548 2372,551 2493,558"/>
+                <TextEquiv>
+                    <Unicode>buenauentura, vezino de quauhtitlan: todos espertos entres lenguas, latina, espa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="69,641 2535,647 2534,581 2124,551 68,575"/>
+                <Baseline points="84,636 205,639 327,640 449,641 571,639 693,638 814,636 936,633 1058,631 1180,627 1302,625 1423,623 1545,620 1667,618 1789,617 1911,617 2032,617 2154,618 2276,621 2398,626 2520,632"/>
+                <TextEquiv>
+                    <Unicode>ñola, y Jndiana. Los escriuanos, que sacaron de buena letra, todas las obras, son:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="69,734 2535,713 2534,645 2096,622 68,641"/>
+                <Baseline points="84,719 205,719 327,719 449,719 571,717 693,716 814,714 936,711 1058,708 1180,705 1302,702 1423,699 1545,698 1667,695 1789,693 1911,692 2032,692 2154,693 2276,694 2398,696 2520,701"/>
+                <TextEquiv>
+                    <Unicode>Diego degrado, vezino del tlatilulco, del barrio de la conception. Ponifacio maximjlia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="63,819 2535,806 2502,709 62,735"/>
+                <Baseline points="77,785 199,789 321,791 443,792 565,792 687,791 809,789 931,786 1053,783 1175,780 1298,777 1420,774 1542,771 1664,770 1786,768 1908,767 2030,767 2152,767 2274,770 2396,773 2519,777"/>
+                <TextEquiv>
+                    <Unicode>no, vezino del tlatilulco, del barrjo de sanct martin, Matheo seuerino, vezino de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="73,881 2491,867 2437,774 72,809"/>
+                <Baseline points="87,864 206,868 325,870 445,870 564,870 684,869 803,867 922,864 1042,861 1161,857 1281,854 1400,849 1519,846 1639,843 1758,842 1878,840 1997,840 2116,840 2236,843 2355,846 2475,852"/>
+                <TextEquiv>
+                    <Unicode>suchimjlco, de la parte de vllac. Desque estas escrituras, estuujeron sacadas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="81,941 2178,969 2509,904 2320,845 80,878"/>
+                <Baseline points="96,935 215,939 335,942 455,944 575,944 695,944 815,941 934,939 1054,936 1174,933 1294,930 1414,926 1534,923 1654,920 1773,917 1893,914 2013,912 2133,912 2253,912 2373,914 2493,917"/>
+                <TextEquiv>
+                    <Unicode>enblanco: con el fauor de los padres, arriba nombrados: en que se gastaron</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="80,1019 1854,1036 2477,1000 2494,921 79,947"/>
+                <Baseline points="96,1001 215,1008 334,1013 453,1016 573,1017 692,1017 811,1016 930,1013 1050,1010 1169,1007 1288,1002 1407,998 1527,995 1646,990 1765,987 1884,984 2004,983 2123,981 2242,983 2361,984 2481,989"/>
+                <TextEquiv>
+                    <Unicode>hartos tomjnes, con los escriujentes: el autor dellas, de mando al padre co</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:12;}">
+                <Coords points="76,1097 2466,1089 2566,1071 2564,977 74,1025"/>
+                <Baseline points="90,1082 213,1087 336,1091 459,1094 582,1095 705,1094 828,1092 951,1091 1074,1087 1197,1083 1320,1079 1443,1074 1566,1070 1689,1066 1812,1062 1935,1058 2058,1056 2181,1053 2304,1053 2427,1053 2550,1056"/>
+                <TextEquiv>
+                    <Unicode>missario, fray francisco de ribera, que se viesen, de tres, o quatro religiosos: pa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:13;}">
+                <Coords points="72,1175 2550,1164 2548,1083 2150,1046 70,1103"/>
+                <Baseline points="87,1155 209,1163 331,1167 454,1170 576,1172 699,1172 821,1170 943,1168 1066,1164 1188,1161 1311,1155 1433,1151 1555,1146 1678,1142 1800,1139 1923,1136 2045,1134 2167,1133 2290,1134 2412,1136 2535,1140"/>
+                <TextEquiv>
+                    <Unicode>raque aquellos dixessen, lo que les parecia dellas, enel capitulo proujncial,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:14;}">
+                <Coords points="76,1282 2500,1248 2530,1151 74,1197"/>
+                <Baseline points="90,1235 211,1241 332,1245 453,1248 574,1248 696,1248 817,1247 938,1245 1059,1241 1180,1238 1302,1233 1423,1229 1544,1225 1665,1221 1786,1218 1908,1215 2029,1214 2150,1212 2271,1213 2392,1215 2514,1218"/>
+                <TextEquiv>
+                    <Unicode>que estaua propinquo: los quales los vieron, y dieron relacion dellas, al di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:15;}">
+                <Coords points="87,1353 2218,1347 2539,1313 2538,1228 85,1275"/>
+                <Baseline points="102,1316 223,1322 344,1326 465,1329 586,1329 707,1328 828,1326 949,1323 1070,1320 1191,1316 1312,1311 1433,1308 1554,1303 1675,1299 1796,1296 1917,1293 2038,1293 2159,1292 2280,1293 2401,1297 2523,1302"/>
+                <TextEquiv>
+                    <Unicode>fini torio, en el mismo capitulo: diziendo lo que los parecia, y dixeron en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:16;}">
+                <Coords points="84,1419 2259,1419 2568,1388 2567,1323 83,1357"/>
+                <Baseline points="99,1391 221,1399 344,1406 467,1409 589,1410 712,1410 835,1409 957,1407 1080,1403 1203,1398 1326,1394 1448,1389 1571,1385 1694,1380 1816,1377 1939,1374 2062,1373 2184,1371 2307,1373 2430,1377 2553,1382"/>
+                <TextEquiv>
+                    <Unicode>difinj torio, que eran escrituras, de mucha estima, y que deujan ser fauore</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:17;}">
+                <Coords points="88,1475 459,1533 2526,1453 1833,1375 87,1422"/>
+                <Baseline points="105,1472 225,1479 345,1483 465,1487 586,1487 706,1487 826,1485 947,1482 1067,1478 1187,1475 1308,1470 1428,1464 1548,1460 1668,1455 1789,1451 1909,1448 2029,1445 2150,1443 2270,1443 2390,1446 2511,1449"/>
+                <TextEquiv>
+                    <Unicode>cidos: paraque se acabasen. Agunos de los difinjdores les parescio, que exa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:18;}">
+                <Coords points="90,1553 742,1610 2406,1542 2526,1458 88,1475"/>
+                <Baseline points="105,1544 225,1550 345,1554 465,1557 586,1557 706,1557 826,1554 947,1551 1067,1548 1187,1544 1308,1538 1428,1532 1548,1528 1668,1523 1789,1518 1909,1515 2029,1512 2150,1511 2270,1511 2390,1512 2511,1515"/>
+                <TextEquiv>
+                    <Unicode>contra la pobreza, gastar dineros en escriujesse aquellas escrituras: y ansi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:19;}">
+                <Coords points="88,1632 2567,1628 2564,1500 723,1609 87,1557"/>
+                <Baseline points="105,1614 227,1622 349,1627 471,1631 594,1632 716,1631 838,1629 960,1626 1083,1622 1205,1617 1327,1611 1449,1607 1572,1602 1694,1596 1816,1592 1938,1589 2061,1587 2183,1587 2305,1588 2427,1590 2550,1596"/>
+                <TextEquiv>
+                    <Unicode>mandaron al autor, que despidiese a los escriuanos: y que el solo escriujesse de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:20;}">
+                <Coords points="85,1713 2475,1707 2580,1630 83,1638"/>
+                <Baseline points="99,1686 222,1695 345,1700 468,1704 592,1704 715,1704 838,1703 962,1700 1085,1695 1208,1691 1332,1686 1455,1681 1578,1676 1701,1671 1825,1668 1948,1665 2071,1664 2195,1665 2318,1667 2441,1671 2565,1677"/>
+                <TextEquiv>
+                    <Unicode>su mano, lo que qujsiese en ellas. El qual como era major de setenta años, y por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l22" custom="readingOrder {index:21;}">
+                <Coords points="84,1776 2541,1774 2539,1680 83,1713"/>
+                <Baseline points="99,1760 220,1767 341,1773 463,1776 584,1778 705,1777 827,1775 948,1772 1069,1769 1191,1764 1312,1758 1433,1753 1555,1749 1676,1743 1797,1740 1919,1736 2040,1734 2161,1734 2283,1734 2404,1737 2526,1743"/>
+                <TextEquiv>
+                    <Unicode>temblor de la mano, no puede escreujr nada, nj se pudo al cançar dispensaci</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l23" custom="readingOrder {index:22;}">
+                <Coords points="90,1844 2503,1820 2420,1743 89,1791"/>
+                <Baseline points="105,1827 224,1837 343,1845 462,1850 581,1853 700,1853 819,1851 938,1848 1057,1844 1176,1838 1296,1832 1415,1827 1534,1820 1653,1815 1772,1811 1891,1807 2010,1805 2129,1805 2248,1806 2367,1811 2487,1818"/>
+                <TextEquiv>
+                    <Unicode>on deste mandamjento: estuujeronse las escrituras, sin hazer nada enellas:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l24" custom="readingOrder {index:23;}">
+                <Coords points="94,1913 2535,1900 2533,1819 92,1851"/>
+                <Baseline points="108,1899 228,1910 349,1919 469,1924 590,1926 711,1926 831,1925 952,1920 1072,1915 1193,1910 1314,1902 1434,1896 1555,1889 1675,1883 1796,1878 1917,1875 2037,1872 2158,1872 2278,1875 2399,1880 2520,1889"/>
+                <TextEquiv>
+                    <Unicode>mas de cineo años. En este tiempo, enel capitulo sigujente, fue elegido por custos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l25" custom="readingOrder {index:24;}">
+                <Coords points="77,1998 711,2058 2520,1961 2518,1896 2102,1873 75,1935"/>
+                <Baseline points="92,1971 212,1985 333,1995 453,2001 574,2004 695,2004 815,2003 936,1998 1057,1992 1177,1986 1298,1978 1419,1970 1539,1963 1660,1956 1781,1950 1901,1944 2022,1941 2143,1941 2263,1943 2384,1947 2505,1956"/>
+                <TextEquiv>
+                    <Unicode>custodum, para el capitulo general: el padre fray miguel nauarro: y por pro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l26" custom="readingOrder {index:25;}">
+                <Coords points="90,2091 2552,2044 2550,1963 2187,1948 721,2049 88,1994"/>
+                <Baseline points="104,2043 225,2056 347,2066 468,2072 590,2075 711,2075 833,2073 954,2069 1076,2064 1197,2058 1319,2050 1441,2043 1562,2036 1684,2028 1805,2023 1927,2018 2048,2015 2170,2013 2291,2015 2413,2018 2535,2025"/>
+                <TextEquiv>
+                    <Unicode>ujncial tray alonso descacuna. Eneste tiempo, el autor, hizo vn sumario, de to</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l27" custom="readingOrder {index:26;}">
+                <Coords points="93,2129 515,2207 2556,2107 2397,2021 92,2091"/>
+                <Baseline points="110,2120 231,2132 353,2141 474,2145 596,2148 717,2148 839,2147 960,2144 1082,2139 1203,2133 1325,2126 1447,2120 1568,2114 1690,2106 1811,2100 1933,2094 2054,2090 2176,2087 2297,2087 2419,2087 2541,2091"/>
+                <TextEquiv>
+                    <Unicode>dos los libros, y de todos los capitulos de cada libro, y los prologos: donde enbreue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l28" custom="readingOrder {index:27;}">
+                <Coords points="91,2213 2541,2168 2369,2095 89,2160"/>
+                <Baseline points="105,2198 226,2209 347,2217 468,2222 589,2225 710,2225 831,2223 952,2220 1073,2216 1194,2210 1315,2204 1436,2196 1557,2190 1678,2183 1799,2176 1920,2170 2041,2165 2162,2161 2283,2159 2404,2159 2526,2160"/>
+                <TextEquiv>
+                    <Unicode>dad se dezia, todo lo que se contenja, en los libros. Este sumario, lleuco aespa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l29" custom="readingOrder {index:28;}">
+                <Coords points="80,2305 2339,2283 2519,2249 2517,2171 77,2229"/>
+                <Baseline points="96,2277 216,2286 336,2294 457,2297 577,2298 698,2298 818,2295 939,2293 1059,2288 1180,2282 1300,2277 1420,2270 1541,2263 1661,2256 1782,2251 1902,2247 2023,2243 2143,2240 2264,2240 2384,2240 2505,2244"/>
+                <TextEquiv>
+                    <Unicode>ñia, el padre fray Miguel nauarro, y su compañero, el padre fray hieronymo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l30" custom="readingOrder {index:29;}">
+                <Coords points="89,2376 542,2429 2579,2327 2577,2259 2264,2249 721,2351 87,2301"/>
+                <Baseline points="105,2357 228,2367 351,2373 474,2376 597,2378 720,2378 843,2375 966,2370 1089,2365 1212,2358 1335,2352 1458,2346 1581,2339 1704,2331 1827,2327 1950,2322 2073,2318 2196,2317 2319,2318 2442,2321 2565,2325"/>
+                <TextEquiv>
+                    <Unicode>de mendieta: y ansi se supo en españa, lo que estava escrito, cerca de las cosas des</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l31" custom="readingOrder {index:30;}">
+                <Coords points="98,2451 601,2499 2541,2391 2467,2327 96,2389"/>
+                <Baseline points="114,2435 234,2444 355,2450 475,2453 596,2454 717,2453 837,2450 958,2447 1078,2442 1199,2436 1320,2430 1440,2423 1561,2416 1681,2411 1802,2405 1923,2400 2043,2397 2164,2394 2284,2394 2405,2397 2526,2402"/>
+                <TextEquiv>
+                    <Unicode>ta tierra. En este medio tiempo, el padre proujncial, tomo todos los libros, al di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l32" custom="readingOrder {index:31;}">
+                <Coords points="95,2539 2392,2514 2582,2483 2579,2393 92,2461"/>
+                <Baseline points="111,2514 233,2524 356,2530 479,2534 601,2534 724,2532 847,2530 969,2525 1092,2519 1215,2512 1338,2505 1460,2498 1583,2491 1706,2484 1828,2478 1951,2474 2074,2472 2196,2471 2319,2472 2442,2476 2565,2483"/>
+                <TextEquiv>
+                    <Unicode>cho autor, y se esparzieron, por toda la proujncia : donde fueron vistos de mu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l33" custom="readingOrder {index:32;}">
+                <Coords points="93,2605 2596,2590 2593,2493 2443,2479 91,2551"/>
+                <Baseline points="108,2598 231,2607 355,2613 478,2616 602,2616 726,2613 849,2610 973,2606 1096,2600 1220,2593 1344,2586 1467,2579 1591,2571 1714,2565 1838,2559 1962,2556 2085,2553 2209,2553 2332,2555 2456,2560 2580,2568"/>
+                <TextEquiv>
+                    <Unicode>chos religiosos, y aprouados, por muy preciosos, y prouechosos. Despues de algunos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l34" custom="readingOrder {index:33;}">
+                <Coords points="85,2686 957,2736 2551,2659 2596,2591 460,2665 82,2608"/>
+                <Baseline points="102,2684 226,2691 350,2696 474,2697 598,2697 722,2696 846,2691 970,2687 1094,2681 1218,2675 1342,2668 1466,2661 1590,2654 1714,2648 1838,2642 1962,2637 2086,2634 2210,2633 2334,2633 2458,2636 2583,2640"/>
+                <TextEquiv>
+                    <Unicode>años, bolujendo de capitulo general, el padre fray Miguel nauarro: el qual vino</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l35" custom="readingOrder {index:34;}">
+                <Coords points="83,2786 2564,2726 2561,2657 2189,2648 81,2708"/>
+                <Baseline points="99,2763 221,2769 343,2772 466,2774 588,2774 711,2772 833,2768 955,2763 1078,2759 1200,2753 1323,2747 1445,2740 1567,2733 1690,2727 1812,2722 1935,2717 2057,2713 2179,2711 2302,2709 2424,2711 2547,2712"/>
+                <TextEquiv>
+                    <Unicode>por comissario destas partes : en censuras, torno arecoger, los dichos libros: apetici</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l36" custom="readingOrder {index:35;}">
+                <Coords points="73,2837 667,2900 2577,2824 2517,2713 72,2793"/>
+                <Baseline points="90,2834 213,2843 337,2849 460,2853 584,2853 708,2852 831,2850 955,2846 1078,2840 1202,2834 1326,2827 1449,2820 1573,2813 1696,2807 1820,2801 1944,2796 2067,2792 2191,2790 2314,2790 2438,2792 2562,2796"/>
+                <TextEquiv>
+                    <Unicode>on del autor, y desque estuujeron recogidos, day aun año pocomas, o menos: vinje</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l37" custom="readingOrder {index:36;}">
+                <Coords points="79,2927 2582,2905 2580,2827 2144,2802 670,2898 76,2840"/>
+                <Baseline points="93,2912 216,2920 340,2925 463,2928 587,2930 711,2928 834,2925 958,2921 1081,2915 1205,2910 1329,2903 1452,2897 1576,2891 1699,2885 1823,2879 1947,2874 2070,2871 2194,2870 2317,2871 2441,2873 2565,2879"/>
+                <TextEquiv>
+                    <Unicode>ron a poder del autor. Eneste tiempo, ninguna cosa se hizo enellos : nj vuo quj</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l38" custom="readingOrder {index:37;}">
+                <Coords points="86,3018 2582,2966 2429,2886 407,2978 83,2918"/>
+                <Baseline points="102,2993 225,3002 348,3008 471,3011 594,3012 717,3011 840,3008 964,3005 1087,3000 1210,2994 1333,2988 1456,2981 1579,2975 1702,2969 1826,2963 1949,2959 2072,2956 2195,2954 2318,2955 2441,2957 2565,2961"/>
+                <TextEquiv>
+                    <Unicode>en fauoreciese para acabarse, de traduzir en romance: hastaque el padre co</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l39" custom="readingOrder {index:38;}">
+                <Coords points="77,3087 939,3133 2408,3078 2560,2995 75,3015"/>
+                <Baseline points="93,3074 215,3081 338,3087 460,3089 583,3090 705,3089 828,3086 950,3083 1073,3077 1195,3072 1318,3066 1441,3060 1563,3054 1686,3048 1808,3044 1931,3039 2053,3036 2176,3036 2298,3036 2421,3039 2544,3045"/>
+                <TextEquiv>
+                    <Unicode>missario general, fray Rodrigo de seguera: vino aestas partes, y los vio, y se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l40" custom="readingOrder {index:39;}">
+                <Coords points="91,3165 1910,3182 2551,3148 2567,3056 89,3112"/>
+                <Baseline points="105,3156 227,3164 349,3170 472,3173 594,3173 717,3173 839,3170 961,3166 1084,3162 1206,3156 1329,3150 1451,3144 1573,3137 1696,3132 1818,3126 1941,3122 2063,3118 2185,3116 2308,3116 2430,3117 2553,3122"/>
+                <TextEquiv>
+                    <Unicode>contento mucho dellos: y mando al dicho autor, que los traduxese en roman</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l41" custom="readingOrder {index:40;}">
+                <Coords points="87,3253 928,3308 2606,3214 2604,3130 86,3200"/>
+                <Baseline points="102,3239 226,3248 350,3255 475,3260 599,3261 723,3261 848,3260 972,3257 1096,3252 1221,3247 1345,3241 1469,3234 1594,3228 1718,3222 1842,3216 1967,3210 2091,3206 2215,3203 2340,3203 2464,3203 2589,3206"/>
+                <TextEquiv>
+                    <Unicode>: y proueyo de todo lo necessario, paraque se escriujesen de nueuo, la lengua</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l42" custom="readingOrder {index:41;}">
+                <Coords points="81,3331 906,3382 2610,3295 2582,3208 957,3315 79,3253"/>
+                <Baseline points="96,3321 227,3332 359,3340 490,3345 622,3347 753,3345 885,3342 1016,3338 1148,3332 1279,3325 1411,3318 1542,3310 1674,3302 1805,3296 1937,3290 2068,3286 2200,3284 2331,3284 2463,3287 2595,3294"/>
+                <TextEquiv>
+                    <Unicode>mexicana, en vna coluna, y el romance en la otra, para los embiar aespaña:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l43" custom="readingOrder {index:42;}">
+                <Coords points="77,3438 2585,3360 2583,3294 2308,3289 75,3344"/>
+                <Baseline points="90,3395 214,3404 338,3410 462,3414 586,3416 710,3416 834,3414 958,3411 1082,3407 1206,3402 1330,3396 1454,3390 1578,3384 1702,3378 1826,3374 1950,3369 2074,3365 2198,3362 2322,3360 2446,3362 2571,3363"/>
+                <TextEquiv>
+                    <Unicode>porque los procuro, el fllustrissimo señor, don suan de guando, presidente del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l44" custom="readingOrder {index:43;}">
+                <Coords points="68,3482 2552,3447 2550,3369 67,3432"/>
+                <Baseline points="84,3474 206,3482 329,3488 451,3492 574,3494 696,3494 819,3492 941,3489 1064,3486 1186,3482 1309,3477 1432,3471 1554,3467 1677,3461 1799,3456 1922,3452 2044,3447 2167,3444 2289,3443 2412,3443 2535,3443"/>
+                <TextEquiv>
+                    <Unicode>consejo de in dias : porque tenja noticia destos libros : por razon del sumario,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l45" custom="readingOrder {index:44;}">
+                <Coords points="62,3598 2574,3526 2544,3442 60,3504"/>
+                <Baseline points="78,3558 202,3565 326,3569 450,3572 574,3572 698,3572 822,3569 946,3566 1070,3563 1194,3558 1318,3554 1442,3549 1566,3544 1690,3539 1814,3534 1938,3530 2062,3528 2186,3525 2310,3524 2434,3525 2559,3527"/>
+                <TextEquiv>
+                    <Unicode>que el dicho padre fray Miguel nauarro, auja lleuado aespaña, como arriba</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l46" custom="readingOrder {index:45;}">
+                <Coords points="85,3647 2617,3637 2537,3541 84,3588"/>
+                <Baseline points="102,3635 233,3641 365,3645 496,3648 628,3648 759,3647 891,3645 1022,3642 1154,3638 1285,3633 1417,3629 1548,3625 1680,3620 1811,3617 1943,3614 2074,3612 2206,3612 2337,3614 2469,3617 2601,3623"/>
+                <TextEquiv>
+                    <Unicode>se dixo. Podo lo sobre dicho, haze al proposito, de que se entienda, que esta obra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l47" custom="readingOrder {index:46;}">
+                <Coords points="73,3720 2391,3742 2604,3699 2603,3630 72,3663"/>
+                <Baseline points="87,3702 212,3711 337,3718 462,3722 587,3725 712,3726 837,3726 962,3725 1087,3722 1212,3719 1338,3716 1463,3713 1588,3710 1713,3706 1838,3704 1963,3701 2088,3699 2213,3699 2338,3701 2463,3704 2589,3708"/>
+                <TextEquiv>
+                    <Unicode>a sido examjnada, y apurada por muchos, y en muchos años, y se an passado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l48" custom="readingOrder {index:47;}">
+                <Coords points="75,3792 582,3856 2415,3800 2349,3719 1017,3782 75,3720"/>
+                <Baseline points="90,3752 205,3768 320,3782 436,3790 551,3798 667,3801 782,3804 898,3804 1013,3802 1129,3800 1244,3795 1359,3792 1475,3788 1590,3783 1706,3780 1821,3777 1937,3776 2052,3776 2168,3779 2283,3783 2399,3789"/>
+                <TextEquiv>
+                    <Unicode>muchos trabajos, y desgracias, hasta poner la enel estado, que agora esta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l49" custom="readingOrder {index:48;}">
+                <Coords points="797,4023 1056,3995 1231,4008 1333,3966 1388,3999 1478,3999 1543,3959 1539,3853 1484,3876 1391,3823 1296,3877 1157,3841 1002,3900 907,3850 791,3870"/>
+                <Baseline points="810,3957 845,3960 881,3962 917,3963 953,3963 989,3963 1025,3962 1060,3960 1096,3958 1132,3956 1168,3953 1204,3951 1240,3949 1276,3946 1311,3944 1347,3944 1383,3942 1419,3942 1455,3942 1491,3945 1527,3947"/>
+                <TextEquiv>
+                    <Unicode>fin del prologo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>fo2.
+fueron los de tepepulco: el segundo, los del tlatilulco: el tercero, los de mexico: y en todos estos
+escrutinjos, vuo gramaticos colegiales. El principal ymas sabio, fue antonjo valeria
+no, vezino de azcaputzalco: otro poco menos, que este fue alonso vegerano, vezino de
+quauhtitlan: otro fue martin Jacobita, de que arriba hize mencion: otro, pedro de san
+buenauentura, vezino de quauhtitlan: todos espertos entres lenguas, latina, espa
+ñola, y Jndiana. Los escriuanos, que sacaron de buena letra, todas las obras, son:
+Diego degrado, vezino del tlatilulco, del barrio de la conception. Ponifacio maximjlia
+no, vezino del tlatilulco, del barrjo de sanct martin, Matheo seuerino, vezino de
+suchimjlco, de la parte de vllac. Desque estas escrituras, estuujeron sacadas
+enblanco: con el fauor de los padres, arriba nombrados: en que se gastaron
+hartos tomjnes, con los escriujentes: el autor dellas, de mando al padre co
+missario, fray francisco de ribera, que se viesen, de tres, o quatro religiosos: pa
+raque aquellos dixessen, lo que les parecia dellas, enel capitulo proujncial,
+que estaua propinquo: los quales los vieron, y dieron relacion dellas, al di
+fini torio, en el mismo capitulo: diziendo lo que los parecia, y dixeron en el
+difinj torio, que eran escrituras, de mucha estima, y que deujan ser fauore
+cidos: paraque se acabasen. Agunos de los difinjdores les parescio, que exa
+contra la pobreza, gastar dineros en escriujesse aquellas escrituras: y ansi
+mandaron al autor, que despidiese a los escriuanos: y que el solo escriujesse de
+su mano, lo que qujsiese en ellas. El qual como era major de setenta años, y por
+temblor de la mano, no puede escreujr nada, nj se pudo al cançar dispensaci
+on deste mandamjento: estuujeronse las escrituras, sin hazer nada enellas:
+mas de cineo años. En este tiempo, enel capitulo sigujente, fue elegido por custos
+custodum, para el capitulo general: el padre fray miguel nauarro: y por pro
+ujncial tray alonso descacuna. Eneste tiempo, el autor, hizo vn sumario, de to
+dos los libros, y de todos los capitulos de cada libro, y los prologos: donde enbreue
+dad se dezia, todo lo que se contenja, en los libros. Este sumario, lleuco aespa
+ñia, el padre fray Miguel nauarro, y su compañero, el padre fray hieronymo
+de mendieta: y ansi se supo en españa, lo que estava escrito, cerca de las cosas des
+ta tierra. En este medio tiempo, el padre proujncial, tomo todos los libros, al di
+cho autor, y se esparzieron, por toda la proujncia : donde fueron vistos de mu
+chos religiosos, y aprouados, por muy preciosos, y prouechosos. Despues de algunos
+años, bolujendo de capitulo general, el padre fray Miguel nauarro: el qual vino
+por comissario destas partes : en censuras, torno arecoger, los dichos libros: apetici
+on del autor, y desque estuujeron recogidos, day aun año pocomas, o menos: vinje
+ron a poder del autor. Eneste tiempo, ninguna cosa se hizo enellos : nj vuo quj
+en fauoreciese para acabarse, de traduzir en romance: hastaque el padre co
+missario general, fray Rodrigo de seguera: vino aestas partes, y los vio, y se
+contento mucho dellos: y mando al dicho autor, que los traduxese en roman
+: y proueyo de todo lo necessario, paraque se escriujesen de nueuo, la lengua
+mexicana, en vna coluna, y el romance en la otra, para los embiar aespaña:
+porque los procuro, el fllustrissimo señor, don suan de guando, presidente del
+consejo de in dias : porque tenja noticia destos libros : por razon del sumario,
+que el dicho padre fray Miguel nauarro, auja lleuado aespaña, como arriba
+se dixo. Podo lo sobre dicho, haze al proposito, de que se entienda, que esta obra
+a sido examjnada, y apurada por muchos, y en muchos años, y se an passado
+muchos trabajos, y desgracias, hasta poner la enel estado, que agora esta.
+fin del prologo.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

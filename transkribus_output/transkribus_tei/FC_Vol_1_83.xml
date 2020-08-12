@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:27.461-07:00</Created>
+        <LastChange>2020-06-24T05:49:10.779+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_83.png" imageWidth="2626" imageHeight="4224">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736932684" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="2382,49 2382,206 2622,206 2622,49"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="2371,189 2426,207 2483,191 2531,204 2581,194 2612,169 2632,170 2636,50 2591,64 2566,57 2547,73 2531,66 2488,89 2439,67 2413,82 2375,77"/>
+                <Baseline points="2382,149 2408,150 2435,150 2462,152 2488,153 2515,155 2542,156 2568,156 2595,156 2622,155"/>
+                <TextEquiv>
+                    <Unicode>fo. 24.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>fo. 24.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="2514,3991 2514,4150 2577,4150 2577,3991"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="2510,4139 2543,4128 2553,4129 2566,4111 2590,4105 2576,4008 2562,4010 2539,4030 2516,4027 2511,4032 2495,4032"/>
+                <Baseline points="2514,4100 2545,4095 2577,4091"/>
+                <TextEquiv>
+                    <Unicode>zō</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>zō</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:53.739-07:00</Created>
+        <LastChange>2020-06-24T08:10:58.368+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_497.png" imageWidth="2710" imageHeight="4278">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736964099" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="741,1139 741,2136 1875,2136 1875,1139"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="792,1304 1883,1238 1874,1085 1323,1109 1220,1078 782,1140"/>
+                <Baseline points="797,1286 850,1281 904,1278 958,1275 1012,1271 1066,1268 1120,1266 1174,1262 1228,1260 1282,1257 1336,1253 1389,1250 1443,1248 1497,1244 1551,1241 1605,1238 1659,1233 1713,1230 1767,1226 1821,1221 1875,1217"/>
+                <TextEquiv>
+                    <Unicode>omienca el librq</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="738,1524 861,1453 991,1454 1080,1507 1209,1434 1368,1454 1871,1396 1860,1249 1732,1243 1668,1301 1379,1263 1248,1368 1099,1331 728,1372"/>
+                <Baseline points="741,1466 797,1464 853,1463 909,1460 965,1456 1021,1452 1077,1450 1133,1445 1189,1441 1245,1437 1302,1433 1358,1428 1414,1424 1470,1419 1526,1416 1582,1411 1638,1408 1694,1404 1750,1401 1806,1398 1863,1395"/>
+                <TextEquiv>
+                    <Unicode>quarto, de la astro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="832,1670 997,1730 1054,1670 1243,1679 1350,1655 1415,1596 1855,1560 1849,1493 1562,1495 1501,1464 1411,1522 1275,1476 1211,1529 1042,1543 918,1462 814,1472"/>
+                <Baseline points="837,1646 887,1641 938,1636 988,1632 1039,1627 1089,1623 1140,1618 1190,1614 1241,1610 1291,1605 1342,1601 1392,1597 1443,1592 1493,1588 1544,1583 1594,1578 1645,1573 1695,1568 1746,1562 1796,1556 1847,1550"/>
+                <TextEquiv>
+                    <Unicode>logia sudicia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="911,1839 1086,1817 1184,1837 1379,1790 1489,1830 1543,1797 1708,1806 1692,1613 1598,1671 1469,1675 1413,1646 1304,1695 1117,1676 969,1733 899,1701"/>
+                <Baseline points="915,1811 954,1807 993,1803 1032,1799 1071,1797 1110,1793 1149,1790 1188,1788 1227,1785 1266,1783 1305,1779 1344,1778 1383,1775 1422,1771 1461,1767 1500,1763 1539,1759 1578,1754 1617,1748 1656,1743 1695,1736"/>
+                <TextEquiv>
+                    <Unicode>ria, o arte adi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="948,1998 1014,2007 1209,1922 1397,1934 1419,1918 1445,1937 1495,1916 1556,1941 1547,1809 1498,1835 1351,1838 1306,1813 1277,1832 1166,1825 1107,1854 938,1844"/>
+                <Baseline points="951,1947 980,1946 1010,1944 1040,1942 1070,1940 1100,1938 1129,1935 1159,1934 1189,1931 1219,1928 1249,1926 1278,1924 1308,1922 1338,1920 1368,1918 1398,1917 1427,1915 1457,1914 1487,1914 1517,1913 1547,1913"/>
+                <TextEquiv>
+                    <Unicode>ujnatoria</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="1082,2124 1137,2093 1370,2085 1414,2111 1582,2081 1578,1978 1546,1972 1440,1994 1406,1975 1360,2001 1294,1956 1255,1995 1197,2003 1142,1952 1077,1987"/>
+                <Baseline points="1088,2097 1113,2095 1139,2093 1164,2090 1190,2090 1216,2088 1241,2086 1267,2085 1293,2083 1318,2082 1344,2082 1369,2081 1395,2081 1421,2081 1446,2081 1472,2081 1498,2081 1523,2081 1549,2081 1575,2082"/>
+                <TextEquiv>
+                    <Unicode>Jndiana.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>omienca el librq
+quarto, de la astro
+logia sudicia.
+ria, o arte adi
+ujnatoria
+Jndiana.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="2385,4117 2385,4270 2403,4270 2403,4117"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="2378,4218 2386,4221 2390,4228 2409,4228 2417,4183 2406,4181 2404,4179 2400,4180 2397,4178 2393,4171 2386,4170"/>
+                <Baseline points="2385,4217 2403,4220"/>
+                <TextEquiv>
+                    <Unicode>E</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>E</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;}">
+            <Coords points="2460,2 2460,158 2706,158 2706,2"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="2454,149 2485,146 2501,159 2522,158 2558,150 2597,125 2660,126 2713,90 2711,-14 2697,-13 2661,25 2634,33 2587,43 2556,29 2531,44 2512,31 2479,55 2452,55"/>
+                <Baseline points="2460,105 2487,107 2514,108 2542,108 2569,108 2596,107 2624,106 2651,104 2678,104 2706,102"/>
+                <TextEquiv>
+                    <Unicode>Eto. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Eto. </Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

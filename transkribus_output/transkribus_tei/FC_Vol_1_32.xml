@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:22.512-07:00</Created>
+        <LastChange>2020-06-24T05:31:08.807+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_32.png" imageWidth="1810" imageHeight="2578">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736929287" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="159,74 159,228 182,228 182,74"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="147,212 181,215 195,135 186,134 176,139 173,136 164,142 159,141"/>
+                <Baseline points="159,174 182,178"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="92,26 92,2538 873,2538 873,26"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="338,108 377,107 410,83 459,89 505,80 528,93 541,78 600,75 633,85 629,11 556,38 517,23 408,36 354,9 332,13"/>
+                <Baseline points="341,83 367,83 393,82 419,80 445,79 471,77 497,75 523,73 549,72 575,71 601,70 627,70"/>
+                <TextEquiv>
+                    <Unicode>Quetzalcoatl.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="389,1221 417,1214 448,1195 493,1217 499,1154 472,1161 460,1158 444,1169 407,1133 398,1131"/>
+                <Baseline points="398,1181 429,1187 460,1191 491,1190"/>
+                <TextEquiv>
+                    <Unicode>se fi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:2;}">
+                <Coords points="149,1277 341,1270 384,1295 848,1265 848,1227 773,1210 592,1242 380,1232 333,1205 253,1218 204,1193 149,1212"/>
+                <Baseline points="154,1264 188,1265 222,1265 257,1265 291,1266 326,1266 360,1267 395,1267 429,1268 464,1268 498,1269 532,1269 567,1269 601,1269 636,1269 670,1268 705,1268 739,1267 774,1265 808,1264 843,1262"/>
+                <TextEquiv>
+                    <Unicode>Capitulo qujnto. fo ibidem.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:3;}">
+                <Coords points="263,1418 278,1407 313,1421 335,1407 381,1413 427,1403 473,1418 494,1406 519,1420 537,1413 534,1345 493,1359 397,1361 366,1345 291,1350 280,1361 260,1354"/>
+                <Baseline points="267,1405 293,1404 319,1403 346,1402 372,1401 399,1399 425,1398 451,1397 478,1395 504,1394 531,1392"/>
+                <TextEquiv>
+                    <Unicode>Cioacoatl.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:4;}">
+                <Coords points="601,2437 661,2420 719,2440 777,2424 817,2441 854,2423 866,2430 878,2423 878,2354 832,2354 803,2367 782,2356 767,2370 728,2358 692,2371 683,2363 660,2370 601,2361"/>
+                <Baseline points="606,2424 632,2422 659,2421 686,2421 712,2421 739,2421 766,2421 792,2422 819,2421 846,2421 873,2419"/>
+                <TextEquiv>
+                    <Unicode>fo. ibidem.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:5;}">
+                <Coords points="87,2447 131,2443 142,2452 199,2433 255,2445 299,2432 372,2451 369,2389 295,2378 276,2361 246,2359 191,2378 175,2365 111,2396 85,2393"/>
+                <Baseline points="92,2435 119,2432 146,2430 174,2428 201,2427 229,2426 256,2425 283,2425 311,2424 338,2424 366,2423"/>
+                <TextEquiv>
+                    <Unicode>Capitulo sexto,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:6;}">
+                <Coords points="402,2507 408,2510 417,2508 419,2512 424,2515 433,2517 453,2465 447,2463 446,2460 441,2462 436,2460 433,2454 423,2450"/>
+                <Baseline points="411,2496 433,2504"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:7;}">
+                <Coords points="358,2546 363,2546 368,2552 373,2550 380,2553 384,2550 389,2550 391,2553 400,2547 406,2548 411,2483 400,2479 395,2482 386,2472 383,2474 364,2469"/>
+                <Baseline points="367,2502 404,2505"/>
+                <TextEquiv>
+                    <Unicode>tzi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:8;}">
+                <Coords points="520,2544 527,2543 532,2536 543,2537 559,2531 582,2535 595,2532 572,2460 550,2475 542,2491 533,2489 528,2494 517,2491 503,2493"/>
+                <Baseline points="516,2516 547,2506 578,2496"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Quetzalcoatl.
+se fi
+Capitulo qujnto. fo ibidem.
+Cioacoatl.
+fo. ibidem.
+Capitulo sexto,
+
+tzi
+</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;}">
+            <Coords points="1032,44 1032,2496 1786,2496 1786,44"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="1102,134 1467,117 1525,139 1633,112 1783,127 1783,65 1701,86 1615,64 1500,78 1415,49 1327,79 1101,69"/>
+                <Baseline points="1106,121 1139,120 1173,119 1206,118 1240,117 1274,116 1307,115 1341,115 1374,114 1408,114 1442,113 1475,113 1509,113 1542,113 1576,113 1610,113 1643,113 1677,113 1710,113 1744,113 1778,113"/>
+                <TextEquiv>
+                    <Unicode>Chicome coatl, es otra diosa ceres.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l2" custom="readingOrder {index:1;}">
+                <Coords points="1442,415 1479,399 1492,404 1518,380 1556,396 1598,376 1609,387 1621,378 1660,378 1660,266 1622,254 1576,254 1526,297 1499,278 1442,275"/>
+                <Baseline points="1447,367 1473,369 1499,371 1525,372 1551,372 1577,372 1603,371 1629,369 1655,367"/>
+                <TextEquiv>
+                    <Unicode> ao</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l3" custom="readingOrder {index:2;}">
+                <Coords points="1034,1256 1093,1276 1318,1279 1448,1250 1535,1279 1631,1263 1632,1218 1537,1204 1518,1220 1379,1207 1258,1222 1076,1196 1035,1211"/>
+                <Baseline points="1039,1249 1068,1251 1097,1252 1127,1252 1156,1253 1185,1253 1215,1253 1244,1253 1273,1253 1303,1252 1332,1252 1361,1252 1391,1251 1420,1252 1449,1252 1479,1253 1508,1253 1537,1255 1567,1257 1596,1260 1626,1263"/>
+                <TextEquiv>
+                    <Unicode>Capitulo septimo. fo. 3.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l4" custom="readingOrder {index:3;}">
+                <Coords points="1116,1376 1154,1394 1196,1376 1319,1384 1336,1372 1436,1367 1435,1339 1410,1333 1347,1343 1307,1329 1263,1344 1223,1335 1204,1345 1187,1328 1115,1330"/>
+                <Baseline points="1121,1375 1146,1375 1172,1374 1198,1374 1224,1374 1250,1374 1276,1373 1301,1373 1327,1372 1353,1371 1379,1370 1405,1368 1431,1366"/>
+                <TextEquiv>
+                    <Unicode>Teteu in na.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l5" custom="readingOrder {index:4;}">
+                <Coords points="1172,2117 1222,2108 1249,2114 1289,2081 1324,2112 1356,2097 1349,1888 1293,1880 1275,1888 1228,1876 1187,1914 1166,1918"/>
+                <Baseline points="1175,2032 1204,2033 1233,2034 1262,2034 1291,2032 1320,2030 1349,2026"/>
+                <TextEquiv>
+                    <Unicode>fic</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l6" custom="readingOrder {index:5;}">
+                <Coords points="1143,2217 1186,2217 1208,2227 1218,2221 1225,2228 1235,2220 1263,2218 1302,2238 1313,2234 1312,2135 1209,2138 1167,2136 1158,2128 1142,2134"/>
+                <Baseline points="1147,2200 1173,2198 1200,2197 1227,2195 1253,2195 1280,2196 1307,2200"/>
+                <TextEquiv>
+                    <Unicode>PA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l7" custom="readingOrder {index:6;}">
+                <Coords points="1027,2466 1082,2488 1171,2461 1464,2462 1508,2489 1765,2474 1791,2465 1791,2414 1700,2403 1578,2432 1478,2358 1393,2412 1253,2342 1109,2418 1027,2423"/>
+                <Baseline points="1032,2461 1069,2459 1107,2457 1145,2457 1182,2456 1220,2457 1258,2457 1295,2458 1333,2459 1371,2460 1409,2460 1446,2461 1484,2462 1522,2462 1559,2462 1597,2462 1635,2461 1672,2459 1710,2457 1748,2453 1786,2450"/>
+                <TextEquiv>
+                    <Unicode>cunitlit dcltlos, doltiden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Chicome coatl, es otra diosa ceres.
+ ao
+Capitulo septimo. fo. 3.
+Teteu in na.
+fic
+PA
+cunitlit dcltlos, doltiden</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

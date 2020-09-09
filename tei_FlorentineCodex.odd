@@ -52,13 +52,43 @@
         <moduleRef key="transcr" except="am redo restore retrace surplus" />
         <moduleRef key="verse" except="rhyme" />
         <moduleRef key="tagdocs" except="altIdent alternate empty remarks" />
+
+<!-- div1 changed to include multiple types (updated 08/31/2020) -->
         <elementSpec ident="div1" mode="change">
           <attList>
             <attDef ident="type" mode="change">
-              <valList type="open" mode="change" />
+              <valList type="closed" mode="change">
+                <valItem ident="invocación" mode="add">
+                  <desc>Invocación</desc>
+                </valItem>
+                <valItem ident="prologo" mode="add">
+                  <desc>Prologo</desc>
+                </valItem>
+                <valItem ident="lector" mode="add">
+                  <desc>Lector</desc>
+                </valItem>
+                <valItem ident="toc" mode="add">
+                  <desc>Table of Contents</desc>
+                </valItem>
+                <valItem ident="book" mode="add">
+                  <desc>Book</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
+                </valItem>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
+                </valItem>
+              </valList>
             </attDef>
           </attList>
         </elementSpec>
+        
+        
         <elementSpec ident="div2" mode="change">
           <attList>
             <attDef ident="type" mode="change" ns="Chapter">

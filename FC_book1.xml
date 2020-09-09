@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/tei_FlorentineCodex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell
+                  University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de
+               nueva Espana, including original Spanish and Nahuatl texts, images, annotations,
+               glosses, and editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+
+   </teiHeader>
+   <text type="book" n="1">
+      <front>
+         <div1 type="invocación" xml:lang="es" xml:id="b01f00r">
+            <pb type="folio" corresp="FC_Vol_1_12.png"/>
+            <table>
+               <row>
+                  <cell>Christus</cell>
+                  <cell>viujt.</cell>
+               </row>
+               <row>
+                  <cell>Christus</cell>
+                  <cell>vincit.</cell>
+               </row>
+               <row>
+                  <cell>Christus</cell>
+                  <cell>regnat.</cell>
+               </row>
+               <row>
+                  <cell>Franciscus</cell>
+                  <cell>faculatur.</cell>
+               </row>
+            </table>
+         </div1>
+
+         <div1 type="prologo" xml:lang="es" xml:id="b01f01r">
+            <pb type="folio"  corresp="FC_Vol_1_13.png"/>
+            <head>Prologo</head>
+            <p>
+               <lb/>El miedico no puede Acertadamente aplicar Las medicinas al enfermo <lb/>que
+               primero conozca: de que humor, o de que causa procede la enfermedad. De ma <lb/>nera
+               que el buen medico conuiene sea docto en el conocimiento de las medecinas <lb/>y en
+               el de las enfermedades para aplicar conueniblemente a cada enfermedad <lb/>la
+               medicina contraria. Los predicadores, y confesores, medicos son delas animas
+               <lb/>para curar las enfermedades espirituales : conuienetengā esperitia de las
+               <lb/>medicinas y de las enfermedades espirituales. El Predicador de los Vicios de
+               <lb/>la Republica para enderecar contra ellos su doctrina, y el confessor para sauer
+               <lb/>preguntar lo que conuiene y entender lo que dixeren tocante a su officio: conuje
+               <lb/>mucho que sepan lo necessario para exerçitar sus officios. Ni conuiene se descuy
+               <lb/>den los ministros desta conuersion con dezir que entre esta gente no ay mas
+               <lb/>peccados, de borrachera, hurto y carnalidad. Porque otros muchos peccadsos
+               <lb/>ay entre ellos muy mas graues y que tienen grannecessidad de Remedi. <lb/>los
+               peccados de la ydolatria, y ritos ydolatricos, y suprestiçiones y dola <lb/>tricas y
+               agueros, y abusiones, ycerimonias ydolatricas : no son aun perdi <lb/>das del todo.
+               Para predicar contra estas cosas y aun para sauer si las ay: me <lb/>nester es, de
+               saber como las vsauā en tiempo de su ydolatria : que por falta, <lb/>de no saber esto
+               en nr̄a presencia hazen muchas cosas ydolatricas : sin que <lb/>lo entendamos. Y
+               dizen algunos escusandolos : que son bouerias o niñerias <lb/>por ygnoran la Raiz de
+               donde salen : (que es mera ydolatria.) Y los confe <lb/>sores ni se las preguntan ni
+               piensan que ay tal cossa ni sauen lenguaje para <lb/>se lo preguntar ni aun lo
+               entenderan aunque se lodigan : pues porque los <lb/>ministros del euangelio que
+               subçederan a los que primero binieron en la, <lb/>cultura desta nueua vina del señor
+               no tengan ocassion de quexarse de <lb/>Los primeros por haber dexado a escuras las
+               cosas destos naturales desta, <lb/>nueua españa, yo fray bernardino de saagun frayle
+               professo de la orde <lb/>de nr̄o seraphico padre san francisco de la obseruancia.
+               natural de la <lb/>villa de sahagun en canpos por mandado del muy R.do P.c el P.e
+               fras <lb/>franco toral prouinçial desta prouincia del santo evangelio y despues
+               <lb/>Obispo de campech, y yucatā: escreui doze libros de las cosas diuinas <lb/>o
+               pormejor dezir ydolatricas y humanas y naturales desta nueua españa, <lb/>El primero
+               de las quales trata de los dioses y diosas que estos naturales <lb/>adorauan. El
+               segundo de las fiestas conque los honrtauan. El tercero <lb/>de la immortalidad del
+               anima y de los lugares a donde dezian que yban <lb/>las almas desque salian de los
+               cuerpos y de las sufragias y obsequias <lb/>que harian por los muertos et. El quarto
+               libro tracta de la astrolo <lb/>gra judiçiaria que estos naturales vsauan para sauer
+               la fortuna </p>
+
+            <pb type="folio"  corresp="FC_Vol_1_14.png"/>
+            <p>
+               <lb/>Buena o mala que ternian los que nacian. El quinto libros <lb/>trata de los
+               agueros que estos naturales tenian para adiuinar las <lb/>cosas por venir. El libro
+               sesto trata de la Rectorica, y phi <lb/>losophia moral que estos naturales vsauan. El
+               septimo li <lb/>bro trata de la philophia [sic] natural que estos naturales alcança
+               <lb/>uan. El octauo libro trata de los señores y de sus costumbre y <lb/>maneras de
+               gouernar la Republica. El libro nono trata, de <lb/>los mercaderes y otros officiales
+               mechanicos y de sus costumbres. <lb/>El libro dezimo trata de los Vicios y virtudes
+               destas gentes al <lb/>proprio de su manera, de viuir. El libro vndezimo trata de los
+               ani <lb/>males y aues y peçes y de las generaciones que ay en esta tierra y de los
+               <lb/>arboles yeruas y flores y frutos metales y piedras y otros mine <lb/>rales. El
+               libro duodecimo se intitula la conquista de mexico. Estos <lb/>doze libros con el
+               arte y vocabulario appendiz, se acabaron de sacar <lb/>en blanco. este año de mill e
+               quinientos, y sesenta y nueue aun <lb/>no se an podido Romançar ni ponerlas escolias
+               segun la traça de la <lb/>obra no se lo que se podia hazer en el año de setenta que
+               se sigue. Pues <lb/>desde el dicho año hasta casi el fin deste año de 1575 no se pudo
+               mas en <lb/>tender en esta obra por el gran disfauor que hubo de parte de los que la
+               de <lb/>bieron de fauoreçer. perocomo llego aesta tierra nr̄o R. P.e fray R.o de
+               <lb/>sequera, comissario general de todas estas prouinçias desta nueua esp.
+               <lb/>guatimala etc. de la orden de nr̄o Seraphico P.e san fran.co de la obser
+               <lb/>uancia: mando que estos libros todos se Romançasen: y ansi en Ro <lb/>mançe como
+               en lengua mexicana se escribiesen de buena letra. Es esta <lb/>obra como vna red
+               barredera para sacar a luz todos los vocablos <lb/>desta lengua con sus propias y
+               methaphoricas significagiones <lb/>y todas sus maneras de hablar y las mas de sus
+               antiguallas <lb/>buenas y malas es para Redemir mill canas porque con <lb/>harto
+               menos trauajo de lo que aqui me questa podran los que <lb/>quisieren saber en poco
+               tiempo muchas de sus antiguallas y tod <lb/>el lenguaje desta gente mexicana,
+               aprouechara mucho toda <lb/>esta, obra para conoçer el quillate desta gente mexicana
+               <lb/>el qual aun no se a conoçido : porque vino sobre ellos aquella <lb/>maldicion:
+               que Jeremias de parte de dios fulmino contra Judia y Jerusalen di </p>
+
+            <pb type="folio"  corresp="FC_Vol_1_15.png"/>
+            <p>
+               <lb/>capitulo qujnto. Lo hare que venga, sobre vosotros: yo traere contra vosotros,
+               <lb/>vna gente muy de lexos: o ente muy robusta, y esforçada: gente muy an
+               <lb/>tigua, y diestra en el pelcar, g ente cuyo lenguaje no entenderas, nj jamas
+               <lb/>oyste, su manera de hablar: toda gente fuerte, y anjmosa, condiciosissi <lb/>ma
+               dematar. Esta gente os destruyra a vosotros, y a vrās mugeres, y <lb/>hijos: y todo
+               quanto posseys: y destruyra todos vrōs pueblos, y edificios. <lb/>Esto ala letra a
+               acontecido, aestos indios, con los españoles: fueron tan a <lb/>tropellados, y
+               destruydos, ellos y todas sus cosas: que njnguna apparen <lb/>tia les quedo, de lo
+               queeran antes. Ansi estan tenjdos por barbaros, <lb/>y por gente de baxissimo qujlate
+               : como segun verdad, en las cosas de poli <lb/>tia, echan el pie delante, a muchas
+               otras naciones: que tienen gran <lb/>presuntion, de politicos : sacando fuera algunas
+               tyranjas, que su ma <lb/>nera de regir contenja. E nesto poco, que con gran trabajo
+               se a rebuscado: <lb/>parece mūcho la ventaja: que hiziera, si todo se pudiera auer En
+               lo <lb/>que toca, ala antiguedad desta gente: tiene se por aueriguado, que a <lb/>mas
+               de dos mjll años, que abitan enesta tierra : que agora se llama, la <lb/>nueua
+               España. Porque por sus pinturas antiguas, ay noticia: que aque <lb/>lla famosa
+               Ciudad, que se llamo tulla: aya mill años, o muy cerca dellos <lb/>que fue destruyda:
+               y antes que se edificasse, los que la edificaron, estu <lb/>ujeron muchos poblados,
+               en tullantzinco : donde dexaron muchos edifici <lb/>os, muy notables : pues en lo que
+               alli estuujeron, y en lo que tardaron en <lb/>edificar, la ciudad de tulla : y enlo
+               que duro, en su prosperidad : antesque <lb/>fuesse destruyjda, es consono a verdad,
+               que passaron, mas de mill años: <lb/>de lo qual resulta, que por lo menos, qujnjentos
+               años, antes de la encar <lb/>nacion, de nr̄o de demptor: esta tierra, era poblada.
+               Esta celebre, y orā <lb/>ciudad, de tulla: muy rica, y de gente muy sabia, y muy
+               esforçada, tu <lb/>Lso la aduersa fortuna, de troya. Los chololtecas, que son los que
+               della se <lb/>escaparon : an tenjdo la succession, de los homanos : y como los
+               Nomanos <lb/>edificaron el capitolio, para su fortaleza : ansi los cholblanos,
+               edificaron <lb/>amano: aquel promontorio, que esta junto acholula, que es como vna
+               <lb/>sierra, o vn gran monte, y esta todo lleno, de mjnas, o cueuas por de den
+               <lb/>tro. Muchos años despues, los Mexicanos edificaron, la ciudad de mexico:
+               <lb/>que es otra venecia, y ellos en saber, y en pollicia, son otros venecianos. Los
+               <lb/>tlaxcaltecas, parecen a ver succedido, en la fortuna de los cartaginenses.
+               <lb/>Ay grandes señales, de las antiguallas destas gentes, como oy dia parece <lb/>en
+               tulla, y entullantzico: y en vn edificio, llamado xuchicalco: que esta <lb/>enlos
+               termjnos, de quauhnaoac. I casi entoda esta tierra, ay señales, y ras <lb/>tro, de
+               edificios, y alhajas antiqujssimos. Es cierto cosa, de grande admjra <lb/>tion: que
+               aya nr̄o señor dios, tantos siglos occultada, vna silua de tantas <lb/>gentes y
+               dolatras: cuyos frutos vberrimos, solo el demonjo los a cogido: y en <lb/>el fuego
+               infernal, los tiene atesorados. Ni puedo creer, que la yglesia de <lb/>dios, no sea
+               prospera : dodela synagoga de sathanas, tanta prosperidad <lb/>a tenjdo: conforme a
+               aquello, de sanct pablo. Abundara la gratia, adon <fw type="folio_number">2</fw>
+            </p>
+
+            <pb type="folio" corresp="FC_Vol_1_16.png"/>
+            <p>
+               <lb/>de abundo el delicto. Del saber, o sabiduria desta gente ay fama : que fue
+               mucha: <lb/>como parece en el libro decimo : donde en el capitulo. 29 : se habla, de
+               los prime <lb/>ros pobladores, desta tierra : donde se affirma, que fueron, perfectos
+               philoso <lb/>phos, y astrologos, y muy diestros, en todas las artes mechanjcas. De la
+               forta <lb/>leza, la qual entre ellos, era: mas estimada, que ninguna otra virtud : y
+               <lb/>por la qual subian, hasta el sumo grado, del valer : tenjan <add place="above"
+                  >destos</add> grandes exer <lb/>citios : como parece en muchas partes, desta obra.
+               En lo que toca, a la religi <lb/>on y cultura, de sus dioses : no creo a aujdo en el
+               mundo, ydolatras tan reue <lb/>renciadores, de sus dioses : nj tan a su costa : como
+               estos, desta nueua españa <lb/>Ni los Judios, nj njnguna otra nation, tuuo iugo, tan
+               pesado : y de tantas <lb/>cerimonjas, como le an tenjdo, estos naturales : por
+               espacio de muchos años, <lb/>como parece, por toda esta obra. Del origen desta gente,
+               la relacion que <lb/>dan los viejos : es, que por la mar vinjeron, de hazia el norte.
+               Y cierto es, que <lb/>vinjeron, en algunos vasos : de manera no se sabe, como eran
+               labrados : si <lb/>no que se conjectura, que vna fama que ay, entre todos estos
+               naturales: <lb/>que salieron de siete cueuas: que estas siete cueuas, son los siete
+               naujos, o <lb/>galeras, en que vinjeron, los primeros pobladores, desta tierra. Segun
+               se <lb/>colige, por coniecturas, verisimjles : la gente que primero vino, a poblar a
+               esta <lb/>tierra : de hazia la florida vino, y costeando vino : y desembarco en el
+               puer <lb/>to de panuco, que ellos llaman panco, que qujere dezir, lugar donde lle
+               <lb/>garon, los que passaron el agua. Esta gente, venja en demanda, del paray <lb/>so
+               terrenal: y trayan por apeuido, tamoanchan : que qujere dezir, buscamos <lb/>nr̄a
+               casa: y poblauan cerca de los mas altos montes, que hallauan. En venjr, <lb/>hazia el
+               medio dia a buscar el parayso terrenal, no herrauan: porque opi <lb/>njon es : de los
+               que escriuen, que esta debaxo de la linea equjnoctial: y en pē <lb/>sar, que es algun
+               altissimo monte : tampoco hierran : porque asi lo dizen los <lb/>escritores, quel
+               parayso terrenal, esta debaxo de la linea equjnoctial, <lb/>I que es vn monte
+               altissimo, que llega su cumbre, cerca de la luna : pa <lb/>rece que ellos, o sus
+               antepassados, tuujeron algun oraculo : cerca de esta <lb/>materia : o de dios, o del
+               demonjo, o tradicion de los antiguos, que vino de <lb/>mano en mano hasta ellos.
+               Ellos buscauan, lo que por via humana, no <lb/>se puede hallar : y nr̄o señor dios
+               pretendia, que la tierra despoblada, se <lb/>poblasse : para que algunos, de sus
+               descendientes, fuessen a poblar, el paray <lb/>so celestial : como agora lo vemos por
+               esperiencia. Mas para que me de <lb/>tengo, en contar adeujnanças? Pues es
+               certissimo, que estas gentes to <lb/>das, son nr̄os hermanos : procedientes, del
+               tronco de Adam, como no so <lb/>tros : son nr̄os proximos, a quien somos obligados a
+               amar, como a no so <lb/>tros mjsmos. Qujdqujd sit, de lo que fueron los tiempos
+               passados, vemos <lb/>por esperiencia agora, que son abiles : para todas las artes
+               mechanjcas. <lb/>y las exercitan : son tanbien abiles, para deprender, todas las
+               artes <lb/>liberales, y la sancta theologia : como por esperiencia, se a visto : en
+               aque <lb/>llos, que an sido enseñados, en estas scientias. Porque de lo que son, en
+               <lb/>las cosas de guerra, esperientia se tiene dellos : ansi en la conqujsta desta
+               <lb/>tierra, como en otras particulares conqujstas, que despues aca se an hecho: </p>
+
+            <pb type="folio" corresp="FC_Vol_1_17.png"/>
+            <p>
+               <lb/>quan fuertes son, en sufrir trabajos, de hambre, y sed, frió, y sueño : quanli
+               <lb/>geros y dispuestos, para acometer, qualesqujera trances peligrosos. Pues no
+               <lb/>son menos abiles, para nr̄o christianjsmo : sino enel deujdamente, fueren
+               <lb/>cultiuados. Cierto parece, ueen estos nr̄os tiempos, y enestas tierras, y cō
+               <lb/>esta gente : a querido nr̄o señor dios : restituyr a la yglesia, lo que el
+               demonjo <lb/>la a robado, en inglaterra, alemanja, y francia : en asia, y palestina.
+               <lb/>De lo qual quedamos muy obligados : de dar gracias, a nr̄o señor, y traba
+               <lb/>jar fielmente, en esta su nueva españa. </p>
+         </div1>
+
+         <div1 type="lector" xml:lang="es" xml:id="b01f03r">
+            <head>Al sincero lector.</head>
+            <p>
+               <lb/>Quando esta obra se començo, començose a dezir, de los que lo supieron: que
+               <lb/>se hazia vn calepino : y aun hasta agora, no cesan muchos, de me pregun
+               <lb/>tar, que en que termjnos anda el calepino? Ciertamente, fuera harto pro
+               <lb/>uechoso, hazer vna obra tan vtil : para los que qujeren deprender esta
+               <lb/>lengua mexicana : como Ambrosio Calepino la hizo : para los que qujerē
+               <lb/>deprender, la lengua latina : y la signjficacion de sus vocablos. Pero ci
+               <lb/>ertamente, no a aujdo oportunjdad : porque Calepino saco los vocablos, <lb/>y
+               las significationes dellos, y sus equjuocationes, y methaphoras, de la <lb/>lection,
+               de los poetas, y oradores, y de los otros authores, de la lengua la <lb/>tina:
+               autorisando todo lo que dize, con los dichos de los authores: el qual fun
+               <lb/>damento, me a faltado a mj : por no auer letras, nj escriptura, entre esta
+               <lb/>gente : y ansi me fue impossible hazer calepino. Pero eche los fundamē <lb/>tos,
+               para qujen qujsiere, con facilidad le pueda hazer : porque por mj <lb/>industria, se
+               an escripto doze libros : de lenguaje propio y natural, des <lb/>ta lengua mexicana :
+               donde allende de ser muy gustosa, y prouechosa <lb/>escriptura : hallarse han tambien
+               en ella, todas las maneras de ha <lb/>blar, y todos los vocablos, que esta lengua vsa
+               : tambien authorizados, <lb/>y ciertos : como lo que escriujo vergiliō, y Ciceron, y
+               los demas authores, <lb/>de la lengua latina. Van estos doze libros, de tal manera
+               traçados, que <lb/>cada plana, lleua tres colunas : la primera, de lengua española:
+               la se <lb/>gunda, la lengua mexicana : la tercera, la declaracion, de los voca
+               <lb/>blos mexicanos : señalados con sus cifras, en ambas partes : lo de la len
+               <lb/>gua mexicana, se a acabado, de sacar en blanco, todos doze libros : lo de
+               <lb/>la lengua española, y las escolias, no esta hecho : por no auer podido <lb/>mas,
+               por falta de ayuda, y de fauor. Si se me diese la ayuda nece <lb/>ssaria, en vn año,
+               o poco mas, se acabaria todo : y cierto si se acabase, <lb/>seria vn tesoro, para
+               saber muchas cosas : dignas de ser sabidas. Y para <lb/>con facilidad, saber esta
+               lengua, con todos sus secretos, y seria cosa de mucha <lb/>estima, en la nueua, y
+               vieja españa. <fw type="folio_number">3</fw>
+            </p>
+         </div1>
+
+         <div1 type="toc" xml:lang="es" xml:id="b01f03v">
+            <pb type="folio" corresp="FC_Vol_1_18.png"/>
+            <head>¶ Sumario de los capitulos, del peiero libro.</head>
+            <list>
+               <item xml:id="b01c01f01r">¶ Capitulo primero, que habla, del principal dios, que
+                  adorauan, y a qujen sa <lb/>crificauan los mexicanos llamado Vitzilobuchtli. fol.
+                  1.</item>
+               <item xml:id="b01c02f01r">Capitulo segundo, que trata, del dios llamado paynal: el
+                  qual siendo hom <lb/>bre, era adorado por. dios. fol. ibidem</item>
+               <item xml:id="b01c03f01v">Capitulo tercero, que trata: del dios llamado,
+                  tezcatlipuca: el qual general <lb/>mente, era tenjdo por dios, entre estos
+                  naturales, desta nueva españa, es <lb/>otro jupiter. fol. ibidem.</item>
+               <item xml:id="b01c04f02r">Capitulo quarto, trata: del dios, que se llamaua Tlaloc,
+                  tlamacazquj. fol. 2</item>
+               <item xml:id="b01c05f02r">Capitulo qujnto, trata, del dios que se llama,
+                  Quetzalcoatl, de los vientos. <lb/>fol. ibidem.</item>
+               <item xml:id="b01c06f02r">Capitulo sexto, se trata: de las diosas, principales: que
+                  se adorauan en <lb/>esta nueva españa. fol. ibidem.</item>
+               <item xml:id="b01c07f03r">El septimo capitulo, trata: de la diosa, que se llamaua
+                  chicomecoatl: es otra <lb/>diosa ceres. fol. 3.</item>
+               <item xml:id="b01c08f03r">El capitulo octavo, trata, de vna diosa, que se llamaua, la
+                  madre de los <lb/>dioses, coraçon de la tierra, y nuestra abuela. fol.
+                  ibidem.</item>
+               <item xml:id="b01c09f04r">El noueno capitulo, se trata: de vna diosa, llamada
+                  tzaputlatena. fol. 4.</item>
+               <item xml:id="b01c10f04v">El capitulo decimo, se trata: de vnas diosas, que llamauā
+                  cioapipilti. fo. ibidem.</item>
+               <item xml:id="b01c11f05r">En el onzeno, capitulo, se trata: de la diosa del agua: que
+                  la llamauan chalchi <lb/>uhtli icue: es otra juno. fol. 5.</item>
+               <item xml:id="b01c12f06v">El capitulo dozeno, trata: de la diosa, de las cosas
+                  carnales: la qual llamauā <lb/>tlaçulteutl: es otra venus. fol. 6.</item>
+               <item xml:id="b01c13f10r">El capitulo treze: trata de los dioses: que son menores en
+                  dignjdad, que los <lb/>arriba dichos: el primero destos, es que llaman
+                  xiuhtecutli, es otro vulcā <lb/>fol. 10.</item>
+               <item xml:id="b01c14f12r">El catorzeno capitulo, habla: cerca de vn dios, que se
+                  llamaua: macujlsu <lb/>chitl: que qujere dezir: cinco flores. Y tambien se
+                  llamaua: suchipilli, que <lb/>qujere dezir, el principal que da flores: o que
+                  tiene cargo cargo, de dar <lb/>flores. fol. 12.</item>
+               <item xml:id="b01c15f13r">El capitulo qujnze, habla del dios llamado, omacatl: que
+                  qujere dezir, <lb/>dos cañas, es el dios de los combites. fol. 13.</item>
+               <item xml:id="b01c16f14r">El capitulo deziseys, en que se trata, del dios llamado:
+                  Ixtlilton, que quje <lb/>re dezir, el negrillo: y tambien se llama, tlaltetecujn.
+                  fol. 14.</item>
+               <item xml:id="b01c17f15">Capitulo dezisiete, habla del dios llamado, Opuchtli: el
+                  qual era tenj <lb/>do, y adorado, enesta nueva españa. fol. 15.</item>
+               <item xml:id="b01c18f16">Capitulo deziocho, que habla del dios llamado, xipetotec:
+                  que qujere <lb/>dezir desollado. fol. 16.</item>
+               
+               <pb type="folio" corresp="FC_Vol_1_19.png"/>
+               <item xml:id="b01c19f17v">Capitulo dezinueue, habla dei dios, que se llamaua,
+                  yiacatecutli, dios de los <lb/>mercaderes. fol. 17.</item>
+               <item xml:id="b01c20f19r">Capitulo veynte, que habla, del dios llamado: Nappa tecutli.
+                  fol. 19.</item>
+               <item xml:id="b01c21f20v">Capitulo veynte y vno, que habla, de muchos dioses
+                  ymaginarios: a los <lb/>quales, todos llamauan tlaloques. fol. 20.</item>
+               <item xml:id="b01c22f23">Capitulo veynte y dos, que habla del dios llamado:
+                  tezcatzoncatl: que <lb/>es vno de los dioses del vino. fol. 23.</item>
+               <item xml:id="b01c23f24v">¶ Comiença el apendiz, del primero libro, en que se confuta
+                  <lb/>la ydolatria, arriba puesta: por el testo, de la sagrada escriptura, y buel
+                  <lb/>en lengua mexicana: delarando el testo suficientemente. Este li <lb/>bro, no
+                  procede, por capitulos: y por esso no se pone aquj, el sumario: <lb/>procede por
+                  las letras, del abecé: con que se señala, lo que se dize en la <lb/>tin, o en
+                  romance: respondiendo, a lo que se dize, en la lengua <lb/>mecana. fol. 24.</item>
+            </list>
+         </div1>
+         <div1 type="toc" xml:lang="es" xml:id="b01f04r">
+            <head>¶ Sumario de los capitulos, del segundo libro.</head>
+            <list>
+               <item>Capitulo primero, del calendario: y primeramente, de las fiestas fi <lb/>xas:
+                  la primera de las quales es, atl caoalo, o quavitleoa. fol. 3.</item>
+               <item>Capitulo segundo: de la segunda fiesta, que se llama, tlacaxipeoa <lb/>liztli.
+                  fol. ibidem.</item>
+               <item>Capitulo tercero, de la tercera fiesta, que se llama toçoztontli. fol.
+                  4.</item>
+               <item>Capitulo quarto: de la quarta fiesta, que se llama, veitocoztli. ibidem.</item>
+               <item>Capitulo qujnto: de la qujnta fiesta, que se llama toxcatl. fol. 5.</item>
+               <item>Capitulo sexto, de la sexta fiesta: que se llama, Etzalqualiztli.
+                  ibidem.</item>
+               <item>Capi. septimo, de la septima fiesta: que se llama Tecujlhujtontli. fo.
+                  6.</item>
+               <item>Capitulo octauo, de la octava fiesta: que se llama, veytecujlhujtl.
+                  ibidem.</item>
+               <item>Capi. nono, de la nona fiesta: que se llama, tlasuchimaco. fol. 7.</item>
+               <item>Capitulo decimo, de la decima fiesta: que se llama, xocotl vetzi.
+                  ibidem.</item>
+               <item>Capitulo. 11. de la onzena fiesta: que se llama, Ochpanjztli. fol. 8.</item>
+               <item>Capitulo. 12. de la dozena fiesta: que se llama, Teutleco. ibidem.</item>
+               <item>Capitulo. 13. de la fiesta, tercia decima: que se llama, tepeilhujtl. fo.
+                  9.</item>
+               <item>Capitulo. 14. de la catorzena fiesta: que se llama Quecholli. ibidem.</item>
+               <item>Capitulo. 15. de la qujnta decima fiesta: que se llama Panquetza <lb/>liztli.
+                  fol. 19.</item>
+            </list>
+         </div1>
+
+      </front>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

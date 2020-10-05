@@ -73,6 +73,9 @@
                 <valItem ident="book" mode="add">
                   <desc>Book</desc>
                 </valItem>
+                <valItem ident="capitulo" mode="add">
+                  <desc>Capitulo</desc>
+                </valItem>
               </valList>
             </attDef>
             <attDef ident="xml:lang" mode="change">
@@ -101,6 +104,9 @@
                 </valItem>
                 <valItem ident="toc" mode="add">
                   <desc>Table of Contents</desc>
+                </valItem>
+                <valItem ident="para" mode="add">
+                  <desc>Paragraph</desc>
                 </valItem>
                 <valItem mode="add" ident="other">
                   <desc>Other - if some other form of div2 is required, change in schema</desc>

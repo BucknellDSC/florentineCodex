@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florentine Codex Project</title>
+            <principal><persName>Obed Lira</persName>, Principal Investigator <orgName>Bucknell University</orgName>
+               <address>
+                  <addrLine>Lewisburg, Pennsylvania</addrLine>
+               </address>
+            </principal>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Quinn Smith</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a digital edition of Bernardino de Sahagun's Historia general de las cosas de nueva Espana, including original Spanish and Nahuatl texts, images, annotations, glosses, and
+               editorial apparatus.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Biblioteca Medicea Laurenziana</repository>
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="824" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="825" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="826" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="827" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="828" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="829" />
+                  <msName facs="http://teca.bmlonline.it" source="TECA0001504065" n="830" />
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <!-- For now this structure provides a one file/one book structure for ease of editing -->
+   <text ana="book" n="1">
+      <!-- There is no title page -->
+      <front>
+         <div type="convocation" xml:lang="es">
+            <head><supplied ana="main"> Christus viuit. Christus vincit. Christus regnat. Franciscus formulatur. </supplied>
+            </head>
+         </div>
+         <div type="prologue" xml:lang="es">
+            <!-- there page numbers in the lower right but no folio numbers -->
+            <head>Prologo</head>
+            <p>El medico no puede Acertadamente aplicar Las medicinas al enfermo sin que primero conozca: de que humor, o de que causa procede la enfermedad. De manera que el buen medico conuiene sea
+               docto en el conocimiento de las medecinas y en el de las enfermedades para aplicar conueniblemente a cada enfermedad la medicina contraria. Los predicadores, y confesores, medicos son
+               de las animas para curar las enfermedades espirituales : conuiene tengā esperitia de las medicinas y de las enfermedades espirituales. El Predicador de los Vicios de la Republica para
+               enderezar contra ellos su doctrina, y el confessor para sauer preguntar lo que conuiene y entender lo que dixeren tocante a su officio : conuje mucho que sepan lo neçessario para
+               exerçitar sus officios. Ni conuiene se descuyden los ministros desta conuersion con dezir que entre esta gente no ay mas peccados, de borrachera, hurto y carnalidad. Porque otros muchos
+               peccados ay entre ellos muy mas graues y que tienen gran necessidad de Remedio. Los peccados de la ydolatria, y ritos ydolatricos, y suprestiçiones ydolatricas y agueros, y abusiones, y
+               cerimonias ydolatricas : no son aun perdidas del todo. Para predicar contra estas cosas y aun para sauer si las ay : menester es, de saber como las vsauā en tiempo de su ydolatria : que
+               por falta, de no saber esto en nr̄a presencia hazen muchas cosas ydolatricas : sin que lo entendamos. Y dizen algunos escusandolos : que son bouerias o niñerias por ygnorar la Raiz de
+               donde salen : (que es mera ydolatria.) Y los confesores ni se las preguntan ni piensan que ay tal cossa : ni sauen lenguaje para se lo preguntar ni aun lo entenderan aunque se lo digan
+               : pues porque los ministros del euangelio que subçederan a los que primero binieron en la, cultura desta nueua viña del señor no tengan ocassion de quexarse de los primeros por haber
+               dexado a escuras las cosas destos naturales desta, nueua españa, yo fray bernardino de saagun frayle professo de la ordē de nr̄o seraphico padre san francisco de la obseruancia. natural
+               de la, villa de sahagun en canpos por mandado del muy R.do P.c el P.e frai fran.co toral prouinçial desta prouinçia del santo evangelio y despues obispo de campech. y yucatā: escriui
+               doze libros de las cosas diuinas o por mejor dezir ydolatricas y humanas y naturales desta nueua españa. El primero de las quales trata de los dioses y diosas que estos naturales
+               adorauan. El segundo de las fiestas con que los honrrauan. El tercero de la immortalidad del anima y de los lugares a donde dezian que yban las almas desque salian de los cuerpos y de
+               las sufragias y obsequias que hazian por los muertos, etc. El quarto libro tracta de la astrologia judiçiaria que estos naturales vsauan para sauer la fortuna 
+               
+               Buena o mala que tenian
+               los que nacian. El quinto libro trata de los agueros que estos naturales tenian para adiuinar las cosas por venir. El libro sesto trata de la Rectorica, y philosophia moral que estos
+               naturales vsauan. El septimo libro trata de la philophia [sic] natural que estos naturales alcançauan. El octauo libro trata de los señores y de sus costumbres y maneras de gouernar la
+               Republica. El libro nono trata, de los mercaderes y otros oficiales mechanicos y de sus costumbres. El libro dezimo trata de los Vicios y virtudes destas gentes al proprio de su manera
+               de viuir. El libro vndezimo trata de los animales y aues y peçes y de las generaciones que ay en esta tierra y de los arboles yeruas y flores y frutas metales y piedras y otros
+               minerales. El libro duodecimo se intitula la conquista de mexico. Estos doze libros con el arte y vocabulario appendiz, se acabaron de sacar en blanco este año de mill e quinientos y
+               sesenta y nueue aun no se an podido Romançar ni ponerlas escolias segun la traça de la obra no se lo que se podia hazer en el año de setenta que se sigue. Pues desde el dicho año hasta
+               casi el fin deste año de 1575 no se pudo mas entender en esta obra por el gran disfauor que hubo de parte de los que la debieron de fauoreçer. pero como llego a esta tierra nro R.mo P.e
+               fray R.o de Sequera, comissario general de todas estas prouinçias desta nueua espa. guatimala etc. de la orden de nr̄o Seraphico P.e san fran.co de la obseruancia: mando que estos
+               libros todos se Romançasen: y ansi en Romançe como en lengua mexicana se escribiesen de buena letra. Es esta obra como vna red barredera para sacar a luz todos los vocablos desta lengua
+               con sus propias y methaphoricas significagiones y todas sus maneras de hablar y las mas de sus antiguallas buenas y malas es para Redemir mill canas porque con harto menos trauajo de lo
+               que aqui me questa podran los que quisieren saber en poco tiempo muchas de sus antiguallas y todo el lenguaje desta gente mexicana, aprouechara mucho toda esta obra para conoçer el
+               quillate desta gente mexicana el qual aun no se a conoçido : porque vino sobre ellos aquella maldicion: que Jeremias de parte de dios fulmino contra Judea y Jerusalen diziendo en el
+               
+               
+               capitulo qujnto. lo hare que venga, sobre vosotros: yo traere contra vosotros, vna gente muy de lexos: gente muy robusta, y esforçada : gente muy antigua, y diestra en el pelear, gente
+               cuyo lenguaje no entenderas, nj jamas oyste, su manera de hablar : toda gente fuerte, y anjmosa, condiciosissima de matar. Esta gente os destruyra a vosotros, y a vr̄as mugeres, y hijos
+               : y todo quanto posseys : y destruyra todos vr̄os pueblos, y edificios. Esto a la letra a acontecido, a estos indios, con los españoles : fueron tan atropellados, y destruydos, ellos y
+               todas sus cosas : que njnguna apparentia Ies quedo, de lo que eran antes. Ansi estan tenjdos por barbaros, y por gente de baxissimo qujlate: como segun verdad, en las cosas de politia,
+               echan el pie delante, a muchas otras naciones : que tienen gran presuntion, de politicos : sacando fuera algunas tyranjas, que su manera de regir contenja. En esto poco, que con gran
+               trabajo se a rebuscado : parece mucho la ventaja : que hiziera, si todo se pudiera auer. En lo que toca, a la antiguedad desta gente : tienese por aueriguado, que a mas de dos mjll
+               años, que abitan en esta tierra: que agora se llama, la nueua españa. Porque por sus pinturas antiguas, ay noticia: que aquella famosa ciudad, que se llamo tulla : a ya mjll años, o muy
+               cerca dellos, que fue destruyda : y antes que se edificasse, los que la edificaron, estuujeron muchos poblados, en tullantzinco : donde dexaron muchos edificios, muy notables : pues en
+               lo que alli estuujeron, y en lo que tardaron en edificar, la ciudad de tulla : y en lo que duro, en su prosperidad: antes que fuesse destruyda, es consono a verdad, que passaron, mas de
+               mill años : de lo qual resulta, que por lo menos, qujnjentos años, antes de la encarnacion, de nr̄o Redemptor : esta tierra, era poblada. Esta celebre, y grā ciudad, de Tulla : muy
+               rica, y de gente muy sabia, y muy esforçada, tuuo la aduersa fortuna, de troya. Los chololtecas, que son los que della se escaparon : an tenjdo la succession de los Romanos : y como los
+               Romanos edificaron el capitolio, para su fortaleza : ansi los chololanos, edificaron a mano : aquel promontorio, que esta junto a cholula, que es como vna sierra, o vn gran monte, y
+               esta todo lleno, de mjnas, o cueuas por de dentro. Muchos años despues, los Mexicanos edificaron, la Ciudad de mexico : que es otra venecia, y ellos en saber, y en pollicia, son otros
+               venecianos. Los tlaxcaltecas, parecen aver succedido, en la fortuna de los cartaginenses. Ay grandes señales, de las antiguallas destas gentes, como oy dia parece en tulla, y en
+               tullantzico : y en vn edificio, llamado xuchicalco : que esta en los termjnos, de quauhnaoac. I casi en toda esta tierra, ay señales, y rastro, de edificios, y alhajas antiquissimos. Es
+               cierto cosa, de grande admjration : que aya nr̄o señor dios, tantos siglos occultada, vna silua de tantas gentes ydolatras : cuyos frutos vberrimos, solo el demonjo los a cogido : y en
+               el fuego infernal, los tiene atesorados. Ni puedo creer, que la yglesia de dios, no sea prospera : dōde la synagoga de sathanas, tanta prosperidad a tenjdo : conforme a aquello, de
+               sanct Pablo. Abundara la gratia adon
+               
+               de abundo el delicto. Del saber, o sabiduria desta gente ay fama : que fue mucha como parece en el libro decimo : donde en el capitulo. 29 : se
+               habla, de los primeros pobladores, desta tierra : donde se affirma, que fueron, perfectos philosophos, y astrologos, y muy diestros, en todas las artes mechanjcas. De la fortaleza, la
+               qual entre ellos, era mas estimada, que ninguna otra virtud : y por la qual subian, hasta el sumo grado, del valer : tenjan desto grandes exercitios : como parece en muchas partes,
+               desta obra. En lo que toca, a la religion y cultura, de sus dioses : no creo a aujdo en el mundo, ydolatras tan reuerenciadores, de sus dioses : nj tan a su costa : como estos, desta
+               nueua españa, Ni los Judios, nj njnguna otra nation, tuuo iugo, tan pesado : y de tantas cerimonjas, como le an tenjdo, estos naturales : por espacio de muchos años, como parece, por
+               toda esta obra. Del origen desta gente, la relación que dan los viejos : es, que por la mar vinjeron, de hazia el norte. Y cierto es, que vinjeron, en algunos vasos : de manera no se
+               sabe, como eran labrados : sino que se conjectura, que vna fama que ay, entre todos estos naturales : que salieron de siete cueuas : que estas siete cueuas, son los siete naujos, o
+               galeras, en que vinjeron, los primeros pobladores, desta tierra. Segun se colige, por coniecturas, verisimjles : la gente que primero vino, a poblar a esta tierra : de hazia la florida
+               vino, y costeando vino : y desembarco en el puerto de panuco, que ellos llaman panco, que quiere dezir, lugar donde llegaron, los que passaron el agua. Este gente, venja en demanda del
+               parajso terrenal: y trayan por apellido, tamoanchan : que qujere dezir, buscamos nr̄a casa: y poblauan cerca de los mas altos montes que hallauan. En venjr, hazia el medio dia a buscar
+               el parayso terrenal, no herrauan: porque opinjon es : de los que escriuen, que esta debaxo de la linea equjnoctial : y en pesar, que es algun altissimo monte : tampoco hierran : porque
+               asi lo dizen los escritores, quel parayso terrenal, esta debaxo de la linea equjnoctial, I que es vn monte altissimo, que llega su cumbre, cerca de la luna : parece que ellos, o sus
+               antepassados, tuujeron algun oraculo : cerca de esta materia : o de dios, o del demonjo, o tradicion de los antiguos, que vino de mano en mano hasta ellos. Ellos buscauan, lo que por
+               via humana, no se puede hallar : y nr̄o señor dios pretendia, que la tierra despoblada se poblasse : para que algunos, de sus descendientes, fuessen a poblar, el parayso celestial :
+               como agora lo vemos por esperiencia. Mas para que me detengo, en contar adeujnanças? Pues es certissimo, que estas gentes todas, son nr̄os hermanos : procedientes, del tronco de Adam,
+               como nosotros : son nr̄os proximos, a quien somos obligados a amar, como a nosotros mjsmos. Qujdqujd sit, de lo que fueron los tiempos passados, vemos por esperiencia agora, que son
+               abiles : para todas las artes mechanjcas, y las exercitan : son tanbien abiles, para deprender, todas las artes liberales, y la sancta theologia : como por esperiencia, se a visto : en
+               aquellos, que an sido enseñados, en estas scientias. Porque de lo que son, en las cosas de guerra, esperientia se tiene dellos : ansi en la conqujsta desta tierra, como en otras
+               particulares conquistas, que despues aca se an hecho : 
+               
+               quan fuertes son, en sufrir trabajos, de hambre, y sed, frió, y sueño : quan ligeros y dispuestos, para acometer, qualesqujera
+               trances peligrosos. Pues no son menos abiles, para nr̄o christianjsmo : sino en el deujdamente, fueren cultiuados. Cierto parece, en estos nr̄os tiempos, y en estas tierras, y cō esta
+               gente : a querido nr̄o señor dios : restituyr a la yglesia, lo que , el demonjo la a robado, en inglaterra, alemanja, y i francia : en asia, y palestina. De lo qual quedamos muy
+               obligados : de dar gracias, a nr̄o señor, y trabajar fielmente, en esta su nueua españa. </p>
+            <div type="para" n="2" xml:lang="es">
+               <head> Al sincero lector</head>
+               <p>Quando esta obra se començo, començose a dezir, de los que lo supieron : que se hazia vn calepino : y aun hasta agora, no cesan muchos, de me preguntar, que en que termjnos anda el
+                  calepino? Ciertamente, fuera harto prouechoso, hazer vna obra tan vtil : para los que qujeren deprender esta lengua mexicana : como Ambrosio Calepino la hizo : para los que qujerē
+                  deprender, la lengua latina : y la signjficacion de sus vocablos. Pero ciertamente, no a aujdo oportunjdad : porque Calepino saco los vocablos, y las significationes dellos, y sus
+                  equjuocationes, y methophoras, de la lection, de los poetas, y oradores, y de los otros authores, de la lengua latina : autorisando todo lo que dize, con los dichos de los authores:
+                  el qual fundamento, me a faltado a mj : por no auer letras, nj escriptura entre esta gente : y ansi me fue impossible hazer calepino. Pero eche los fundamētos, para qujen qujsiere,
+                  con facilidad le pueda hazer : porque por mj industria, se an escripto doze libros : de lenguaje propio y natural, desta lengua mexicana : donde allende de ser muy gustosa, y
+                  prouechosa escriptura : hallarse han tambien en ella, todas las maneras de hablar, y todos los vocablos, que esta lengua vsa : tambien authorizados, y ciertos : como lo que escriujo
+                  Vergilio, y Ciceron, y los demas authores, de la lengua latina. Van estos doze libros, de tal manera traçados, que cada plana, lleua tres colunas : la primera, de lengua española :
+                  la segunda, de la lengua mexicana : la tercera, la declaracion, de los vocablos mexicanos : señalados con sus cifras, en ambas partes : lo de la lengua mexicana se a acabado, de
+                  sacar en blanco, todos doze libros : lo de la lengua española, y las escolias, no esta hecho : por no auer podido mas, por falta de ayuda, y de fauor. Si se me diese la ayuda
+                  necessaria, en vn año, o poco mas, se acabaria todo : y cierto si se acabase, seria vn tesoro, para saber muchas cosas : dignas de ser sabidas. Y para con facilidad, saber esta
+                  lengua, con todos sus secretos, y seria cosa de mucha estima, en la nueua, y vieja españa. </p>
+            </div>
+            <div type="toc">
+               <!-- The table of contents contains information for the first FIVE books bound in the first volume -->
+               <head>¶ Sumario de los capitulos, del primero libro</head>
+               <list>
+                  <item corresp="b01c01">¶ Capitulo primero que habla, del principal dios, que adorauan, y a qujen sacrificauan los mexicanos llamado Vitzilobuchtli. fol. 1.</item>
+                  <item corresp="b01c02">Capitulo segundo, que trata, del dios llamado paynal: el qual siendo hombre, era adorado por. dios. fol. ibidem</item>
+                  <item corresp="b01c03">Capitulo tercero, que trata: del dios llamado, tezcatlipuca: el qual generalmente, era tenjido por dios, entre estos naturales, desta nueva españa, es otro
+                     jupiter. fol. ibidem</item>
+                  <item corresp="b01c04">Capitulo quarto, trata: del dios, que se llamaua Tlaloc, tlamacazquj. fol. 2</item>
+                  <item corresp="b01c05">Capitulo qujnto, trata, del dios que se llama, Quetzalcoatl, de los vientos. fol. ibidem.</item>
+                  <item corresp="b01c06">Capitulo sexto, se trata: de las diosas, principales: que se adorauan en esta nueva españa. fol. ibidem.</item>
+                  <item corresp="b01c07">El septimo capitulo, trata: de la diosa, que se llamaua chicomecoatl: es otra diosa ceres. fol. 3.</item>
+                  <item corresp="b01c08">El capitulo octavo, trata, de vna diosa, que se llamaua, la madre de los dioses, coraçon de la tierra, y nuestra abuela. fol. ibidem</item>
+                  <item corresp="b01c09">El noueno capitulo, se trata: de vna diosa, llamada tzaputlatena. fol. 4.</item>
+                  <item corresp="b01c10">El capitulo decimo, se trata: de vnas diosas, que llamauā cioapipilti. fo. ibidem.</item>
+                  <item corresp="b01c11">En el onzeno, capitulo, se trata: de la diosa del agua: que la llamauan chalchiuhtli icue: es otra juno. fo. 5.</item>
+                  <item corresp="b01c12">El capitulo dozeno, trata: de la diosa, de las cosas carnales: la qual llamauā tlaçulteutl: es otra venus. fol. 6.</item>
+                  <item corresp="b01c13">El capitulo treze: trata de los dioses: que son menores en dignidad, que los arriba dichos: el primero destos, es que llaman xiuhtecutli, est otro vulcā fol.
+                     10. </item>
+                  <item corresp="b01c14">El catorzeno capitulo, habla: cerca de vn dios, que se llamaua: macujlsuchitl: que qujere dezir: cinco flores. Y tambien se llamaua: suchipilli, que qujere
+                     dezir, el principal que da flores: o que tiene cargo cargo <!--second "cargo" is crossed out-->, de dar flores. fol. 12.</item>
+                  <item corresp="b01c15">El capitulo qujnze, habla del dios llamado, omacatl: que qujere dezir, dos cañas, es el dios de los combites. fol. 13.</item>
+                  <item corresp="b01c16">El capitulo deziseys, en que se trata, del dios llamado: Ixtlilton, que qujere dezir, el negrillo: y tambien se llama, tlaltetecujn. fol. 14.</item>
+                  <item corresp="b01c17">Capitulo dezisiete, habla del dios llamado, Opuchtli: el qual era tenjdo, y adorado, en esta nueva españa. fol. 15.</item>
+                  <item corresp="b01c18">Capitulo deziocho, que habla del dios llamado, xipetotec: que qujere dezir desollado. fol. 16.</item>
+                  
+                  
+                  <item corresp="b01c19">Capitulo dezinueue, habla del dios, que se llamaua, yiacatecutli, dios de los mercaderes. fol. 17.</item>
+                  <item corresp="b01c20">Capitulo veynte, que habla, del dios llamado: Nappa tecutli. fol. 19.</item>
+                  <item corresp="b01c21">Capitulo veynte y vno, que habla, de muchos dioses ymaginarios: a los quales, todos llamauan tlaloques. fol. 20.</item>
+                  <item corresp="b01c22">Capitulo veynte y dos, que habla del dios llamado: tezcatzoncatl: que es vno de los dioses del vino. fol. 23.</item>
+                  <item>¶ Comiença el apendiz, del primero libro, en que se confuta, la ydolatria, arriba puesta: por el testo, de la sagrada escriptura, y buelta en lengua mexicana: delarando el
+                     testo suficientemente. Este libor, no procede, por capitulos: y por esso no se pone aquj, el sumario: procede por las letras, del abecé: con que se señala, lo que se dize en
+                     latin, o en romance: respondiendo, a lo que se dize, en la lengua mexicana. fol. 24.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario de los capitulos, del segundo libro.</head>
+               <list>
+                  <item corresp="b02c01">Capitulo primero, del calendario: y primeramente, de las fiestas fixas: la primera de las quales es, atl caoalo, o quavitleoa. fol. 3.</item>
+                  <item corresp="b02c02">Capitulo segundo: de la segunda fiesta, que se llama, tlacaxipeoaliztli. fol. ibidem.</item>
+                  <item>Capitulo tercero, de la tercera fiesta, que se llama toçoztontli. fol. 4.</item>
+                  <item>Capitulo quarto: de la quarta fiesta, que se llama, veitocoztli. ibidem.</item>
+                  <item>Capitulo qujnto: de la qujnta fiesta, que se llama toxcatl. fol. 5.</item>
+                  <item>Capitulo sexto, de la sexta fiesta: que se llama Etzalqualiztli. ibidem.</item>
+                  <item>Capi. septimo, de la septima fiesta: que se llama Tecujlhujtontli. fo. 6.</item>
+                  <item>Capitulo octavo, de la octava fiesta: que se llama, veytecujlhujtl. ibidem.</item>
+                  <item>Capi. nono, de la nona fiesta: que se llama, tlasuchimaco. fol. 7.</item>
+                  <item>Capitulo decimo, de la decima fiesta: que se llama, xocotl vetzi. ibidem.</item>
+                  <item>Capitulo. 11. de la onzena fiesta: que se llama, Ochpanjztli. fol. 8. </item>
+                  <item>Capitulo. 12. de la dozena fiesta: que se llama, Teutleco. ibidem.</item>
+                  <item>Capitulo. 13. de la fiesta, tercia decima: que se llama, tepeilhujtl. fo. 9.</item>
+                  <item>Capitulo. 14. de la catorzena fiesta: que se llama Quecholli. ibidem.</item>
+                  <item>Capitulo. 15. de la qujnta decima fiesta: que se llama Panquetzaliztli. fol. 10. </item>
+                  <item>Capitulo. 16. de la decima sexta fiesta: que sellama, Atemuztli. ibidem.</item>
+                  <item>Capitulo. 17. de la decima septima fiesta: que se llama Tititl. fol. 11.</item>
+                  <item>Capitulo. 18. de la decima octava fiesta: que se llama Izcalli. ibidem. </item>
+                  <item>Capitulo. 19. de los cinco dias postreros, del año que se llaman Nemontemj: y de las fiestas moujbles. fol. 12.</item>
+                  <item>Capitulo veynte, de la fiesta, y sacrificios: que hazian en las calendas del primero mes: que se llamaua, Atl caoalo, o quavitleoa. fol. 15</item>
+                  <item>Capitulo veynte y vno: de las cerimonjas, y sacrificios: que hazian en el segundo mes: que se llamaua Tlacaxipeoaliztli. fol. 17. </item>
+                  <item>Capitulo veynte y dos: de la fiesta, y sacrificios: que hazian, en el postrero dia, del segundo mes: que se dizia, Tlacaxipeoaliztli. fol. 24</item>
+                  <item>Capitulo. 23. de la fiesta, y cerimonjas: que hazian, en las calendas, del quarto mes, que llamaua, veitoçotli. fol. 27.</item>
+                  <item>Capitulo. 24. de la fiesta, que se hazian, en las calendas, del qujnto mes, que llamaua: toxcatl. fol. 30.</item>
+                  <item>Capitulo. 25. de la fiesta, y sacrificios: que se hazian en las calendas, del sexto mes, que se llamaua, Etzalqualiztli. fol. 37.</item>
+                  <item>Capitulo. 26. de la fiesta, y cerimonjas, que se hazian en las calendas, del septimo mes, que se nombraua, Tecujlhujtontli. fol. 46.</item>
+                  <item>Capitulo. 27. de la fiesta, y sacrificios, que se hazian en las calendas, del octavo mes, que se dezia, Veytecujlhujtl. fol. 49.</item>
+                  <item>Capitulo. 28. de la fiesta, y sacrificios: que se hazian en las calendas del nono mes: que se llamaua, tlasuchimaco. fol 58.</item>
+                  <item>Capitulo. 29. de la fiesta, y sacrificios, que se hazian, en las calendas, del decimo mes, que se llamaua, xocotl vetzi. fol. 61.</item>
+                  <item>Capitulo. 30. de la fiesta, y cerimonjas, que se hazian en las calendas, del onzeno mes, que se llamaua. Ochpaniztli. fol. 66.</item>
+                  <item>Capitulo. 31. de la fiesta, y sacrificios, que se hazian, en las calendas, del dozeno mes, que se llamaua, Teutleco. fol. 73.</item>
+                  <item>Capitulo. 32. de la fiesta, y sacrificios, que hazian, en las calendas, del trezeno mes, que se dezia Tepeilhujtl. fol. 75.</item>
+                  <item>Capitulo. 33. de la fiesta, y sacrificios, que se hazian en las calendas del catorzeno mes, que se llamaua, Quecholli. fol. 77.</item>
+                  <item>Capitulo. 34. de la fiesta, y sacrificios, que se hazian en las calendas del qujnzeno mes, que se dezia, Panquetzaliztli. fol. 82.</item>
+                  <item>Capitulo. 35. de la fiesta, y cerimonjas: que se hazian en las calendas del. 16. mes, que se llamaua. Atemuztli. fol 90.</item>
+                  <item>Capitulo. 36. de la fiesta, y sacrificios: que se hazian en las calendas, del decimo septimo mes, que se llamaua. Tititl. fol. 93.</item>
+                  <item>Capitulo. 37. de la fiesta, y cerimonjas, que se hazian en las calendas, del decimo octauo mes, que se llmaua. Izcalli. fol. 96.</item>
+                  <item>Capitulo. 38. de la fiesta llamada, Oauhqujltamalqualiztli, que hazian, a los diez dias, del mes arriba dicho, que se hazian a honra del dios llamado. Ixcoçauhquj. fol.
+                     102.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario del apendiz, deste segundo libro.</head>
+               <list>
+                  <item>Relacion, de los mexicanos, cerca de las fiestas de vitzilobuchtli. fol. 107.</item>
+                  <item>Relacion de la fiesta, que se hazia, de ocho, en ocho años. fol. 108.</item>
+                  <item>Relacion de los edificios, del gran templo de mexico. fol. 109.</item>
+                  <item>Primeramente el patio, deste templo, tenja doscientas braças en quadro, y mas era todo enlosado, tenja dentro de si, muchos edificios. El primero destos edificios, era vna
+                     torre, muy alta, que estaua en el medio, de todo el patio, era edificada a honrra del dios Vitzilobuchtli. ibidē</item>
+                  <item>El segundo edificio, se llamaua, Tlalucan. fol. 110.</item>
+                  <item>El tercero edificio se llamaua, macujlcalli, macujlqujaujtl. ibidem.</item>
+                  <item>El quarto edificio, se llamaua, Teccizcalli. ibidem.</item>
+                  <item>El quinto edificio, se llamaua, Poiauhtlan. ibidem.</item>
+                  <item>El sexto edificio, se llamaua, Mixcoapantzompantli. ibidem.</item>
+                  <item>El septimo edificio, se llamaua, Tlalxicco. fol. 111.</item>
+                  <item>El octavo edificio, se llamaua, veiquauhxicalco. ibidem.</item>
+                  <item>El nono edificio, se llamaua, Tochinco. ibidem.</item>
+                  <item>El decimo edificio, se llamaua, teutlalpan. ibidem.</item>
+                  <item>El vndecimo edificio, se llamaua, Tlilapan. ibidem.</item>
+                  <item>El duodecimo edificio, se llamaua, Tlillan calmecac. ibidem.</item>
+                  <item>El tredecimo edificio, se llamaua, Mexico calmecac. ibidem.</item>
+                  <item>El quarto decimo, se llamaua, Coacalco. ibidem.</item>
+                  <item>El qujnto decimo edificio, se llamaua, Quauhxicalco. ibidem.</item>
+                  <item>El decimo sexto edificio, se llamaua, otro, Quauhxicalco. fol. 112.</item>
+                  <item>El decimo septimo edificio, se llamaua, Teccalco. ibidem.</item>
+                  <item>El decimo octavo edificio, se llamaua tzompantli. ibidem.</item>
+                  <item>El decimo nono edificio, se llamaua, vitznaoac teucalli. ibidem.</item>
+                  <item>El vigessimo edificio, se llamaua, Tezcacalco. ibidem.</item>
+                  <item>El vigessimo primo edificio, se llamaua. Tlacochcalco; acatl yiacapom. ibidē.</item>
+                  <item>El vigessimo segundo edificio, se llamaua. Teccizcalco. ibidem.</item>
+                  <item>El vigessimo tercio edificio, se llamaua, vitztepeoalco. ibidem.</item>
+                  <item>El vigessimo quarto edificio, se llamaua, vitznaoac calmecac. fol. 113.</item>
+                  <item>El vigessimo qujnto edificio, se llamaua, otro quauhxicalco. ibidem.</item>
+                  <item>El vigessimo sexto edificio, se llamaua. Macujlcipactli iteupan. ibidem.</item>
+                  <item>El vigessimo septimo edificio, se llamaua, Tetlanmā calmecac. ibidem.</item>
+                  <item>El vigessimo octavo edificio, se llamaua. Iztac cinteutl iteupan. ibidem.</item>
+                  <item>El vigessimo nono edificio, se llamaua. Tetlanman. ibidem.</item>
+                  <item>El trigessimo edificio, se llamaua chicumecoatl iteupan. ibidem.</item>
+                  <item>El trigessimo primo edificio, se llamaua, Tezcaapan. ibidem.</item>
+                  <item>El trigessimo segundo edificio, se llamaua. Tezcatlachco. ibidem.</item>
+                  <item>El trigessimo tercio edificio, se llamaua tzompantli. fol. 114.</item>
+                  <item>El trigessimo quarto edificio, se llamaua, tlamatzinco. ibidem.</item>
+                  <item>El trigessimo qujnto edificio, se llamaua, tlamatzinco calmecac. ibidē.</item>
+                  <item>El trigessimo sexto edificio, se llamaua, Quauhxicalco. ibidem.</item>
+                  <item>El trigessimo septimo edificio, se llamaua. Mixcoateupan. ibidem.</item>
+                  <item>El trigessimo octavo edificio, se llamaua. Netlatiloian. ibidem.</item>
+                  <item>El trigessimo nono edificio, se llamaua. Teutlachco. ibidem.</item>
+                  <item>El quadragessimo edificio, se llamaua, ilhujcatitlan. ibidem.</item>
+                  <item>El quadragessimo primo edificio, se llamaua, vey tzompantli. ibidem.</item>
+                  <item>El quadragessimo segundo edificio, se llamaua, Mecatlan. fol. 115.</item>
+                  <item>El quadragessimo tercio edificio, se llamaua, Cinteupan. ibidem.</item>
+                  <item>El quadragessimo quarto edificio, se llamaua, centzontotochti in teupan. ibidem.</item>
+                  <item>El quadragessimo qujnto edificio, se llamaua, cinteupan. ibidem.</item>
+                  <item>El quadragessimo sexto edificio, se llamaua, Netotiloian. ibidem.</item>
+                  <item>El quadragessimo septimo edificio, se llamaua, chililico, ibidem.</item>
+                  <item>El quadragessimo octavo edificio, se llamaua, Coaapan. ibidem.</item>
+                  <item>El quadragessimo nono edificio, se llamaua Puchtlan. ibidem.</item>
+                  <item>El qujncagessimo edificio, se llamaua, Atlauhco. ibidem.</item>
+                  <item>El qujncagessimo primo edificio, se llamaua, Iopico. ibidem.</item>
+                  <item>El quincagessimo segundo edificio, se llamaua. Iacatecutli iteupan.</item>
+                  <item>El qujncagesimo tercio edificio, se llamaua. Vitzilin quatec iteupan. <sic>idem.</sic></item>
+                  <item>El qujncagessimo quarto edificio, se llamaua, Iopico calmecac. ibidem.</item>
+                  <item>El qujncagessimo qujnto edificio, se llamaua, Iopico tzompantli. ibidē.</item>
+                  <item>El qujncagessimo sexto edificio, se llamaua, tzompantli. ibidem.</item>
+                  <item>El qujncagessimo septimo edificio, se llamaua. Macujlmalinal iteupā. ibidē.</item>
+                  <item>El qujncagessimo octavo edificio, se llamaua. Aticpac. <sic>idem.</sic>
+                  </item>
+                  <item>El qujncagessimo nono edificio, se llamaua, Netlatiloian. ibidem.</item>
+                  <item>El sexagessimo edificio, se llamaua, Atlauhco. ibidem.</item>
+                  <item>El sexagessimo primo edificio, se llamaua, Tzummulco calmecac. <sic>idem.</sic></item>
+                  <item>El sexagessimo segundo edificio, se llamaua. Temalacatl. fol. 117.</item>
+                  <item>El sexagessimo tercio edificio, se llamaua, Nappateuitli iteupan. ibidē.</item>
+                  <item>El sexagessimo quarto edificio, se llamaua, tzummulco. ibidem.</item>
+                  <item>El sexagessimo qujnto edificio, se llamaua, Coatlan. fol. 118.</item>
+                  <item>El sexagessimo sexto edificio, se llamaua, xuchicalco. ibidem.</item>
+                  <item>El sexagessimo septimo edificio, se llamaua, Iopicalco: y tambien eoacalco. ibidem</item>
+                  <item>El sexagessimo octavo, edificio, se llamaua toxpalatl. ibidem.</item>
+                  <item>El sexagessimo nono edificio, se llamaua, tlacochcalco, quauhqujiaoac. ibidem.</item>
+                  <item>El septuagessimo edificio, se llamaua, Tulnaoac. ibidem.</item>
+                  <item>El septuagessimo primo edificio, se llamaua, Tilocan. ibidem.</item>
+                  <item>El septuagessimo segundo edificio, se llamaua, Itepeioc. ibidem.</item>
+                  <item>El septuagessimo tertio edificio, se llamaua, Vitznaoac calpulli. ibidem.</item>
+                  <item>El septuagessimo quarto edificio, se llamaua, Atempan. fol. 119.</item>
+                  <item>El septuagessimo qujnto edificio, se llamaua, Tezcacoac tlacochcalco. ibidem.</item>
+                  <item>El septuagessimo sexto edificio, se llamaua, Acatl yiacapan, Vei calpulli. ibidē</item>
+                  <item>El septuagessimo septimo edificio, se llamaua, Techielli. ibidem.</item>
+                  <item>El septuagessimo octavo edificio, se llamaua, Calpulli. ibidem.</item>
+                  <item>Relacion de los mexicanos, de las cosas que se ofrecian, en el templo. fol. 120.</item>
+                  <item>Relacion de la sangre, que se derramaua, a honrra del demonjo, en el templo, y fuera. fol. 121.</item>
+                  <item>Relacion, de otros serujcios, que se hazia a los demonjos, en el templo, y fuera fol. 123.</item>
+                  <item>Relacion, de ciertas cerimonjas que se hazia, a honrra del demonjo. fol. 124.</item>
+                  <item>Relacion, de otras cerimonjas, que tambien se hazian a honrra del demonjo. fol. 125.</item>
+                  <item>Relacion, de las diferencias de mjnjstros, que serujan a los dioses. fol. 127.</item>
+                  <item>Relacion del tañer: y quantas vezes tañjan en el templo, entre noche, y dia: que era como tañer, a las horas. fol. 134.</item>
+                  <item>Relacion de los exercicios, o trabajos, que auja en el templo. <sic>fo</sic> 135.</item>
+                  <item>Relacion de los votos, y iuramentos. fo. 136</item>
+                  <item>Relacion de los cantares, que se dezian a honrra de los dioses, en los templos, y fuera dellos. fol. 137.</item>
+                  <item>El cantar, que se dezia, en la fiesta de Vitzilobuchtli. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta, de Vitznaoac iautl. ibidem.</item>
+                  <item>El cantar que se dezia, en la fiesta de tlaluc. ibidem.</item>
+                  <item>El cantar que se dezia, en la fiesta de la diosa, que se llamaua, Teteu inna. fol. 138.</item>
+                  <item>El cantar que se dezia, en la fiesta, de chimalpanecatl, y de tlaltecaoananotl. fol. 139.</item>
+                  <item>El cantar, que se dezia, en la fiesta de Ixcoçauhquj, dios del fuego. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta de Mixcoatl. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta de suchipilli. fol. 140.</item>
+                  <item>El cantar, que se dezia, en la fiesta de suchiquetzal. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta de Amjmjtl. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta de Otuntecutli: dios de los otomjes. fol. 141.</item>
+                  <item>El cantar, que se dezia, en la fiesta, de Aiopechtli. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta, de cioacoatl. ibidem.</item>
+                  <item>El cantar, que se dezia, en la fiesta, que se hazia, de ocho en ocho años. fol. 142.</item>
+                  <item>El cantar, que se dezia, en la fiesta, de xippe. fol. 143.</item>
+                  <item>El cantar, que cantaua, en la fiesta de chicomecoatl. ibidem.</item>
+                  <item>El cantar, que se cantaua, en la fiesta del dios del vino, llamado totochti. ibidem.</item>
+                  <item>El cantar, que se cantaua, en la fiesta, de Atlaoa. ibidem.</item>
+                  <item>El cantar, que se cantaua, en la fiesta de Macujlsuchitl. fol. 144.</item>
+                  <item>El cantar, que se cantaua, en la fiesta de Jiacatecutli, dios de los mercaderes. ibidem.</item>
+                  <item>Relacion, que se habla de las mugeres, que serujan en el templo. ibidem.</item>
+               </list>
+            </div>
+            <div>
+               <head>Sumario del tercero libro.</head>
+               <list>
+                  <item>Capitulo primero, del principio, que tuvjeron los dioses, y de sus fabulas. fo. 1.</item>
+                  <item>Capitulo segundo, de la estimacion: en que era tenjdo, el dios llamado, Titlacaoan, o tezcatlipuca. fol. 7.</item>
+                  <item>Capitulo tercero, habla del dios, llamado, quetzalcoatl. fol. 9.</item>
+                  <item>Capitulo quarto, como vinjeron, dos njgromanticos, y destruyeron a quetzalcoatl: señor de tulla, y tenjdo por dios. fol. 10.</item>
+                  <item>Capitulo qujnto, de vn embuste, que hizo el nigromantico, llamado Titlacaoā. fol. 12</item>
+                  <item>Capitulo sexto, de como los de tulla, se enojaron, contra quetzalcoatl. fol. 14.</item>
+                  <item>Capitulo septimo, de otro embuste, que hizo el sobredicho nigromantico, con que mato muchos, de los de tulla. fol. 15</item>
+                  <item>Capitulo octauo, de otro enbuste, con que mato muchos mas. fol. 16.</item>
+                  <item>Capitulo nono, de otro enbuste, con que mato muchos otros. fol. 17.</item>
+                  <item>Capitulo decimo, de otro enbuste, con que mato el mismo nigromantico. fol. 18.</item>
+                  <item>Capitulo vndecimo, de otro enbuste. fol. 19.</item>
+                  <item>Captiulo duodecimo, de la huyda de quetzalcoatl, fol. 20</item>
+                  <item>Capitulo tredecimo, de las memorias, que dexo quetzalcoatl, por las tierras donde pasaua. ibidem.</item>
+                  <item>Capitulo quarto decimo, que entre las dos sierras, de cabe tlalmanalco, que son las sierra neuada, y el vulcan, se le murieron de frio sus pajes enanos, y corcobados. fol.
+                     22.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario del apendiz deste tercero libro.</head>
+               <list>
+                  <item>Capitulo primero, de los que iuan al infierno, y de las obsequjas que los hazian. fol. 23.</item>
+                  <item>Capitulo segundo, de los que yuan al parayso terrenal. fol. 27.</item>
+                  <item>Capitulo tercero, de los que yuan al cielo. fol. 28.</item>
+                  <item>Capitulo quarto, de como la gente baxa, ofrecia a <!-- letter is striked through --> sus hijos, a la casa que se llamaua, Telpuchcali. fol. 29.</item>
+                  <item>Capitulo qujnto, de la manera de viujr, y exercicios que tenjan, los que se criauan, en el telpuchcali: qujere dezir, casa donde se crian los mancebos. fol. 31.</item>
+                  <item>Capitulo sexto, de los castigos, que se hazian, a los que se emborrachauan. fol. 34.</item>
+                  <item>Capitulo septimo, de como los señores, y gente principal, ofrecian sus hijos, a la casa, que se llamaua, calmecac. ibidem.</item>
+                  <item>Capitulo octauo, de las costumbres, que se guardauan en la casa, que se llamaua calmecac. fol. 37.</item>
+                  <item>Capitulo nono, de las electiones de los summos sacerdotes, que siempre eran dos. fol. 39.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario de los capitulos del quarto libro.</head>
+               <list>
+                  <item>Capitulo primero, del primero signo, llamado ce cipactli: y que los que en el nacian, tenjan buena fortuna. fol. 1.</item>
+                  <item>Capitulo segundo, del segundo signo, llamado ce ocelutl: y que los que en el nacen, son mal afortunados. fol. 3.</item>
+                  <item>Capitulo tercero, del tercero signo, llamado ce maçatl: y que los que en el nacen tienen buena fortuna. fol. 7.</item>
+                  <item>Capitulo quarto, de la segunda casa deste signo, llamada vme tochtli: y que los que en el nacen, seran grandes borrachos. fol. 9.</item>
+                  <item>Capitulo qujnto, de diversas maneras, de borrachos. fol. 11.</item>
+                  <item>Capitulo sexto, de las demas casas deste signo: vnas prosperas, otras aduersas, otras indiferentes. fol. 14.</item>
+                  <item>Capitulo septimo, del quarto signo, llamado ce suchitl: y de las buenas condiciones, de los que en el nacian. fol. 16.</item>
+                  <item>Capitulo octauo, del qujnto signo, llamado ce acatl: y de su mala fortuna. fol. 20.</item>
+                  <item>Capitulo nono, del sexto signo llamado cemjqujztli: y que los que en el nacian, eran bien afortunados. fol. 22.</item>
+                  <item>Capitulo decimo, de las demas casas deste signo: de las quales algunas son mal afortunadas. fol. 25.</item>
+                  <item>Capitulo vndecimo, del septimo signo, llamado ce qujauitl: y de su desastrada fortuna. fol. 27</item>
+                  <item>Capitulo duodecimo, de las demas casas deste signo: algunas son indiferentes, y otras del todo malas. fol. 29.</item>
+                  <item>Capitulo tredecimo, del mal aguero, que tomauan, si alguno tropeçaua, o se lisiaua, en los pies, en la quarta casa deste signo, llamada nauj ehecatl. fol. 31.</item>
+                  <item>Capitulo decimo quarto, de las quatro casas postreras, deste signo: las quales tenjan por dichosas. fol. 33.</item>
+                  <item>Capitulo qujnto decimo, del octavo signo: llamado ce malinalli, y de su aduersa fortuna. fol. 35.</item>
+                  <item>Capitulo decimo sexto, del nono signo llamado, ce coatl: y de su buena fortuna, es el signo de los tratantes. fol. 37.</item>
+                  <item>Capitulo decimo septimo, de la platica, que vno de los mercaderes hazia, al que estaua de partida, la primera vez, que iua a mercadear fol. 38.</item>
+                  <item>Capitulo decimo octauo, de otro razonamjento, que los mercaderes viejos, hazen a los que ya otras vezes aujan ydo lexos, a mercadear. fol. 40.</item>
+                  <item>Capitulo decimo nono, de las cerimonjas, o plegarias que hazian los que dauan por los que yuan. fol. 42.</item>
+                  <item>Capitulo vigessimo, de las demas casas deste signo. fol. 44.</item>
+                  <item>Capitulo vigessimo primo, del decimo signo llamado ce tecpatl, y de su prospera fortuna. fol. 46.</item>
+                  <item>Capitulo vigessimo segundo, del vndecimo signo, llamado ce oçumatli: y de su buena fortuna. fol. 47.</item>
+                  <item>Capitulo vigessimo tercio, del duodecimo signo, llamado ce cuetzpali, y de su buena fortuna. fol. 49.</item>
+                  <item>Capitulo vigessimo quarto, del signo. 13. llamado ce vllin y de su indiferente fortuna, ibidem.</item>
+                  <item>Capitulo vigessimo qujnto, del decimo quarto signo, llamado ce itzcujntli, y de su prospera ventura. fol. 50.</item>
+                  <item>Capitulo vigessimo sexto, de como en este signo, los señores, o reyes, se aparejauan, para dar guerra, a sus enemigos. fol. 51.</item>
+                  <item>Capitulo vigessimo septimo, del decimo qujnto signo, llamado ce calli, y de su muy aduersa fortuna. fol. 52.</item>
+                  <item>Capitulo vigessimo octauo, de las condiciones de las mugeres, que nacian en este signo. fol. 54.</item>
+                  <item>Capitulo vigessimo nono, del decimo sexto signo. llamado, ce cozcaquauhtli, y de su buena fortuna. fol. 56.</item>
+                  <item>Capitulo trigessimo primo, del signo. 18. llamado ce hecatl: y de sus desgratias. fol. 57.</item>
+                  <item>Capitulo trigessimo segundo, de los lloros, y lastimas, que hazian aquellos, a qujen robauan los nigromanticos, y de las mas casas deste signo. fol. 59</item>
+                  <item>Capitulo trigessimo tercio, del decimo nono signo: llamado ce quauhtli, y de su aduersa fortuna. fol. 60.</item>
+                  <item>Capitulo trigessimo quarto, de la supersticion, que vsauan los que yuān a visitar, la rezien parida. fol. 62.</item>
+                  <item>Capitulo trigessimo qujnto, de las cerimonjas, que hazian, quando baptizauan la criatura. fol. 63.</item>
+                  <item>Capitulo trigessimo sexto, del combite, que se hazia, por razon de los bateos, y de la orden del serujcio, y borrachera que passaua. fol. 65.</item>
+                  <item>Capitulo trigessimo septimo, de lo que agora se haze en los bateos, que es casi lo mjsmo, que antiguamente hazia. fol. 67.</item>
+                  <item>Capitulo trigessimo octauo, del signo. 20. llamado, ce suchitl, y de su buena fortuna. fol. 70.</item>
+                  <item>Capitulo trigessimo nono, que habla en general, de todos los signos. fol. 73.</item>
+                  <item>Capitulo quadragessimo, de las restantes casas, deste signo, y de la tabla, y numeros de todos los signos. fol. 74.</item>
+                  <item>Apendiz, del libro quarto en romance, por modo de appologia. fol. 76.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario de los capitulos del qujnto libro.</head>
+               <list>
+                  <item>Capitulo primero, del aguero, que tomauan, quando alguno oya de noche, aullar, a alguna bestia fiera: o llarar como vieja: y de lo que dezian los agueros, en este caso. fol.
+                     1.</item>
+                  <item>Capitulo segundo, del aguero indiferente, que tomauan, de oyr cantar, a vn aue, que llaman oacton: y de lo que hazian los mercaderes, que yuan camjno en este caso. fol.
+                     2.</item>
+                  <item>Capitulo tercero, del aguero, que tomauan, quando oyan de noche, algunos golpes, como de qujen esta cortando madera. fol. 4.</item>
+                  <item>Capitulo quarto, del mal aguero, que tomuan del canto, del buho aue. fol. 6.</item>
+                  <item>Capitulo qujnto, del mal aguero, que tomauan, del chillido de la lechuza. fol. 7.</item>
+                  <item>Capitulo sexto, del mal aguero, que tomauan, quando vian, que la comadreja, o mostolilla, atrauesaua por delande dellos, quando yuan por el camino, o por la calle. fol.
+                     8.</item>
+                  <item>Capitulo septimo, en que se trata del mal aguero, que tomauan: quādo vian algun conejo entrar en sus casa. fol. ibidem.</item>
+                  <item>Capitulo octavo, en q̄ se tracta del mal aguero q̄ tomauā: qn̄ encōtrauan cō vna sauādija q̄ la llamā pinaviztli. fo ibidem</item>
+                  <!-- this line was forgotten and inserted at a later time, proof that the codex is a clean copy from another manuscript -->
+                  <item>Capitulo nueue, que trata del aguero, que tomauan : quando vn anjmalejo, muy hedionda, que se llama epatl, entraua en su casa, o olian su hedor, en alguna parte. fol. 9.</item>
+                  <item>Capitulo diez, en que se trata, del aguero, que tomauan, de las hormigas, y ranas, y ratones, en cierto caso. fol. 10.</item>
+                  <item>Capitulo onze, que trata del aguero, que tomauan: quando de noche vian, estantiguas. fol. ibidem.</item>
+                  <item>Capitulo doze, que trata, de vnas fantasmas, que parecen de noche: que llaman tlacanesqujmilli. fol. 11.</item>
+                  <item>Capitulo treze, en que se trata, de otras fantasmas: que aparecian de noche. fol. 12.</item>
+               </list>
+            </div>
+            <div>
+               <head>¶ Sumario de los capitulos del apendiz deste qujnto libro.</head>
+               <list>
+                  <item>Capitulo primero, del omjsuchitl. fol. 15.</item>
+                  <item>Capitulo segundo, del cuetlasuchitl. fol. ibidem.</item>
+                  <item>Capitulo tercero, de la flor ya hecha. ibidem.</item>
+                  <item>Capitulo quarto, de los mahizes. fol. ibidem.</item>
+                  <item>Capitulo qujnto, de tecuencholhujliztli, qujere dezir, passar sobre alguno. fol. 16.</item>
+                  <item>Capitulo sexto, de atliliztli, qujere dezir, beuer el menor, ante del mayor. ibidiem.</item>
+                  <item>Capiutlo septimo, de comjendo en la olla. fol. ibidem.</item>
+                  <item>Capitulo octauo, de tamal, mal cozido. ibidem.</item>
+                  <item>Capitulo nono, del vmbligo. fol. 17.</item>
+                  <item>Capitulo decimo, de la preñada. ibidem.</item>
+                  <item>Capitulo. 11. de la casa, de la rezien parida. ibidem.</item>
+                  <item>Capitulo duodecimo, de terremoto. ibidem.</item>
+                  <item>Capitulo tredecimo, del tenamaztli. fol. 18.</item>
+                  <item>Capitulo decimo quarto, de la tortilla, que dobla en el comal. ibidem.</item>
+                  <item>Capitulo qujnze, del lamer el metlatl. ibidem.</item>
+                  <item>Capitulo deziseys, del que esta arrimado al poste. fol. 19.</item>
+                  <item>Capitulo dezisiete, del comer estando en pie. fol. ibidem.</item>
+                  <item>Capitulo deziocho, del quemar, de los escobajos del mahiz. ibidem.</item>
+                  <item>Capitulo dezinueue, de la muger preñada. ibidem.</item>
+                  <item>Capitulo veynte, de la mano, de la mona. fol. 20.</item>
+                  <item>Capitulo veynte y vno, del majadero, y comal. ibidem.</item>
+                  <item>Capitulo veynte y dos, de los ratones. fol. ibidem.</item>
+                  <item>Capitulo veynte y tres, de las gallinas. fol. 21.</item>
+                  <item>Capitulo veynte y quatro, de los pollos. ibidem.</item>
+                  <item>Capitulo veynte y cinco, de las piernas de las mantas. ibidem.</item>
+                  <item>Capitulo veynte y seys, del granizo. ibidem.</item>
+                  <item>Capitulo veynte y siete, de los bruxos. ibidem.</item>
+                  <item>Capitulo veynte y ocho, de la comjda del raton, que sobre. ibidem</item>
+                  <item>Capitulo veynte y nueue, de vñas. ibidem</item>
+                  <item>Capitulo treynta, del esternudo. ibidem</item>
+                  <item>Capitulo treynta y vno, de los njños o njñas. fol. 22.</item>
+                  <item>Capitulo treynta y dos, de las cañas verdes, del mahiz. ibidem.</item>
+                  <item>Capitulo treynta y tres,del respendar, de los maderos. ibidem</item>
+                  <item>Capitulo treynta y quatro, del metlatl. ibidem.</item>
+                  <item>Capitulo treynta y cinco, de la casa nueua: por qujen sacaua fuego nueuo. ibidem.</item>
+                  <item>Capitulo treynta y seys, del baño, o temazcalli. ibidem.</item>
+                  <item>Capitulo treynta y siete, de quando los muchachos, mudan los dientes. ibidem.</item>
+               </list>
+            </div>
+            <div>
+               <head>Al lector</head>
+               <p>Para la intelligencia de las figuras, o ymagines que estan aquj adelante: notara el prudente lector, que son las ymagines de los dioses, de que se trata en este primero libro: los
+                  quales adorauan estos naturales desta nueua españa, en tiempo de su ydolatria: cada vna tiene su nombre escrito iunto a la cabeça, y el capitulo, y numero de hojas, donde se trata
+                  del mjsmo dios, o ydolo: esta iunto a los pies. </p>
+            </div>
+            <!-- images of gods start here from pages 10 through 12r in the lower page numeration.-->
+         </div>
+      </front>
+      <body>
+         <div1 type="chapter" n="1" xml:id="b1c01">
+            <!-- div1 refers to the highest level within a chapter; the xml:id is pointed from the table of contents -->
+            <!-- If there is a figure it should follow this format <figure xml:id="b12c01es_image1"/>-->
+            <!-- the id scheme for images: Book#Chapter#language_# so that "b12c01es_image1" is Book 12, Chapter 01, Spanish, Image 1; es=Spanish, na=Nahuatl -->
+            <pb type="folio" n="1" />
+            <div2 type="para" n="1" xml:lang="es">
+               <p>Libro primero, en que se trata, de los dioses que adorauan, los naturales, desta tierra: que es la nueua españa.</p>
+            </div2>
+            <div2 type="para" n="2" xml:lang="es">
+               <p>Capitulo primero, que habla, del principal dios: que <expan>adorauā<ex>n</ex></expan>, y aquien sacrificauan los mexicanos llamado vitsilubuchtli.</p>
+            </div2>
+            <div2 type="para" n="3" xml:lang="es">
+               <p>Este dios, llamdo vitsilbuchtli, fue otro hercules: el qual fue robustisimo, de grandes fuerças, y muy belicoso: <expan>grā<ex>n</ex></expan> destriuydor de pueblos y matador de
+                  gentes; en las guerra era como fuego biuo, muy temeroso asus contrarios: y afsi<!--looks like asi but cant tell what letter after a is--> la deuisa que traya, era vna cabeça de
+                  dragon, muy espantable: que echaua fuego, por la boca. Tambien este, era nigromantico, o embaydor:que se trasformaua, enfigura de diuersas aues, y bestias. A este hombre, que por su
+                  fortaleza, y destreza en la guerra: le tuujeron en mucho, los mexicanos quando viuja. Despues que murjo, le honrraron, como adios: y le ofrezian esclauos, sacrificandolos, en su
+                  presencia: buscauan, que estos esclauos, fuesen muy regalados, y muy bien ataujados, <expan>cō<ex>n</ex></expan> aquellos aderecos, <expan>q<ex>ue</ex></expan> ellos
+                        <expan>vsauā<ex>n</ex></expan>: de orejeras, y barbotes: esto hazian, por mas <expan>hō<ex>n</ex>rrarle</expan>. Otro semejante a este vuo en las partes de tlaxcalla: que se
+                  llamaua, camaxtle.</p>
+            </div2>
+            <div2 type="para" n="1" xml:lang="na">
+               <p>Inic ce amuxtli, vncan moteneoa, in teteuh: in qujnmoteutiaia in nican tlaca.</p>
+            </div2>
+            <div2 type="para" n="2" xml:lang="na">
+               <p>Jnic ce capitulo, yntechpa tlatoa, yn oc cenca tlapanauja teteuh: yn qujnmoteutiaia, yoan yn qujntlamanjliaia, yn ievecauh. </p>
+            </div2>
+            <div2 type="para" n="3" xml:lang="na">
+               <p>Vitzilubuchtli: çan maceoalli, gan tlacatl catea: naoalli, tetzaujtl, atlacacemelle, teixcuepanj: qujiocoianj in iaoiutl, iaotecanj, iaotlatoanj: ca itechpa mjtoaia, tepan qujtlaça
+                  yn xiuhcoatl, in mamalhoaztli. q. n. iaoiutl, teuatl, tlachinolli. Auh yn jquac ilhujqujxtiloia, malmjcoaia, tlaaltilmjcoaia: tealtiaia, yn pochteca. Auh ynjc muchichioaia;
+                  xiuhtotonacoche catca, xiuhcoanaoale, xiuhtlalpile, matacaxe, tzitzile, oiuoalle. </p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>

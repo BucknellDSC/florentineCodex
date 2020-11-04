@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/out/tei_FlorentineCodex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?><TEI xmlns="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/out/tei_FlorentineCodex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -960,9 +961,9 @@
                      <lb/>ta capitan, del arriba dicho: porque 
                      <lb/>el arriba dicho, como mayor capitan 
                      <lb/>dictaua, quando se auja de hazer <expan>guer<ex>ra</ex></expan>
-                  </p>               
+                               
                <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/38.jpg" n="01v"/>
-                  <p xml:id="l01c02p02" xml:lang="es" n="02">
+                  
                      ra, a algunas prouyncias. Este como su 
                      <lb/>vicario, seruja de quando <expan>repentinamē<ex>n</ex>
                         <lb/>te</expan>, se ofresia de salir al encuentro, a 
@@ -2611,23 +2612,656 @@
                </p>
             </div>
             <!-- Capitulo 17 - es & na -->
-            <div/>
-            <div/>
+            <div></div>
+            <div></div>
             <!-- Capitulo 18 - es & na -->
-            <div/>
-            <div/>
+            <div></div>
+            <div></div>
             <!-- Capitulo 19 - es & na -->
             <div/>
             <div/>
             <!-- Capitulo 20 - es & na -->
-            <div/>
-            <div/>
-            <!-- Capitulo 21 - es & na -->
-            <div/>
-            <div/>
+            <div type="capitulo" corresp="#l01c20" xml:lang="es" n="20">
+               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+               <head>
+                  Capitulo veynte, que habla 
+                  <lb/>del dios llamado, napatecutli.</head>
+               <p xml:id="l01c20p01" xml:lang="es">
+                  <lb/>Este dios, napatecutli, era el dios, de 
+                  <lb/>los que hazen esteras de juncias: y es v
+                  <lb/>no de los que llaman, tlaloques. Dizen 
+                  <lb/>que este es, el que inuento, el arte de ha
+                  <lb/>zer esteras: y por esso le adoran, pordios, 
+                  <lb/>los deste officio, que hazen esteras, que 
+                  <lb/>llaman petates: y hazen sentaderos, que 
+                  <lb/>llaman icpales: y hazen cañizos de jun
+                  <lb/>cias: que llaman tolcuextli. Dezian <expan>q̄<ex>ue</ex></expan> 
+                  <lb/>por la virtud, deste dios, nacian, y secri
+                  <lb/>auan, las juncias, y juncos, y cañas: 
+                  <lb/>conque ellos hazen su officio. Y <expan>porq̄<ex>ue</ex></expan> 
+                  <lb/>tenjan, que este dios, produzia tambi
+                  <lb/>en la lluujas: hazianle fiesta, donde 
+                  <lb/>le reuerenciauan, y adorauan: y le 
+                  <lb/>demandauan, que diesse las cosas, que 
+                  <lb/>suele dar: que es agua, juncias. . En 
+                  <lb/>su fiesta, comprauan un esclauo, para 
+                  <lb/>sacrificarle, delante del: ataujandole, 
+                  <lb/>con los ornamentos deste dios: como que 
+                  <lb/>fuesse su ymagen. Este, el dia que auja 
+                  <lb/>de morir, despues de compuesto, como es
+                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg" />
+                  <lb/>ta dicho: ponjanle enla mano, vn vaso ver
+                  <lb/>de, lleno de agua: y con vn ramo de salze, 
+                  <lb/>rociaua atodos, con aquella agua: como, 
+                  <lb/>qujen hecha agua bendita. Y quando 
+                  <lb/>entre año, alguno destos, deste officio: que
+                  <lb/>ria, por su deuocion, hazer fiesta aeste 
+                  <lb/>dios, daua relacion dello, asus satrapas: 
+                  <lb/>y todos ellos, lleuauan a vn satrapa, vesti
+                  <lb/>do con los ornamentos, deste dios: como 
+                  <lb/>su ymagen. Y por donde yua, yua he
+                  <lb/>chando el agua: rociando, alos que esta
+                  <lb/>uan, por donde passavan: con vn ramo 
+                  <lb/>de salze, como qujen hecha agua ben
+                  <lb/>dita. Llegado, ponjanle, ensu lugar, 
+                  <lb/>y hazian algunas cerjmonjas, ensu pre
+                  <lb/>sencia: rogandole, que hiziesse merce
+                  <lb/>des, en aquella casa. El que hazia 
+                  <lb/>esta fiesta, daua de comer, y de beuer 
+                  <lb/>al dios, y alos que conel yuan: y atodos 
+                  <lb/>los que auja combidado. Esto hazia en 
+                  <lb/>agradecimjento, de la prosperidad, yri
+                  <lb/>queza, que ta tenja: tenjendo enten
+                  <lb/>dido, que este dios, sela auja dado. Y 
+                  <lb/>aeste proposito, hazia este combite: y enel, 
+                  <lb/>se hazian danças, y cantares, asu modo: 
+                  <lb/>a honrra, deste dios: porque le tuujesse, 
+                  <lb/>por agradecido: y gastaua todo, quan
+                  <lb/>to tenja, y dezia. No se me da nada, de 
+                  <lb/>no quedar con nada, contalque, que 
+                  <lb/>sea mj dios serujdo, desta giesta. Ysi 
+                  <lb/>me quesiere dar mas, o dexarme sin 
+                  <lb/>nada: hagase, com el qujsiere. dicho 
+                  <lb/>esto, cubrja con vna manta blanca, 
+                  <lb/>al que yua, por ymagen, dete dios: 
+                  <lb/>y assi se yua, para su templo, conlos 
+                  <lb/>que aujan venjdo conel. Ydo el, co
+                  <lb/>mjan: el que hazia, combite, y los pa
+                  <lb/>rientes. Estos officiales, de hazer 
+                  <lb/>petates, y otras cosas de juncia: te
+                  <lb/>nian, cujdado, de ataujar, y compo
+                  <lb/>ner, y barrer, y limpiar, y sembrar 
+                  <lb/>juncia: enel templo, deste dios. Tenj
+                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg" />
+                  <lb/>an, assi mjsmo cujdado, de poner petates: 
+                  <lb/>y assentadores de juncia: que llaman 
+                  <lb/>icpales: y que vujesse alli, toda limpi
+                  <lb/>eza, y todo ataujo: demanera, que nj 
+                  <lb/>vna paja, nj otra cosa, estuujesse cayda, 
+                  <lb/>enel templo. La ymagen, deste dios, es 
+                  <lb/>como vn hombre, que esta teñjdo de 
+                  <lb/>negro todo: assi el cuerpo, como laca
+                  <lb/>ra: saluo que la cara, tiene vnas pe
+                  <lb/>cas blancas, entre lo negro. Tiene vna 
+                  <lb/>corona, de papel, pintada de blanco, 
+                  <lb/>y negro: tiene vnas borlas, que cuel
+                  <lb/>gan, de la corona, sobre las espaldas: 
+                  <lb/>y de las mjsmas borlas, sale vn pena
+                  <lb/>cho, azia el colodrillo: que tiene, tres 
+                  <lb/>plumas verdes. Tiene, ceçnjdo, vnas 
+                  <lb/>faldetas; que le llegan, hasta la ro
+                  <lb/>dilla: con vnos caracolitos mariscos: 
+                  <lb/>y pintado de blanco, y negro. tiene 
+                  <lb/>las cotaras, blancas: y en la mano 
+                  <lb/>izqujerda, tiene vna rodela: ama
+                  <lb/>nera de njnfa, que es vna yerua, de 
+                  <lb/>agua ancha, como vn plato gran
+                  <lb/>de: y enla mano derecha, tiene, 
+                  <lb/>vn baculo florido: las flores, son 
+                  <lb/>de papel. Tiene, vna vanda; ama
+                  <lb/>nera, de estola, desde el hombro de
+                  <lb/>recho: cruzada, por el sobaco izqujer
+                  <lb/>do: pintado, de vnas flores negras, 
+                  <lb/>sobre blanco.
+               </p>
+               <figure/>
+            </div>
+            <div type="capitulo" corresp="#l01c20" xml:lang="na" n="20">
+               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+               <head>Jnic cempoalli capitulo, ytech
+                  <lb/>pa tlatoa yn teutl yn jtoca catca 
+                  <lb/>Napa tecutli.</head>
+               <p corresp="#l01c20p01" xml:lang="na">
+                  <lb/>Juh mjtoa, ca no intech pouj yn tla
+                  <lb/>loque: iehoan ymjxcoian, incat
+                  <lb/>jan, in calpolloc, qujmoteutiaia 
+                  <lb/>in petlachiuhque: yoan tolcuechi
+                  <lb/>uhque, in tlacuechjuhque, ytech
+                  <lb/>mopoaia: iuh qujtoaia, ca iehoatl 
+                  <lb/>achto qujnmachti, qujmittiti, 
+                  <lb/>in petlachioaliztli, yn icpalchioa
+                  <lb/>liztli: iehoatl axcaoa cococaoaia, 
+                  <lb/>tlatqujoa, tlanextile, tlatzintile,
+                  <lb/>tlapeoaltile. Joan iuh qujtoaia 
+                  <lb/>ca iehoatl qujxoaltia, qujqujx
+                  <lb/>tia, in toli, in tolpitzaoac, in tol
+                  <lb/>patlactli, in tolmjmjlli, aztapili, 
+                  <lb/>in tolqujiutl, in tolcaputl, yn
+                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg" />
+                  <lb/>jtztoli, xomali: yoan yn jquac 
+                  <lb/>ilhujuhqujçaia, iuh mjtoa, te
+                  <lb/>papaca, tealtia, tepan qujtze
+                  <lb/>tzeloa, tepan qujpixoa, yn aoa
+                  <lb/>chtli, cenca tlaihtlanjliloia. 
+                  <lb/>Auh no ce tlacatl, ipan qujxe
+                  <lb/>oaia, tlacotli, in qujmictiaia 
+                  <lb/>cexiuhtica: qujchichioaia, y
+                  <lb/>mac mantinenca, xoxoujc, 
+                  <lb/>xoxouhquj xicalli: vnean ie
+                  <lb/>tinemj atl, vexotica ic teatzel
+                  <lb/>hvia. Auh yn jquac amo il
+                  <lb/>hujuh, yn çan nenmajan: oc 
+                  <lb/>no ce qujxiptlaiotiaia, qujchi
+                  <lb/>chioaia: yn jquac tla aca, pe
+                  <lb/>tlachiuhquj qujnequj ychan 
+                  <lb/>qujtotiz, qujnepieltiz: vmpa 
+                  <lb/>qujvicaia, in calpuleque, tea
+                  <lb/>tzelhujtiuh, teaoachvitiuh, iuh
+                  <lb/>qujn ic qujtlanjliaia, ynjc 
+                  <lb/>qujmicneliz. Yoan iuhqujn 
+                  <lb/>yvic mocujtlaxculixtlaoaia: 
+                  <lb/>yn açaca ie vnca itlatquj, y
+                  <lb/>axca: qujtoaia, macamo njc
+                  <lb/>nenqua, macamo njcnenpo
+                  <lb/>lo, macamo njcnixcauj, yn 
+                  <lb/>nocneliloca: ma onqualo, ma 
+                  <lb/>onjoa, ma onpopoliuj, maic on
+                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg" />
+                  <lb/>mjtoti in toteouh napa tecu
+                  <lb/>tli: ma çaquen njnonemjtiz, 
+                  <lb/>yn aciuhquj njcochiz, aciuh
+                  <lb/>quj njneoaz, iehe qujmati, yn 
+                  <lb/>açoc itla, nechmomaqujliz, quj
+                  <lb/>momacaviliz: ic quixquentiaia 
+                  <lb/>ce quachtli, yn ixiptla muchioaia, 
+                  <lb/>ic oalquiça yn ichan: auh 
+                  <lb/>ic muchi tlacatl, tlatlaquaia y
+                  <lb/>n joaniolque. Auh yn jcalpulco 
+                  <lb/>in vmpa pialoia yxiptla, cen
+                  <lb/>ca tlamauiztiliaia, tlāceliaia, 
+                  <lb/>in petlachiuhque, muchipa pe
+                  <lb/>tlateteca, icpalteteca, tlatzetze
+                  <lb/>loa, tlachpana, tlacuicuj, tle
+                  <lb/>tlalia, muchipa copaltema, tla
+                  <lb/>tetzcaliuhtoc tlatetzcaliuhti
+                  <lb/>manj, atle vetztoc çe tlaçolli. 
+                  <lb/>Auh yujn yn muchichioaia, 
+                  <lb/>motliloçac, mjxtlilpopotz, mix
+                  <lb/>tlilhuj, mjchchiaujticac, ama
+                  <lb/>cale, yiamacuexpal, amamax
+                  <lb/>tle, tzitzile, iztaccaque, atlacue
+                  <lb/>çonanchimale, aztapiltopile.
+               </p>
+            </div>
+               
+            <!-- Capitulo 21 - es & na -->            
+            <div type="capitulo" corresp="#l01c21" xml:lang="es" n="21">
+               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg" />
+               <head>Capitulo veynte y vno, que ha
+                  <lb/>bla, de muchos dioses, ymagi
+                  <lb/>narios: alos quales todos: lla
+                  <lb/>mavan, tlaloques.</head>
+               <p xml:id="l01c21p01" xml:lang="es" n="01">
+                  <lb/>A todos los montes emjnentes, especi
+                  <lb/>almente, donde se arman ñublados, 
+                  <lb/>para lluuer; ymaginavan, que eran 
+                  <lb/>dioses: y acada vno dellos, hazian su 
+                  <lb/>ymagen: segun la ymaginacion, que 
+                  <lb/>tenjan dellos. Tenjan tambien yma
+                  <lb/>ginacion, que ciertas emfermedades: 
+                  <lb/>los quales parecen, que son enferme
+                  <lb/>dades de frio: procedian de los mon
+                  <lb/>tes, o que aquellos montes, tenjan 
+                  <lb/>poder, para sanallas. Y aquellos, aquj
+                  <lb/>en estas emfermedades, acontecian: 
+                  <lb/>hazian voto, de hazer fiesta, y ofren
+                  <lb/>da, atal, o tal monte: de qujen esta
+                  <lb/>ua mas cerca, o conqujen tenja, mas 
+                  <lb/>deuoçion. Tambien, hazian semejan
+                  <lb/>te voto, aquellos que se vian en <expan>algū<ex>n</ex></expan> 
+                  <lb/>peligro, de ahogarse, enel agua; de 
+                  <lb/>los rios, o de la mar. Las emfermeda
+                  <lb/>des, porque hazian estos votos era la gota 
+                  <lb/>de las manos, o de los pies, ode qualqujera 
+                  <lb/>parte del cuerpo. Y tambien, el tullimj
+                  <lb/>ento de algun miembro, o de todo el
+                  <lb/>cuerpo: y tambien, el embaramjen
+                  <lb/>to, del pescuezo, o de otra parte de cuer
+                  <lb/>po: o encogimjento, de algun mjembro, o 
+                  <lb/>el pararse yerto: aquellos aqujen estas 
+                  <lb/>emfermedades, aconte cian: hazian vo
+                  <lb/>to, de hazer las ymagines, destos dioses, 
+                  <lb/>que se siguen: del dios del ayre, la dio
+                  <lb/>sa del agua, y el dios de la lluuja. 
+                  <lb/>Tambien la ymagen, del vulcan, que se
+                  <lb/>llama popucatepetl, y la ymagen, de la si
+                  <lb/>erra neuada, y la ymagen de vn monte, 
+                  <lb/>que se llama, poiauhtecatl: o de otros qua
+                  <lb/>lesqujer montes, aqujen se inclinauan, 
+                  <lb/>por su deuocion. El que auja hecho voto 
+                  <lb/>a alguno, a algunos montes, o destos dioses: 
+                  <lb/>hazia su figura, de vna massa, que se 
+                  <lb/>llama tzoalli: y ponjalos, en figura de
+                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg" />   
+                  <lb/>personas: no lo hazia el, por sus manos, por
+                  <lb/>que no le era licito: sino rogaua, a los sa
+                  <lb/>trapas: que eran enesto, experimenta
+                  <lb/>dos, y para esto señalados: que le hizie
+                  <lb/>ssen, estas ymagines, aqujen auja he
+                  <lb/>cho voto. los que las hazian, ponjales, 
+                  <lb/>dientes de pepitas, de calabaça, yponjan
+                  <lb/>les, en lugar de ojos, vnos frisoles ne
+                  <lb/>gros: que son tan grandes, con avas: 
+                  <lb/>aunque no de la misma hechura: y lla
+                  <lb/>manlos, aiecutli. En los demas atauj
+                  <lb/>os, ponjanselos, segun la ymagen, <expan>cō<ex>n</ex></expan>que 
+                  <lb/>los ymaginan, y pintan: al dios del vi
+                  <lb/>ento, como aquetzalcoatl: al agua, como 
+                  <lb/>la diosa, del agua: ala lluuja, com al 
+                  <lb/>dios, de la lluuja: y alos otros montes, 
+                  <lb/>segun las ymagenes, conque los pintan. 
+                  <lb/>Despues de hechas, estas ymagines, ofre
+                  <lb/>zianles papel, de lo que ellos hazian: 
+                  <lb/>y era, que vn pliego de papel, le <expan>hechavā<ex>n</ex></expan> 
+                  <lb/>muchas gotas, de la goma, que se llama 
+                  <lb/>vlli, derretido. hecho esto, colgauan 
+                  <lb/>al cuello, de la ymagen, el papel: de 
+                  <lb/>manera, que le cubria, desde los pe
+                  <lb/>chos abaxo: y con el remate, de abaxo,
+                  <lb/>harpavan el papel. Tambien, ponjan 
+                  <lb/>estos mjsmos papeles, goteados con vlli: 
+                  <lb/>y colgados de vnos cordeles, delante de 
+                  <lb/>las mjsmas ymagines: de manera que 
+                  <lb/>los papeles, estauan asidos, los vnos 
+                  <lb/>de los otros: y meneaualos el ayre, por 
+                  <lb/>que estauan, los cordeles, en que <expan>estauā<ex>n</ex></expan> 
+                  <lb/>los papeles colgados: atados a las puntas 
+                  <lb/>de vnos barales, o baculos: que <expan>estabā<ex>n</ex></expan> 
+                  <lb/>hincados, enel suelo: y dela vna punta 
+                  <lb/>del vno, ala punta del otro, estaua ata
+                  <lb/>do, el cordel, omecatl. Ofrezian, ansi
+                  <lb/>mjsmo, aestas ymagines, vino, o vctli, 
+                  <lb/>o pulcre: que es, el vino de la tierra: Ylos 
+                  <lb/>vasos, enque lo ofrezian, eran desta ma
+                  <lb/>nera: ay vnas calabaças lisas, redondas, 
+                  <lb/>pecosas entre verde, y blanco, o mancha
+                  <lb/>das: que las llaman, tzilacaiutli, que son
+                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg" />
+                  <lb/>tan grandes, como vn gran melon: acada 
+                  <lb/>vna destas, partianla por la mjtad, y sa
+                  <lb/>cauanle, lo que tenja dentro: y quedaua 
+                  <lb/>hecha, como vna taça: y henchianla del 
+                  <lb/>vino dicho, y ponjanlas, delantes, de aque
+                  <lb/>lla ymagen, o ymagines. Y dezian, que 
+                  <lb/>aquellos, eran vasos, de piedras preciosas: 
+                  <lb/>que llaman chalchiujtl. Todas estas co
+                  <lb/>sas dichas, hazian los satrapas: que e
+                  <lb/>ran experimentados, o estauan, señala
+                  <lb/>dos, para estos sacrificios: la otra gen
+                  <lb/>te, no vsauan hazer, esto: aunque fue
+                  <lb/>sse, para en sua casa. Despues de hechas,
+                  <lb/>las ymagines, aquellos, por cuyo voto, 
+                  <lb/>se hazian: conbidauan, a los satrapas, 
+                  <lb/>para el qujnto dia: despues de he
+                  <lb/>chas, las ymagines, se auja de hazer 
+                  <lb/>la fiesta. Y llegado, el qujnto dia, 
+                  <lb/>aquella noche, velando, cantando, 
+                  <lb/>y baylando: a honrra de aquellas y
+                  <lb/>magines, y de los dioses, que repre
+                  <lb/>sentauan. Y aquella noche, <expan>ofreziā<ex>n</ex></expan>
+                  <lb/>quatro vezes, tamales: que son como 
+                  <lb/>vnos pastelejos redondos, hechos de 
+                  <lb/>mahiz: alos que cantauan, y bayla
+                  <lb/>uan, que eran los trapas, que <expan>aujā<ex>n</ex></expan> 
+                  <lb/>hecho, estas ymagines: y otros combi
+                  <lb/>dados para esta fiesta: atodos da
+                  <lb/>uan comjda, quatro vezes, en aque
+                  <lb/>lla noche: y todas quatro vezes, to
+                  <lb/>cauan instrumentos musicales, los 
+                  <lb/>que ellos usauan: que eran siluos, 
+                  <lb/>que hazen, metiendo el dedo muñj
+                  <lb/>que, en la boca: y tocando caracoles, y 
+                  <lb/>flautas, de las que ellos vsauan. Esto 
+                  <lb/>hazian, vnos moços, juglares: que
+                  <lb/>usauan, de hazer esta musica: y tam
+                  <lb/>bien aestos, les dauan comjda. Esto 
+                  <lb/>se hazia, quatro vezes, enesta noche: en a
+                  <lb/>maneciendo los satrapas, <!-- This line looks wrong -->
+                  <lb/>descabeçauanlos, torciendoles las cabe
+                  <lb/>ças: y tomauan, todas aquella massa, ylle
+                  <lb/>uauanla, ala casa, donde estauan todos 
+                  <lb/>juntos, los satrapas, que se llamaua calme
+                  <lb/>cac: y aquellos, por cuyo voto, se aujan he
+                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg" />
+                  <lb/>cho, aquellas ymagines, entrauanse lue
+                  <lb/>go donde estauan sus combidados, esta
+                  <lb/>uan conellos, todo aquel dia: y ala tar
+                  <lb/>de de par de noche, beujan todos los bie
+                  <lb/>jos, y viejas, vino, que se llama puclre 
+                  <lb/>o vetli: porque estos tenjan licencia, de 
+                  <lb/>beuer este vino. Y despues que ya esta
+                  <lb/>uan, medio borrachos, odel todo, se <expan>yuā<ex>n</ex></expan>
+                  <lb/>para sus casas: vnos dellos, yuan <expan>llorā<ex>n</ex>
+                     <lb/>do</expan>, otros yuan haziendo fieros, como 
+                  <lb/>valientes, y baylando, y pompeandose: otros
+                  <lb/>yuan reñjendo, vnos con otros. los 
+                  <lb/>que hazian esta fiesta, conbidavan, y a
+                  <lb/>percebian para ella, alos taberneros, <expan>q̄<ex>ue</ex></expan> 
+                  <lb/>hazian el pulcre: y exortauanlos, para 
+                  <lb/>que hiziessen, buen vino: y los taber
+                  <lb/>neros, procurauan de hazer bien su 
+                  <lb/>vino. Y para esto se abstenjan, qua
+                  <lb/>tro dias, de llegar a muger ninguna: por 
+                  <lb/>que tenjan, que si llegassen a muger, 
+                  <lb/>en aquellos dias: el vino que hiziessen, 
+                  <lb/>se auja de azedar, y estragar. Abste
+                  <lb/>njanse ansimismo, aquellos dias, de 
+                  <lb/>beuer el pulcre: nj la mjel de que se ha
+                  <lb/>ze, nj aun mojando, el dedo enella, lo 
+                  <lb/>llegaua ala boca, hasta entanto, que el 
+                  <lb/>quarto dia, se encetase, con la cerimo
+                  <lb/>nja, que arriba se dixo. Tenjan por 
+                  <lb/>aguero, que si alguno, beuja el vino, 
+                  <lb/>aunque fuesse muy poco, antes que se 
+                  <lb/>hiziesse, la cerimonja, del abrimien
+                  <lb/>to, de las tinajas, como arriba se dixo: 
+                  <lb/>que le auja de torçer la boca, azia vn 
+                  <lb/>lado, en pena de su pecado. Dezian 
+                  <lb/>tambien, que si alguno, se le secaua 
+                  <lb/>la mano, o el pie: o temblaua, o se le 
+                  <lb/>acucharraua, la mano, o el pie, o le 
+                  <lb/>temblaua la cara, o le temblaua la
+                  <lb/>boca, o los labios: o si entraua enel, al
+                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg" />
+                  <lb/>gun demonjo: todos esto dezian, que acon
+                  <lb/>tecia, porque estos dioses, de que aquj, 
+                  <lb/>se trata, se aujan enojado contra el. 
+                  <lb/>Despues de acabada la fiesta, otro dia
+                  <lb/>luego de mañana, el que auja hecho, 
+                  <lb/>la fiesta: juntauan asus parientes, 
+                  <lb/>y asus amigos, y alos de su barrio, <expan>cō<ex>n</ex></expan> 
+                  <lb/>todos los de su casa: y acabauan de
+                  <lb/>comer, y beuer, todo lo que auja so
+                  <lb/>brado, de la fiesta. A estos llamavan, 
+                  <lb/>apeoalo, que qujere dezir: añadidura, 
+                  <lb/>alo que estaua comjdo, y beujdo: nin
+                  <lb/>guna cosa quedaua de comer, nj de be
+                  <lb/>uer, para otro dia. Dezian que los 
+                  <lb/>gotosos, haziendo esta fiesta, <expan>sanauā<ex>n</ex></expan> 
+                  <lb/>de la gota: ode qualesqujera, de las 
+                  <lb/>emfermedades, que arriva se <expan>dixerō<ex>n</ex></expan>: 
+                  <lb/>y los que aujan escapado, de algun 
+                  <lb/>peligro de agua: con hazer esta fies
+                  <lb/>ta, cumplian con su voto. Acabada 
+                  <lb/>toda la fiesta: los papeles, y adere
+                  <lb/>ços, conque aujan adornado, estas y
+                  <lb/>magines: y todas las vasijas, que 
+                  <lb/>aujan sido menester, para el combite: 
+                  <lb/>tomauanlo todo, y lleuauanlo, a vn 
+                  <lb/>sumjdero, que esta en la laguna de 
+                  <lb/>mexico: que se llama pantitlan, y 
+                  <lb/>alli lo arronjauan todo.
+                  <figure/>                
+               </p>
+            </div>            
+            <div type="capitulo" corresp="#l01c21" xml:lang="na" n="21">
+               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg" />
+               <head>Jnic cempoalli vce capitulo 
+                  <lb/>ytechpa tlatoa yn itoca tepicto
+                  <lb/>ton: yn jnoan pouja tlaloque.</head>
+               <p corresp="#l01c21p01" xml:lang="na">
+                  <lb/>No ynoan pouj, intech tlamjloia 
+                  <lb/>yn tlaloque: ynjc mjtoaia te
+                  <lb/>picto, çan qujmonpiqujia, quj
+                  <lb/>mixiptlaiotiaia, in tetepe, in ça
+                  <lb/>ço catle tepetl. Auh yn aqujn 
+                  <lb/>coaciujia, oaoapaoaia, quaqua
+                  <lb/>uhtia, cocototzauja: anoço yn a
+                  <lb/>qujn atlan miquiznequj, ehecatl 
+                  <lb/>ipan moquetza atla: vncan mo
+                  <lb/>netoltiaia ynjc tepiquiz, in 
+                  <lb/>qujnpiquiz: quetzalcoatl, inchal
+                  <lb/>chivitl ycue, in tlaloc: popucate
+                  <lb/>petl, iztac tepetl, poiauhtecatl: 
+                  <lb/>yoan in çaço quezqujtetl tepetl 
+                  <lb/>in qujnteneoaz in qujpiquiz. 
+                  <lb/>Auh in qujnpiquja, in qujmi
+                  <lb/>xiptlatiaia in tetepe, çan tzoa
+                  <lb/>lli, qujntlacatlaliaia, qujntla
+                  <lb/>catlachieltiaia, tlacatlachixti
+                  <lb/>catca: qujntlantiaia aiooachtli, 
+                  <lb/>auh in qujmjxtelolotiaia aiecu
+                  <lb/>tli: in quenamj yntlatquj in
+                  <lb/>qujmixiptlatiaia, in qujnpiqujia
+                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg" />  
+                  <lb/>çan no iuhquj ynjc qujnchichi
+                  <lb/>oaia. Auh yoan qujchioaia, 
+                  <lb/>amateteujtl, colchachapatzaia, 
+                  <lb/>colchipiniaia, qujnquequenti
+                  <lb/>aia: auh in cequj amatete
+                  <lb/>vitl, tlaolchipinjlli, tlaolchacha
+                  <lb/>patzalli, mecatitech qujpipiloa
+                  <lb/>ia, mecatitech qujnenetech
+                  <lb/>ilpiaia, qujnenetechçaloaia, 
+                  <lb/>ymjxpan antoc, ic itzacuto
+                  <lb/>que in tepicme: hiçanacatoc 
+                  <lb/>papapatlacatoc, papatlantoc, 
+                  <lb/>oztopilquaujtl, necoc, nenecoc, 
+                  <lb/>necoccampa tlatlalacticac, te
+                  <lb/>tzotzonticac, yn itech antoc te
+                  <lb/>teujtl. Auh tzilacaiutli, tlaix
+                  <lb/>tlapantli, tlaittitatactli: ymix
+                  <lb/>pan mamanca, chalchiuhxi
+                  <lb/>calli ipam poujia, vctli vnca 
+                  <lb/>ca, vctli ic mamanca. Auh 
+                  <lb/>çan iehoan in tlamacazque, y
+                  <lb/>n jntequiuh, in machiceque cat
+                  <lb/>ca, yn qujnchichioaia, in qujn
+                  <lb/>tlaliaia: aiac çan moiocuiaia, 
+                  <lb/>in calla in qujnchichioaia. Auh
+                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg" />
+                  <lb/>macujltica in qujntlalhujaia, 
+                  <lb/>mjtoa: qujnmolcaoaltiaia in 
+                  <lb/>tlamacazque: yn oiecauhque 
+                  <lb/>tepicme, njman ie ic qujntoça
+                  <lb/>viia, qujncujcatia: in ceiooal 
+                  <lb/>napa in qujntlamanjlia, ta
+                  <lb/>malololli in qujnmacaia, quj
+                  <lb/>manaia ymjxpā, in tlama
+                  <lb/>cazque, in tepiccujca: no napa 
+                  <lb/>in qujntlamacaia ceiooal, yoan 
+                  <lb/>qujntlapichiliaia, quj
+                  <lb/>nmaquiqujxiliaia, tecuciztli in qujn
+                  <lb/>pichiliaia, yoan vilacapitztli, 
+                  <lb/>cocoujlotl, vilacapitzoaia, çan 
+                  <lb/>telpopochti, papaqujnj, haa
+                  <lb/>vienj, mihivintianj, tececemel
+                  <lb/>tianj, ceceleque, no tlamacoia. 
+                  <lb/>Auh yn otlatvic njman qujnmictia
+                  <lb/>yn tepicme, qujnquechcotona, qujn
+                  <lb/>quechcuj, qujnquechilacatzoa, ça
+                  <lb/>tepan qujncemololoa, concēcuj, in 
+                  <lb/>tepictzoalli, qujtquj yn calmecac 
+                  <lb/>yn vmpa onoque, tlamacazque. 
+                  <lb/>Auh in tepiqujnj, njman ie yc 
+                  <lb/>calaqujh yn itlacoanotzalhoan, yn j
+                  <lb/>cooaoan, vnean mopia, mopixto
+                  <lb/>que: auh in ie iooatiuh, in ie tevtlac
+                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg" />
+                  <lb/>niman ie ic tlaoana, motlaoanca
+                  <lb/>tlalia in veuetlaca, yn ie chicaoa
+                  <lb/>que, yn otlachicalhujque, in 
+                  <lb/>ie quaiztaque, in ie tzoniztaque, 
+                  <lb/>yoan ilamatlaca yn jlamat
+                  <lb/>que: iehoan vel innemac cat
+                  <lb/>ca, in vctli in quizque. Auh in 
+                  <lb/>otlaivintic, niman ie ic viuj
+                  <lb/>loa, cecenmanoia, xixitinjoa: 
+                  <lb/>yn aca mochoqujlitiuh, yn aca 
+                  <lb/>moqujchitotiuh, mjtotitiuh, mo
+                  <lb/>mamantiuh: yn aca tetzatzi
+                  <lb/>litiuh. Auh in vctlali, achto 
+                  <lb/>molcaoaltiloia: çan no onnen
+                  <lb/>ca yn itequjuh, yn jchiujl: tla
+                  <lb/>caqujtiloia, navilhujtl moçaoa
+                  <lb/>ia, qujneçaujliaia yn itequjuh, 
+                  <lb/>ynic amo xocoiaz: vel mopiaia, 
+                  <lb/>vel motlacaoaltiaia, amo cioaco
+                  <lb/>chia, amo oqujchcochia, intla 
+                  <lb/>cioatl: çan niman aiac vel 
+                  <lb/>ontlapaloaia yn vctli, yoan 
+                  <lb/>in necutli, ynic muchioaia: aiac 
+                  <lb/>inmanel imapil, conaqujaia, vel 
+                  <lb/>ymacaxoa, vel malhujloia, yn 
+                  <lb/>ixqujchica, moiacaxapotlaz 
+                  <lb/>yn vctli. Auh yn aqujn,
+                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg" />
+                  <lb/>ichtaca tlapaloaia, yn tlachtaca 
+                  <lb/>yia inmanel çan tepiton ocon
+                  <lb/>palo: iuh mjtoaia tennecujlivia 
+                  <lb/>tepantiliviia, avic momamana 
+                  <lb/>avic xoqujvi yn ite: yoan in aca
+                  <lb/>matzicoliujia, yma qujcue
+                  <lb/>cuetza, icxi quicuecuetza, ma
+                  <lb/>copichauj, icxicopichauj, icxi
+                  <lb/>cuecuechca, yhixatotoco, ten
+                  <lb/>papatlaca, tenviviioca, itech 
+                  <lb/>qujneoa: mjtoa, oqujtlavelique 
+                  <lb/>in xoxouhque tepicme. Auh 
+                  <lb/>yn otlathujc, njman ie ic apeoa
+                  <lb/>lo: yn apeoa çan iehoan, yn i
+                  <lb/>oaniolque, in vel icalloc, in cen
+                  <lb/>tlaca, cemeoa, in vel icujtlax
+                  <lb/>colloc, yn vel imecaioc: motene
+                  <lb/>oa apeoalo, iquac cempoliuja 
+                  <lb/>tlatlamj, in quexqujch mocaoa
+                  <lb/>ia, in atl, in tlaqualli: yoan in oc 
+                  <lb/>quexqujch omocauh xaiocomjc in 
+                  <lb/>vctli, in aiuctli, in tlachioalvctli, in
+                  <lb/>iztac vctli, in cochvctli. Auh yn te
+                  <lb/>piqujnj, in tepicquj: intla coaci
+                  <lb/>vi, yn juh omjto tlacpac, ic patiz: 
+                  <lb/>yoan yn aqujn atlan miquizquja
+                  <pb type="folio" n="23r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/81.jpg" />
+                  <lb/>ynjc amo mjc: iehoatl, ynjc te
+                  <lb/>piquj, ynjc moxtlaoa, ynjc quj
+                  <lb/>neltilia ynnetol. Auh yn jx
+                  <lb/>qujch. yn jnnechichioal, yn jn
+                  <lb/>tlaquen, yn jmamaneapan, 
+                  <lb/>yn jmoztopil, yn jntlapetla
+                  <lb/>njlquauh, yn jmaiauhcocul: 
+                  <lb/>yoan yn jnchalchiuhxical, yoā 
+                  <lb/>yn jntlaquaia molcaxtotonti, 
+                  <lb/>quauheaxtotonti, çoqujtecon
+                  <lb/>totonti, muchi vmpa concaoa
+                  <lb/>ia tepetzinco: atlan contepe
+                  <lb/>oaia, vmpa anepantla, ytoca
+                  <lb/>iocan pantitlan.
+                  <figure/>
+               </p>
+            </div>
+ 
             <!-- Capitulo 22 - es & na -->
-            <div/>
-            <div/>
+            <figure/>
+            <div type="capitulo" corresp="#l01c22" xml:lang="es" n="22">
+               <head>Capitulo veynte ydos, que 
+                  <lb/>habla del dios, llamado <expan>tezcatzō<ex>n</ex>
+                     <lb/>catl</expan>: que es vno de los dioses, del 
+                  <lb/>vino.</head>
+               <figure/>
+               <p xml:id="l01c22p01" xml:lang="es" n="01">
+                  <lb/>El vino, o pulcre, desta tierra: siempre 
+                  <lb/>los tiempos passados, lo tuujeron por 
+                  <lb/>malo: por razon de los malos effectos, 
+                  <lb/>que del se causan. Porque los borra
+                  <lb/>chos, vnos dellos, se despeñan, otros se a
+                  <lb/>horcan, otros se arronjan enel agua, <expan>dō<ex>n</ex>
+                     <lb/>de</expan> se ahogan: otros matan aotros, estando
+                  <pb type="folio" n="15" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/82.jpg"/>
+                  <lb/>borrachos: y todos estos effectos, los atribu
+                  <lb/>yan, al dios del vino, y al vino: y no al 
+                  <lb/>borracho. Y mas tenjan, que el que de
+                  <lb/>zia mal, deste vino, o murmuraua del,
+                  <lb/>le auja de acontecer algun desastre. 
+                  <lb/>Lo mismo, de qualqujera borracho, que 
+                  <lb/>si alguno, murmuraua del, ole afron
+                  <lb/>taua: aunque dixesse, o hiziesse, mill ve
+                  <lb/>llaquerias: dezian, que auja de ser, 
+                  <lb/>por ello castigado: porque dezian, que 
+                  <lb/>aquello no lo hazia el, sino el dios, o por 
+                  <lb/>mejor dezir: el diablo, que estaua enel: 
+                  <lb/>que era, este tezcatzoncatl, o alguno de 
+                  <lb/>los otros. Este tezcatzoncatl, era pari
+                  <lb/>ente, o hermano, de los otros dioses, del 
+                  <lb/>vino: los quales se llamauan, vno yiauh
+                  <lb/>tecatl, otro acoloa, otro tlilhoa, otro <expan>pā<ex>n</ex>
+                     <lb/>tecatl</expan>, otro izqujtecatl, otro tultecatl, 
+                  <lb/>otro papaztac, otro tlaltecaiooa, otro 
+                  <lb/>vmetuchtli, otro tepuztecatl, otro chi
+                  <lb/>malpanecatl, otro colhoatzincatl. De 
+                  <lb/>lo arriba dicho, se colige claramente, 
+                  <lb/>que no tenjan por pecado, aquello 
+                  <lb/>que hazian estando borrachos: aun 
+                  <lb/>que fuessen grauissimos peccados: y 
+                  <lb/>aun se conjectura, con harto funda
+                  <lb/>mento, que se emborrachauan, por 
+                  <lb/>hazer lo que tenjan, en volun
+                  <lb/>tad: y que no les fuesse inputado 
+                  <lb/>a culpa, y se saliessen con ello, sin 
+                  <lb/>castigo. Y aun agora, enel <expan>xpī<ex>sti</ex>anjs
+                     <lb/>mo</expan>, ay algunos, o muchos, que se es
+                  <lb/>cusan de sus peccados, con dezir: <expan>q̄<ex>ue</ex></expan> 
+                  <lb/>estauan borrachos, quando los hizie
+                  <lb/>ron: y esto con pensar, que el opinjon 
+                  <lb/>erronea, que tenjan de antes: corre 
+                  <lb/>tambien enel <expan>xpī<ex>sti</ex>anjsmo</expan>, enlo qual 
+                  <lb/>estan muy engañados: y es menes
+                  <lb/>ter aujsallos dello, asi enla confe
+                  <lb/>ssion, como fuera della.                 
+               </p>
+            </div>
+            <div type="capitulo" corresp="#l01c22" xml:lang="na" n="22">
+               <head>Jnic cempoalli vmume 
+                  <lb/>capitulo, ytechpa tlatoa 
+                  <lb/>in tezcatzoncatl. yn jnoan 
+                  <lb/>pouj centzontotochti.</head>
+               <p corresp="#l01c22p01" xml:lang="na" n="01">
+                  <lb/>Jehoatl in vctli, ieppa tlatla
+                  <lb/>culli ipan machoia: ca tete
+                  <lb/>pexiuja, tequechmecanja, 
+                  <lb/>teatlauja, temjctia; tetza
+                  <lb/>vittonj, amo pinavilonj, a
+                  <lb/>mo chicoittolonj. Auh ynjn
+                  <pb type="folio" n="15" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/82.jpg"/>
+                  <lb/>tezcatzoncatl, ynoan pouj, yn
+                  <lb/>oan eoa, yn moteneoa, centzō
+                  <lb/>totochti, yn vctli innacaio, 
+                  <lb/>yn iJauhtecatl, Aculhoa, tlil
+                  <lb/>hoa, pantecatl, Jzqujtecatl, 
+                  <lb/>Toltecatl, papaztac, Tlalte
+                  <lb/>caiooa, vme tuchtli, tepuz
+                  <lb/>tecatl, chimalpanecatl, Col
+                  <lb/>hoatzincatl. Auh yn jne
+                  <lb/>chichioal Tezcatzoncatl, azta
+                  <lb/>tzone, iacametze, amanaco
+                  <lb/>che, cveçalvitoncaoa, chaia
+                  <lb/>oac cuzque, colotlalpile, vme
+                  <lb/>tuchchimale, itztopile, tecpa
+                  <lb/>topile, notzitzile.
+               </p>
+               <p xml:lang="es">fin del libro</p>
+            </div>
+            
          </div>
       </body>
    </text>

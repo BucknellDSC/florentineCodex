@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/out/tei_FlorentineCodex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +40,8 @@
       </fileDesc>
 
 
-   </teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></xenoData></teiHeader>
    <text type="book" n="1">
       <front>
          <div type="invocación" xml:lang="es" xml:id="b01f00r">
@@ -66,7 +61,7 @@
                </row>
                <row>
                   <cell>Franciscus</cell>
-                  <cell>faculatur.</cell>
+                  <cell>fomulatur.</cell>
                </row>
             </table>
          </div>
@@ -75,7 +70,7 @@
             <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/13.jpg"/>
             <head>Prologo</head>
             <p>
-               <lb/>El miedico no puede Acertadamente aplicar Las medicinas al enfermo
+               <lb/>El medico no puede Acertadamente aplicar Las medicinas al enfermo
                <lb/>que primero conozca: de que humor, o de que causa procede la enfermedad. De ma
                <lb/>nera que el buen medico conuiene sea docto en el conocimiento de las medecinas
                <lb/>y en el de las enfermedades para aplicar conueniblemente a cada enfermedad
@@ -1005,7 +1000,7 @@
                      <lb/>ca qujmixiptlatiaia, in <expan>vitzilubuch<ex>tli</ex></expan>
                   </p>
                
-               <pb  type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/38.jpg" n="01v"/>
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/38.jpg" n="01v"/>
 
                   <p corresp="#l01c02p02" xml:lang="na" n="02">
                      tli, yn iquac tlaiaoaloaia, motocaio
@@ -1147,7 +1142,7 @@
                   <lb/>dios, que se llama, quetzalcoatl: 
                   <lb/>dios de los vientos.</head>
                   <p xml:id="l01c05p01" xml:lang="es" n="01">
-                     Este quetzalcoatl, aunque fue hom
+                     Este <persName type="deity">quetzalcoatl</persName>, aunque fue hom
                      <lb/>bre, tenjanle por dios; y dezian que ba
                      <lb/>rria el camjno, a los dioses, del agua. Y
                      <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/40.jpg" n="02v"/>
@@ -1155,12 +1150,12 @@
                      <lb/>las aguas, ay grandes vientos u pol
                      <lb/>uos: yesto dezian, que quetzalcoatl, dios 
                      <lb/>de los vientos, barria los camjnos, alos
-                     dioses, de las lluujas: paraque vinjessen, alluuer. 
+                     dioses, <lb/>de las lluujas: paraque vinjessen, alluuer. 
                      <lb/>Los sacrificios, y cerimonjas, <expan>cō<ex>n</ex>que</expan> honrra
                      <lb/>uan aeste dios: estan escritas adelante, 
                      <lb/>enel segundo libro. Los ataujos, <expan>cō<ex>n</ex>que</expan> le ado
                      <lb/>rauan, eran los sigujentes: vna mitra enla 
-                     <lb/>cabeça, con vn penacho de plumas, que se <expan>lla
+                     <lb/>cabeça, con vn <objectName type="clothing">penacho de plumas</objectName>, que se <expan>lla
                         <lb/>mā<ex>n</ex></expan> quetzalli: la mitra, era manchada, como 
                      <lb/>cuero de tigre. La cara tenja teñjdo de ne
                      <lb/>gro, y todo el cuerpo: tenja vestida, vna ca
@@ -1182,7 +1177,7 @@
                      <lb/>labrado, de pedrerja: pero no era largo, como el 
                      <lb/>baculo: parecia por donde se tenja, era como 
                      <lb/>enpuñadora de espada. Era este, el gran sa
-                     <lb/>cerdote, del templo.
+                     <lb/>cerdote, del <placeName type="sacred place">templo</placeName>.
                   </p>               
             </div>
             <div type="capitulo" corresp="#l01c05" xml:lang="na" n="05">
@@ -1255,8 +1250,7 @@
                   <lb/>aia, in qujnteutlapiqujaia yn 
                   <lb/>njcan tlaca.</head>
                <p corresp="#l01c06p01" xml:lang="na" n="01">
-                  Cioacoatl tequanj: yoan tetza
-                  <lb/>ujtl, tetetzaujanj, icnoiutl quj
+                  Cioacoatl tequanj: yoan tetza <lb/>ujtl, tetetzaujanj, icnoiutl quj
                   <lb/>teittitia: ca mjtoaia, victli me
                   <lb/>capalli, qujtemacaia, ic temo
                   <lb/>tlaia. Auh ynjc moteittitia
@@ -1322,7 +1316,7 @@
                <p xml:id="l01c08p01" xml:lang="es" n="01">
                   Esta diosa, era la diosa, de las me
                   <lb/>dicinas, y de las yeruas medicinales: 
-                  <lb/>adorauanla, los medicos, y los <expan>ciuja<ex>nos</ex></expan>
+                  <lb/>adorauanla, los medicos, y los <expan>ciruja<ex>nos</ex></expan>
                   <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/42.jpg" n="03v"/>
                   nos, y los <expan>sā<ex>n</ex>gradores</expan>. Y tambien las parte
                   <lb/>ras, y las que dan yeruas, para abortar. 
@@ -2731,7 +2725,7 @@
             </div>
             <!-- Capitulo 17 - es & na -->
             <div type="capitulo" corresp="#l01c17" xml:lang="es" n="17">
-               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg" />
+               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg"/>
                <head>
                   El capitulo dezisiete, habla del dios 
                   <lb/>llamado opuchtli: el qual era tenjdo 
@@ -2780,7 +2774,7 @@
                   <lb/>verdes, que salian, de vna borla a
                   <lb/>marilla: colgauan desta corona, vnas borlas 
                   <lb/>largas, azia las espaldas. Tenja, vna estola 
-                  <lb/>verde cruzada, amanera de las que se <expan>ponē<ex /></expan> 
+                  <lb/>verde cruzada, amanera de las que se <expan>ponē<ex/></expan> 
                   <lb/>los sacerdotes: quando dizen missa. Tenja, 
                   <lb/>ceñjdo, vnos papeles verdes: que le colgauan 
                   <lb/>hasta las rodillas. Tenja, vnas cotaras, o san
@@ -2789,20 +2783,20 @@
                   <lb/>dio deste campo, vna flor blanca: con quatro 
                   <lb/>hojas, amanera de cruz: y de los espacios de las
                   <lb/>hojas, salian quatro puntas, que eran tam
-                  <pb type="folio" n="16" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg" />
+                  <pb type="folio" n="16" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg"/>
                   <lb/>bien hojas, de la misma flor. Tenja vncetro 
                   <lb/>en la mano derecha, como vncaliz y de lo al
                   <lb/>to del, salia como vn casqujllo, de saeta.
                </p>
             </div>
             <div type="capitulo" corresp="#l01c17" xml:lang="na" n="17">
-               <pb type="folio" n="15" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/65.jpg" />
+               <pb type="folio" n="15" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/65.jpg"/>
                <head>Jnic castolli vmome capitulo, y
                   <lb/>techpa tlatoa, yn teutl, yn ito
                   <lb/>ca catca opuchtli: yn qujmo
                   <lb/>teutiaia ie uecauh, nican tla
                   <lb/>ca.</head>
-               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg" />
+               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg"/>
                <p corresp="#l01c17p01" xml:lang="na">
                   <lb/>Inin opuchtli, ipan mixeoaia, 
                   <lb/>tlaloc: atlaca inteuh catca, quj
@@ -2831,7 +2825,7 @@
             </div>
             <!-- Capitulo 18 - es & na -->
             <div type="capitulo" corresp="#l01c18" xml:lang="es" n="18">
-               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg" />
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg"/>
                <head>Capitulo deziocho, que habla, del 
                   <lb/>dios, llamado xipe totec: qie quje
                   <lb/>re dezir, desollado.</head>
@@ -2877,7 +2871,7 @@
                   <lb/>demandando, que les diessen, alguna 
                   <lb/>limosna: por amor de aquel dios. Enlas 
                   <lb/>casas donde entrauan: hazianlos sentar,
-                  <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg" />
+                  <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg"/>
                   <lb/>sobre vnos hazezillos, de hojas de tzapotes: 
                   <lb/>y echauanlos al cuello, vnos sartales, 
                   <lb/>de maçorcas de mahiz: y otros sartales 
@@ -2913,11 +2907,11 @@
                <figure/>
             </div>                        
             <div type="capitulo" corresp="#l01c18" xml:lang="na" n="18">
-               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg" />
+               <pb type="folio" n="15v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/66.jpg"/>
                <head>Jnic caxtolli vmey, capitu
                   <lb/>lo, ytechpa tlatoa, in teutl: yn i
                   <lb/>toca, xipe totec.</head>
-               <pb type="folio" n="16" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg" />
+               <pb type="folio" n="16" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/67.jpg"/>
                <p>Anaoatl iteouh: tzapoteca in vel in
                   <lb/>teuh catca, yn itequiuh pouja, yn 
                   <lb/>ixcoian ytlachioal, yn ineixca
@@ -2944,7 +2938,7 @@
                   <lb/>tlapepenti, tlatzonanti: yoan in ix
                   <lb/>qujchti, çan papaqujnj, yn mjhivin
                   <lb/>tia, tlatlamati, moqujchnequj,
-               <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg" />
+               <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg"/>
                   <lb/>moqujchnenequj, amjquizmauh
                   que, teca momotlanj, iaotlaveli
                   loque: vncan moieiecoaia, moia
@@ -2972,11 +2966,11 @@
             </div>
             <!-- Capitulo 19 - es & na -->
             <div type="capitulo" corresp="#l01c19" xml:lang="es" n="19">
-               <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg" />
+               <pb type="folio" n="16v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/68.jpg"/>
                <head>El capitulo dezinueue, habla 
                   <lb/>del dios, que se llamava yiaca
                   <lb/>tecutli: dios de los mercaderes.</head>
-               <pb type="folio" n="17r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/69.jpg" />
+               <pb type="folio" n="17r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/69.jpg"/>
                <p xml:id="l01c19p01" xml:lang="es">
                   <lb/>Este dios, llamado yiacatecutli, ay conjec
                   <lb/>tura, que començo los tratos, y mercaderj
@@ -3023,7 +3017,7 @@
                   <lb/>aspera: no dexan de passarla, nj de 
                   <lb/>trastornalla, buscando lo que en ella ay 
                   <lb/>preçioso, o prouechoso, para comprar
-                  <pb type="folio" n="17v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/70.jpg" />
+                  <pb type="folio" n="17v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/70.jpg"/>
                   <lb/>o vender. Son estos mercaderes, çufrido
                   <lb/>res, de muchos trabajos: y osados para 
                   <lb/>entrar, entodas las tierras: aunque 
@@ -3067,7 +3061,7 @@
                   <lb/>erra: que aujan visto. El señor, en remu
                   <lb/>neracion, de sus trabajos, paraque fuesse 
                   <lb/>honrrado, enel pueblo, y tenjdo por vali
-                  <pb type="folio" n="18r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/71.jpg" />
+                  <pb type="folio" n="18r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/71.jpg"/>
                   <lb/>ente: ponjale, vnbeçote, de ambar: que 
                   <lb/>es vna piedra larga, que cuelga del beço 
                   <lb/>baxo, agujerado: en señal, que era va
@@ -3112,7 +3106,7 @@
                   <lb/>uan esclauos, y esclauas: para ofre
                   <lb/>zerlos, a su dios, en su fiesta: el qual 
                   <lb/>principalmente, era yiacatecutli. Y
-                  <pb type="folio" n="18v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/72.jpg" />
+                  <pb type="folio" n="18v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/72.jpg"/>
                   <lb/>este, tenja cinco hermanos, y vna herma
                   <lb/>na: y atodos los tenjan, por dioses: ycomo 
                   <lb/>se inclinaua, su deuocion, <expan>sacrificauā<ex>n</ex></expan> 
@@ -3164,7 +3158,7 @@
                   <lb/>bacculo. Y la cara tenja manchada de 
                   <lb/>blanco, y negro: en los cabellos, lleuaua 
                   <lb/>atadas, dos borlas, de plumas ricas, que
-                  <pb type="folio" n="19" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+                  <pb type="folio" n="19" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg"/>
                   <lb/>se llaman quetzalli: yvan atadas en los cabe
                   <lb/>llos, del medio de la cabeça, recogidos como 
                   <lb/>vna gaujlla, de todo lo alto de la cabeça. Tie
@@ -3190,7 +3184,7 @@
                <head>Jnic caxtolli vnnauj capi
                   <lb/>tulo, ytechpa tlatoa, in teutl: y
                   <lb/>n jtoca yiacatecutli</head>
-               <pb type="folio" n="17r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/69.jpg" />
+               <pb type="folio" n="17r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/69.jpg"/>
                <p>
                   <lb/>Puchteca inteuh catca: cenca quj
                   <lb/>maviztiliaia, qujtlaquentiaia ama
@@ -3220,7 +3214,7 @@
                   <lb/>uhtli, tepetl, qujtemouja, quj
                   <lb/>tlecauja, ixqujch caana: inmo
                   <lb/>licpi, intetepon ic tlatlacça, ic mo
-                  <pb type="folio" n="17v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/70.jpg" />
+                  <pb type="folio" n="17v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/70.jpg"/>
                   <lb/>quequetza: vel qujciiavj vel qujhi
                   <lb/>iouja, ynic qujtemoa in chalchi
                   <lb/>ujtl, in quetzalitztli, in teuxiujtl, 
@@ -3249,7 +3243,7 @@
                   <lb/>vncan ic oqujchtia. Auh yn j
                   <lb/>quac oalacia, ynchan: yn jmiloch,
                   <lb/>ynnecuepal oqujchiuhque, ynotlal
-                  <pb type="folio" n="18r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/71.jpg" />
+                  <pb type="folio" n="18r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/71.jpg"/>
                   <lb/>techacico, yn otlaltechpachiuhque: 
                   <lb/>ixqujch tlacatl qujnotza, in puch
                   <lb/>teca: yoan in tlatoque, ic mote
@@ -3277,7 +3271,7 @@
                   <lb/>quenamjque, in tlacaiecti, in tlaca
                   <lb/>melaoaque, yn acan cueuxque, yn 
                   <lb/>atle intlaciuh ca: ynjc iehoan qujn
-                  <pb type="folio" n="18v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/72.jpg" />
+                  <pb type="folio" n="18v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/72.jpg"/>
                   <lb/>mictizque, yn ipan panquetzaliz
                   <lb/>tli: yn vncan ilhujqujxtililoia vi
                   <lb/>tzilubuchtli: yquac qujnchichi
@@ -3305,7 +3299,7 @@
                   <lb/>uh, in qualli intlaqual ymac 
                   <lb/>quiça; vellatolmelaoac: no qujx
                   <lb/>tiloia, qujnmotlacacioaoatiaia in
-                  <pb type="folio" n="19" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+                  <pb type="folio" n="19" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg"/>
                   <lb/>pipilti. Jn jnechichioal motlatlatla
                   <lb/>li, mixapetzvi, ytemjlo, ixquatzo, 
                   <lb/>ixquatzone, quetzallalpile, teucuj
@@ -3320,7 +3314,7 @@
 
             <!-- Capitulo 20 - es & na -->
             <div type="capitulo" corresp="#l01c20" xml:lang="es" n="20">
-               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg"/>
                <head>
                   Capitulo veynte, que habla 
                   <lb/>del dios llamado, napatecutli.</head>
@@ -3347,7 +3341,7 @@
                   <lb/>con los ornamentos deste dios: como que 
                   <lb/>fuesse su ymagen. Este, el dia que auja 
                   <lb/>de morir, despues de compuesto, como es
-                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg" />
+                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg"/>
                   <lb/>ta dicho: ponjanle enla mano, vn vaso ver
                   <lb/>de, lleno de agua: y con vn ramo de salze, 
                   <lb/>rociaua atodos, con aquella agua: como, 
@@ -3390,7 +3384,7 @@
                   <lb/>nian, cujdado, de ataujar, y compo
                   <lb/>ner, y barrer, y limpiar, y sembrar 
                   <lb/>juncia: enel templo, deste dios. Tenj
-                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg" />
+                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg"/>
                   <lb/>an, assi mjsmo cujdado, de poner petates: 
                   <lb/>y assentadores de juncia: que llaman 
                   <lb/>icpales: y que vujesse alli, toda limpi
@@ -3425,7 +3419,7 @@
                <figure/>
             </div>
             <div type="capitulo" corresp="#l01c20" xml:lang="na" n="20">
-               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg" />
+               <pb type="folio" n="19r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/73.jpg"/>
                <head>Jnic cempoalli capitulo, ytech
                   <lb/>pa tlatoa yn teutl yn jtoca catca 
                   <lb/>Napa tecutli.</head>
@@ -3445,7 +3439,7 @@
                   <lb/>tia, in toli, in tolpitzaoac, in tol
                   <lb/>patlactli, in tolmjmjlli, aztapili, 
                   <lb/>in tolqujiutl, in tolcaputl, yn
-                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg" />
+                  <pb type="folio" n="19v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/74.jpg"/>
                   <lb/>jtztoli, xomali: yoan yn jquac 
                   <lb/>ilhujuhqujçaia, iuh mjtoa, te
                   <lb/>papaca, tealtia, tepan qujtze
@@ -3474,7 +3468,7 @@
                   <lb/>lo, macamo njcnixcauj, yn 
                   <lb/>nocneliloca: ma onqualo, ma 
                   <lb/>onjoa, ma onpopoliuj, maic on
-                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg" />
+                  <pb type="folio" n="20r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/75.jpg"/>
                   <lb/>mjtoti in toteouh napa tecu
                   <lb/>tli: ma çaquen njnonemjtiz, 
                   <lb/>yn aciuhquj njcochiz, aciuh
@@ -3504,7 +3498,7 @@
                
             <!-- Capitulo 21 - es & na -->            
             <div type="capitulo" corresp="#l01c21" xml:lang="es" n="21">
-               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg" />
+               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg"/>
                <head>Capitulo veynte y vno, que ha
                   <lb/>bla, de muchos dioses, ymagi
                   <lb/>narios: alos quales todos: lla
@@ -3550,7 +3544,7 @@
                   <lb/>a alguno, a algunos montes, o destos dioses: 
                   <lb/>hazia su figura, de vna massa, que se 
                   <lb/>llama tzoalli: y ponjalos, en figura de
-                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg" />   
+                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg"/>   
                   <lb/>personas: no lo hazia el, por sus manos, por
                   <lb/>que no le era licito: sino rogaua, a los sa
                   <lb/>trapas: que eran enesto, experimenta
@@ -3594,7 +3588,7 @@
                   <lb/>nera: ay vnas calabaças lisas, redondas, 
                   <lb/>pecosas entre verde, y blanco, o mancha
                   <lb/>das: que las llaman, tzilacaiutli, que son
-                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg" />
+                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg"/>
                   <lb/>tan grandes, como vn gran melon: acada 
                   <lb/>vna destas, partianla por la mjtad, y sa
                   <lb/>cauanle, lo que tenja dentro: y quedaua 
@@ -3640,7 +3634,7 @@
                   <lb/>uauanla, ala casa, donde estauan todos 
                   <lb/>juntos, los satrapas, que se llamaua calme
                   <lb/>cac: y aquellos, por cuyo voto, se aujan he
-                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg" />
+                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg"/>
                   <lb/>cho, aquellas ymagines, entrauanse lue
                   <lb/>go donde estauan sus combidados, esta
                   <lb/>uan conellos, todo aquel dia: y ala tar
@@ -3680,7 +3674,7 @@
                   <lb/>acucharraua, la mano, o el pie, o le 
                   <lb/>temblaua la cara, o le temblaua la
                   <lb/>boca, o los labios: o si entraua enel, al
-                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg" />
+                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg"/>
                   <lb/>gun demonjo: todos esto dezian, que acon
                   <lb/>tecia, porque estos dioses, de que aquj, 
                   <lb/>se trata, se aujan enojado contra el. 
@@ -3713,7 +3707,7 @@
                </p>
             </div>            
             <div type="capitulo" corresp="#l01c21" xml:lang="na" n="21">
-               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg" />
+               <pb type="folio" n="20v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/76.jpg"/>
                <head>Jnic cempoalli vce capitulo 
                   <lb/>ytechpa tlatoa yn itoca tepicto
                   <lb/>ton: yn jnoan pouja tlaloque.</head>
@@ -3741,7 +3735,7 @@
                   <lb/>auh in qujmjxtelolotiaia aiecu
                   <lb/>tli: in quenamj yntlatquj in
                   <lb/>qujmixiptlatiaia, in qujnpiqujia
-                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg" />  
+                  <pb type="folio" n="21r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/77.jpg"/>  
                   <lb/>çan no iuhquj ynjc qujnchichi
                   <lb/>oaia. Auh yoan qujchioaia, 
                   <lb/>amateteujtl, colchachapatzaia, 
@@ -3767,7 +3761,7 @@
                   <lb/>ca, yn qujnchichioaia, in qujn
                   <lb/>tlaliaia: aiac çan moiocuiaia, 
                   <lb/>in calla in qujnchichioaia. Auh
-                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg" />
+                  <pb type="folio" n="21v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/78.jpg"/>
                   <lb/>macujltica in qujntlalhujaia, 
                   <lb/>mjtoa: qujnmolcaoaltiaia in 
                   <lb/>tlamacazque: yn oiecauhque 
@@ -3795,7 +3789,7 @@
                   <lb/>calaqujh yn itlacoanotzalhoan, yn j
                   <lb/>cooaoan, vnean mopia, mopixto
                   <lb/>que: auh in ie iooatiuh, in ie tevtlac
-                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg" />
+                  <pb type="folio" n="22r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/79.jpg"/>
                   <lb/>niman ie ic tlaoana, motlaoanca
                   <lb/>tlalia in veuetlaca, yn ie chicaoa
                   <lb/>que, yn otlachicalhujque, in 
@@ -3823,7 +3817,7 @@
                   <lb/>ymacaxoa, vel malhujloia, yn 
                   <lb/>ixqujchica, moiacaxapotlaz 
                   <lb/>yn vctli. Auh yn aqujn,
-                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg" />
+                  <pb type="folio" n="22v" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/80.jpg"/>
                   <lb/>ichtaca tlapaloaia, yn tlachtaca 
                   <lb/>yia inmanel çan tepiton ocon
                   <lb/>palo: iuh mjtoaia tennecujlivia 
@@ -3850,7 +3844,7 @@
                   <lb/>piqujnj, in tepicquj: intla coaci
                   <lb/>vi, yn juh omjto tlacpac, ic patiz: 
                   <lb/>yoan yn aqujn atlan miquizquja
-                  <pb type="folio" n="23r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/81.jpg" />
+                  <pb type="folio" n="23r" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/81.jpg"/>
                   <lb/>ynjc amo mjc: iehoatl, ynjc te
                   <lb/>piquj, ynjc moxtlaoa, ynjc quj
                   <lb/>neltilia ynnetol. Auh yn jx
@@ -3964,7 +3958,7 @@
       </body>
       <back>
          <div type="other" corresp="#l01app">
-            <p></p>
+            <p/>
          </div>
       </back>
    </text>

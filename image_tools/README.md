@@ -7,4 +7,8 @@
 5. Check that `npm` is installed by running `npm -v` in the command line.
 
 ## Install Local Dependencies
-1. run `npm install`
+1. In the terminal, navigate to the `image_tools` folder in this project (cd /.
+1. run `npm install`.
+
+## Turn on the Server
+1. In the terminal (from `~/../image_tools`) `npm start`.

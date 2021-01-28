@@ -1,0 +1,91 @@
+{
+  "annotations": [
+    {
+      "id": "30450985-9ceb-45e1-a6e5-99a40a3001a4",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>title</p>"
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/1/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=182,432,424,300"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M182.30602,432.05581h212.02275v0h212.02275v150.13627v150.13627h-212.02275h-212.02275v-150.13627z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_70e09dd6-f1ee-48b4-b83e-d8b182fccab6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10622/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "30450985-9ceb-45e1-a6e5-99a40a3001a4"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/1/",
+      "within": "https://www.wdl.org/en/item/10622/manifest"
+    },
+    {
+      "id": "49366552-b618-4a52-8b87-7f9004ad5ef8",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:tagging",
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "oa:Tag",
+            "chars": "animals"
+          },
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": ""
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/15/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=58,192,331,259"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M58.37366,192.45023h165.65544v0h165.65544v129.58806v129.58806h-165.65544h-165.65544v-129.58806z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_394052f1-4add-487e-93be-4342d92a2634\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10622/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "49366552-b618-4a52-8b87-7f9004ad5ef8"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/15/",
+      "within": "https://www.wdl.org/en/item/10622/manifest"
+    }
+  ]
+}

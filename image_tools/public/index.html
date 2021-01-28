@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="build/mirador/css/mirador-combined.css">
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+       margin:0 auto;
+       padding: 0 auto;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+    <script src="build/mirador/mirador.min.js"></script>
+    <script src="fragmentarium.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+       myMiradorInstance = Mirador({
+         id: "viewer",
+         buildPath: "build/mirador/",
+         data: [
+           { manifestUri: "https://www.wdl.org/en/item/10612/iiif/manifest.json", location: "World Digital Library"},
+         ],
+         windowObjects: [{
+           loadedManifest: "https://www.wdl.org/en/item/10612/iiif/manifest.json",
+           viewType: "ImageView",
+         }],
+         annotationEndpoint: {
+				   name: 'Fragmentarium backend',
+				   module: 'Fragmentarium',
+				   options: {
+				     url: 'http://localhost:3000/regions/'
+				   }
+		     }
+       });
+     });
+    </script>
+  </body>
+</html>

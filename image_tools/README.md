@@ -12,3 +12,4 @@
 
 ## Turn on the Server
 1. In the terminal (from `~/../image_tools`) `npm start`.
+2. Navigate to `localhost:3000` to see Mirador interface.

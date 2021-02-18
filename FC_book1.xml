@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/CSS/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -901,6 +901,7 @@
                <lb/>in nican tlaca.</head>
             <!-- Capitulo 1 - es & na -->
             <div type="capitulo" corresp="#l01c01" xml:lang="es" n="01">
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/37.jpg" n="0r"/>
                <head>Capitulo primero, que habla,
                   <lb/>del principal dios: que <expan>adorauā<ex>n</ex></expan>,
                   <lb/>y aquien sacrificauan los mexica
@@ -932,6 +933,7 @@
                      <lb/>que se llamaua, camaxtle. </p>               
             </div>
             <div type="capitulo" corresp="#l01c01" xml:lang="na" n="01">
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/37.jpg" n="0r"/>
                <head>Jnic ce capitulo, yntechpa tlatoa,
                   <lb/>yn oc cenca tlapanauja teteuh: yn
                   <lb/>qujnmoteutiaia, yoan yn qujntlama
@@ -1175,7 +1177,7 @@
                      <lb/>labrado, de pedrerja: pero no era largo, como el 
                      <lb/>baculo: parecia por donde se tenja, era como 
                      <lb/>enpuñadora de espada. Era este, el gran sa
-                     <lb/>cerdote, del <placeName type="sacred place">templo</placeName>.
+                     <lb/>cerdote, del <placeName type="sacred_place">templo</placeName>.
                   </p>               
             </div>
             <div type="capitulo" corresp="#l01c05" xml:lang="na" n="05">

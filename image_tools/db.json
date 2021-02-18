@@ -86,6 +86,52 @@
       },
       "target_canvas": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/15/",
       "within": "https://www.wdl.org/en/item/10622/manifest"
+    },
+    {
+      "id": "f52607fb-b56f-4eb8-ab15-20e0540a2b20",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:tagging",
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "oa:Tag",
+            "chars": "Deity"
+          },
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Vitzilobuchikli</p>\n<p>&nbsp;</p>"
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=36,129,5,30"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M35.73956,128.83047h2.25799v0h2.25799v14.83784v14.83784h-2.25799h-2.25799v-14.83784z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ee52e73a-bfe8-4bbe-922c-751f08550c79\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10612/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "f52607fb-b56f-4eb8-ab15-20e0540a2b20"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+      "within": "https://www.wdl.org/en/item/10612/manifest"
     }
   ]
 }

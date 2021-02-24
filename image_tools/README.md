@@ -43,19 +43,19 @@ Before sitting down to create new annotations, it is a good idea to "pull" the c
 
 # Resources on IIIF
 ## Technical Specifications
-[IIIF Image API](https://iiif.io/api/image/3.0/)
-[IIIF Presentation API](https://iiif.io/api/presentation/3.0/)
+[IIIF Image API](https://iiif.io/api/image/3.0/) 
+[IIIF Presentation API](https://iiif.io/api/presentation/3.0/) 
 (There are also APIs for search and authentication. As well
 ## Presentations
-["what is it"](https://www.youtube.com/watch?v=8LiNbf4ELZM)
-[Overview Presentation](https://www.youtube.com/watch?v=Z3ZgEv4p37o)
-[Presentation on the Image API](https://www.youtube.com/watch?v=1-8hT9YARiY)
+["what is it"](https://www.youtube.com/watch?v=8LiNbf4ELZM) 
+[Overview Presentation](https://www.youtube.com/watch?v=Z3ZgEv4p37o) 
+[Presentation on the Image API](https://www.youtube.com/watch?v=1-8hT9YARiY) 
 [Presentation on the Presentation API](https://www.youtube.com/watch?v=Ph2KQa-_ieM)
 
 ## Other Context
 The current state of the Presentation API has been influenced by a years-long conversation about how to integrate multi-media into the same framework, so that the notion of a "canvas" has changed somewhat over the years.
 
 # Resources on Git
-[Video Tutorial Walkthrough of Common Git Tasks (for reference)](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
-[Textual Presentation of Common Git Tasks](https://gist.github.com/jedmao/5053440#status)
+[Video Tutorial Walkthrough of Common Git Tasks (for reference)](https://www.youtube.com/watch?v=SWYqp7iY_Tc) 
+[Textual Presentation of Common Git Tasks](https://gist.github.com/jedmao/5053440#status) 
 [Technical Manual for Git](https://git-scm.com/book/en/v2)

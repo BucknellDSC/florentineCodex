@@ -86,6 +86,148 @@
       },
       "target_canvas": "https://www.wdl.org/en/item/10622/iiif/sequence/1/canvas/15/",
       "within": "https://www.wdl.org/en/item/10622/manifest"
+    },
+    {
+      "id": "b212dc46-3fd7-47a1-82e9-3a4cae941b87",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p><strong>Transcripci&oacute;n:</strong></p>\n<p>\"Vitzilobuchtli otro hercules\"</p>\n<p>&nbsp;</p>\n<p><strong>Comentario:</strong></p>\n<p>No es de sorprender que el cat&aacute;logo de los dioses del primer libro comience con Huitzilopochtli, la deidad principal de los mexica, aqu&iacute; comparada con H&eacute;rcules.</p>\n<p>El texto en n&aacute;huatl hace hincapi&eacute; en que esta deidad era un simple macehual, o un hombre com&uacute;n como cualquier otro (\"<span style=\"color: #4d5156; font-family: Roboto, arial, sans-serif;\">&ccedil;</span>an maceoalli,&nbsp;<span style=\"color: #4d5156; font-family: Roboto, arial, sans-serif;\">&ccedil;</span>an tlacatl catca\"), lo que nos sugiere que Bernardino de Sahag&uacute;n (sin poder descartar del todo la ayuda de sus colaboradores ind&iacute;genas) pretend&iacute;a enfatizar, desde la presentaci&oacute;n inicial, que muchas de estas deidades eran mitificaciones de hombres ancestrales a quienes se les hab&iacute;a atribudo cierta divinidad.&nbsp;</p>\n<p>&nbsp;</p>"
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=37,163,428,65"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M37.09091,163.04741h214.0909v0h214.0909v32.63636v32.63636h-214.0909h-214.0909v-32.63636z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,1,1,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_6135b8c0-35cf-47e4-a2d8-7033e082c4a9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffffff\" stroke-width=\"1.09091\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"5,5\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10612/manifest",
+              "@type": "sc:Manifest"
+            }
+          },
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=174,222,0,0"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M173.81818,221.89671\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"smooth_path_9d5df68c-1e70-4265-a007-f64f8d17444f\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.09091\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10612/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "b212dc46-3fd7-47a1-82e9-3a4cae941b87"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+      "within": "https://www.wdl.org/en/item/10612/manifest"
+    },
+    {
+      "id": "ec024085-29c3-4689-a919-c95dc1638419",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p><strong>Transcripci&oacute;n:</strong></p>\n<p>\"Paynal. vicario de vitzilobuchtli.\"</p>\n<p>&nbsp;</p>\n<p><strong>Comentario:</strong></p>"
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=65,830,409,54"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M65.45455,829.90909h204.63636v0h204.63636v26.90909v26.90909h-204.63636h-204.63636v-26.90909z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0,0],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_c8f3842d-e955-4b17-bf84-0be09e9ed0f8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffffff\" stroke-width=\"1.09091\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"5,5\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10612/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "ec024085-29c3-4689-a919-c95dc1638419"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+      "within": "https://www.wdl.org/en/item/10612/manifest"
+    },
+    {
+      "id": "f1536a2a-8db0-462d-919a-d0635a12e1ef",
+      "content": {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@type": "oa:Annotation",
+        "motivation": [
+          "oa:commenting"
+        ],
+        "resource": [
+          {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p><strong>&Eacute;cfrasis textual:</strong></p>\n<p>\"Aztatzone\" - \"Vest&iacute;a una corona de plumas de garza\"</p>\n<p><br /><strong>Comentario:</strong></p>\n<p>&nbsp;</p>"
+          }
+        ],
+        "on": [
+          {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+            "selector": {
+              "@type": "oa:Choice",
+              "default": {
+                "@type": "oa:FragmentSelector",
+                "value": "xywh=729,860,220,164"
+              },
+              "item": {
+                "@type": "oa:SvgSelector",
+                "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M940.18182,911.90909c1.8689,0 4.64114,4.44977 6.36364,2.72727c8.29475,-8.29475 -5.0547,-18.69106 -10,-23.63636c-7.26337,-7.26337 -25.85246,10.71014 -34.54545,6.36364c-14.53647,-7.26823 -23.48684,-19.92524 -36.36364,-26.36364c-4.15707,-2.07854 -11.16118,-4.54545 -16.36364,-4.54545c-1.88331,0 -10.61967,1.19851 -11.81818,0c-3.14039,-3.14039 -5.77022,-3.33965 -10,-5.45455c-9.51713,-4.75856 -6.36364,10.90909 -6.36364,10.90909c0,0 -7.15203,-0.2414 -7.27273,0c-0.35174,0.70347 -6.36364,7.27273 -6.36364,7.27273c0,0 -1.46665,-3.28483 -1.81818,-3.63636c-1.3024,-1.3024 -12.40156,-1.98104 -14.54545,-0.90909c-1.20775,0.60387 -7.18465,10.82101 -8.18182,11.81818c-0.53768,0.53768 -10.90909,4.54545 -10.90909,4.54545c0,0 4.86658,-0.64224 5.45455,-1.81818c1.00071,-2.00143 -2.19701,-5.83337 -2.72727,-6.36364c-1.2809,-1.2809 -12.48743,-1.9381 -14.54545,-0.90909c-2.0688,1.0344 -2.15534,3.97352 -3.63636,5.45455c-3.34972,3.34972 -7.37752,8.3914 -10,13.63636c-1.0453,2.09061 0.10077,8.28259 0.90909,9.09091c0.42855,0.42855 0,1.21212 0,1.81818c0,5.0918 -1.81818,7.79436 -1.81818,13.63636c0,0.60606 0.27104,1.2761 0,1.81818c-1.84741,3.69483 -10.63595,21.22707 -11.81818,21.81818c-1.044,0.522 -5.4959,6.32228 -4.54545,7.27273c3.03904,3.03904 12.41551,1.50642 15.45455,4.54545c3.66186,3.66186 20.87961,9.07617 26.36364,11.81818c1.60928,0.80464 15.45455,3.70979 15.45455,5.45455c0,0.4668 -5.91181,3.18454 -6.36364,3.63636c-1.47539,1.47539 0,12.22701 0,14.54545c0,5.2961 -0.21563,18.39745 -3.63636,21.81818c-0.26517,0.26517 -1.81818,5.72727 -1.81818,5.72727h1.81818h-1.81818c0,0 9.16765,0 10,0c7.27273,0 14.54545,0 21.81818,0c0.51133,0 8.18182,0 8.18182,0c0,0 -2.65968,0.08787 -2.72727,0c-3.90517,-5.07672 -7.05153,-27.98785 -4.54545,-33c1.53793,-3.07587 -3.27131,-9.45597 -1.81818,-10.90909c2.52384,-2.52384 5.15479,-3.33661 7.27273,-5.45455c0.85348,-0.85348 1.71865,-4.44593 2.72727,-5.45455c2.73156,-2.73156 -2.5521,-15.27937 -3.63636,-16.36364c-0.42855,-0.42855 -0.42855,-1.38963 0,-1.81818c5.66648,-5.66648 20.26201,-10.26201 25.45455,-15.45455c3.05009,-3.05009 -4.8584,-8.18182 -6.36364,-8.18182c-0.60606,0 -1.81818,0 -1.81818,0c0,0 6.71552,-3.98825 7.27273,-4.54545c1.60153,-1.60153 2.20843,-4.28604 4.54545,-5.45455c0.35438,-0.17719 -7.22293,-8.13202 -8.18182,-9.09091c-4.02395,-4.02395 2.10706,-6.9414 3.63636,-10c0.27104,-0.54208 0,-1.81818 0,-1.81818c0,0 5.2091,5.12272 8.18182,3.63636c4.91267,-2.45633 3.9203,-5.73848 6.36364,-8.18182c1.51647,-1.51647 13.702,0.03282 15.45455,0.90909c7.88716,3.94358 9.15675,15.48747 16.36364,19.09091c8.76953,4.38477 36.01464,0.1745 43.63636,-3.63636c7.72345,-3.86172 16.54246,6.18481 18.18182,4.54545\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null}\" id=\"smooth_path_7e1bf1c9-a1f2-4a3b-a2a4-dcc107f5a075\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#ffffff\" stroke-width=\"0.90909\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"5,5\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              }
+            },
+            "within": {
+              "@id": "https://www.wdl.org/en/item/10612/manifest",
+              "@type": "sc:Manifest"
+            }
+          }
+        ],
+        "@id": "f1536a2a-8db0-462d-919a-d0635a12e1ef"
+      },
+      "target_canvas": "https://www.wdl.org/en/item/10612/iiif/sequence/1/canvas/30/",
+      "within": "https://www.wdl.org/en/item/10612/manifest"
     }
   ]
 }

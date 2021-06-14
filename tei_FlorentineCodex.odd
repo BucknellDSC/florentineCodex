@@ -52,19 +52,93 @@
         <moduleRef key="transcr" except="am redo restore retrace surplus" />
         <moduleRef key="verse" except="rhyme" />
         <moduleRef key="tagdocs" except="altIdent alternate empty remarks" />
-        <elementSpec ident="div1" mode="change">
+
+<!-- div changed to override div1, div2, div3 -->
+        <elementSpec ident="div" mode="change">
           <attList>
-            <attDef ident="type" mode="change">
-              <valList type="open" mode="change" />
+            <attDef ident="type" mode="change" ns="Capitulo">
+              <valList mode="change" type="closed">                
+                <valItem ident="capitulo" mode="add">
+                  <desc>Capitulo</desc>
+                </valItem>
+                <valItem ident="lector" mode="add">
+                  <desc>Lector</desc>
+                </valItem>
+                <valItem ident="invocación" mode="add">
+                  <desc>Invocación</desc>
+                </valItem>
+                <valItem ident="prologo" mode="add">
+                  <desc>Prologo</desc>
+                </valItem>                
+                <valItem ident="toc" mode="add">
+                  <desc>Table of Contents</desc>
+                </valItem>
+                <valItem ident="libro" mode="add">
+                  <desc>Libro</desc>
+                </valItem>               
+                <valItem mode="add" ident="other">
+                  <desc>Other - if some other form of div is required, change in schema</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
+                </valItem>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
+                </valItem>
+              </valList>
             </attDef>
           </attList>
         </elementSpec>
+
+<!-- div1 changed to include multiple types (updated 08/31/2020) -->
+        <elementSpec ident="div1" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="invocación" mode="add">
+                  <desc>Invocación</desc>
+                </valItem>
+                <valItem ident="prologo" mode="add">
+                  <desc>Prologo</desc>
+                </valItem>
+                <valItem ident="lector" mode="add">
+                  <desc>Lector</desc>
+                </valItem>
+                <valItem ident="toc" mode="add">
+                  <desc>Table of Contents</desc>
+                </valItem>
+                <valItem ident="libro" mode="add">
+                  <desc>Libro</desc>
+                </valItem>
+                <valItem ident="capitulo" mode="add">
+                  <desc>Capitulo</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
+                </valItem>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
         <elementSpec ident="div2" mode="change">
           <attList>
-            <attDef ident="type" mode="change" ns="Chapter">
+            <attDef ident="type" mode="change" ns="Capitulo">
               <valList mode="change" type="closed">
                 <valItem mode="add" ident="chapter">
-                  <desc versionDate="2020-01-08" xml:lang="en">Chapter</desc>
+                  <desc versionDate="2020-01-08" xml:lang="en">Capitulo</desc>
                 </valItem>
                 <valItem ident="prologue" mode="add">
                   <desc>Prologue</desc>
@@ -72,8 +146,24 @@
                 <valItem ident="toc" mode="add">
                   <desc>Table of Contents</desc>
                 </valItem>
+                <valItem ident="para" mode="add">
+                  <desc>Párrafo</desc>
+                </valItem>
+                <valItem ident="capitulo" mode="add">
+                  <desc>Capitulo</desc>
+                </valItem>
                 <valItem mode="add" ident="other">
                   <desc>Other - if some other form of div2 is required, change in schema</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
+                </valItem>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -86,12 +176,25 @@
                 <valItem mode="add" ident="folio_block">
                   <desc versionDate="2020-01-08" xml:lang="en">Text at the level of folio - provide folio number</desc>
                 </valItem>
+                <valItem ident="para" mode="add">
+                  <desc>Párrafo</desc>
+                </valItem>
                 <valItem mode="add" ident="other">
                   <desc>Other - if some other form of div3 is required, change in schema</desc>
                 </valItem>
               </valList>
             </attDef>
             <attDef ident="n" mode="change" />
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
+                </valItem>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
+                </valItem>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
         <elementSpec ident="div4" mode="change">
@@ -114,11 +217,11 @@
             </attDef>
             <attDef ident="xml:lang" mode="change">
               <valList type="closed" mode="change">
-                <valItem mode="add" ident="es">
-                  <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
                 </valItem>
-                <valItem mode="add" ident="na">
-                  <desc versionDate="2020-01-08" xml:lang="en">Nahuatl</desc>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -160,12 +263,12 @@
         <elementSpec ident="head" mode="change">
           <attList>
             <attDef ident="xml:lang" mode="change">
-              <valList mode="change" type="closed">
-                <valItem mode="add" ident="es">
-                  <desc versionDate="2020-01-08" xml:lang="en">Spanish</desc>
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
                 </valItem>
-                <valItem mode="add" ident="na">
-                  <desc versionDate="2020-01-08" xml:lang="en">Nahuatl</desc>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -189,12 +292,12 @@
         <elementSpec ident="p" mode="change">
           <attList>
             <attDef ident="xml:lang" mode="change">
-              <valList mode="change" type="closed">
-                <valItem mode="add" ident="es">
-                  <desc>Spanish</desc>
+              <valList type="closed" mode="change">
+                <valItem ident="es" mode="add">
+                  <desc>es (Español)</desc>
                 </valItem>
-                <valItem mode="change" ident="na">
-                  <desc>Nahuatl</desc>
+                <valItem ident="na" mode="add">
+                  <desc>na (Nahuatl)</desc>
                 </valItem>
               </valList>
             </attDef>

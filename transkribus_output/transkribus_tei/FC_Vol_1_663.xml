@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:24:04.908-07:00</Created>
+        <LastChange>2020-06-24T08:58:34.284+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_663.png" imageWidth="2730" imageHeight="4286">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736975608" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="11,117 11,3475 2615,3475 2615,117"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1977,185 1996,185 2006,189 2014,198 2024,199 2027,196 2044,199 2054,138 2012,131 2002,133 1986,130"/>
+                <Baseline points="1995,170 2031,176"/>
+                <TextEquiv>
+                    <Unicode>n.¶.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="2264,235 2323,217 2372,228 2410,261 2459,263 2535,219 2571,226 2573,155 2530,154 2492,120 2443,135 2410,124 2368,140 2314,86 2268,88"/>
+                <Baseline points="2280,228 2305,223 2330,221 2355,219 2380,220 2405,222 2430,224 2455,227 2480,228 2505,228 2530,228 2556,225"/>
+                <TextEquiv>
+                    <Unicode>fo. 0.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="26,364 2621,365 2584,245 1894,189 25,228"/>
+                <Baseline points="42,348 170,342 298,337 426,333 554,329 683,326 811,324 939,323 1067,321 1195,321 1324,320 1452,320 1580,320 1708,320 1836,320 1964,320 2093,320 2221,320 2349,318 2477,318 2606,317"/>
+                <TextEquiv>
+                    <Unicode>numeros y caracteres. Demanera, que cada vn caracter: viene axeinar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="3,482 2628,488 2628,378 2077,329 3,378"/>
+                <Baseline points="20,455 149,452 279,449 408,446 538,443 668,441 797,439 927,437 1056,435 1186,435 1316,435 1445,435 1575,435 1704,436 1834,437 1964,440 2093,442 2223,445 2352,449 2482,453 2612,459"/>
+                <TextEquiv>
+                    <Unicode>treze dias, y el numero de todos estos dias son dozientos y sezenta, y de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="8,596 2600,597 2599,480 2336,458 8,492"/>
+                <Baseline points="23,558 151,555 279,552 407,551 535,549 663,548 791,546 919,546 1047,545 1175,545 1303,545 1431,545 1559,545 1687,545 1815,545 1943,546 2071,546 2199,548 2327,548 2455,549 2583,551"/>
+                <TextEquiv>
+                    <Unicode>alli buelue otra vez al principio. Tambien en el principio desta cuenta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="-6,697 2632,724 2596,580 -6,606"/>
+                <Baseline points="11,666 141,663 271,662 401,660 531,657 662,656 792,654 922,653 1052,653 1182,652 1313,651 1443,651 1573,651 1703,653 1833,653 1963,654 2094,656 2224,657 2354,659 2484,662 2615,665"/>
+                <TextEquiv>
+                    <Unicode>zepone la manera de contar de los años, porque estas dos cuentas andā</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="8,775 301,822 386,802 458,834 535,788 884,776 883,701 789,673 603,719 538,677 424,717 343,682 180,715 102,673 63,710 7,690"/>
+                <Baseline points="23,762 65,765 107,767 149,770 191,771 233,773 275,773 318,774 360,774 402,774 444,774 486,774 528,773 570,772 613,771 655,769 697,767 739,765 781,764 823,762 866,758"/>
+                <TextEquiv>
+                    <Unicode>vnculadas o pareadas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="2100,3445 2133,3447 2169,3486 2189,3486 2204,3475 2224,3478 2238,3391 2216,3384 2201,3392 2175,3371 2136,3388 2111,3380"/>
+                <Baseline points="2118,3434 2149,3439 2180,3444 2211,3449"/>
+                <TextEquiv>
+                    <Unicode>o. f</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>n.¶.
+fo. 0.
+numeros y caracteres. Demanera, que cada vn caracter: viene axeinar
+treze dias, y el numero de todos estos dias son dozientos y sezenta, y de
+alli buelue otra vez al principio. Tambien en el principio desta cuenta
+zepone la manera de contar de los años, porque estas dos cuentas andā
+vnculadas o pareadas
+o. f</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="2382,4132 2382,4285 2492,4285 2492,4132"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="2369,4286 2395,4285 2404,4278 2421,4284 2439,4264 2462,4253 2511,4255 2507,4170 2488,4171 2478,4165 2459,4178 2449,4172 2436,4176 2422,4164 2364,4166"/>
+                <Baseline points="2382,4239 2409,4238 2437,4239 2464,4238 2492,4232"/>
+                <TextEquiv>
+                    <Unicode>zrc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>zrc</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

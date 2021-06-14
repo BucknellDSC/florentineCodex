@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:24:04.774-07:00</Created>
+        <LastChange>2020-06-24T08:58:06.872+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_661.png" imageWidth="2400" imageHeight="3546">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736975478" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="77,54 77,3385 2349,3385 2349,54"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="2143,121 2187,136 2245,109 2261,126 2305,135 2322,127 2363,128 2365,37 2266,16 2247,30 2222,24 2175,48 2144,53"/>
+                <Baseline points="2157,99 2184,99 2211,99 2239,99 2266,99 2294,99 2321,101 2349,104"/>
+                <TextEquiv>
+                    <Unicode>.fol. 2</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="512,134 608,183 760,133 902,196 982,156 1683,188 1686,-7 1243,6 1127,61 899,-3 725,66 641,10 514,41"/>
+                <Baseline points="525,123 582,122 639,122 696,122 754,122 811,123 868,125 925,126 983,128 1040,129 1097,132 1154,134 1212,135 1269,137 1326,137 1383,138 1441,138 1498,137 1555,135 1612,132 1670,128"/>
+                <TextEquiv>
+                    <Unicode>Apendiz y Appologia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="76,299 2260,278 2283,127 2122,194 207,155 76,214"/>
+                <Baseline points="90,261 199,256 308,252 417,249 526,246 635,244 744,243 853,242 962,240 1071,240 1180,240 1289,240 1398,240 1507,240 1616,240 1725,240 1834,240 1943,240 2052,239 2161,239 2270,237"/>
+                <TextEquiv>
+                    <Unicode>te de adiujnacion, en loque dize que faltaron en el bixesto es falso,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="78,387 1913,384 2256,352 2256,273 78,299"/>
+                <Baseline points="93,353 200,348 308,345 415,344 523,341 630,339 738,339 845,338 953,338 1060,338 1168,338 1275,339 1383,339 1490,339 1598,339 1705,341 1813,339 1920,339 2028,339 2135,338 2243,336"/>
+                <TextEquiv>
+                    <Unicode>porque en la cuenta que  llama, calendario verdaderos: cuentan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="74,478 2147,472 2257,389 73,387"/>
+                <Baseline points="87,450 194,446 302,442 410,438 518,437 626,434 733,432 841,431 949,431 1057,431 1165,431 1272,431 1380,431 1488,431 1596,432 1704,432 1811,432 1919,434 2027,434 2135,435 2243,435"/>
+                <TextEquiv>
+                    <Unicode>trescientos y sesenta yeinco dias, y cada quatro años, contauan tre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="75,580 2253,568 2253,469 75,497"/>
+                <Baseline points="90,545 197,540 305,537 412,533 520,530 627,527 735,525 842,524 950,522 1057,522 1165,521 1272,521 1380,521 1487,521 1595,522 1702,522 1810,522 1917,524 2025,525 2132,525 2240,527"/>
+                <TextEquiv>
+                    <Unicode>cientos, y sezenta y seis dias en fiesta, que para esto hazian de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="83,665 2286,634 2285,573 1988,540 82,582"/>
+                <Baseline points="96,633 204,629 313,624 422,621 531,618 639,617 748,615 857,614 966,612 1074,612 1183,611 1292,611 1401,611 1509,611 1618,611 1727,609 1836,609 1944,609 2053,608 2162,607 2271,606"/>
+                <TextEquiv>
+                    <Unicode>quatro engua tro años. Pn lo que dize que eneste calendario no ay</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="82,736 1682,704 2282,764 2281,659 2014,628 81,665"/>
+                <Baseline points="96,722 204,719 313,716 421,713 530,711 639,708 747,705 856,704 964,702 1073,701 1182,699 1290,699 1399,698 1507,698 1616,699 1725,699 1833,701 1942,703 2050,705 2159,708 2268,711"/>
+                <TextEquiv>
+                    <Unicode>cosa deidolatria, es falssissima mētixa: por que no es calendario,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="65,836 2232,808 2231,725 2011,710 64,737"/>
+                <Baseline points="78,807 185,804 292,801 399,800 506,798 613,796 720,795 827,794 934,792 1041,792 1148,791 1255,791 1362,791 1469,791 1576,791 1683,791 1790,792 1897,792 2004,792 2111,794 2219,794"/>
+                <TextEquiv>
+                    <Unicode>omo axte adiujnatoria, donde ze, con tienen muchas cosas de ido</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="73,910 2248,900 2077,799 72,833"/>
+                <Baseline points="86,891 193,891 300,891 408,891 515,891 623,890 730,890 837,888 945,888 1052,887 1160,885 1267,884 1374,884 1482,882 1589,881 1697,881 1804,879 1911,879 2019,879 2126,879 2234,881"/>
+                <TextEquiv>
+                    <Unicode>la tria, y muchas euparsticiones, y muchas in vocaciones delos de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="82,992 2012,1008 2265,984 2264,896 81,937"/>
+                <Baseline points="95,980 202,983 310,984 418,986 526,986 633,986 741,986 849,984 957,984 1064,983 1172,981 1280,980 1388,977 1495,975 1603,974 1711,972 1819,970 1926,969 2034,968 2142,966 2250,966"/>
+                <TextEquiv>
+                    <Unicode>monjos, tacita, y espressamente, como parece en todo este quarto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="64,1097 2198,1098 2289,1070 2288,979 63,1006"/>
+                <Baseline points="77,1073 192,1075 308,1077 424,1077 539,1077 655,1077 771,1076 887,1073 1002,1071 1118,1069 1234,1067 1350,1064 1465,1061 1581,1059 1697,1058 1813,1058 1928,1058 2044,1058 2160,1061 2276,1064"/>
+                <TextEquiv>
+                    <Unicode>libro precediente: de manera que njnguna verdad contiene aquel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:12;}">
+                <Coords points="73,1201 1948,1200 2272,1160 2271,1072 72,1113"/>
+                <Baseline points="87,1166 195,1166 304,1167 412,1167 521,1167 629,1166 738,1164 846,1163 955,1161 1063,1160 1172,1158 1281,1157 1389,1154 1498,1152 1606,1151 1715,1149 1823,1148 1932,1146 2040,1146 2149,1145 2258,1146"/>
+                <TextEquiv>
+                    <Unicode>tratado arriba puesto: que aguel religioso escriujo, mas antes cō</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:13;}">
+                <Coords points="76,1281 618,1313 703,1265 1154,1301 1569,1251 1568,1188 1461,1176 75,1201"/>
+                <Baseline points="89,1251 162,1254 235,1257 309,1260 382,1260 455,1260 529,1260 602,1260 675,1259 749,1257 822,1254 895,1253 969,1250 1042,1248 1115,1247 1189,1245 1262,1244 1335,1244 1409,1244 1482,1245 1556,1247"/>
+                <TextEquiv>
+                    <Unicode>tiene falzedad mentira muj pernjciosa.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:14;}">
+                <Coords points="434,1530 580,1529 656,1456 758,1446 1669,1440 1662,1308 1464,1370 1371,1322 1195,1377 954,1344 870,1378 426,1368"/>
+                <Baseline points="446,1473 506,1467 566,1460 627,1456 687,1450 747,1446 808,1443 868,1440 928,1437 989,1434 1049,1433 1109,1431 1170,1428 1230,1427 1290,1425 1351,1423 1411,1421 1471,1418 1532,1415 1592,1412 1653,1409"/>
+                <TextEquiv>
+                    <Unicode>Siguese adelante enel tratado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:15;}">
+                <Coords points="611,1617 825,1618 878,1561 996,1542 1144,1600 1200,1560 1381,1534 1377,1429 1301,1471 1200,1472 1157,1443 1059,1474 976,1447 889,1478 605,1466"/>
+                <Baseline points="623,1557 660,1557 697,1556 734,1554 771,1553 809,1551 846,1551 883,1550 920,1548 957,1547 995,1545 1032,1543 1069,1541 1106,1539 1143,1538 1181,1538 1218,1536 1255,1535 1292,1534 1329,1532 1367,1532"/>
+                <TextEquiv>
+                    <Unicode>de aquel religroso.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:16;}">
+                <Coords points="74,1794 2261,1686 2239,1624 1857,1583 67,1632"/>
+                <Baseline points="87,1752 195,1747 303,1742 411,1736 519,1730 627,1722 735,1716 843,1710 951,1704 1059,1698 1167,1692 1275,1687 1383,1681 1491,1677 1599,1674 1707,1671 1815,1669 1923,1668 2031,1668 2139,1670 2247,1671"/>
+                <TextEquiv>
+                    <Unicode>Cos idios, que bien entendian los secretos destas ruedas, y ca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:17;}">
+                <Coords points="70,1849 2263,1764 2244,1699 1327,1703 68,1795"/>
+                <Baseline points="84,1839 192,1839 300,1836 408,1833 517,1829 625,1824 733,1819 842,1812 950,1806 1058,1800 1167,1793 1275,1788 1383,1782 1491,1776 1600,1772 1708,1767 1816,1764 1925,1763 2033,1761 2141,1763 2250,1764"/>
+                <TextEquiv>
+                    <Unicode>lendario, no los enseñauan, njdescubrian, sioamuy pocos, porque</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:18;}">
+                <Coords points="75,1954 1813,1917 2279,1860 2277,1800 71,1849"/>
+                <Baseline points="87,1917 195,1917 304,1917 413,1915 522,1913 631,1910 740,1905 849,1901 958,1896 1067,1890 1176,1885 1284,1880 1393,1874 1502,1869 1611,1863 1720,1859 1829,1854 1938,1851 2047,1848 2156,1847 2265,1845"/>
+                <TextEquiv>
+                    <Unicode>por ello ganauan de comer, y eran estimados, y tenjdos por hombres</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:19;}">
+                <Coords points="78,2036 2232,1941 2078,1863 75,1957"/>
+                <Baseline points="90,2009 196,2008 302,2006 409,2003 515,2000 621,1997 728,1992 834,1988 940,1983 1047,1979 1153,1974 1259,1970 1366,1965 1472,1961 1578,1956 1685,1953 1791,1950 1897,1948 2004,1946 2110,1946 2217,1946"/>
+                <TextEquiv>
+                    <Unicode>sabios, y enfendidos: empero sabian casi todos los mdros aclultos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:20;}">
+                <Coords points="74,2147 2113,2069 2254,2019 2251,1944 70,2061"/>
+                <Baseline points="87,2109 194,2106 302,2102 410,2099 517,2094 625,2089 733,2084 840,2078 948,2073 1056,2067 1164,2061 1271,2055 1379,2049 1487,2045 1594,2040 1702,2035 1810,2031 1917,2027 2025,2024 2133,2021 2241,2019"/>
+                <TextEquiv>
+                    <Unicode>y tenjan noficia del año, ansidel numero como dela casa en que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l22" custom="readingOrder {index:21;}">
+                <Coords points="83,2215 1897,2167 2250,2115 2246,2027 80,2149"/>
+                <Baseline points="95,2190 202,2189 309,2187 416,2184 523,2181 630,2177 737,2173 844,2168 951,2163 1058,2158 1165,2153 1272,2147 1379,2140 1486,2135 1593,2130 1700,2124 1807,2120 1914,2115 2021,2111 2128,2108 2235,2105"/>
+                <TextEquiv>
+                    <Unicode>andauan: mas delos nombres de los dias, y semanas, y sotros mu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l23" custom="readingOrder {index:22;}">
+                <Coords points="86,2319 2232,2216 2199,2154 1664,2138 82,2226"/>
+                <Baseline points="99,2283 204,2281 310,2277 416,2274 522,2270 628,2265 734,2261 840,2255 946,2250 1052,2245 1158,2240 1263,2234 1369,2229 1475,2223 1581,2219 1687,2216 1793,2213 1899,2210 2005,2207 2111,2206 2217,2205"/>
+                <TextEquiv>
+                    <Unicode>chos secretos, y cuentas que tenjan: solos aquellos maestros com</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l24" custom="readingOrder {index:23;}">
+                <Coords points="76,2413 2275,2332 2272,2257 2073,2227 73,2325"/>
+                <Baseline points="90,2384 198,2378 307,2372 415,2367 524,2361 632,2357 741,2351 849,2346 958,2341 1066,2335 1175,2330 1284,2326 1392,2322 1501,2318 1609,2315 1718,2311 1826,2308 1935,2306 2043,2304 2152,2303 2261,2301"/>
+                <TextEquiv>
+                    <Unicode>potistas, lo alçan çauan sa de saber. Agora paxa entender lacuen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l25" custom="readingOrder {index:24;}">
+                <Coords points="73,2468 2160,2425 2220,2340 71,2419"/>
+                <Baseline points="87,2463 193,2463 299,2462 405,2459 511,2456 617,2453 723,2449 830,2444 936,2441 1042,2435 1148,2430 1254,2426 1360,2421 1466,2417 1573,2414 1679,2410 1785,2408 1891,2405 1997,2405 2103,2405 2210,2405"/>
+                <TextEquiv>
+                    <Unicode>ta, que estos natuxales tenjan; ypara saber, como contauan los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l26" custom="readingOrder {index:25;}">
+                <Coords points="77,2576 2202,2543 2241,2440 73,2468"/>
+                <Baseline points="90,2553 202,2555 315,2555 427,2553 540,2550 652,2547 765,2542 878,2537 990,2531 1103,2526 1215,2520 1328,2516 1440,2511 1553,2507 1666,2504 1778,2502 1891,2502 2003,2504 2116,2507 2229,2511"/>
+                <TextEquiv>
+                    <Unicode>tiempos: por las ruedas, y figuras aquj esscritas: se ponen reglas,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l27" custom="readingOrder {index:26;}">
+                <Coords points="82,2675 489,2663 542,2711 627,2709 733,2649 978,2641 976,2569 871,2541 841,2567 706,2551 679,2579 571,2548 482,2589 431,2559 347,2592 283,2568 204,2595 162,2568 80,2600"/>
+                <Baseline points="95,2639 138,2642 182,2643 225,2645 269,2646 312,2646 356,2648 399,2646 443,2646 486,2645 530,2645 573,2643 617,2641 660,2639 704,2637 747,2634 791,2633 834,2631 878,2628 921,2626 965,2624"/>
+                <TextEquiv>
+                    <Unicode>que son las in fra escxitas:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l28" custom="readingOrder {index:27;}">
+                <Coords points="412,2840 669,2892 1744,2868 1742,2703 1701,2695 1608,2735 1373,2687 588,2753 411,2727"/>
+                <Baseline points="425,2840 490,2837 555,2832 620,2829 686,2826 751,2823 816,2822 881,2820 947,2819 1012,2817 1077,2816 1142,2816 1208,2816 1273,2816 1338,2817 1403,2817 1469,2819 1534,2820 1599,2822 1664,2825 1730,2828"/>
+                <TextEquiv>
+                    <Unicode>Con futacion de lo arriba dicho,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l29" custom="readingOrder {index:28;}">
+                <Coords points="77,3104 2252,3067 2251,2971 365,3017 76,2937"/>
+                <Baseline points="90,3080 197,3074 304,3067 412,3062 519,3057 627,3053 734,3050 841,3047 949,3044 1056,3042 1164,3041 1271,3041 1378,3041 1486,3041 1593,3043 1701,3045 1808,3048 1915,3051 2023,3056 2130,3060 2238,3066"/>
+                <TextEquiv>
+                    <Unicode>La esta dicho, que el calendario es cstincto desta cuenta, y notre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l30" custom="readingOrder {index:29;}">
+                <Coords points="82,3182 2106,3196 2254,3169 2255,3098 1183,3045 82,3102"/>
+                <Baseline points="95,3159 202,3155 309,3151 416,3148 524,3146 631,3143 738,3141 845,3141 953,3141 1060,3141 1167,3141 1274,3143 1382,3144 1489,3146 1596,3149 1703,3150 1811,3153 1918,3156 2025,3160 2132,3164 2240,3168"/>
+                <TextEquiv>
+                    <Unicode>ne nada que ver conella el calendario, tracta de los meses de to</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l31" custom="readingOrder {index:30;}">
+                <Coords points="79,3303 805,3234 2185,3270 2227,3184 967,3141 79,3221"/>
+                <Baseline points="92,3251 198,3247 304,3243 410,3239 516,3237 622,3234 728,3233 834,3233 940,3233 1046,3233 1152,3233 1258,3234 1364,3236 1470,3237 1576,3239 1682,3242 1788,3243 1894,3246 2000,3248 2106,3251 2213,3254"/>
+                <TextEquiv>
+                    <Unicode>do el año, y de los dias de todo el año, y de las semanas de todo el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l32" custom="readingOrder {index:31;}">
+                <Coords points="62,3402 1165,3329 1574,3411 2257,3363 1960,3257 62,3300"/>
+                <Baseline points="77,3359 185,3351 293,3345 401,3340 510,3336 618,3333 726,3331 835,3330 943,3329 1051,3330 1160,3330 1268,3332 1376,3335 1484,3336 1593,3340 1701,3344 1809,3347 1918,3351 2026,3355 2134,3359 2243,3363"/>
+                <TextEquiv>
+                    <Unicode>año, y de las fusras fixas de todo el año, sabian le todos los satra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>.fol. 2
+Apendiz y Appologia.
+te de adiujnacion, en loque dize que faltaron en el bixesto es falso,
+porque en la cuenta que  llama, calendario verdaderos: cuentan
+trescientos y sesenta yeinco dias, y cada quatro años, contauan tre
+cientos, y sezenta y seis dias en fiesta, que para esto hazian de
+quatro engua tro años. Pn lo que dize que eneste calendario no ay
+cosa deidolatria, es falssissima mētixa: por que no es calendario,
+omo axte adiujnatoria, donde ze, con tienen muchas cosas de ido
+la tria, y muchas euparsticiones, y muchas in vocaciones delos de
+monjos, tacita, y espressamente, como parece en todo este quarto
+libro precediente: de manera que njnguna verdad contiene aquel
+tratado arriba puesto: que aguel religioso escriujo, mas antes cō
+tiene falzedad mentira muj pernjciosa.
+Siguese adelante enel tratado
+de aquel religroso.
+Cos idios, que bien entendian los secretos destas ruedas, y ca
+lendario, no los enseñauan, njdescubrian, sioamuy pocos, porque
+por ello ganauan de comer, y eran estimados, y tenjdos por hombres
+sabios, y enfendidos: empero sabian casi todos los mdros aclultos
+y tenjan noficia del año, ansidel numero como dela casa en que
+andauan: mas delos nombres de los dias, y semanas, y sotros mu
+chos secretos, y cuentas que tenjan: solos aquellos maestros com
+potistas, lo alçan çauan sa de saber. Agora paxa entender lacuen
+ta, que estos natuxales tenjan; ypara saber, como contauan los
+tiempos: por las ruedas, y figuras aquj esscritas: se ponen reglas,
+que son las in fra escxitas:
+Con futacion de lo arriba dicho,
+La esta dicho, que el calendario es cstincto desta cuenta, y notre
+ne nada que ver conella el calendario, tracta de los meses de to
+do el año, y de los dias de todo el año, y de las semanas de todo el
+año, y de las fusras fixas de todo el año, sabian le todos los satra</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

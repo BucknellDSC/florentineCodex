@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 50%;
+       height: 50%;
+       position: fixed;
+         margin:0 auto;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+         myMiradorInstance = Mirador({
+             id: "viewer",
+             layout: "1x2",
+             buildPath: "mirador/",
+             data: [
+                 { manifestUri: "https://iiif.lib.harvard.edu/manifests/drs:48309543", location: "Harvard University"},
+                 { manifestUri: "https://iiif.lib.harvard.edu/manifests/drs:5981093", location: "Harvard University"},
+             ],
+             "windowObjects": [{
+                 loadedManifest: "https://iiif.lib.harvard.edu/manifests/drs:48309543",
+                 viewType: "BookView",
+                 slotAddress: "row1.column1"
+             },{
+                 loadedManifest: "https://iiif.lib.harvard.edu/manifests/drs:5981093",
+                 slotAddress: "row1.column2",
+                 viewType: "ImageView"
+             }],
+             annotationEndpoint: {
+                 name:"Local Storage",
+                 module: "LocalStorageEndpoint" }
+         });
+     });
+    </script>
+  </body>
+</html>

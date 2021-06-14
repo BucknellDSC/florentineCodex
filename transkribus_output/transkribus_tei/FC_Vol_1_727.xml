@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:24:09.159-07:00</Created>
+        <LastChange>2020-06-24T09:15:53.492+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_727.png" imageWidth="2326" imageHeight="3600">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736980180" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="2076,46 2076,264 2267,264 2267,46"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="2141,92 2149,92 2159,86 2193,85 2223,98 2230,48 2221,46 2204,34 2198,37 2188,32 2169,34 2148,31"/>
+                <Baseline points="2147,81 2183,81 2219,90"/>
+                <TextEquiv>
+                    <Unicode>con.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="2105,212 2118,209 2131,196 2157,184 2166,187 2189,175 2201,175 2216,164 2233,166 2232,129 2203,124 2188,135 2149,141 2134,157 2103,159"/>
+                <Baseline points="2108,174 2138,173 2168,167 2198,164 2229,176"/>
+                <TextEquiv>
+                    <Unicode>.y naocata</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="2070,248 2106,246 2124,257 2148,258 2190,284 2271,269 2277,187 2257,194 2246,186 2204,218 2168,221 2143,211 2112,179 2090,186 2076,176"/>
+                <Baseline points="2076,231 2103,236 2130,237 2157,239 2185,241 2212,243 2239,245 2267,249"/>
+                <TextEquiv>
+                    <Unicode>Ercue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>con.
+.y naocata
+Ercue</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

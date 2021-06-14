@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:24:03.907-07:00</Created>
+        <LastChange>2020-06-24T08:55:04.227+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_648.png" imageWidth="2540" imageHeight="4152">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736974607" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="510,115 510,271 971,271 971,115"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="503,237 680,227 829,260 978,242 976,102 906,103 846,61 736,57 697,30 620,50 500,48"/>
+                <Baseline points="510,219 535,220 561,221 586,221 612,221 638,221 663,221 689,219 714,219 740,219 766,218 791,218 817,216 842,216 868,216 894,215 919,216 945,216 971,216"/>
+                <TextEquiv>
+                    <Unicode>Libro.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Libro.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="1293,154 1293,991 2463,991 2463,154"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="1405,244 1448,267 1481,241 1570,222 1567,74 1541,89 1498,89 1452,119 1402,118"/>
+                <Baseline points="1412,213 1437,217 1462,218 1487,216 1512,213 1537,213 1563,215"/>
+                <TextEquiv>
+                    <Unicode>A.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="1286,381 2420,380 2470,364 2469,238 2265,289 1740,251 1435,304 1285,261"/>
+                <Baseline points="1293,360 1351,359 1410,356 1468,356 1527,354 1585,353 1644,353 1702,353 1761,353 1819,353 1878,353 1936,353 1995,353 2053,353 2112,353 2170,353 2229,353 2287,351 2346,351 2404,350 2463,348"/>
+                <TextEquiv>
+                    <Unicode>yncan in tlaoncaiotia 2. atl yoā.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:2;}">
+                <Coords points="1315,469 1684,520 1757,489 2457,493 2457,424 2294,413 2247,374 1940,421 1779,369 1598,417 1373,367 1315,396"/>
+                <Baseline points="1322,470 1378,468 1434,467 1491,467 1547,465 1604,464 1660,464 1716,462 1773,462 1829,462 1886,462 1942,462 1998,462 2055,462 2111,462 2168,462 2224,462 2280,462 2337,462 2393,463 2450,464"/>
+                <TextEquiv>
+                    <Unicode> itzcuintli. . Oçomatli. o. ma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:3;}">
+                <Coords points="1306,626 1452,637 1529,576 1634,570 1840,638 2416,604 2416,507 2296,492 2157,481 2043,523 1876,486 1781,536 1537,480 1455,516 1373,468 1307,484"/>
+                <Baseline points="1313,590 1367,585 1422,582 1477,580 1532,578 1586,577 1641,576 1696,576 1751,576 1805,578 1860,578 1915,579 1970,581 2024,582 2079,584 2134,585 2189,585 2243,587 2298,587 2353,587 2408,587"/>
+                <TextEquiv>
+                    <Unicode>Jnalli. G acatl.J. ocelutl. E.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:4;}">
+                <Coords points="1312,764 1445,713 1582,753 1909,723 2035,764 2266,758 2449,702 2448,639 2359,611 1816,658 1616,580 1311,673"/>
+                <Baseline points="1319,716 1375,713 1431,709 1487,707 1543,705 1599,704 1655,702 1711,702 1767,702 1823,702 1880,702 1936,702 1992,702 2048,702 2104,702 2160,704 2216,703 2272,702 2328,702 2384,701 2441,699"/>
+                <TextEquiv>
+                    <Unicode>quauhtli. q. cozcaquauhtli. io.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:5;}">
+                <Coords points="1322,890 1799,843 2069,882 2443,868 2443,776 2372,735 2056,792 1909,723 1792,785 1696,747 1526,781 1419,725 1322,769"/>
+                <Baseline points="1329,839 1384,837 1439,837 1495,837 1550,837 1605,837 1661,836 1716,836 1771,836 1827,836 1882,836 1937,834 1993,834 2048,836 2103,836 2159,836 2214,837 2269,837 2325,839 2380,840 2436,842"/>
+                <TextEquiv>
+                    <Unicode>olin. It. tecpatl. 12 quiavitl. 13.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:6;}">
+                <Coords points="1324,1009 1418,986 1479,998 1526,963 1544,976 1560,963 1592,974 1613,966 1648,982 1648,852 1563,884 1528,867 1450,911 1361,895 1325,902"/>
+                <Baseline points="1332,956 1357,957 1383,957 1409,957 1435,956 1460,956 1486,956 1512,955 1538,955 1563,956 1589,956 1615,958 1641,962"/>
+                <TextEquiv>
+                    <Unicode>tuchitl.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>A.
+yncan in tlaoncaiotia 2. atl yoā.
+ itzcuintli. . Oçomatli. o. ma
+Jnalli. G acatl.J. ocelutl. E.
+quauhtli. q. cozcaquauhtli. io.
+olin. It. tecpatl. 12 quiavitl. 13.
+tuchitl.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

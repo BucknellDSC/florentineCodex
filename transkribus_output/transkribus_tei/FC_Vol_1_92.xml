@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:28.134-07:00</Created>
+        <LastChange>2020-06-24T05:52:51.346+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_92.png" imageWidth="2658" imageHeight="4074">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736933265" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="78,98 78,3972 2613,3972 2613,98"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1023,209 1077,193 1109,221 1138,201 1189,217 1322,173 1385,212 1491,165 1664,159 1741,116 1739,69 1656,41 1580,39 1428,88 1352,40 1276,86 1173,51 1019,95"/>
+                <Baseline points="1029,170 1064,166 1099,164 1134,161 1169,159 1205,158 1240,156 1275,155 1310,155 1345,153 1381,153 1416,152 1451,152 1486,152 1521,150 1557,150 1592,150 1627,149 1662,148 1697,147 1733,146"/>
+                <TextEquiv>
+                    <Unicode>Del primero libro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="1378,401 1636,361 1961,389 2026,346 2564,363 2563,275 1377,277"/>
+                <Baseline points="1385,359 1443,357 1502,356 1560,354 1619,353 1677,351 1736,350 1794,348 1853,347 1911,347 1970,345 2029,345 2087,344 2146,344 2204,344 2263,344 2321,344 2380,344 2438,345 2497,345 2556,347"/>
+                <TextEquiv>
+                    <Unicode>pa ca cenca qualli moiollotzin, in tlatla</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="76,390 546,380 605,428 707,384 771,424 1262,381 1243,276 945,315 737,273 621,312 553,281 386,320 289,272 76,308"/>
+                <Baseline points="84,375 142,374 200,374 259,372 317,372 376,372 434,372 493,372 551,372 610,372 668,374 726,374 785,374 843,374 902,372 960,372 1019,372 1077,372 1136,371 1194,370 1253,369"/>
+                <TextEquiv>
+                    <Unicode>corripis: et de qujbus peccant ad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="1390,461 1653,427 1738,468 1813,424 2003,462 2107,428 2473,450 2563,418 2562,363 1389,405"/>
+                <Baseline points="1397,440 1454,437 1512,434 1570,431 1628,429 1686,428 1744,426 1802,425 1860,423 1918,422 1976,420 2033,420 2091,419 2149,419 2207,417 2265,416 2323,416 2381,414 2439,413 2497,413 2555,410"/>
+                <TextEquiv>
+                    <Unicode>coanj, amo njman tiqujnmopopolhuja</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="72,526 406,503 592,554 711,514 1259,499 1318,545 1339,436 1174,376 766,440 598,427 543,379 72,457"/>
+                <Baseline points="80,503 142,501 205,501 267,500 330,499 393,498 455,497 518,497 580,497 643,495 706,495 768,495 831,495 893,494 956,494 1019,494 1081,494 1144,494 1206,494 1269,495 1332,495"/>
+                <TextEquiv>
+                    <Unicode>mones et alloqueris: ut relicta ma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="1388,543 1686,511 1813,547 2104,493 2279,528 2570,511 2553,430 1999,461 1815,423 1738,468 1627,431 1386,475"/>
+                <Baseline points="1395,519 1453,516 1511,513 1569,510 1628,509 1686,506 1744,504 1803,503 1861,501 1919,498 1978,497 2036,495 2094,494 2152,492 2211,491 2269,489 2327,486 2386,484 2444,482 2502,478 2561,476"/>
+                <TextEquiv>
+                    <Unicode>amo njman tiqujnmotla tlatilia, çan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="1382,639 1952,575 2256,609 2580,557 2565,498 1379,542"/>
+                <Baseline points="1389,612 1448,604 1507,597 1566,592 1625,587 1684,584 1743,581 1802,580 1861,578 1920,578 1980,576 2039,575 2098,575 2157,573 2216,572 2275,569 2334,566 2393,563 2452,559 2511,554 2571,546"/>
+                <TextEquiv>
+                    <Unicode>oc tiqujnmonemachtilia, tiqujmonono</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="83,672 349,648 467,681 573,629 1088,620 1087,545 985,509 674,556 519,555 471,520 418,558 82,547"/>
+                <Baseline points="90,618 139,618 189,618 238,618 288,617 337,617 387,615 436,614 486,614 535,612 585,611 634,609 684,609 733,608 783,608 832,606 882,606 931,606 981,608 1030,608 1080,609"/>
+                <TextEquiv>
+                    <Unicode>litia, credant inte domjne.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="1387,703 1579,650 1827,702 1898,655 2038,685 2110,645 2198,690 2574,628 2571,568 2442,594 2397,564 2256,608 1715,590 1384,639"/>
+                <Baseline points="1394,683 1452,677 1511,671 1569,666 1628,663 1686,659 1745,656 1803,654 1862,653 1920,650 1979,650 2038,648 2096,647 2155,645 2213,644 2272,641 2330,639 2389,636 2447,633 2506,629 2565,624"/>
+                <TextEquiv>
+                    <Unicode>chilia ynjc qujcaoazque, ynj maqual</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="1395,772 1664,790 1971,742 2188,776 2318,724 2429,760 2561,714 2537,667 2370,651 2169,692 1919,653 1830,702 1392,703"/>
+                <Baseline points="1403,759 1460,755 1518,753 1575,750 1633,748 1690,746 1748,744 1805,741 1863,740 1920,738 1978,735 2035,734 2093,732 2150,729 2208,728 2265,725 2323,722 2380,720 2438,717 2495,714 2553,710"/>
+                <TextEquiv>
+                    <Unicode>nemiliz, ynjc motetzinco pachiuizque.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="86,832 469,850 525,813 676,850 837,778 1231,789 1310,776 1309,668 84,682"/>
+                <Baseline points="93,797 153,792 213,789 274,786 334,785 395,783 455,782 516,780 576,779 637,779 697,779 757,779 818,777 878,777 939,777 999,776 1060,774 1120,774 1181,772 1241,770 1302,768"/>
+                <TextEquiv>
+                    <Unicode>A. Jllos enjm antiquos inhabita</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="1378,891 1519,844 1657,882 1773,837 2551,809 2549,760 2293,736 2210,785 1981,766 1788,808 1728,763 1618,805 1429,764 1375,805"/>
+                <Baseline points="1385,842 1442,842 1500,842 1558,842 1616,840 1674,839 1732,838 1790,836 1848,834 1906,833 1964,830 2021,828 2079,825 2137,823 2195,821 2253,818 2311,815 2369,813 2427,810 2485,808 2543,806"/>
+                <TextEquiv>
+                    <Unicode>A. Totecujoe, in iehoantin tlateutoca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:12;}">
+                <Coords points="76,929 1323,929 1321,803 1260,796 1157,853 1024,812 939,850 75,843"/>
+                <Baseline points="84,927 145,923 207,919 268,916 330,913 391,910 453,908 514,907 576,906 637,905 699,903 760,903 822,903 883,903 945,903 1006,903 1068,903 1129,905 1191,905 1252,905 1314,906"/>
+                <TextEquiv>
+                    <Unicode>tores terre tue, quos exhorruisti</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:13;}">
+                <Coords points="1391,961 1779,916 2450,939 2591,893 2589,843 2474,868 2257,831 2196,869 2107,830 1969,864 1880,837 1770,882 1388,891"/>
+                <Baseline points="1398,941 1457,936 1516,933 1575,929 1635,926 1694,923 1753,920 1812,918 1872,915 1931,914 1990,912 2049,910 2109,908 2168,906 2227,905 2286,902 2346,900 2405,898 2464,896 2523,894 2583,891"/>
+                <TextEquiv>
+                    <Unicode>njme, in motlalpantzinco nemja, cen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:14;}">
+                <Coords points="1397,1048 1645,1052 1781,994 1999,989 2511,1026 2599,986 2583,925 1395,959"/>
+                <Baseline points="1404,1026 1463,1020 1522,1014 1582,1008 1641,1005 1700,1001 1760,998 1819,996 1878,995 1938,993 1997,992 2056,992 2116,991 2175,990 2234,990 2294,989 2353,989 2412,986 2472,985 2531,982 2591,980"/>
+                <TextEquiv>
+                    <Unicode>ca otiqujnmotlaelittili, yn ipampa yn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:15;}">
+                <Coords points="78,1100 183,1069 944,1100 1077,1033 1239,1112 1320,1079 1319,964 681,924 558,987 77,1005"/>
+                <Baseline points="86,1053 147,1052 208,1049 269,1046 331,1044 392,1042 453,1040 514,1038 576,1037 637,1035 698,1034 759,1034 821,1034 882,1034 943,1034 1004,1034 1066,1035 1127,1036 1188,1037 1249,1040 1311,1043"/>
+                <TextEquiv>
+                    <Unicode>quonjam odibilia opera tibi fa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:16;}">
+                <Coords points="1395,1168 1642,1110 2456,1096 2581,1077 2579,1031 2209,996 2092,1048 1686,1033 1391,1081"/>
+                <Baseline points="1401,1122 1459,1118 1518,1113 1576,1109 1635,1104 1694,1101 1752,1098 1811,1097 1869,1094 1928,1091 1987,1089 2045,1087 2104,1086 2162,1085 2221,1082 2280,1080 2338,1079 2397,1077 2455,1074 2514,1073 2573,1070"/>
+                <TextEquiv>
+                    <Unicode>imaqualnemiliz: ipampa cacenca te</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:17;}">
+                <Coords points="1402,1240 1757,1184 2486,1182 2589,1166 2586,1094 1665,1109 1399,1165"/>
+                <Baseline points="1409,1211 1467,1206 1526,1199 1584,1194 1643,1190 1701,1185 1760,1182 1818,1179 1877,1176 1935,1175 1994,1172 2053,1170 2111,1168 2170,1166 2228,1165 2287,1164 2345,1162 2404,1160 2462,1158 2521,1155 2580,1154"/>
+                <TextEquiv>
+                    <Unicode>qualanj, teiolitlaco, in qujchiuhtinenca:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:18;}">
+                <Coords points="102,1248 474,1253 568,1176 788,1212 1305,1200 1303,1107 100,1100"/>
+                <Baseline points="110,1194 169,1191 228,1189 287,1187 347,1184 406,1182 465,1181 525,1179 584,1176 643,1175 703,1173 762,1173 821,1172 880,1172 940,1172 999,1172 1058,1172 1118,1172 1177,1173 1236,1174 1296,1175"/>
+                <TextEquiv>
+                    <Unicode>ciebant per medicamjna et sa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:19;}">
+                <Coords points="1404,1314 1915,1252 2541,1252 2557,1178 1400,1247"/>
+                <Baseline points="1410,1290 1467,1284 1524,1280 1581,1275 1638,1271 1695,1266 1752,1264 1809,1260 1866,1257 1923,1253 1981,1251 2038,1248 2095,1245 2152,1244 2209,1241 2266,1239 2323,1236 2380,1235 2437,1232 2494,1230 2552,1229"/>
+                <TextEquiv>
+                    <Unicode>catonalpouhtinenca, tetlacujcujlitine</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:20;}">
+                <Coords points="106,1378 1313,1325 1311,1241 1110,1209 698,1207 630,1260 246,1242 104,1286"/>
+                <Baseline points="114,1337 173,1335 233,1332 292,1331 352,1329 411,1328 471,1325 530,1325 590,1322 649,1321 709,1320 769,1319 828,1317 888,1316 947,1316 1007,1314 1066,1314 1126,1313 1185,1313 1245,1311 1305,1311"/>
+                <TextEquiv>
+                    <Unicode>crificia in iusta, et filiorum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l22" custom="readingOrder {index:21;}">
+                <Coords points="1402,1382 1477,1345 1741,1375 2064,1324 2558,1322 2555,1259 2399,1250 2220,1260 2182,1301 1916,1251 1786,1305 1399,1316"/>
+                <Baseline points="1409,1370 1466,1365 1523,1359 1580,1355 1637,1350 1694,1347 1751,1343 1808,1340 1865,1335 1922,1332 1979,1329 2036,1328 2093,1325 2150,1323 2207,1320 2264,1319 2321,1317 2378,1316 2435,1315 2492,1314 2550,1313"/>
+                <TextEquiv>
+                    <Unicode>ca mecatlapouhtinenca, tlaulchaia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l23" custom="readingOrder {index:22;}">
+                <Coords points="1396,1463 2429,1415 2594,1396 2591,1329 2246,1370 1864,1342 1503,1395 1391,1368"/>
+                <Baseline points="1403,1451 1462,1446 1521,1440 1580,1435 1639,1431 1698,1427 1757,1423 1817,1419 1876,1416 1935,1413 1994,1410 2053,1408 2112,1406 2171,1403 2231,1401 2290,1398 2349,1397 2408,1394 2467,1392 2526,1389 2586,1388"/>
+                <TextEquiv>
+                    <Unicode>uhtinenca. Auh in tlatla cateculo in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l24" custom="readingOrder {index:23;}">
+                <Coords points="102,1534 167,1498 515,1534 804,1448 1282,1451 1280,1388 1148,1374 99,1418"/>
+                <Baseline points="108,1476 166,1473 224,1470 282,1467 341,1464 399,1463 457,1460 516,1458 574,1457 632,1455 691,1454 749,1452 807,1451 865,1450 924,1449 982,1448 1040,1446 1099,1446 1157,1445 1215,1443 1274,1442"/>
+                <TextEquiv>
+                    <Unicode>suorum necatores sine miseri</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l25" custom="readingOrder {index:24;}">
+                <Coords points="1406,1550 2113,1492 2441,1517 2568,1470 2566,1412 1401,1465"/>
+                <Baseline points="1413,1530 1470,1526 1527,1522 1585,1518 1642,1514 1700,1510 1757,1507 1814,1504 1872,1502 1929,1498 1987,1495 2044,1493 2101,1490 2159,1487 2216,1485 2274,1482 2331,1481 2388,1478 2446,1476 2503,1473 2561,1472"/>
+                <TextEquiv>
+                    <Unicode>tzitzitzimi imjxpan tlamictiaia: yoā</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l26" custom="readingOrder {index:25;}">
+                <Coords points="1413,1647 1762,1592 1840,1633 2032,1580 2413,1607 2576,1567 2573,1507 2424,1531 2350,1500 1842,1564 1669,1521 1409,1563"/>
+                <Baseline points="1419,1616 1476,1610 1533,1607 1591,1602 1648,1598 1706,1594 1763,1592 1821,1589 1878,1586 1936,1583 1993,1581 2050,1580 2108,1577 2165,1575 2223,1574 2280,1571 2338,1569 2395,1566 2453,1565 2510,1562 2568,1559"/>
+                <TextEquiv>
+                    <Unicode>yn jnpilhoan qujnmictiaia, in çamos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l27" custom="readingOrder {index:26;}">
+                <Coords points="100,1616 690,1637 734,1598 1047,1638 1188,1577 1309,1580 1295,1478 1138,1534 694,1500 565,1541 368,1549 271,1505 98,1539"/>
+                <Baseline points="107,1607 166,1605 226,1602 286,1599 345,1598 405,1595 465,1593 524,1592 584,1590 644,1589 704,1587 763,1586 823,1584 883,1584 942,1582 1002,1581 1062,1580 1121,1578 1181,1577 1241,1575 1301,1574"/>
+                <TextEquiv>
+                    <Unicode>cordia, et comestores viscerum ho</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l28" custom="readingOrder {index:27;}">
+                <Coords points="1395,1714 1947,1717 2011,1670 2302,1653 2485,1689 2599,1646 2597,1602 2405,1622 2314,1582 1393,1659"/>
+                <Baseline points="1403,1706 1462,1700 1521,1697 1581,1692 1640,1688 1700,1683 1759,1679 1819,1676 1878,1672 1938,1669 1997,1666 2056,1664 2116,1661 2175,1659 2235,1657 2294,1655 2354,1653 2413,1652 2473,1652 2532,1650 2592,1650"/>
+                <TextEquiv>
+                    <Unicode>tlaoaia, yn imjspan, in tetlaxinti, in qua</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l29" custom="readingOrder {index:28;}">
+                <Coords points="98,1765 275,1777 393,1717 1050,1711 1145,1768 1284,1758 1270,1642 613,1621 426,1693 375,1662 97,1678"/>
+                <Baseline points="105,1730 163,1727 222,1723 280,1720 339,1719 397,1718 456,1716 514,1716 573,1715 631,1715 690,1715 748,1715 807,1715 865,1715 924,1715 982,1713 1041,1712 1099,1710 1158,1707 1216,1705 1275,1701"/>
+                <TextEquiv>
+                    <Unicode>mjnum et deuoratores sanguj</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l30" custom="readingOrder {index:29;}">
+                <Coords points="1399,1791 1901,1758 1971,1789 2142,1742 2522,1760 2621,1736 2618,1661 2497,1700 2140,1664 1995,1715 1397,1736"/>
+                <Baseline points="1407,1787 1467,1781 1527,1778 1587,1772 1648,1767 1708,1764 1768,1760 1829,1757 1889,1753 1949,1749 2010,1746 2070,1745 2130,1742 2190,1740 2251,1738 2311,1736 2371,1735 2432,1734 2492,1733 2552,1731 2613,1731"/>
+                <TextEquiv>
+                    <Unicode>uhtlaxinti: yoan qujquaia intlacanacatl</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l31" custom="readingOrder {index:30;}">
+                <Coords points="1404,1882 2088,1873 2244,1825 2311,1862 2553,1835 2587,1772 1401,1792"/>
+                <Baseline points="1412,1868 1470,1863 1528,1859 1587,1856 1645,1851 1704,1848 1762,1846 1820,1842 1879,1841 1937,1838 1996,1835 2054,1833 2112,1832 2171,1830 2229,1827 2288,1826 2346,1824 2404,1822 2463,1820 2521,1818 2580,1815"/>
+                <TextEquiv>
+                    <Unicode>in iehoantinjn vecauhtica tiqujnmu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l32" custom="readingOrder {index:31;}">
+                <Coords points="103,1904 454,1866 816,1930 968,1859 1302,1859 1311,1784 1019,1757 567,1809 488,1771 101,1823"/>
+                <Baseline points="110,1878 169,1874 229,1872 289,1869 348,1868 408,1865 468,1864 527,1863 587,1862 647,1860 707,1859 766,1859 826,1857 886,1856 945,1855 1005,1854 1065,1853 1124,1851 1184,1849 1244,1847 1304,1844"/>
+                <TextEquiv>
+                    <Unicode>njs: perdere voluisti per manus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l33" custom="readingOrder {index:32;}">
+                <Coords points="1401,1960 1768,1973 1807,1935 1892,1976 2156,1919 2438,1947 2579,1912 2577,1860 2452,1825 2214,1880 1788,1865 1634,1898 1512,1866 1399,1914"/>
+                <Baseline points="1409,1949 1467,1945 1525,1941 1583,1940 1641,1937 1699,1934 1757,1932 1815,1929 1873,1927 1931,1925 1990,1923 2048,1922 2106,1919 2164,1917 2222,1916 2280,1913 2338,1912 2396,1910 2454,1908 2512,1906 2571,1904"/>
+                <TextEquiv>
+                    <Unicode>chieli, ynjc qujcuepazque ynjmaqual</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l34" custom="readingOrder {index:33;}">
+                <Coords points="104,2014 805,2006 821,1929 554,1942 376,1907 339,1939 156,1947 103,1975"/>
+                <Baseline points="111,2013 146,2010 181,2007 216,2005 251,2003 287,2001 322,2001 357,2001 392,2001 427,2001 463,2001 498,2001 533,2001 568,2001 603,2001 639,2000 674,2000 709,1998 744,1997 779,1993 815,1989"/>
+                <TextEquiv>
+                    <Unicode>seruorum tuorum.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l35" custom="readingOrder {index:34;}">
+                <Coords points="1393,2058 2574,2002 2571,1941 2292,1930 1390,1986"/>
+                <Baseline points="1400,2040 1458,2035 1516,2030 1574,2025 1633,2022 1691,2018 1749,2015 1807,2012 1866,2008 1924,2005 1982,2002 2040,2000 2099,1997 2157,1995 2215,1994 2273,1992 2332,1991 2390,1989 2448,1988 2506,1987 2565,1986"/>
+                <TextEquiv>
+                    <Unicode>nemjliz: auh ipampa yn amo qujnec</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l36" custom="readingOrder {index:35;}">
+                <Coords points="1400,2152 2580,2072 2559,1999 2482,2031 1395,2058"/>
+                <Baseline points="1406,2123 1464,2117 1522,2112 1580,2109 1639,2105 1697,2102 1755,2099 1813,2096 1872,2093 1930,2091 1988,2088 2046,2086 2105,2084 2163,2081 2221,2078 2279,2075 2338,2073 2396,2069 2454,2066 2512,2062 2571,2058"/>
+                <TextEquiv>
+                    <Unicode>que in qujcuepazque ynjn nemiliz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l37" custom="readingOrder {index:36;}">
+                <Coords points="1415,2248 1698,2192 2113,2214 2600,2159 2597,2101 2436,2083 2380,2122 2278,2084 2165,2140 1955,2113 1412,2174"/>
+                <Baseline points="1421,2210 1479,2204 1538,2199 1596,2195 1655,2191 1713,2188 1772,2185 1830,2182 1889,2180 1947,2177 2006,2175 2064,2173 2123,2171 2181,2169 2240,2166 2298,2165 2357,2161 2415,2159 2474,2156 2532,2153 2591,2148"/>
+                <TextEquiv>
+                    <Unicode>otiqujnmopupulhuj, oqujtzacutiaque,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l38" custom="readingOrder {index:37;}">
+                <Coords points="1394,2332 1692,2270 2495,2268 2555,2243 2552,2184 1968,2231 1625,2209 1390,2253"/>
+                <Baseline points="1400,2291 1457,2286 1514,2282 1571,2279 1629,2276 1686,2273 1743,2270 1801,2268 1858,2265 1915,2264 1973,2261 2030,2259 2087,2258 2144,2256 2202,2253 2259,2252 2316,2249 2374,2246 2431,2243 2488,2239 2546,2237"/>
+                <TextEquiv>
+                    <Unicode>yn jntlauelilocaio, oqujnpopoloque</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l39" custom="readingOrder {index:38;}">
+                <Coords points="1408,2393 1832,2410 2064,2342 2535,2352 2604,2324 2602,2268 1405,2321"/>
+                <Baseline points="1415,2366 1474,2362 1533,2360 1592,2356 1651,2354 1710,2351 1769,2349 1828,2346 1887,2345 1946,2343 2006,2342 2065,2340 2124,2339 2183,2337 2242,2336 2301,2333 2360,2331 2419,2328 2478,2325 2537,2321 2597,2318"/>
+                <TextEquiv>
+                    <Unicode>in momaceoaltzitzinhoan in xp̄ianome.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l40" custom="readingOrder {index:39;}">
+                <Coords points="1394,2525 1582,2471 1668,2506 1735,2466 1780,2499 1831,2463 2477,2477 2568,2442 2566,2370 2437,2351 2270,2421 1679,2435 1390,2391"/>
+                <Baseline points="1401,2489 1459,2484 1517,2480 1575,2475 1633,2472 1691,2470 1749,2468 1807,2465 1865,2463 1923,2460 1981,2459 2039,2458 2097,2457 2155,2456 2213,2454 2271,2453 2329,2452 2387,2451 2445,2450 2503,2448 2561,2447"/>
+                <TextEquiv>
+                    <Unicode>B. Totecujoe ynic oiuhticmuchiujli, yn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l41" custom="readingOrder {index:40;}">
+                <Coords points="94,2521 1101,2561 1314,2504 1288,2407 879,2421 821,2387 652,2447 93,2430"/>
+                <Baseline points="102,2507 162,2504 222,2502 282,2501 342,2499 402,2498 462,2498 523,2496 583,2496 643,2496 703,2496 763,2496 823,2496 883,2496 944,2498 1004,2498 1064,2498 1124,2498 1184,2498 1244,2498 1305,2496"/>
+                <TextEquiv>
+                    <Unicode>B. Quis enjm dicet tibi, qujd fe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l42" custom="readingOrder {index:41;}">
+                <Coords points="1407,2573 2563,2540 2561,2476 2248,2498 2095,2466 1923,2512 1738,2480 1406,2526"/>
+                <Baseline points="1415,2564 1472,2561 1529,2559 1586,2555 1643,2553 1700,2550 1757,2549 1814,2546 1871,2544 1928,2542 1985,2540 2042,2538 2099,2537 2156,2535 2213,2534 2270,2534 2327,2532 2384,2531 2441,2531 2498,2531 2555,2531"/>
+                <TextEquiv>
+                    <Unicode>cuix aca itlaqujtoz? cujx aca qujtoz,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l43" custom="readingOrder {index:42;}">
+                <Coords points="1396,2672 2501,2636 2525,2550 2058,2560 1992,2594 1663,2563 1393,2604"/>
+                <Baseline points="1403,2652 1458,2649 1514,2646 1570,2643 1626,2640 1682,2639 1737,2636 1793,2634 1849,2633 1905,2630 1961,2629 2016,2627 2072,2625 2128,2625 2184,2622 2240,2622 2295,2621 2351,2619 2407,2618 2463,2616 2519,2615"/>
+                <TextEquiv>
+                    <Unicode>tleica yn iuhticmuchiujlia, in? auh</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l44" custom="readingOrder {index:43;}">
+                <Coords points="100,2666 475,2691 562,2637 889,2623 1250,2653 1298,2633 1298,2568 99,2543"/>
+                <Baseline points="108,2643 167,2640 226,2637 285,2634 344,2633 403,2631 462,2630 521,2628 580,2628 639,2627 699,2627 758,2627 817,2627 876,2627 935,2627 994,2628 1053,2628 1112,2628 1171,2628 1230,2627 1290,2627"/>
+                <TextEquiv>
+                    <Unicode>cisti: aut quis stabit contra iu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l45" custom="readingOrder {index:44;}">
+                <Coords points="1391,2762 1533,2727 1813,2762 1967,2720 2242,2744 2300,2708 2411,2744 2576,2700 2573,2632 1389,2697"/>
+                <Baseline points="1398,2742 1456,2736 1514,2732 1573,2727 1631,2724 1690,2721 1748,2719 1807,2717 1865,2715 1924,2714 1982,2714 2040,2712 2099,2711 2157,2711 2216,2709 2274,2708 2333,2706 2391,2705 2450,2702 2508,2699 2567,2696"/>
+                <TextEquiv>
+                    <Unicode>cuix aca mitzmotlatzovililiz? inipam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l46" custom="readingOrder {index:45;}">
+                <Coords points="89,2790 569,2761 1048,2808 1119,2761 1296,2771 1326,2695 945,2650 847,2699 87,2709"/>
+                <Baseline points="96,2784 157,2779 218,2774 279,2769 340,2766 401,2763 462,2760 524,2759 585,2757 646,2756 707,2756 768,2754 829,2754 890,2754 952,2756 1013,2756 1074,2756 1135,2756 1196,2756 1257,2757 1319,2756"/>
+                <TextEquiv>
+                    <Unicode>dicium tuum? aut qujs incons</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l47" custom="readingOrder {index:46;}">
+                <Coords points="1408,2840 1973,2828 2082,2784 2164,2824 2573,2817 2571,2735 2371,2752 2268,2718 2227,2749 2066,2722 1407,2786"/>
+                <Baseline points="1416,2820 1473,2816 1530,2813 1588,2810 1645,2807 1703,2805 1760,2803 1818,2801 1875,2799 1933,2798 1990,2796 2047,2795 2105,2794 2162,2793 2220,2792 2277,2792 2335,2790 2392,2789 2450,2789 2507,2787 2565,2787"/>
+                <TextEquiv>
+                    <Unicode>pa iuh ticmuchiujli? auh cujx aca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l48" custom="readingOrder {index:47;}">
+                <Coords points="1403,2906 2576,2878 2565,2818 1401,2843"/>
+                <Baseline points="1410,2900 1467,2895 1525,2891 1583,2887 1641,2884 1699,2882 1757,2879 1815,2877 1873,2874 1931,2873 1989,2872 2046,2871 2104,2870 2162,2870 2220,2870 2278,2870 2336,2870 2394,2870 2452,2870 2510,2870 2568,2871"/>
+                <TextEquiv>
+                    <Unicode>motetzinco motzoncuiz, yn ipampa in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l49" custom="readingOrder {index:48;}">
+                <Coords points="89,2956 168,2926 599,2957 762,2880 1257,2925 1325,2896 1323,2821 279,2778 86,2854"/>
+                <Baseline points="96,2921 157,2914 218,2909 279,2903 340,2898 401,2895 462,2892 523,2889 584,2888 645,2886 706,2885 767,2883 828,2883 889,2883 950,2884 1011,2885 1072,2885 1133,2886 1194,2887 1255,2888 1317,2889"/>
+                <TextEquiv>
+                    <Unicode>pectu tuo venjet vindex injmi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l50" custom="readingOrder {index:49;}">
+                <Coords points="1393,2997 2564,2962 2562,2904 2520,2888 1391,2924"/>
+                <Baseline points="1401,2987 1458,2983 1516,2979 1574,2976 1632,2972 1689,2969 1747,2966 1805,2963 1863,2961 1920,2958 1978,2957 2036,2954 2094,2953 2151,2952 2209,2951 2267,2951 2325,2951 2382,2952 2440,2952 2498,2954 2556,2955"/>
+                <TextEquiv>
+                    <Unicode>tlatzacujltiloca, yn aqualti, yn aiecti:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l51" custom="readingOrder {index:50;}">
+                <Coords points="88,3075 726,3029 1255,3078 1292,3069 1290,2919 1061,2973 399,2939 293,2981 86,2973"/>
+                <Baseline points="96,3053 155,3045 214,3039 274,3033 333,3028 393,3025 452,3022 511,3020 571,3018 630,3017 690,3017 749,3017 808,3017 868,3018 927,3018 987,3020 1046,3021 1105,3022 1165,3024 1224,3024 1284,3026"/>
+                <TextEquiv>
+                    <Unicode>corum homjnum? aut qujs sta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l52" custom="readingOrder {index:51;}">
+                <Coords points="1390,3082 1754,3095 2127,3041 2456,3084 2604,3055 2601,2970 1640,2991 1389,3045"/>
+                <Baseline points="1398,3074 1457,3069 1517,3063 1577,3060 1637,3057 1697,3053 1757,3050 1816,3047 1876,3045 1936,3044 1996,3042 2056,3041 2116,3039 2176,3038 2235,3038 2295,3038 2355,3036 2415,3036 2475,3036 2535,3036 2595,3035"/>
+                <TextEquiv>
+                    <Unicode>auh in tlatiqujnmopopolhuiz, yn jxq̄ch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l53" custom="readingOrder {index:52;}">
+                <Coords points="1385,3169 2309,3125 2476,3159 2549,3135 2547,3069 1949,3064 1496,3117 1382,3087"/>
+                <Baseline points="1392,3161 1449,3156 1506,3152 1564,3147 1621,3143 1679,3140 1736,3137 1794,3134 1851,3131 1909,3129 1966,3128 2023,3126 2081,3125 2138,3123 2196,3123 2253,3123 2311,3122 2368,3123 2426,3123 2483,3125 2541,3125"/>
+                <TextEquiv>
+                    <Unicode>tin cemanaoac tlateutocanjme, cujs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l54" custom="readingOrder {index:53;}">
+                <Coords points="78,3175 279,3212 333,3177 1292,3163 1289,3069 1109,3058 76,3103"/>
+                <Baseline points="86,3176 145,3173 205,3171 265,3168 325,3166 385,3164 445,3162 504,3161 564,3158 624,3156 684,3155 744,3153 804,3152 864,3152 923,3150 983,3150 1043,3149 1103,3149 1163,3149 1223,3149 1283,3149"/>
+                <TextEquiv>
+                    <Unicode>bit inputabit, si perierint natio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l55" custom="readingOrder {index:54;}">
+                <Coords points="1385,3261 1586,3233 1712,3265 1772,3222 1969,3209 2030,3253 2217,3257 2270,3219 2507,3222 2527,3165 1607,3162 1383,3214"/>
+                <Baseline points="1392,3255 1448,3248 1504,3241 1561,3235 1617,3229 1674,3225 1730,3222 1786,3218 1843,3215 1899,3213 1956,3212 2012,3210 2068,3209 2125,3209 2181,3209 2238,3209 2294,3209 2350,3209 2407,3209 2463,3210 2520,3210"/>
+                <TextEquiv>
+                    <Unicode>aca tlatoz? cujx aca qujtoz, tleica in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l56" custom="readingOrder {index:55;}">
+                <Coords points="78,3321 207,3312 258,3341 383,3294 527,3332 620,3296 831,3297 828,3198 685,3220 631,3195 599,3223 458,3231 251,3214 77,3273"/>
+                <Baseline points="86,3312 122,3307 159,3304 196,3301 233,3299 270,3296 307,3294 344,3293 381,3291 418,3290 455,3288 491,3288 528,3287 565,3287 602,3287 639,3287 676,3285 713,3285 750,3285 787,3284 824,3284"/>
+                <TextEquiv>
+                    <Unicode>nes quas tu fecisti.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l57" custom="readingOrder {index:56;}">
+                <Coords points="1386,3376 1493,3332 2547,3300 2596,3278 2593,3211 2516,3250 2269,3220 2209,3259 1485,3270 1382,3313"/>
+                <Baseline points="1392,3351 1451,3343 1511,3336 1571,3329 1631,3324 1691,3319 1751,3314 1810,3310 1870,3306 1930,3303 1990,3300 2050,3297 2110,3296 2170,3294 2229,3293 2289,3291 2349,3290 2409,3288 2469,3287 2529,3286 2589,3285"/>
+                <TextEquiv>
+                    <Unicode>iuh ticmuchiujlia? ca muchinti motla</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l58" custom="readingOrder {index:57;}">
+                <Coords points="1396,3444 1997,3387 1991,3328 1900,3344 1830,3324 1789,3355 1751,3333 1609,3341 1561,3368 1467,3356 1393,3405"/>
+                <Baseline points="1403,3428 1432,3425 1461,3423 1490,3420 1520,3418 1549,3416 1578,3412 1607,3410 1637,3407 1666,3404 1695,3400 1724,3398 1754,3394 1783,3392 1812,3389 1841,3387 1871,3384 1900,3382 1929,3380 1958,3378 1988,3377"/>
+                <TextEquiv>
+                    <Unicode>chioaltzitzinhoan.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l59" custom="readingOrder {index:58;}">
+                <Coords points="1423,3606 1916,3533 2580,3557 2577,3465 2102,3505 1828,3473 1698,3519 1419,3476"/>
+                <Baseline points="1431,3594 1488,3582 1545,3573 1602,3565 1659,3560 1716,3554 1773,3549 1830,3546 1887,3544 1944,3542 2001,3542 2058,3542 2115,3542 2172,3542 2229,3542 2286,3542 2343,3542 2400,3542 2457,3540 2514,3540 2571,3537"/>
+                <TextEquiv>
+                    <Unicode>C. Niman aiac vnca, occe teutl, nimā</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l60" custom="readingOrder {index:59;}">
+                <Coords points="95,3593 718,3582 1183,3628 1317,3595 1317,3494 1179,3525 820,3467 555,3520 95,3488"/>
+                <Baseline points="102,3587 162,3583 222,3579 282,3576 343,3575 403,3573 463,3572 524,3572 584,3572 644,3573 705,3573 765,3575 825,3575 885,3576 946,3578 1006,3578 1066,3579 1127,3579 1187,3579 1247,3578 1308,3578"/>
+                <TextEquiv>
+                    <Unicode>C. Non enjm est alius deus quā</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l61" custom="readingOrder {index:60;}">
+                <Coords points="1405,3666 1764,3668 1948,3627 2109,3663 2259,3627 2541,3656 2538,3567 1961,3541 1913,3578 1742,3559 1682,3601 1404,3623"/>
+                <Baseline points="1413,3662 1471,3656 1530,3651 1589,3647 1648,3642 1707,3638 1766,3635 1825,3633 1884,3630 1943,3629 2001,3627 2060,3626 2119,3624 2178,3624 2237,3624 2296,3623 2355,3623 2414,3623 2473,3623 2532,3623"/>
+                <TextEquiv>
+                    <Unicode>aiac occe tlachioale, ca çan moceltzin ti</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l62" custom="readingOrder {index:61;}">
+                <Coords points="71,3751 455,3751 678,3685 1299,3714 1297,3623 1086,3604 470,3594 369,3657 70,3650"/>
+                <Baseline points="78,3714 138,3710 199,3705 259,3702 320,3699 381,3697 441,3695 502,3694 562,3693 623,3693 684,3692 744,3692 805,3692 865,3692 926,3692 987,3692 1047,3692 1108,3692 1168,3690 1229,3689 1290,3687"/>
+                <TextEquiv>
+                    <Unicode>tu, cuj cura est de omnibus: ut</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l63" custom="readingOrder {index:62;}">
+                <Coords points="1409,3740 1716,3749 1796,3712 1874,3745 2099,3702 2193,3728 2227,3696 2546,3731 2544,3653 2471,3639 1407,3668"/>
+                <Baseline points="1416,3723 1472,3722 1528,3719 1584,3717 1640,3714 1696,3711 1752,3709 1808,3705 1864,3703 1920,3701 1977,3699 2033,3697 2089,3695 2145,3695 2201,3693 2257,3693 2313,3693 2369,3694 2425,3695 2481,3698 2538,3701"/>
+                <TextEquiv>
+                    <Unicode>teutl, ca çan moceltzin ticmopachilhuja, y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l64" custom="readingOrder {index:63;}">
+                <Coords points="1403,3812 1723,3822 2052,3768 2492,3793 2530,3775 2529,3700 1402,3749"/>
+                <Baseline points="1410,3795 1465,3794 1521,3792 1576,3790 1632,3788 1688,3785 1743,3783 1799,3780 1855,3778 1910,3776 1966,3774 2022,3773 2077,3770 2133,3770 2189,3768 2244,3768 2300,3768 2356,3768 2411,3770 2467,3771 2523,3773"/>
+                <TextEquiv>
+                    <Unicode>njsqujch yn jlhujcac onoc, in tlalticpac, oō</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l65" custom="readingOrder {index:64;}">
+                <Coords points="84,3863 383,3815 460,3856 539,3818 1049,3844 1268,3810 1266,3732 826,3763 359,3731 82,3782"/>
+                <Baseline points="92,3837 150,3831 208,3825 267,3821 325,3816 384,3813 442,3810 500,3809 559,3807 617,3806 676,3806 734,3806 792,3806 851,3806 909,3806 968,3804 1026,3804 1084,3803 1143,3803 1201,3800 1260,3798"/>
+                <TextEquiv>
+                    <Unicode>ostendas quonjam non in iuste</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l66" custom="readingOrder {index:65;}">
+                <Coords points="1397,3877 2547,3856 2545,3787 1396,3818"/>
+                <Baseline points="1404,3867 1460,3864 1517,3863 1574,3860 1630,3858 1687,3857 1744,3855 1800,3854 1857,3852 1914,3850 1971,3848 2027,3846 2084,3846 2141,3845 2197,3843 2254,3843 2311,3842 2367,3842 2424,3842 2481,3840 2538,3840"/>
+                <TextEquiv>
+                    <Unicode>noc: auh ynjc timotetlatzontequjlilia, ca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l67" custom="readingOrder {index:66;}">
+                <Coords points="1393,3947 1842,3960 1959,3906 2149,3952 2430,3946 2552,3930 2551,3845 2383,3880 2053,3853 1392,3891"/>
+                <Baseline points="1400,3924 1457,3924 1514,3923 1571,3923 1628,3923 1686,3921 1743,3921 1800,3921 1857,3920 1914,3920 1972,3918 2029,3918 2086,3917 2143,3917 2200,3917 2258,3915 2315,3915 2372,3915 2429,3914 2486,3914 2544,3914"/>
+                <TextEquiv>
+                    <Unicode>vel melaoac, njman aiac vei tlatoanj, in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l68" custom="readingOrder {index:67;}">
+                <Coords points="83,3985 543,3920 1166,3968 1280,3931 1278,3853 809,3868 534,3830 337,3864 266,3832 80,3862"/>
+                <Baseline points="89,3948 148,3941 207,3935 266,3932 325,3926 384,3923 443,3920 503,3918 562,3916 621,3915 680,3914 739,3914 798,3912 857,3912 917,3914 976,3914 1035,3914 1094,3914 1153,3914 1212,3914 1272,3915"/>
+                <TextEquiv>
+                    <Unicode>iudicas iudicium: neqz rex, neqz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Del primero libro
+pa ca cenca qualli moiollotzin, in tlatla
+corripis: et de qujbus peccant ad
+coanj, amo njman tiqujnmopopolhuja
+mones et alloqueris: ut relicta ma
+amo njman tiqujnmotla tlatilia, çan
+oc tiqujnmonemachtilia, tiqujmonono
+litia, credant inte domjne.
+chilia ynjc qujcaoazque, ynj maqual
+nemiliz, ynjc motetzinco pachiuizque.
+A. Jllos enjm antiquos inhabita
+A. Totecujoe, in iehoantin tlateutoca
+tores terre tue, quos exhorruisti
+njme, in motlalpantzinco nemja, cen
+ca otiqujnmotlaelittili, yn ipampa yn
+quonjam odibilia opera tibi fa
+imaqualnemiliz: ipampa cacenca te
+qualanj, teiolitlaco, in qujchiuhtinenca:
+ciebant per medicamjna et sa
+catonalpouhtinenca, tetlacujcujlitine
+crificia in iusta, et filiorum
+ca mecatlapouhtinenca, tlaulchaia
+uhtinenca. Auh in tlatla cateculo in
+suorum necatores sine miseri
+tzitzitzimi imjxpan tlamictiaia: yoā
+yn jnpilhoan qujnmictiaia, in çamos
+cordia, et comestores viscerum ho
+tlaoaia, yn imjspan, in tetlaxinti, in qua
+mjnum et deuoratores sanguj
+uhtlaxinti: yoan qujquaia intlacanacatl
+in iehoantinjn vecauhtica tiqujnmu
+njs: perdere voluisti per manus
+chieli, ynjc qujcuepazque ynjmaqual
+seruorum tuorum.
+nemjliz: auh ipampa yn amo qujnec
+que in qujcuepazque ynjn nemiliz
+otiqujnmopupulhuj, oqujtzacutiaque,
+yn jntlauelilocaio, oqujnpopoloque
+in momaceoaltzitzinhoan in xp̄ianome.
+B. Totecujoe ynic oiuhticmuchiujli, yn
+B. Quis enjm dicet tibi, qujd fe
+cuix aca itlaqujtoz? cujx aca qujtoz,
+tleica yn iuhticmuchiujlia, in? auh
+cisti: aut quis stabit contra iu
+cuix aca mitzmotlatzovililiz? inipam
+dicium tuum? aut qujs incons
+pa iuh ticmuchiujli? auh cujx aca
+motetzinco motzoncuiz, yn ipampa in
+pectu tuo venjet vindex injmi
+tlatzacujltiloca, yn aqualti, yn aiecti:
+corum homjnum? aut qujs sta
+auh in tlatiqujnmopopolhuiz, yn jxq̄ch
+tin cemanaoac tlateutocanjme, cujs
+bit inputabit, si perierint natio
+aca tlatoz? cujx aca qujtoz, tleica in
+nes quas tu fecisti.
+iuh ticmuchiujlia? ca muchinti motla
+chioaltzitzinhoan.
+C. Niman aiac vnca, occe teutl, nimā
+C. Non enjm est alius deus quā
+aiac occe tlachioale, ca çan moceltzin ti
+tu, cuj cura est de omnibus: ut
+teutl, ca çan moceltzin ticmopachilhuja, y
+njsqujch yn jlhujcac onoc, in tlalticpac, oō
+ostendas quonjam non in iuste
+noc: auh ynjc timotetlatzontequjlilia, ca
+vel melaoac, njman aiac vei tlatoanj, in
+iudicas iudicium: neqz rex, neqz</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

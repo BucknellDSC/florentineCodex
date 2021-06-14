@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:23:48.435-07:00</Created>
+        <LastChange>2020-06-24T07:45:31.054+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_413.png" imageWidth="2410" imageHeight="3536">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736957645" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="630,502 630,807 1521,807 1521,502"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="625,631 1137,587 1182,551 1341,592 1527,549 1523,503 1317,476 1239,522 1033,505 909,545 822,513 754,544 676,500 615,517"/>
+                <Baseline points="630,624 674,621 719,618 763,613 808,608 852,604 897,599 941,595 986,590 1030,585 1075,580 1120,576 1164,571 1209,568 1253,564 1298,561 1342,557 1387,555 1431,552 1476,551 1521,549"/>
+                <TextEquiv>
+                    <Unicode>Libro tercero del prin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="684,761 821,730 863,755 1007,681 1169,709 1245,667 1452,663 1523,646 1517,579 1264,620 1105,610 1052,639 1011,619 874,671 824,654 677,684"/>
+                <Baseline points="687,729 728,722 770,716 811,710 853,703 894,698 936,694 977,689 1019,684 1060,681 1102,676 1144,672 1185,669 1227,666 1268,663 1310,660 1351,657 1393,655 1434,652 1476,650 1518,647"/>
+                <TextEquiv>
+                    <Unicode>cipio que tuujeron los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="954,795 1090,772 1108,782 1129,771 1153,782 1199,779 1193,706 1150,709 1125,693 1074,716 1017,690 987,710 948,717"/>
+                <Baseline points="959,785 985,783 1011,780 1037,776 1063,773 1089,771 1115,768 1141,767 1167,768 1193,770"/>
+                <TextEquiv>
+                    <Unicode>dioses.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Libro tercero del prin
+cipio que tuujeron los
+dioses.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="2094,3338 2094,3488 2157,3488 2157,3338"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="2088,3450 2103,3448 2115,3454 2122,3450 2133,3459 2152,3446 2156,3451 2163,3452 2163,3383 2154,3383 2136,3399 2122,3396 2117,3400 2110,3395 2101,3401 2096,3396 2088,3396"/>
+                <Baseline points="2094,3438 2125,3438 2157,3438"/>
+                <TextEquiv>
+                    <Unicode>ros</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ros</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;}">
+            <Coords points="2202,0 2202,127 2369,127 2369,0"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="2197,145 2234,138 2253,146 2284,137 2302,121 2322,119 2359,83 2374,84 2374,0 2320,0 2306,7 2285,0 2264,20 2248,14 2228,27 2212,21 2197,27"/>
+                <Baseline points="2202,77 2229,74 2257,74 2285,74 2313,74 2341,74 2369,75"/>
+                <TextEquiv>
+                    <Unicode>ioā.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ioā.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

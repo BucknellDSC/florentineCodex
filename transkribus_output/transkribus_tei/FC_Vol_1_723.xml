@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Florentine Codex(htr_id=24784)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-23T15:24:08.893-07:00</Created>
+        <LastChange>2020-06-24T09:15:21.716+02:00</LastChange>
+    </Metadata>
+    <Page imageFilename="FC_Vol_1_723.png" imageWidth="2358" imageHeight="3532">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596736979758" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="659,3072 659,3392 1451,3392 1451,3072"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="894,3098 933,3092 961,3111 990,3114 1005,3103 1019,3111 1061,3097 1087,3107 1121,3141 1127,3093 1101,3078 1088,3081 1031,3041 1014,3042 996,3056 976,3035 960,3041 933,3024 903,3022"/>
+                <Baseline points="899,3093 926,3092 953,3092 981,3093 1008,3093 1035,3097 1063,3103 1090,3112 1118,3123"/>
+                <TextEquiv>
+                    <Unicode>Eue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="932,3132 936,3134 943,3133 949,3140 950,3139 957,3142 975,3094 964,3092 957,3095 951,3095 947,3093"/>
+                <Baseline points="941,3122 957,3128"/>
+                <TextEquiv>
+                    <Unicode>ugi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="947,3183 957,3176 970,3180 1006,3173 1033,3181 1100,3165 1096,3106 1067,3103 1053,3095 1032,3115 982,3135 973,3145 964,3137 957,3145 944,3140"/>
+                <Baseline points="951,3165 979,3163 1008,3162 1036,3161 1065,3158 1094,3152"/>
+                <TextEquiv>
+                    <Unicode>. Ell.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="981,3211 1004,3209 1021,3221 1028,3215 1064,3221 1078,3211 1103,3208 1109,3213 1146,3179 1160,3175 1151,3120 1114,3155 1086,3171 1033,3181 1007,3173 976,3178"/>
+                <Baseline points="984,3198 1012,3201 1040,3202 1069,3199 1097,3194 1125,3183 1154,3170"/>
+                <TextEquiv>
+                    <Unicode>o inesio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="953,3231 963,3230 969,3234 981,3232 998,3242 1010,3242 1021,3235 1036,3236 1041,3198 1025,3196 1009,3205 1006,3202 999,3203 990,3210 979,3210 964,3201 957,3201"/>
+                <Baseline points="960,3218 996,3220 1032,3227"/>
+                <TextEquiv>
+                    <Unicode>C</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="654,3287 1344,3310 1456,3288 1456,3242 1356,3243 1205,3195 1166,3228 1066,3225 1017,3260 910,3208 827,3252 746,3222 654,3261"/>
+                <Baseline points="659,3291 698,3290 738,3288 777,3288 817,3287 857,3287 896,3287 936,3287 975,3287 1015,3287 1055,3287 1094,3287 1134,3287 1173,3287 1213,3287 1253,3287 1292,3287 1332,3287 1371,3285 1411,3285 1451,3284"/>
+                <TextEquiv>
+                    <Unicode>Cobexdlaun, illedic. lalat. Eis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="798,3399 940,3386 1008,3426 1121,3365 1163,3384 1309,3376 1369,3414 1409,3405 1408,3333 1371,3326 1111,3340 1018,3313 916,3353 798,3356"/>
+                <Baseline points="803,3380 833,3380 863,3380 893,3378 923,3378 953,3377 983,3376 1013,3375 1043,3374 1073,3372 1103,3371 1133,3371 1163,3369 1193,3369 1223,3369 1253,3370 1283,3371 1313,3372 1343,3374 1373,3377 1404,3381"/>
+                <TextEquiv>
+                    <Unicode>constat ff. 1. B53. x.fe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Eue
+ugi
+. Ell.
+o inesio
+C
+Cobexdlaun, illedic. lalat. Eis
+constat ff. 1. B53. x.fe</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="1965,3005 1965,3170 2097,3170 2097,3005"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="1963,3149 2003,3127 2036,3126 2042,3119 2066,3120 2084,3113 2103,3115 2094,3038 2078,3041 2034,3069 2010,3068 1995,3082 1956,3077"/>
+                <Baseline points="1965,3117 1991,3120 2017,3118 2044,3115 2070,3110 2097,3105"/>
+                <TextEquiv>
+                    <Unicode>titl</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>titl</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

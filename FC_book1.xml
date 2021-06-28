@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="http://moravianlives.bucknell.edu.s3.amazonaws.com/data/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/CSS/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,15 +49,15 @@
             <table>
                <row>
                   <cell>Christus</cell>
-                  <cell>viujt.</cell>
+                  <cell><choice><orig>viujt</orig><reg>vivit.</reg></choice></cell>
                </row>
                <row>
                   <cell>Christus</cell>
-                  <cell>vincit.</cell>
+                  <cell>vincit.</cell> <!-- Probando probando -->
                </row>
                <row>
                   <cell>Christus</cell>
-                  <cell>regnat.</cell>
+                  <cell>regnat.</cell> <!-- FUNCIONA -->
                </row>
                <row>
                   <cell>Franciscus</cell>
@@ -69,15 +69,15 @@
          <div type="prologo" xml:lang="es" xml:id="b01f01r">
             <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/13.jpg"/>
             <head>Prologo</head>
-            <p>
-               <lb/>El medico no puede Acertadamente aplicar Las medicinas al enfermo
+            <p> <!-- Hola hola --> 
+               <lb/>El medico no puede Acertadamente aplicar Las medicinas al enfermo <!-- Probando probndo -->
                <lb/>que primero conozca: de que humor, o de que causa procede la enfermedad. De ma
-               <lb/>nera que el buen medico conuiene sea docto en el conocimiento de las medecinas
+               <lb/>nera que el buen medico <choice><orig>conuiene</orig><reg>conviene</reg></choice> sea docto en el conocimiento de las medecinas
                <lb/>y en el de las enfermedades para aplicar conueniblemente a cada enfermedad
-               <lb/>la medicina contraria. Los predicadores, y confesores, medicos son de las animas
-               <lb/>para curar las enfermedades espirituales : conuiene tengā esperitia de las
+               <lb/>la medicina contraria. Los predicadores, y confesores, medicos son delas animas
+               <lb/>para curar las enfermedades espirituales : conuienetengā esperitia de las
                <lb/>medicinas y de las enfermedades espirituales. El Predicador de los Vicios de
-               <lb/>la Republica para enderecar contra ellos su doctrina, y el confessor para sauer
+               <lb/>la Republica para enderecar contra ellos su doctrina, y el confessor para <choice><orig>sauer</orig><reg>saber</reg></choice>
                <lb/>preguntar lo que conuiene y entender lo que dixeren tocante a su officio: conuje
                <lb/>mucho que sepan lo necessario para exerçitar sus officios. Ni conuiene se descuy
                <lb/>den los ministros desta conuersion con dezir que entre esta gente no ay mas
@@ -95,12 +95,12 @@
                <lb/>ministros del euangelio que subçederan a los que primero binieron en la,
                <lb/>cultura desta nueua vina del señor no tengan ocassion de quexarse de
                <lb/>Los primeros por haber dexado a escuras las cosas destos naturales desta,
-               <lb/>nueua españa, yo <persName type="author">fray bernardino de saagun</persName> frayle professo de la orde
+               <lb/>nueua españa, yo fray bernardino de saagun frayle professo de la orde
                <lb/>de nr̄o seraphico padre san francisco de la obseruancia. natural de la
-               <lb/>villa de <placeName type="town">sahagun</placeName> en canpos por mandado del muy R.do P.c el P.e fras
-               <lb/><persName type="bishop">franco toral</persName> prouinçial desta prouincia del santo evangelio y despues
-               <lb/>Obispo de <placeName type="region">campech</placeName>, y <placeName type="region">yucatā</placeName>: escreui doze libros de las cosas diuinas
-               <lb/>o pormejor dezir ydolatricas y humanas y naturales desta <placeName type="viceroyalty">nueua españa</placeName>,
+               <lb/>villa de sahagun en canpos por mandado del muy R.do P.c el P.e fras
+               <lb/>franco toral prouinçial desta prouincia del santo evangelio y despues
+               <lb/>Obispo de campech, y yucatā: escreui doze libros de las cosas diuinas
+               <lb/>o pormejor dezir ydolatricas y humanas y naturales desta nueua españa,
                <lb/>El primero de las quales trata de los dioses y diosas que estos naturales
                <lb/>adorauan. El segundo de las fiestas conque los honrtauan. El tercero
                <lb/>de la immortalidad del anima y de los lugares a donde dezian que yban
@@ -110,7 +110,7 @@
 
             <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/14.jpg"/>
             <p>
-               <lb/>Buena o mala que ternian los que nacian. El quinto libros
+               <lb/>Buena o mala que ternian los que nacian. El quinto libros <!-- Probando probando -->
                <lb/>trata de los agueros que estos naturales tenian para adiuinar las
                <lb/>cosas por venir. El libro sesto trata de la Rectorica, y phi
                <lb/>losophia moral que estos naturales vsauan. El septimo li
@@ -122,17 +122,16 @@
                <lb/>proprio de su manera, de viuir. El libro vndezimo trata de los ani
                <lb/>males y aues y peçes y de las generaciones que ay en esta tierra y de los
                <lb/>arboles yeruas y flores y frutos metales y piedras y otros mine
-               <lb/>rales. El libro duodecimo se intitula la conquista de <placeName type="city-state">mexico</placeName>. Estos
+               <lb/>rales. El libro duodecimo se intitula la conquista de mexico. Estos
                <lb/>doze libros con el arte y vocabulario appendiz, se acabaron de sacar
                <lb/>en blanco. este año de mill e quinientos, y sesenta y nueue aun
                <lb/>no se an podido Romançar ni ponerlas escolias segun la traça de la
                <lb/>obra no se lo que se podia hazer en el año de setenta que se sigue. Pues
                <lb/>desde el dicho año hasta casi el fin deste año de 1575 no se pudo mas en
                <lb/>tender en esta obra por el gran disfauor que hubo de parte de los que la de
-               <lb/>bieron de fauoreçer. perocomo llego aesta tierra nr̄o R. P.e <persName type="commissary">fray R.o de
-<lb/>
-sequera</persName>, comissario general de todas estas prouinçias desta <placeName type="viceroyalty">nueua esp</placeName>.
-               <lb/><placeName type="viceroyalty">guatimala</placeName> etc. de la orden de nr̄o Seraphico P.e san fran.co de la obser
+               <lb/>bieron de fauoreçer. perocomo llego aesta tierra nr̄o R. P.e fray R.o de
+               <lb/>sequera, comissario general de todas estas prouinçias desta nueua esp.
+               <lb/>guatimala etc. de la orden de nr̄o Seraphico P.e san fran.co de la obser
                <lb/>uancia: mando que estos libros todos se Romançasen: y ansi en Ro
                <lb/>mançe como en lengua mexicana se escribiesen de buena letra. Es esta
                <lb/>obra como vna red barredera para sacar a luz todos los vocablos
@@ -902,6 +901,7 @@ sequera</persName>, comissario general de todas estas prouinçias desta <placeNa
                <lb/>in nican tlaca.</head>
             <!-- Capitulo 1 - es & na -->
             <div type="capitulo" corresp="#l01c01" xml:lang="es" n="01">
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/37.jpg" n="0r"/>
                <head>Capitulo primero, que habla,
                   <lb/>del principal dios: que <expan>adorauā<ex>n</ex></expan>,
                   <lb/>y aquien sacrificauan los mexica
@@ -933,6 +933,7 @@ sequera</persName>, comissario general de todas estas prouinçias desta <placeNa
                      <lb/>que se llamaua, camaxtle. </p>               
             </div>
             <div type="capitulo" corresp="#l01c01" xml:lang="na" n="01">
+               <pb type="folio" facs="https://content.wdl.org/10096/service/thumbnail/1431369762/1024x1024/1/37.jpg" n="0r"/>
                <head>Jnic ce capitulo, yntechpa tlatoa,
                   <lb/>yn oc cenca tlapanauja teteuh: yn
                   <lb/>qujnmoteutiaia, yoan yn qujntlama
@@ -1154,7 +1155,7 @@ sequera</persName>, comissario general de todas estas prouinçias desta <placeNa
                      <lb/>uan aeste dios: estan escritas adelante, 
                      <lb/>enel segundo libro. Los ataujos, <expan>cō<ex>n</ex>que</expan> le ado
                      <lb/>rauan, eran los sigujentes: vna mitra enla 
-                     <lb/>cabeça, con vn <objectName type="clothing">penacho de plumas</objectName>, que se <expan>lla
+                     <lb/>cabeça, con vn penacho de plumas, que se <expan>lla
                         <lb/>mā<ex>n</ex></expan> quetzalli: la mitra, era manchada, como 
                      <lb/>cuero de tigre. La cara tenja teñjdo de ne
                      <lb/>gro, y todo el cuerpo: tenja vestida, vna ca
@@ -1176,7 +1177,7 @@ sequera</persName>, comissario general de todas estas prouinçias desta <placeNa
                      <lb/>labrado, de pedrerja: pero no era largo, como el 
                      <lb/>baculo: parecia por donde se tenja, era como 
                      <lb/>enpuñadora de espada. Era este, el gran sa
-                     <lb/>cerdote, del <placeName type="sacred place">templo</placeName>.
+                     <lb/>cerdote, del <placeName type="sacred_place">templo</placeName>.
                   </p>               
             </div>
             <div type="capitulo" corresp="#l01c05" xml:lang="na" n="05">
@@ -1279,7 +1280,7 @@ sequera</persName>, comissario general de todas estas prouinçias desta <placeNa
                   <lb/>la diosa, de los mantenjmjentos: assi delo 
                   <lb/>que come, y de lo que beue. A esta la 
                   <lb/>pintauan, con vna corona, en la cabe
-                  <lb/>ça: y en la mano derecha, vn <objectName>vaso</objectName>, y en 
+                  <lb/>ça: y en la mano derecha, vn vaso, y en 
                   <lb/>la izqujerda, vna rodela, con vna flor 
                   <lb/>grande pintauan. Tenja su cueytl, 
                   <lb/>y vipilli, y sandalias, todo bermejo: y 

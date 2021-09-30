@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/CSS/fc_cwrc.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/BucknellDSC/florentineCodex/master/CSS/fc_cwrc.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,6 +24,11 @@
             </respStmt>
             <respStmt>
                <persName>Mauricio Valdes</persName>
+               <orgName>Bucknell University</orgName>
+               <resp>Transcriber, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Catarina Barros</persName>
                <orgName>Bucknell University</orgName>
                <resp>Transcriber, encoder</resp>
             </respStmt>
@@ -182,7 +190,7 @@
                <lb/>que es otra venecia, y ellos en saber, y en pollicia, son otros venecianos. Los
                <lb/>tlaxcaltecas, parecen a ver succedido, en la fortuna de los cartaginenses.
                <lb/>Ay grandes señales, de las antiguallas destas gentes, como oy dia parece
-               <lb/>en tulla, y entullantzico: y en vn edificio, llamado xuchicalco: que esta
+               <lb/>en tulla, y entullantzico: y en <choice><orig>vn</orig><reg>un</reg></choice> edificio, llamado xuchicalco: que esta
                <lb/>enlos termjnos, de quauhnaoac. I casi entoda esta tierra, ay señales, y ras
                <lb/>tro, de edificios, y alhajas antiqujssimos. Es cierto cosa, de grande admjra
                <lb/>tion: que aya nr̄o señor dios, tantos siglos occultada, vna silua de tantas
